@@ -20,7 +20,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Goshen',
+    url: 'https://our-goshen.vercel.app',
   },
+  metadataBase: new URL('https://our-goshen.vercel.app'),
 }
 
 export function generateStaticParams() {

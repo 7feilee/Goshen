@@ -15,7 +15,7 @@ No paywalls. No ads. No accounts. Built in public, for everyone.
 [![Countries](https://img.shields.io/badge/countries-5-orange)](#countries)
 [![Good First Issues](https://img.shields.io/github/issues/7feilee/Goshen/good%20first%20issue)](../../issues?q=label%3A%22good+first+issue%22)
 
-[**Discussions**](../../discussions) · [**Roadmap**](../../projects)
+**[🌐 our-goshen.vercel.app](https://our-goshen.vercel.app/)** · [**Discussions**](../../discussions) · [**Roadmap**](../../projects)
 
 </div>
 
@@ -33,9 +33,9 @@ No good free tool exists for this. We're building it together.
 
 | Tool | Pillar | Countries | Status |
 |------|--------|-----------|--------|
-| Visa pathway finder | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
-| Official letter decoder | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
-| Citizenship test trainer | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
+| [Visa pathway finder](https://our-goshen.vercel.app/en/tools/visa-finder) | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Official letter decoder](https://our-goshen.vercel.app/en/tools/letter-decoder) | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Einbürgerungstest (DE)](https://our-goshen.vercel.app/en/tools/citizenship-test) | Visa | 🇩🇪 | ✅ Live |
 | PR eligibility checker | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
 | Daily language coach | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
 | Credential recognition guide | Work | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
@@ -103,8 +103,8 @@ Priority countries after launch: 🇫🇷 France · 🇳🇱 Netherlands · 🇸
 
 ### For developers
 ```bash
-git clone https://github.com/goshen/goshen.git
-cd goshen
+git clone https://github.com/7feilee/Goshen.git
+cd Goshen
 npm install
 npm run dev        # → http://localhost:3000
 ```
@@ -131,44 +131,50 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for architecture guide, adding tools, and
 ## Project structure
 
 ```
-goshen/
+Goshen/
 ├── src/
-│   ├── app/[locale]/          # Pages — auto locale-routed
-│   │   ├── page.tsx           # Homepage
-│   │   └── tools/             # Tool pages
-│   │       ├── visa-finder/
-│   │       ├── letter-decoder/
-│   │       └── ...
-│   ├── lib/engines/           # Client-side tool logic (no API needed)
-│   │   ├── visa-finder.ts     # Rule-based visa matching
-│   │   └── letter-decoder.ts  # Pattern-based letter analysis
-│   ├── lib/data/              # Countries + tools registry
-│   └── types/                 # Shared TypeScript types
+│   ├── app/[locale]/               # Pages — auto locale-routed
+│   │   ├── page.tsx                # Homepage
+│   │   └── tools/                  # Tool pages
+│   │       ├── visa-finder/        # ✅ Live
+│   │       ├── letter-decoder/     # ✅ Live
+│   │       ├── citizenship-test/   # ✅ Live — Einbürgerungstest (DE)
+│   │       └── ...                 # Beta / planned tools
+│   ├── lib/engines/                # Client-side tool logic (no API needed)
+│   │   ├── visa-finder.ts          # Rule-based visa matching
+│   │   ├── letter-decoder.ts       # Pattern-based letter analysis
+│   │   └── citizenship-test.ts     # Mock exam + practice set builder
+│   ├── lib/data/                   # Countries + tools registry
+│   └── types/                      # Shared TypeScript types
 │
-├── messages/                  # ← Translations live here
-│   ├── en/common.json         # English source of truth
+├── messages/                       # ← Translations live here
+│   ├── en/common.json              # English source of truth
 │   ├── zh/common.json
-│   └── {locale}/common.json  # Add your language here
+│   └── {locale}/common.json       # Add your language here
 │
-├── content/                   # ← Country data lives here (no code)
-│   ├── countries/
+├── content/                        # ← Static data (no code)
+│   ├── countries/                  # Visa + benefits data per country
 │   │   ├── US/data.json
 │   │   ├── DE/data.json
 │   │   ├── UK/data.json
 │   │   ├── CA/data.json
 │   │   ├── AU/data.json
-│   │   └── {CODE}/data.json  # Add your country here
-│   └── CONTRIBUTING.md        # Schema + rules for content
+│   │   └── {CODE}/data.json       # Add your country here
+│   ├── citizenship/                # Citizenship test question banks
+│   │   └── DE/
+│   │       ├── general.json       # 300 general questions
+│   │       └── states.json        # 10 questions × 16 Bundesländer
+│   └── CONTRIBUTING.md            # Schema + rules for content
 │
 ├── scripts/
-│   ├── validate-translations.mjs   # Checks all locales match EN keys
-│   └── new-translation.mjs         # Scaffolds a new language file
+│   ├── validate-translations.mjs  # Checks all locales match EN keys
+│   └── new-translation.mjs        # Scaffolds a new language file
 │
 └── .github/
-    ├── workflows/ci.yml            # Build · translations · security · content
-    ├── workflows/deploy.yml        # GitHub Pages deployment
-    ├── ISSUE_TEMPLATE/             # Bug · translation · content · tool request
-    └── labels.json                 # All labels (import via GitHub CLI)
+    ├── workflows/ci.yml           # Build · translations · security · content
+    ├── workflows/deploy.yml       # GitHub Pages deployment
+    ├── ISSUE_TEMPLATE/            # Bug · translation · content · tool request
+    └── labels.json                # All labels (import via GitHub CLI)
 ```
 
 ---
