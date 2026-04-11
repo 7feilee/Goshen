@@ -94,7 +94,7 @@ export default function VisaFinderPage() {
           🛂 Visa pathway finder
         </h1>
         <p className="text-lg text-gray-500 leading-relaxed">
-          Tell us your situation and we'll show every visa route available —
+          Tell us your situation and we&apos;ll show every visa route available —
           requirements, fees, and the path to permanent residence.
         </p>
       </div>
@@ -257,7 +257,7 @@ export default function VisaFinderPage() {
       <p className="mt-10 text-sm text-gray-400 leading-relaxed border-t border-gray-100 pt-6">
         ⚠️ <strong className="font-medium text-gray-600">General information only — not legal advice.</strong>{' '}
         For your specific situation, consult a licensed immigration lawyer or your
-        country's official immigration authority.
+        country&apos;s official immigration authority.
       </p>
     </main>
   )

@@ -67,7 +67,7 @@ export default function LetterDecoderPage() {
           📄 Official letter decoder
         </h1>
         <p className="text-lg text-gray-500 leading-relaxed">
-          Paste any government or official letter. We'll extract the key facts —
+          Paste any government or official letter. We&apos;ll extract the key facts —
           deadlines, reference numbers, amounts, and what you need to do next.
         </p>
       </div>

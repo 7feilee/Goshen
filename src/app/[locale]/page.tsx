@@ -64,7 +64,7 @@ export default async function HomePage({
               Visa pathway finder
             </h3>
             <p className="text-base text-gray-600 leading-relaxed mb-5">
-              Tell us your origin country, destination, and purpose. We'll show
+              Tell us your origin country, destination, and purpose. We&apos;ll show
               every visa route available — requirements, processing time, fees,
               and the path to permanent residence.
             </p>
