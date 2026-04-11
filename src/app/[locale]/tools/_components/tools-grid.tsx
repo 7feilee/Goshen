@@ -1,6 +1,7 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { TOOLS_BY_PILLAR } from '@/lib/data/tools'
 import { COUNTRY_LIST } from '@/lib/data/countries'
@@ -16,6 +17,7 @@ const PILLAR_META: Record<string, { icon: string; color: string }> = {
 }
 
 export default function ToolsGrid({ locale }: { locale: string }) {
+  const t             = useTranslations()
   const searchParams  = useSearchParams()
   const selectedCode  = searchParams.get('country') ?? null
   const validCodes    = COUNTRY_LIST.map((c) => c.code as CountryCode)
@@ -120,7 +122,7 @@ export default function ToolsGrid({ locale }: { locale: string }) {
                     <>
                       <div className="flex justify-between items-start gap-2 mb-1">
                         <span className="text-sm font-medium text-gray-900">
-                          {tool.titleKey.split('.').pop()?.replace(/([A-Z])/g, ' $1').trim()}
+                          {t(tool.titleKey)}
                         </span>
                         <span
                           className={`shrink-0 text-xs px-2 py-0.5 rounded-full font-medium ${
