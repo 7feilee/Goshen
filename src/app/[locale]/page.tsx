@@ -64,11 +64,18 @@ export default async function HomePage({
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
               Visa pathway finder
             </h3>
-            <p className="text-base text-gray-600 leading-relaxed mb-5">
+            <p className="text-base text-gray-600 leading-relaxed mb-4">
               Tell us your origin country, destination, and purpose. We&apos;ll show
               every visa route available — requirements, processing time, fees,
               and the path to permanent residence.
             </p>
+            <div className="flex gap-3 mb-5 text-sm text-blue-600">
+              <span>🇺🇸 🇩🇪 🇬🇧 🇨🇦 🇦🇺</span>
+              <span>·</span>
+              <span>5 countries · 27 visas</span>
+              <span>·</span>
+              <span>Instant results</span>
+            </div>
             <span className="inline-flex items-center gap-1 text-blue-700 font-semibold text-base group-hover:gap-2 transition-all">
               Find your visa <span aria-hidden="true">→</span>
             </span>

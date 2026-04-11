@@ -4,8 +4,11 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { COUNTRY_LIST } from '@/lib/data/countries'
-import { findVisaOptions } from '@/lib/engines/visa-finder'
+import { findVisaMatches, getCountryMeta } from '@/lib/engines/visa-finder'
+import type { VisaMatch, MatchQuality, CountryMeta } from '@/lib/engines/visa-finder'
 import type { CountryCode, Locale, VisaCategory } from '@/types'
+
+// ── Constants ─────────────────────────────────────────────────────────────────
 
 const LANGUAGES = [
   { code: 'en', name: 'English' },
@@ -31,9 +34,172 @@ const PURPOSES: { value: VisaCategory; label: string; icon: string }[] = [
   { value: 'family',          label: 'Join family',    icon: '👨‍👩‍👧' },
   { value: 'asylum',          label: 'Asylum',         icon: '🛡️' },
   { value: 'business',        label: 'Business',       icon: '🏢' },
-  { value: 'working_holiday', label: 'Working holiday',icon: '🏖️' },
+  { value: 'working_holiday', label: 'Working holiday', icon: '🏖️' },
   { value: 'investor',        label: 'Investor',       icon: '💰' },
 ]
+
+const QUALITY_CONFIG: Record<MatchQuality, { label: string; className: string }> = {
+  strong:   { label: 'Strong match', className: 'bg-green-100 text-green-700' },
+  good:     { label: 'Good match',   className: 'bg-blue-100 text-blue-700' },
+  possible: { label: 'Possible',     className: 'bg-amber-100 text-amber-700' },
+  weak:     { label: 'Weak match',   className: 'bg-gray-100 text-gray-500' },
+}
+
+// ── Sub-components ────────────────────────────────────────────────────────────
+
+function VisaCard({ match, rank }: { match: VisaMatch; rank: number }) {
+  const { visa, quality } = match
+  const badge = QUALITY_CONFIG[quality]
+
+  return (
+    <div className="p-6 bg-white border border-gray-200 rounded-2xl space-y-4">
+      {/* Title row */}
+      <div className="flex items-start justify-between gap-3">
+        <div className="flex items-baseline gap-2 min-w-0">
+          <span className="text-sm font-bold text-gray-400 shrink-0">#{rank}</span>
+          <h3 className="text-base font-bold text-gray-900 leading-snug">{visa.name}</h3>
+        </div>
+        <span className={`shrink-0 text-xs px-2.5 py-1 rounded-full font-semibold ${badge.className}`}>
+          {badge.label}
+        </span>
+      </div>
+
+      {/* Description */}
+      <p className="text-sm text-gray-600 leading-relaxed">{visa.description}</p>
+
+      {/* Requirements */}
+      <div>
+        <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">
+          Requirements
+        </p>
+        <ul className="space-y-1">
+          {visa.requirements.map((r, i) => (
+            <li key={i} className="text-sm text-gray-700 flex gap-2">
+              <span className="text-gray-300 shrink-0 mt-0.5">•</span>
+              <span>{r}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Key stats */}
+      <div className="grid grid-cols-3 gap-3 pt-3 border-t border-gray-100">
+        <div>
+          <p className="text-xs text-gray-400 mb-0.5">Processing</p>
+          <p className="text-sm font-semibold text-gray-800">{visa.processingTime}</p>
+        </div>
+        <div>
+          <p className="text-xs text-gray-400 mb-0.5">Fee</p>
+          <p className="text-sm font-semibold text-gray-800">{visa.fee}</p>
+        </div>
+        <div>
+          <p className="text-xs text-gray-400 mb-0.5">Duration</p>
+          <p className="text-sm font-semibold text-gray-800">{visa.maxDuration}</p>
+        </div>
+      </div>
+
+      {/* PR pathway */}
+      {visa.leadsTo && (
+        <p className="text-sm text-blue-700 bg-blue-50 rounded-xl px-4 py-2.5">
+          <span className="font-semibold">Pathway to PR: </span>
+          {visa.leadsTo}
+        </p>
+      )}
+
+      {/* Annual cap warning */}
+      {visa.annualCap != null && (
+        <p className="text-sm text-amber-700 bg-amber-50 rounded-xl px-4 py-2.5">
+          <span className="font-semibold">Annual cap: </span>
+          {visa.annualCap.toLocaleString()} places — competitive lottery / draw
+        </p>
+      )}
+
+      {/* Source link */}
+      <a
+        href={visa.source}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-gray-900 transition-colors"
+      >
+        Official information ↗
+      </a>
+    </div>
+  )
+}
+
+function ResultsSection({
+  matches,
+  meta,
+  originCountry,
+  purposeLabel,
+  situation,
+}: {
+  matches: VisaMatch[]
+  meta: CountryMeta
+  originCountry: string
+  purposeLabel: string
+  situation: string[]
+}) {
+  if (matches.length === 0) {
+    return (
+      <div id="visa-results" className="mt-12 p-8 bg-gray-50 rounded-2xl border border-gray-200 text-center">
+        <p className="text-base font-semibold text-gray-700 mb-2">
+          No visa options found for &ldquo;{purposeLabel}&rdquo; in {meta.name}.
+        </p>
+        <p className="text-sm text-gray-500 mb-4">
+          This may mean no data yet, or this pathway isn&apos;t available for this destination.
+        </p>
+        <a
+          href={meta.officialImmigrationWebsite}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-blue-600 hover:underline"
+        >
+          Browse {meta.name}&apos;s official immigration site ↗
+        </a>
+      </div>
+    )
+  }
+
+  return (
+    <div id="visa-results" className="mt-12 space-y-4">
+      {/* Results header */}
+      <div className="flex flex-wrap items-baseline gap-3 mb-2">
+        <h2 className="text-xl font-bold text-gray-900">
+          {meta.flag} {meta.name} — {purposeLabel}
+        </h2>
+        <span className="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full font-semibold">
+          {matches.length} option{matches.length !== 1 ? 's' : ''} found
+        </span>
+      </div>
+      {situation.length > 0 && (
+        <p className="text-sm text-gray-500 mb-4">
+          Your situation: {originCountry} · {situation.join(' · ')}
+        </p>
+      )}
+
+      {/* Cards */}
+      {matches.map((match, i) => (
+        <VisaCard key={match.visa.id} match={match} rank={i + 1} />
+      ))}
+
+      {/* Footer */}
+      <div className="pt-4 border-t border-gray-100 flex flex-wrap justify-between gap-2 text-xs text-gray-400">
+        <a
+          href={meta.officialImmigrationWebsite}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-700 transition-colors"
+        >
+          {meta.officialImmigrationWebsite} ↗
+        </a>
+        <span>Data verified {meta.lastVerified}</span>
+      </div>
+    </div>
+  )
+}
+
+// ── Page ──────────────────────────────────────────────────────────────────────
 
 const inputClass =
   'w-full border border-gray-200 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 transition-colors'
@@ -54,7 +220,8 @@ export default function VisaFinderPage() {
     yearsExperience: '',
     userLocale: 'en' as Locale,
   })
-  const [result, setResult] = useState('')
+  const [matches, setMatches] = useState<VisaMatch[] | null>(null)
+  const [meta, setMeta] = useState<CountryMeta | null>(null)
 
   const set = (key: string, value: unknown) =>
     setForm((f) => ({ ...f, [key]: value }))
@@ -62,7 +229,7 @@ export default function VisaFinderPage() {
   function handleSubmit() {
     if (!form.originCountry || !form.currentStatus) return
 
-    const output = findVisaOptions({
+    const results = findVisaMatches({
       originCountry: form.originCountry,
       destinationCountry: form.destinationCountry,
       purpose: form.purpose,
@@ -72,20 +239,34 @@ export default function VisaFinderPage() {
       yearsExperience: form.yearsExperience ? parseInt(form.yearsExperience) : undefined,
       userLocale: form.userLocale,
     })
+    const countryMeta = getCountryMeta(form.destinationCountry)
 
-    setResult(output)
-    // Scroll to results after a tick
-    setTimeout(() => document.getElementById('visa-results')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50)
+    setMatches(results)
+    setMeta(countryMeta)
+
+    setTimeout(
+      () => document.getElementById('visa-results')?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
+      50,
+    )
   }
 
   const canSubmit = !!form.originCountry && !!form.currentStatus
+
+  const purposeLabel = PURPOSES.find((p) => p.value === form.purpose)?.label ?? form.purpose
+
+  const situation: string[] = []
+  if (form.hasJobOffer) situation.push('job offer in hand')
+  if (form.hasFamily) situation.push('family already there')
+  if (form.yearsExperience) situation.push(`${form.yearsExperience} yrs experience`)
 
   return (
     <main className="min-h-screen px-6 py-12 max-w-2xl mx-auto">
 
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-gray-400" aria-label="Breadcrumb">
-        <Link href={`/${locale}/tools`} className="hover:text-gray-700 transition-colors">← All tools</Link>
+        <Link href={`/${locale}/tools`} className="hover:text-gray-700 transition-colors">
+          ← All tools
+        </Link>
       </nav>
 
       {/* Header */}
@@ -97,6 +278,13 @@ export default function VisaFinderPage() {
           Tell us your situation and we&apos;ll show every visa route available —
           requirements, fees, and the path to permanent residence.
         </p>
+        <div className="flex gap-4 mt-4 text-sm text-gray-400">
+          <span>🇺🇸 🇩🇪 🇬🇧 🇨🇦 🇦🇺 5 countries</span>
+          <span>·</span>
+          <span>No account needed</span>
+          <span>·</span>
+          <span>Runs in your browser</span>
+        </div>
       </div>
 
       <div className="space-y-6">
@@ -237,19 +425,26 @@ export default function VisaFinderPage() {
       </div>
 
       {/* Results */}
-      {result && (
-        <div id="visa-results" className="mt-12">
-          <div className="flex items-center gap-2 mb-4">
-            <h2 className="text-xl font-bold text-gray-900">Your visa options</h2>
-            <span className="text-xs px-2 py-1 bg-green-100 text-green-700 rounded-full font-medium">
-              Live data
-            </span>
-          </div>
-          <div className="p-6 sm:p-8 bg-gray-50 rounded-2xl border border-gray-200">
-            <pre className="text-sm text-gray-700 whitespace-pre-wrap leading-relaxed font-mono break-words">
-              {result}
-            </pre>
-          </div>
+      {matches !== null && meta !== null && (
+        <ResultsSection
+          matches={matches}
+          meta={meta}
+          originCountry={form.originCountry}
+          purposeLabel={purposeLabel}
+          situation={situation}
+        />
+      )}
+
+      {/* No data for this country */}
+      {matches !== null && meta === null && (
+        <div id="visa-results" className="mt-12 p-8 bg-gray-50 rounded-2xl border border-gray-200 text-center">
+          <p className="text-base font-semibold text-gray-700 mb-2">
+            No visa data yet for {form.destinationCountry}.
+          </p>
+          <p className="text-sm text-gray-500">
+            We currently cover 🇺🇸 US · 🇩🇪 Germany · 🇬🇧 UK · 🇨🇦 Canada · 🇦🇺 Australia.
+            More countries coming soon.
+          </p>
         </div>
       )}
 
