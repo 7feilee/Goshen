@@ -18,7 +18,7 @@ export const TOOLS: Tool[] = [
     pillar: 'visa',
     titleKey: 'tools.citizenshipTest.title',
     descriptionKey: 'tools.citizenshipTest.description',
-    countries: ['DE'],
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
     aiPowered: false,
     status: 'live',
   },
@@ -29,8 +29,8 @@ export const TOOLS: Tool[] = [
     titleKey: 'tools.prChecker.title',
     descriptionKey: 'tools.prChecker.description',
     countries: ['US', 'DE', 'UK', 'CA', 'AU'],
-    aiPowered: true,
-    status: 'beta',
+    aiPowered: false,
+    status: 'live',
   },
   {
     id: 'document-checklist',
@@ -124,7 +124,7 @@ export const TOOLS: Tool[] = [
     descriptionKey: 'tools.childBenefits.description',
     countries: ['US', 'DE', 'UK', 'CA', 'AU'],
     aiPowered: false,
-    status: 'planned',
+    status: 'live',
   },
 ]
 

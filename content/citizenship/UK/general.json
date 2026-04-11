@@ -1,0 +1,492 @@
+[
+  {
+    "id": 1,
+    "question": "When did the Romans leave Britain?",
+    "options": ["55 BC", "Around 410 AD", "1066 AD", "1215 AD"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Romans withdrew from Britain around 410 AD, after nearly four centuries of occupation. This ended Roman rule and left Britain vulnerable to invasions from Anglo-Saxons, Scots, and Picts."
+  },
+  {
+    "id": 2,
+    "question": "Who was the first Norman King of England?",
+    "options": ["Harold II", "Richard I", "William I (William the Conqueror)", "Henry I"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "William I, known as William the Conqueror, became the first Norman King of England after defeating Harold II at the Battle of Hastings in 1066. His conquest brought profound changes to English culture, language, and governance."
+  },
+  {
+    "id": 3,
+    "question": "What year was the Magna Carta signed?",
+    "options": ["1066", "1215", "1348", "1415"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Magna Carta was signed in 1215 by King John, forced upon him by rebellious barons at Runnymede. It established for the first time that the king was subject to the rule of law, laying the groundwork for constitutional government."
+  },
+  {
+    "id": 4,
+    "question": "When did the Black Death reach Britain?",
+    "options": ["1215", "1290", "1348", "1415"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Black Death, a devastating bubonic plague epidemic, reached Britain in 1348 and killed around a third of the population. It had major social and economic consequences, contributing to the decline of the feudal system."
+  },
+  {
+    "id": 5,
+    "question": "Who was Elizabeth I's mother?",
+    "options": ["Catherine of Aragon", "Jane Seymour", "Anne Boleyn", "Catherine Howard"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Anne Boleyn was the second wife of Henry VIII and the mother of Elizabeth I. Anne Boleyn was executed in 1536, and Elizabeth later became one of England's most celebrated monarchs, reigning from 1558 to 1603."
+  },
+  {
+    "id": 6,
+    "question": "When did the English Civil War take place?",
+    "options": ["1588–1598", "1620–1630", "1642–1651", "1688–1690"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The English Civil War was fought between Royalists (Cavaliers) and Parliamentarians (Roundheads) from 1642 to 1651. It ended with the execution of King Charles I in 1649 and a period of republican rule under Oliver Cromwell."
+  },
+  {
+    "id": 7,
+    "question": "What was the Glorious Revolution of 1688?",
+    "options": [
+      "The overthrow of the monarchy and establishment of a republic",
+      "Parliament's invitation to William of Orange to replace King James II, establishing a constitutional monarchy",
+      "The signing of a new constitution by King Charles II",
+      "The unification of England and Scotland into Great Britain"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "In the Glorious Revolution of 1688, Parliament invited the Dutch Protestant William of Orange to take the throne, replacing the Catholic King James II without significant bloodshed. This event firmly established parliamentary sovereignty and constitutional monarchy in Britain."
+  },
+  {
+    "id": 8,
+    "question": "When did Britain abolish the slave trade?",
+    "options": ["1772", "1807", "1833", "1865"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Slave Trade Act 1807 abolished the transatlantic slave trade throughout the British Empire. Full emancipation of enslaved people in British colonies came later, with the Slavery Abolition Act of 1833."
+  },
+  {
+    "id": 9,
+    "question": "When did women over 30 first get the right to vote in the UK?",
+    "options": ["1903", "1914", "1918", "1928"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Representation of the People Act 1918 gave women over 30 who met a property qualification the right to vote for the first time in the UK. This was a partial victory for the suffragette movement, which had campaigned vigorously for women's suffrage."
+  },
+  {
+    "id": 10,
+    "question": "When did all women over 21 get the right to vote in the UK?",
+    "options": ["1918", "1922", "1928", "1933"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Equal Franchise Act 1928 extended voting rights to all women aged 21 and over, on the same terms as men. This achievement was the result of decades of campaigning by the suffragette and suffragist movements."
+  },
+  {
+    "id": 11,
+    "question": "When did World War I begin?",
+    "options": ["1910", "1912", "1914", "1916"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "World War I began in 1914, triggered by the assassination of Archduke Franz Ferdinand of Austria-Hungary. Britain entered the war in August 1914 after Germany invaded neutral Belgium."
+  },
+  {
+    "id": 12,
+    "question": "Who was British Prime Minister during most of World War II?",
+    "options": ["Neville Chamberlain", "Clement Attlee", "Anthony Eden", "Winston Churchill"],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "Winston Churchill served as Prime Minister from May 1940 to July 1945, leading Britain through most of World War II. He is remembered for his inspiring wartime speeches and his role in the Allied victory."
+  },
+  {
+    "id": 13,
+    "question": "When was the National Health Service (NHS) established?",
+    "options": ["1944", "1946", "1948", "1951"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The NHS was established on 5 July 1948 under the post-war Labour government led by Clement Attlee, with Aneurin Bevan as Health Secretary. It introduced free healthcare for all UK residents at the point of need."
+  },
+  {
+    "id": 14,
+    "question": "When did the UK join the European Economic Community (EEC)?",
+    "options": ["1957", "1963", "1968", "1973"],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "The United Kingdom joined the European Economic Community (EEC) on 1 January 1973 under Prime Minister Edward Heath. Membership was confirmed by a referendum in 1975, though the UK later left the EU following a referendum in 2016."
+  },
+  {
+    "id": 15,
+    "question": "Who was the first female Prime Minister of the United Kingdom?",
+    "options": ["Theresa May", "Margaret Thatcher", "Barbara Castle", "Betty Boothroyd"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Margaret Thatcher became the UK's first female Prime Minister in 1979, serving until 1990 — the longest continuous tenure of any 20th-century Prime Minister. She was the leader of the Conservative Party and is known for her free-market economic policies."
+  },
+  {
+    "id": 16,
+    "question": "What is the UK's system of government called?",
+    "options": [
+      "Federal republic",
+      "Constitutional monarchy and parliamentary democracy",
+      "Presidential democracy",
+      "Absolute monarchy"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "The UK is a constitutional monarchy and parliamentary democracy, meaning it has a monarch as head of state whose powers are limited by the constitution and laws, while Parliament is supreme in making legislation. The Prime Minister and Cabinet are accountable to Parliament."
+  },
+  {
+    "id": 17,
+    "question": "Who is the head of state in the UK?",
+    "options": ["The Prime Minister", "The Speaker of the House of Commons", "The Lord Chancellor", "The monarch (King or Queen)"],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The monarch (currently King Charles III) is the head of state in the United Kingdom. While the role is largely ceremonial, the monarch performs important constitutional functions such as appointing the Prime Minister and giving Royal Assent to legislation."
+  },
+  {
+    "id": 18,
+    "question": "Who is the head of government in the UK?",
+    "options": ["The monarch", "The Lord Chancellor", "The Prime Minister", "The Leader of the Opposition"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Prime Minister is the head of government in the UK, leading the Cabinet and directing government policy. The Prime Minister is appointed by the monarch and is, by convention, the leader of the party that commands a majority in the House of Commons."
+  },
+  {
+    "id": 19,
+    "question": "How many MPs are in the House of Commons?",
+    "options": ["450", "550", "600", "650"],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The House of Commons has 650 Members of Parliament (MPs), each representing a constituency across the UK. MPs are elected by the public through a first-past-the-post voting system in general elections."
+  },
+  {
+    "id": 20,
+    "question": "How often must a general election be held in the UK?",
+    "options": ["At least every three years", "At least every four years", "At least every five years", "At least every six years"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Under the Dissolution and Calling of Parliament Act 2022, a general election must be held at least every five years. The Prime Minister can also advise the monarch to dissolve Parliament and call an election earlier."
+  },
+  {
+    "id": 21,
+    "question": "What is the role of the House of Lords?",
+    "options": [
+      "To elect the Prime Minister",
+      "To review and revise legislation passed by the House of Commons",
+      "To manage local government funding",
+      "To appoint senior judges"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "The House of Lords acts as a revising chamber, scrutinising and amending bills that come from the House of Commons. While it can delay legislation, it cannot permanently block bills passed by the elected Commons."
+  },
+  {
+    "id": 22,
+    "question": "Who appoints the Prime Minister?",
+    "options": [
+      "The House of Commons by a formal vote",
+      "The Cabinet",
+      "The monarch, by convention the leader of the party with majority support in the Commons",
+      "The Civil Service"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The monarch formally appoints the Prime Minister, but by constitutional convention always appoints the leader of the political party that commands a majority in the House of Commons. This ensures the government has democratic legitimacy."
+  },
+  {
+    "id": 23,
+    "question": "What is devolution in the context of UK government?",
+    "options": [
+      "The process of returning powers from the EU to Westminster",
+      "The transfer of powers from Westminster to parliaments/assemblies in Scotland, Wales, and Northern Ireland",
+      "The delegation of power from ministers to civil servants",
+      "Local councils gaining financial independence from central government"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "Devolution refers to the transfer of legislative and executive powers from the UK Parliament at Westminster to the Scottish Parliament, the Senedd (Welsh Parliament), and the Northern Ireland Assembly. Each devolved institution has authority over certain policy areas within its territory."
+  },
+  {
+    "id": 24,
+    "question": "What is the name of the Scottish Parliament building?",
+    "options": ["Bute House", "Edinburgh Castle", "Holyrood", "St Andrew's House"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Scottish Parliament building is located in the Holyrood area of Edinburgh, and the parliament is commonly referred to as Holyrood. It was opened in 2004 and is home to the 129 Members of the Scottish Parliament (MSPs)."
+  },
+  {
+    "id": 25,
+    "question": "What is the official residence of the Prime Minister?",
+    "options": ["Buckingham Palace", "10 Downing Street", "Chequers", "The Palace of Westminster"],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "10 Downing Street in London is the official residence and office of the Prime Minister. The building has been the home of British Prime Ministers since the 18th century."
+  },
+  {
+    "id": 26,
+    "question": "How is a bill passed into law in the UK?",
+    "options": [
+      "It only needs to pass the House of Commons",
+      "It must be approved by a national referendum",
+      "It must pass through both Houses of Parliament and receive Royal Assent",
+      "It requires approval from the Supreme Court"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "A bill must pass through both Houses of Parliament (Commons and Lords) through multiple readings and debates. It then receives Royal Assent from the monarch, at which point it becomes an Act of Parliament and has the force of law."
+  },
+  {
+    "id": 27,
+    "question": "What does the monarch do at the State Opening of Parliament?",
+    "options": [
+      "Signs all bills passed during the previous year",
+      "Delivers the King's or Queen's Speech outlining the government's legislative programme",
+      "Appoints the new Cabinet",
+      "Presides over a debate in the House of Lords"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "At the State Opening of Parliament, the monarch delivers the King's (or Queen's) Speech from the throne in the House of Lords. The speech is written by the government and outlines the legislative programme it plans to introduce during the coming parliamentary session."
+  },
+  {
+    "id": 28,
+    "question": "What are the two main UK political parties?",
+    "options": ["Liberal Democrats and Green Party", "Conservative and Labour", "Labour and UKIP", "Conservative and Liberal Democrats"],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "The Conservative Party and the Labour Party are the two main political parties in the UK and have alternated in government throughout much of modern British political history. Other parties, such as the Liberal Democrats and Scottish National Party, also hold seats in Parliament."
+  },
+  {
+    "id": 29,
+    "question": "What is the voting age in the UK for general elections?",
+    "options": ["16", "17", "18", "21"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The minimum voting age for UK general elections is 18. Note that in Scottish Parliament and Welsh Senedd elections, as well as some local elections in Scotland and Wales, 16 and 17-year-olds are also permitted to vote."
+  },
+  {
+    "id": 30,
+    "question": "What body is responsible for local government in England?",
+    "options": ["The House of Lords", "Parish meetings only", "Local councils", "Regional development agencies"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Local councils are responsible for providing a range of services to communities across England, such as planning, housing, rubbish collection, and local roads. They are elected by residents and operate under powers granted by Parliament."
+  },
+  {
+    "id": 31,
+    "question": "What is the NHS?",
+    "options": [
+      "A private healthcare insurance scheme",
+      "The National Health Service, providing free healthcare to UK residents",
+      "A national charity funding medical research",
+      "The government department responsible for public health policy only"
+    ],
+    "correctIndex": 1,
+    "category": "society",
+    "explanation": "The National Health Service (NHS) was founded in 1948 and provides comprehensive healthcare services to all UK residents free at the point of use, funded through taxation. It is one of the largest publicly funded health services in the world."
+  },
+  {
+    "id": 32,
+    "question": "At what age does compulsory education end in England?",
+    "options": ["14", "15", "16, with further education or training required until 18", "18"],
+    "correctIndex": 2,
+    "category": "society",
+    "explanation": "In England, full-time compulsory schooling ends at age 16, but young people must then remain in some form of education or training until their 18th birthday. This can include sixth form, college, an apprenticeship, or employment combined with part-time study."
+  },
+  {
+    "id": 33,
+    "question": "What is the name of the UK's public broadcaster?",
+    "options": ["ITV", "Channel 4", "Sky", "The BBC (British Broadcasting Corporation)"],
+    "correctIndex": 3,
+    "category": "society",
+    "explanation": "The BBC (British Broadcasting Corporation) is the UK's national public broadcaster, funded primarily by the licence fee paid by households with televisions. It is one of the oldest and most respected broadcasters in the world, operating radio, television, and online services."
+  },
+  {
+    "id": 34,
+    "question": "What currency is used in the UK?",
+    "options": ["The euro", "The dollar", "Pounds sterling (£)", "The crown"],
+    "correctIndex": 2,
+    "category": "society",
+    "explanation": "The UK uses pounds sterling (£), which is one of the world's oldest currencies still in use. The UK chose not to adopt the euro when it was introduced and has retained the pound as its official currency."
+  },
+  {
+    "id": 35,
+    "question": "Which country is NOT part of the United Kingdom?",
+    "options": ["Scotland", "Wales", "Northern Ireland", "Ireland (Republic of Ireland)"],
+    "correctIndex": 3,
+    "category": "society",
+    "explanation": "The Republic of Ireland (also known simply as Ireland) is an independent sovereign nation and is not part of the United Kingdom. The United Kingdom consists of England, Scotland, Wales, and Northern Ireland."
+  },
+  {
+    "id": 36,
+    "question": "What is the capital of Scotland?",
+    "options": ["Glasgow", "Aberdeen", "Inverness", "Edinburgh"],
+    "correctIndex": 3,
+    "category": "society",
+    "explanation": "Edinburgh is the capital city of Scotland and is home to the Scottish Parliament, Edinburgh Castle, and many important cultural institutions. It is the second-most populous city in Scotland after Glasgow."
+  },
+  {
+    "id": 37,
+    "question": "What is the capital of Wales?",
+    "options": ["Swansea", "Newport", "Wrexham", "Cardiff"],
+    "correctIndex": 3,
+    "category": "society",
+    "explanation": "Cardiff is the capital and largest city of Wales. It is home to the Senedd (Welsh Parliament), Cardiff Castle, and the Principality Stadium, and has been the official capital of Wales since 1955."
+  },
+  {
+    "id": 38,
+    "question": "What is the capital of Northern Ireland?",
+    "options": ["Derry/Londonderry", "Armagh", "Lisburn", "Belfast"],
+    "correctIndex": 3,
+    "category": "society",
+    "explanation": "Belfast is the capital and largest city of Northern Ireland. It is the seat of the Northern Ireland Assembly at Stormont and is well known for its industrial heritage, including the construction of the Titanic."
+  },
+  {
+    "id": 39,
+    "question": "What language is widely spoken in Wales alongside English?",
+    "options": ["Gaelic", "Cornish", "Breton", "Welsh"],
+    "correctIndex": 3,
+    "category": "society",
+    "explanation": "Welsh (Cymraeg) is a Celtic language spoken throughout Wales alongside English, and it has co-official status in Wales. Around 20–30% of the Welsh population can speak Welsh, and it is taught in schools across the country."
+  },
+  {
+    "id": 40,
+    "question": "What is the patron saint of England?",
+    "options": ["St Andrew", "St David", "St Patrick", "St George"],
+    "correctIndex": 3,
+    "category": "society",
+    "explanation": "St George is the patron saint of England, and his feast day on 23 April is known as St George's Day. The cross of St George — a red cross on a white background — forms part of the Union Flag and is used as the flag of England."
+  },
+  {
+    "id": 41,
+    "question": "What are the fundamental values of British society as described in the Life in the UK handbook?",
+    "options": [
+      "Monarchy, empire, tradition, and order",
+      "Democracy, rule of law, individual liberty, mutual respect and tolerance",
+      "Christianity, education, work, and family",
+      "Free market, national pride, innovation, and charity"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "The Life in the UK handbook identifies democracy, the rule of law, individual liberty, and mutual respect and tolerance of those with different faiths and beliefs as the fundamental values of British society. Sharing and upholding these values is a requirement for obtaining British citizenship."
+  },
+  {
+    "id": 42,
+    "question": "What does the Equality Act 2010 protect against?",
+    "options": [
+      "Discrimination only in the workplace",
+      "Discrimination based on protected characteristics such as age, disability, gender, race, religion, and sexual orientation",
+      "Unequal pay between private and public sector workers",
+      "Discrimination by foreign nationals living in the UK"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "The Equality Act 2010 protects people from discrimination, harassment, and victimisation based on nine protected characteristics, including age, disability, gender reassignment, marriage, pregnancy, race, religion, sex, and sexual orientation. It applies to employment, education, housing, and the provision of goods and services."
+  },
+  {
+    "id": 43,
+    "question": "What is the principle behind the rule of law in the UK?",
+    "options": [
+      "Parliament can pass any law it chooses without restriction",
+      "The government has the final say over courts",
+      "Everyone is subject to the law equally, including government",
+      "Laws only apply to those who have signed a social contract"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "The rule of law means that everyone — including the government, police, and public officials — must obey the law and can be held accountable by independent courts. This principle is fundamental to a fair and just society and protects individuals from the arbitrary exercise of power."
+  },
+  {
+    "id": 44,
+    "question": "What does 'tolerance' mean as a British value?",
+    "options": [
+      "Simply putting up with people you disagree with",
+      "Accepting and respecting the rights of others to hold different beliefs and live differently",
+      "Ignoring cultural and religious differences",
+      "Agreeing with all opinions expressed in public"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "Tolerance as a British value means actively accepting and respecting the rights of others to hold different beliefs, practise different religions, and live differently, provided they do so within the law. It does not mean agreeing with all views, but rather respecting others' right to hold them."
+  },
+  {
+    "id": 45,
+    "question": "What rights do all people in the UK have regardless of background?",
+    "options": [
+      "The right to vote in all elections from birth",
+      "Equal rights before the law and protection from discrimination",
+      "Free university education and guaranteed employment",
+      "The right to claim any government benefit immediately upon arrival"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "All people in the UK are entitled to equal rights before the law and protection from discrimination, regardless of their race, religion, gender, disability, or sexual orientation. These rights are enshrined in legislation such as the Equality Act 2010 and the Human Rights Act 1998."
+  },
+  {
+    "id": 46,
+    "question": "What is the Universal Declaration of Human Rights?",
+    "options": [
+      "A UK law passed by Parliament in 1948",
+      "A European Court ruling that applies only to EU member states",
+      "A UN document setting out basic rights to which all humans are entitled, supported by the UK",
+      "An international trade agreement linked to human rights conditions"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "The Universal Declaration of Human Rights was adopted by the United Nations in 1948 and sets out fundamental rights and freedoms that all people everywhere are entitled to. The UK was one of the original signatories and played a key role in drafting the document."
+  },
+  {
+    "id": 47,
+    "question": "What is a civil partnership in the UK?",
+    "options": [
+      "A business partnership registered with Companies House",
+      "A form of marriage exclusive to opposite-sex couples",
+      "A legal relationship for same-sex couples (same-sex marriage is also legal in England, Wales, and Scotland)",
+      "An informal cohabitation agreement with no legal status"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "Civil partnerships were introduced in the UK in 2004 to give same-sex couples the same legal rights as married couples. Same-sex marriage was legalised in England, Wales, and Scotland in 2014; civil partnerships have since been extended to opposite-sex couples as well."
+  },
+  {
+    "id": 48,
+    "question": "What does 'freedom of speech' allow in the UK?",
+    "options": [
+      "The unrestricted right to say anything in any context",
+      "The right to express opinions freely within the law, excluding incitement to hatred or harm",
+      "Freedom to publish any material without government review",
+      "The right to campaign for any political cause, including illegal ones"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "Freedom of speech in the UK allows individuals to express their opinions and beliefs openly, but this right is not absolute — it does not extend to speech that incites racial or religious hatred, threatens public order, or is defamatory. These limits aim to balance free expression with the rights and safety of others."
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of jury service?",
+    "options": [
+      "To train lawyers in criminal procedure",
+      "To allow ordinary citizens to participate in the justice system by deciding verdicts in serious cases",
+      "To assist judges in writing their legal opinions",
+      "To review sentencing guidelines for convicted offenders"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "Jury service allows ordinary members of the public to participate directly in the legal process by determining whether a defendant is guilty or not guilty in serious criminal cases. It is a civic duty in the UK and reflects the principle that justice should be administered by peers rather than solely by state officials."
+  },
+  {
+    "id": 50,
+    "question": "What responsibility do citizens have in a democracy?",
+    "options": [
+      "To support the ruling party and follow its policies",
+      "To pay a fee to access government services",
+      "To participate in democratic processes, including voting and following the law",
+      "To serve in the military for at least one year"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "In a democracy, citizens have a responsibility to participate in civic life — including voting in elections, obeying the law, and respecting the rights of others. Active participation helps ensure that government remains accountable and that democratic values are upheld."
+  }
+]

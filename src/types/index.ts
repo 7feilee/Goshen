@@ -109,9 +109,69 @@ export type GermanState =
 
 export interface CitizenshipQuestion {
   id: number | string
-  question: string         // German — this is the actual test language
-  options: string[]        // 4 options in German
+  question: string         // in the test language (German for DE, English for others)
+  options: string[]        // 4 options
   correctIndex: number
-  category?: QuestionCategory | 'state'  // omitted in state-specific questions
-  explanation_zh?: string  // Chinese explanation (original source)
+  category?: string        // category name varies by country
+  explanation?: string     // optional English explanation
+  explanation_zh?: string  // Chinese explanation (DE original source)
+}
+
+// ── PR eligibility checker ────────────────────────────────────────────────────
+
+export type EmploymentStatus = 'employed' | 'self_employed' | 'student' | 'unemployed'
+export type EducationLevel = 'highschool' | 'bachelor' | 'master' | 'phd'
+export type PREligibility = 'likely' | 'partial' | 'ineligible'
+
+export interface PRProfile {
+  country: CountryCode
+  residenceYears: number
+  employmentStatus: EmploymentStatus
+  annualIncomeUSD: number
+  educationLevel: EducationLevel
+  age: number
+  languageScore: number    // IELTS equivalent (0–9) or CEF B1=5, B2=6, C1=7
+  hasJobOffer: boolean
+  hasSpouseCitizen: boolean
+  hasSpousePR: boolean
+  hasChildCitizen: boolean
+  workedYears: number      // years of relevant work experience in destination country
+}
+
+export interface PRPathway {
+  id: string
+  country: CountryCode
+  name: string
+  stream: string
+  description: string
+  eligibility: PREligibility
+  metRequirements: string[]
+  missingRequirements: string[]
+  processingTime: string
+  officialUrl: string
+  notes?: string
+}
+
+// ── Child benefits ─────────────────────────────────────────────────────────────
+
+export type ResidencyStatus = 'citizen' | 'pr' | 'work_visa' | 'student_visa'
+
+export interface ChildBenefitProfile {
+  country: CountryCode
+  residencyStatus: ResidencyStatus
+  numChildren: number
+  childAges: number[]
+  annualIncomeUSD: number
+  employmentStatus: EmploymentStatus
+}
+
+export interface Benefit {
+  id: string
+  name: string
+  description: string
+  monthlyAmountUSD: number | null   // null = variable/means-tested
+  amountNote: string                // human-readable amount or formula
+  eligibility: 'eligible' | 'likely' | 'check'
+  requirements: string[]
+  officialUrl: string
 }

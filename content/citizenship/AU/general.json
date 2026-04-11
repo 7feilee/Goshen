@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "question": "When did the First Fleet arrive in Australia?",
+    "options": ["1770", "1788", "1800", "1820"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The First Fleet arrived at Botany Bay in January 1788, consisting of 11 ships carrying convicts, marines, and officials from Britain. It marked the beginning of European colonisation of Australia and the establishment of the first British settlement at Port Jackson (Sydney Cove)."
+  },
+  {
+    "id": 2,
+    "question": "Who were the first Australians?",
+    "options": [
+      "Dutch explorers from the VOC",
+      "British convicts transported from England",
+      "Aboriginal and Torres Strait Islander peoples",
+      "Chinese migrants who arrived in the 1850s"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Aboriginal and Torres Strait Islander peoples are the first Australians, having lived on the continent for at least 65,000 years before European arrival. They developed rich and diverse cultures, languages, and spiritual traditions across the continent."
+  },
+  {
+    "id": 3,
+    "question": "Who led the First Fleet to Australia?",
+    "options": ["Captain James Cook", "Governor Lachlan Macquarie", "Captain Arthur Phillip", "Captain William Bligh"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Captain Arthur Phillip commanded the First Fleet and became the first Governor of New South Wales in 1788. He was responsible for establishing the colony at Port Jackson and overseeing its early development despite significant hardships."
+  },
+  {
+    "id": 4,
+    "question": "When did Australia become a federation?",
+    "options": ["26 January 1788", "1 January 1901", "9 October 1942", "3 March 1986"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Australia became a federation on 1 January 1901 when the six separate British colonies united to form the Commonwealth of Australia. This date, New Year's Day, is also celebrated as the founding of the Australian nation."
+  },
+  {
+    "id": 5,
+    "question": "Who was Australia's first Prime Minister?",
+    "options": ["Sir Robert Menzies", "Alfred Deakin", "Edmund Barton", "Chris Watson"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Edmund Barton became Australia's first Prime Minister when the Commonwealth of Australia was proclaimed on 1 January 1901. He led the Protectionist Party and served as Prime Minister until 1903, when he resigned to become a founding justice of the High Court."
+  },
+  {
+    "id": 6,
+    "question": "What was the White Australia Policy?",
+    "options": [
+      "A policy protecting the rights of white-collar workers",
+      "A policy restricting non-European immigration to Australia, ended in the 1970s",
+      "An environmental policy to protect the Great Barrier Reef",
+      "A housing scheme for low-income white Australians"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The White Australia Policy was a set of policies that effectively restricted non-European immigration to Australia, beginning with the Immigration Restriction Act 1901. It was gradually dismantled from the 1950s and fully abandoned in the early 1970s under Prime Ministers Harold Holt and Gough Whitlam."
+  },
+  {
+    "id": 7,
+    "question": "When did women gain the right to vote in federal elections in Australia?",
+    "options": ["1894", "1902", "1918", "1927"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Commonwealth Franchise Act 1902 gave most Australian women the right to vote in federal elections, making Australia one of the first countries in the world to grant women this right at the national level. However, Aboriginal women (and men) were excluded from this right until 1962."
+  },
+  {
+    "id": 8,
+    "question": "What was the significance of the Anzac landing at Gallipoli?",
+    "options": [
+      "It was Australia's first military deployment overseas",
+      "It was where Australian forces defeated the Ottoman Empire",
+      "The 1915 campaign became central to Australia's national identity and is commemorated on Anzac Day",
+      "It was the campaign that ended World War I in the Pacific"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "On 25 April 1915, Australian and New Zealand Army Corps (ANZAC) troops landed at Gallipoli in the Ottoman Empire in a campaign that resulted in heavy casualties without military success. Despite the failure, the courage and sacrifice of the Anzacs became a defining element of Australian national identity."
+  },
+  {
+    "id": 9,
+    "question": "When did the Australian Constitution come into effect?",
+    "options": ["26 January 1788", "1 January 1901", "11 November 1918", "9 October 1942"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Australian Constitution came into effect on 1 January 1901 when the Commonwealth of Australia was proclaimed. It established the federal structure of government, defining the powers of the Commonwealth and the relationship between the federal and state governments."
+  },
+  {
+    "id": 10,
+    "question": "What did the 1967 referendum change in Australia?",
+    "options": [
+      "It introduced compulsory voting for all Australians",
+      "It allowed the federal government to make laws for Aboriginal Australians and include them in the census",
+      "It granted women equal pay in the public service",
+      "It approved Australia's entry into the United Nations"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The 1967 referendum asked Australians whether to amend the Constitution to allow the federal government to make laws for Aboriginal Australians and to count them in the national census. It passed with over 90% of the vote — one of the most successful referendums in Australian history."
+  },
+  {
+    "id": 11,
+    "question": "When did Australia adopt the Australian Citizenship Act?",
+    "options": ["1901", "1931", "1948", "1975"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Nationality and Citizenship Act 1948 (later renamed the Australian Citizenship Act) created Australian citizenship as a distinct status separate from British subject status, taking effect on 26 January 1949. Before this, Australians were British subjects rather than Australian citizens."
+  },
+  {
+    "id": 12,
+    "question": "Who is Robert Menzies in Australian history?",
+    "options": [
+      "The first Governor-General of Australia",
+      "Australia's longest-serving Prime Minister (1939–41, 1949–66)",
+      "The leader who introduced the White Australia Policy",
+      "The first Aboriginal member of federal Parliament"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Sir Robert Menzies was Australia's longest-serving Prime Minister, serving two terms: 1939–1941 and 1949–1966. He founded the Liberal Party of Australia in 1944 and presided over a period of strong economic growth and immigration in the post-war era."
+  },
+  {
+    "id": 13,
+    "question": "What were the Stolen Generations?",
+    "options": [
+      "Children of convicts who were separated from their parents in early colonial times",
+      "Aboriginal and Torres Strait Islander children who were forcibly removed from their families by government policies",
+      "Children sent to Australia from Britain as part of child migration schemes",
+      "Young Australians conscripted to fight in World War I"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Stolen Generations refers to Aboriginal and Torres Strait Islander children who were forcibly removed from their families by Australian federal, state, and territory governments from the late 19th century to the 1970s. In 2008, Prime Minister Kevin Rudd delivered a formal apology to the Stolen Generations on behalf of the Australian government."
+  },
+  {
+    "id": 14,
+    "question": "When did Australia introduce a citizenship test?",
+    "options": ["1975", "1995", "2001", "2007"],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "Australia introduced a formal citizenship test in 2007 under the Australian Citizenship Amendment (Citizenship Testing) Act 2007. The test assesses applicants' knowledge of Australia's history, values, government, and the responsibilities and privileges of citizenship."
+  },
+  {
+    "id": 15,
+    "question": "What is ANZAC Day in Australia?",
+    "options": [
+      "January 26, marking the arrival of the First Fleet",
+      "November 11, marking the end of World War I",
+      "April 25, commemorating the landing of Australian and New Zealand troops at Gallipoli in 1915",
+      "June 4, marking the end of the Pacific War"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "ANZAC Day on 25 April is one of Australia's most important national occasions, commemorating the landing of Australian and New Zealand Army Corps troops at Gallipoli on 25 April 1915. It is a public holiday marked by dawn services, marches, and ceremonies across Australia."
+  },
+  {
+    "id": 16,
+    "question": "What type of government does Australia have?",
+    "options": [
+      "A presidential republic",
+      "A unitary state with a single legislature",
+      "A constitutional monarchy and parliamentary democracy",
+      "A federation without a head of state"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Australia is a constitutional monarchy and parliamentary democracy, meaning it has a monarch as head of state (represented by the Governor-General) and a Parliament that makes laws. The Prime Minister leads the government and is accountable to the Parliament."
+  },
+  {
+    "id": 17,
+    "question": "Who is Australia's head of state?",
+    "options": [
+      "The Prime Minister",
+      "The Chief Justice of the High Court",
+      "The President of the Senate",
+      "The King or Queen of Australia (the monarch), represented by the Governor-General"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The King or Queen of Australia is the head of state, currently King Charles III. The Governor-General represents the monarch in Australia and performs important constitutional and ceremonial functions, including opening Parliament and swearing in the Prime Minister."
+  },
+  {
+    "id": 18,
+    "question": "Who is Australia's head of government?",
+    "options": ["The Governor-General", "The Chief Justice", "The President of the Senate", "The Prime Minister"],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The Prime Minister is Australia's head of government, leading the Cabinet and directing national policy. The Prime Minister is the leader of the party or coalition with majority support in the House of Representatives and is appointed by the Governor-General."
+  },
+  {
+    "id": 19,
+    "question": "What is the Parliament of Australia made up of?",
+    "options": [
+      "The House of Representatives and the Governor-General",
+      "The Senate and the House of Representatives only",
+      "The Senate, the House of Representatives, and the King or Queen",
+      "The Cabinet, the Senate, and the House of Representatives"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Australia's Parliament consists of three elements: the King (or Queen), the Senate (the upper house), and the House of Representatives (the lower house). All three must agree for a bill to become law, and the monarch's role is exercised by the Governor-General."
+  },
+  {
+    "id": 20,
+    "question": "How many senators does each Australian state have?",
+    "options": ["Six", "Eight", "Ten", "Twelve"],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "Each of Australia's six states elects twelve senators, giving a total of 72 state senators. The two mainland territories (the Australian Capital Territory and the Northern Territory) each elect two senators, bringing the total Senate membership to 76."
+  },
+  {
+    "id": 21,
+    "question": "How many members does the Australian House of Representatives have?",
+    "options": ["120", "145", "151", "180"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The House of Representatives has 151 members, each representing a single electoral division. Members are elected using preferential voting and serve terms of up to three years before a new election must be held."
+  },
+  {
+    "id": 22,
+    "question": "What is the role of the Governor-General in Australia?",
+    "options": [
+      "To run the day-to-day operations of the federal government",
+      "To represent Australia in foreign countries",
+      "The King's representative in Australia, performing ceremonial and constitutional duties",
+      "To chair the Council of Australian Governments"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Governor-General is the King's representative in Australia and performs important ceremonial duties such as opening Parliament and reading the Speech from the Throne. The Governor-General also has constitutional powers including appointing the Prime Minister and, in exceptional circumstances, dismissing a government."
+  },
+  {
+    "id": 23,
+    "question": "What document establishes Australia's system of government?",
+    "options": [
+      "The Magna Carta",
+      "The Declaration of Independence",
+      "The Australian Constitution",
+      "The Australia Act 1986"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Australian Constitution, enacted as part of the Commonwealth of Australia Constitution Act 1900 (UK), establishes the structure of federal government, defines the powers of the Commonwealth, and outlines the relationship between federal and state governments. It is the supreme law of Australia."
+  },
+  {
+    "id": 24,
+    "question": "What are the three levels of government in Australia?",
+    "options": [
+      "National, state, and local councils",
+      "Federal, state/territory, and local",
+      "Parliament, judiciary, and executive",
+      "Crown, Cabinet, and Parliament"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "Australia has three levels of government: federal (responsible for national issues such as defence, immigration, and foreign affairs), state and territory governments (responsible for areas like hospitals, schools, and roads), and local governments (managing local services and planning)."
+  },
+  {
+    "id": 25,
+    "question": "What is preferential voting in Australia?",
+    "options": [
+      "A system where only first-preference votes are counted",
+      "A system where you vote for a party, not a candidate",
+      "Voters rank candidates in order of preference; second preference votes are redistributed if no candidate gets a majority",
+      "A compulsory system where voters must rank all parties"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Preferential (or ranked-choice) voting is used in Australian federal elections for the House of Representatives. Voters number candidates in order of preference, and if no candidate wins a majority of first-preference votes, the candidate with the fewest votes is eliminated and their votes are redistributed according to second preferences."
+  },
+  {
+    "id": 26,
+    "question": "Who can vote in Australian federal elections?",
+    "options": [
+      "All residents of Australia aged 18 and over",
+      "All permanent residents and citizens aged 18 and over",
+      "Australian citizens 18 years of age or older",
+      "All taxpayers regardless of citizenship"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Only Australian citizens who are 18 years of age or older are eligible to vote in federal elections. Australian citizens are also required by law to enrol to vote and to attend a polling place on election day — voting is compulsory in Australia."
+  },
+  {
+    "id": 27,
+    "question": "What is compulsory voting in Australia?",
+    "options": [
+      "A rule requiring all politicians to vote on every bill",
+      "A policy requiring citizens to vote in only one election per decade",
+      "All eligible Australians are required by law to enrol and vote in federal and state elections",
+      "A requirement to attend civics education before turning 18"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Compulsory voting means that all eligible Australian citizens must enrol to vote and attend a polling place on election day or face a fine. Australia introduced compulsory voting in 1924, and it results in voter turnout rates of over 90%, among the highest in the world."
+  },
+  {
+    "id": 28,
+    "question": "What is the role of the High Court of Australia?",
+    "options": [
+      "To review all legislation before it is passed by Parliament",
+      "To prosecute serious federal crimes",
+      "The final court of appeal and the interpreter of the Australian Constitution",
+      "To advise the Governor-General on constitutional matters"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The High Court of Australia is the highest court in the country and serves as the final court of appeal for all civil and criminal matters. It also has the exclusive function of interpreting the Australian Constitution and determining the legality of legislation."
+  },
+  {
+    "id": 29,
+    "question": "How is Australia's Constitution changed?",
+    "options": [
+      "By a simple majority vote in both houses of Parliament",
+      "By a decision of the High Court",
+      "By the Governor-General on the advice of the Prime Minister",
+      "By a referendum — a majority of voters nationally and a majority in at least four states must approve"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "Under Section 128 of the Constitution, amendments must be passed by an absolute majority of both houses of Parliament and then approved at a referendum by a national majority of voters and a majority in at least four of the six states. This 'double majority' requirement makes Australia's Constitution difficult to amend."
+  },
+  {
+    "id": 30,
+    "question": "What is the Commonwealth of Australia?",
+    "options": [
+      "A trade bloc involving Australia and its Pacific neighbours",
+      "The federal government department managing public assets",
+      "The federation of six states and two territories that forms the nation of Australia",
+      "Australia's membership in the British Commonwealth of Nations"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Commonwealth of Australia is the federation formed on 1 January 1901, consisting of six states (New South Wales, Victoria, Queensland, South Australia, Western Australia, and Tasmania) and two self-governing territories (the ACT and the Northern Territory)."
+  },
+  {
+    "id": 31,
+    "question": "What are Australian values as described in the citizenship resource?",
+    "options": [
+      "Mateship, sport, and a fair go for all regardless of the law",
+      "Respect for freedom and dignity, equality of opportunity, freedom of religion, English as the national language, the rule of law",
+      "Loyalty to the Crown, Christian values, and British heritage",
+      "Innovation, hard work, environmental stewardship, and multiculturalism"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "Australian citizenship resource material identifies core values including respect for the equal worth of every person, freedom of religion, commitment to democracy and the rule of law, equality of opportunity, and English as the national language. These values form the basis of Australian society and are expected of all citizens."
+  },
+  {
+    "id": 32,
+    "question": "What does the rule of law mean in Australia?",
+    "options": [
+      "Parliament can pass any law without restriction",
+      "Everyone, including government, must obey the law; disputes are settled by independent courts",
+      "Police have discretion to decide which laws to enforce",
+      "The courts must follow the government's interpretation of laws"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "The rule of law means that no person or institution — including the government itself — is above the law, and that all disputes are resolved by independent courts rather than by political power. It is a fundamental principle underpinning Australian democracy and protecting individual rights."
+  },
+  {
+    "id": 33,
+    "question": "What does freedom of speech allow in Australia?",
+    "options": [
+      "An absolute right to say anything without legal consequences",
+      "People can express their opinions and beliefs freely, within the law",
+      "The government must broadcast all political opinions on public media",
+      "Only elected officials may speak publicly on political matters"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "Freedom of speech in Australia allows individuals to express their opinions and beliefs openly, though this right is not absolute — it is subject to laws prohibiting defamation, incitement to violence, and racial vilification. The Australian Constitution includes an implied freedom of political communication."
+  },
+  {
+    "id": 34,
+    "question": "What is the principle of equality of opportunity in Australia?",
+    "options": [
+      "All Australians must earn the same income",
+      "All people should have equal access to education, employment, and social participation",
+      "Government must provide identical services to all communities",
+      "Equal numbers of men and women must hold public office"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "Equality of opportunity means that all people in Australia should have fair and equal access to education, employment, and participation in social and civic life, regardless of their background, race, religion, or gender. This principle reflects Australia's commitment to a fair and inclusive society."
+  },
+  {
+    "id": 35,
+    "question": "What does freedom of religion allow in Australia?",
+    "options": [
+      "Religious institutions are exempt from all Australian laws",
+      "Only major world religions may be practised in Australia",
+      "People can practise any religion or no religion without government interference",
+      "The government must fund all recognised religious organisations equally"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "Freedom of religion in Australia allows individuals to practise any religion or none at all, free from government interference. Section 116 of the Australian Constitution also prevents the Commonwealth from establishing a state religion or imposing religious observance."
+  },
+  {
+    "id": 36,
+    "question": "Why is English important in Australia?",
+    "options": [
+      "It is the only language legally recognised in Australia",
+      "It enables full participation in Australian life and society and is the national language",
+      "All immigrants are legally required to speak English within one year",
+      "English is mandated in the Australian Constitution as the official language"
+    ],
+    "correctIndex": 1,
+    "category": "values",
+    "explanation": "English is the national language of Australia and is essential for full participation in Australian life, including accessing education, employment, and government services. While many languages are spoken in Australia, English is the primary language of communication and public life."
+  },
+  {
+    "id": 37,
+    "question": "What does respect for others' beliefs mean in the Australian context?",
+    "options": [
+      "All beliefs must be treated as equally correct",
+      "Australians must adopt the religious beliefs of the majority",
+      "Accepting that others may hold different religious, cultural, or political beliefs",
+      "The government must prohibit any beliefs that conflict with Australian values"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "Respecting others' beliefs means acknowledging and accepting that people in Australia may hold different religious, cultural, or political views. This principle of tolerance supports peaceful coexistence in Australia's diverse and multicultural society."
+  },
+  {
+    "id": 38,
+    "question": "What responsibilities do Australian citizens have?",
+    "options": [
+      "To promote Australian culture overseas",
+      "To work in a government job for at least two years",
+      "Obeying laws, voting, defending Australia if necessary, serving on juries, and paying taxes",
+      "To own property and contribute to the local economy"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "Australian citizens have responsibilities alongside their rights, including obeying the law, enrolling and voting in elections, serving on juries if called upon, paying taxes, and defending Australia if required. These obligations reflect the shared commitment needed to maintain a fair and democratic society."
+  },
+  {
+    "id": 39,
+    "question": "What does 'a fair go' mean in Australian culture?",
+    "options": [
+      "Everyone gets to have their turn in a queue",
+      "The government provides equal financial support to everyone",
+      "Everyone deserves equal opportunity regardless of background",
+      "The justice system must treat all defendants identically"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "'A fair go' is a deeply ingrained Australian cultural value meaning that everyone deserves an equal chance to succeed in life regardless of their background, origin, or circumstances. It reflects a belief in fairness, opportunity, and social equality."
+  },
+  {
+    "id": 40,
+    "question": "What is multiculturalism in Australia?",
+    "options": [
+      "A government policy requiring all immigrants to abandon their original culture",
+      "A sporting initiative promoting diversity in Australian sport",
+      "The acceptance and celebration of the diverse cultural backgrounds of people living in Australia",
+      "A constitutional requirement for equal numbers of cultural groups in Parliament"
+    ],
+    "correctIndex": 2,
+    "category": "values",
+    "explanation": "Multiculturalism in Australia refers to the acceptance, respect, and celebration of the many cultural backgrounds, languages, and traditions that make up Australian society. Australia has one of the most culturally diverse populations in the world, and multiculturalism is a cornerstone of national identity."
+  },
+  {
+    "id": 41,
+    "question": "What is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Brisbane", "Canberra"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "Canberra is the capital of Australia and the seat of the federal government. It was purpose-built as the capital after Sydney and Melbourne could not agree on which city should hold that honour, and it became the official capital in 1927."
+  },
+  {
+    "id": 42,
+    "question": "What is Australia's national flower?",
+    "options": ["Waratah", "Sturt's Desert Pea", "Wattle (Golden Wattle)", "Kangaroo Paw"],
+    "correctIndex": 2,
+    "category": "symbols",
+    "explanation": "The Golden Wattle (Acacia pycnantha) is Australia's national floral emblem, officially proclaimed in 1988. Its golden flowers and green foliage reflect Australia's national colours of green and gold, and September 1 is celebrated as National Wattle Day."
+  },
+  {
+    "id": 43,
+    "question": "What are the colours of the Australian flag?",
+    "options": ["Green and gold", "Blue, red, and white", "Blue and white", "Red, white, and black"],
+    "correctIndex": 1,
+    "category": "symbols",
+    "explanation": "The Australian flag features blue, red, and white — the colours of the Union Jack (representing Australia's British heritage), which appears in the upper left corner. The flag also features the Commonwealth Star and the Southern Cross constellation on a blue background."
+  },
+  {
+    "id": 44,
+    "question": "What does the Southern Cross on the Australian flag represent?",
+    "options": [
+      "The five original colonies that federated",
+      "The four cardinal directions of the Australian continent",
+      "Australia's geographical location in the Southern Hemisphere",
+      "The five founding values of the Australian nation"
+    ],
+    "correctIndex": 2,
+    "category": "symbols",
+    "explanation": "The Southern Cross constellation on the Australian flag represents Australia's location in the Southern Hemisphere, as this constellation is visible from the southern sky and has been used for navigation in the region for centuries. It is also used on the flags of several other southern hemisphere nations."
+  },
+  {
+    "id": 45,
+    "question": "What is Australia's national anthem?",
+    "options": ["Waltzing Matilda", "God Save the King", "The Land Down Under", "Advance Australia Fair"],
+    "correctIndex": 3,
+    "category": "symbols",
+    "explanation": "Advance Australia Fair is Australia's national anthem, adopted in 1984 following a national vote in 1977. The anthem was composed by Peter Dodds McCormick in the late 19th century, and its lyrics were revised in 2021 to change 'young and free' to 'one and free' in recognition of Australia's Indigenous history."
+  },
+  {
+    "id": 46,
+    "question": "What are Australia's national colours?",
+    "options": ["Blue and white", "Red and white", "Green and gold", "Blue and gold"],
+    "correctIndex": 2,
+    "category": "symbols",
+    "explanation": "Australia's national colours are green and gold, reflecting the colours of the Golden Wattle, Australia's national flower. These colours are widely used in Australian sporting uniforms and are distinct from the blue, red, and white of the Australian flag."
+  },
+  {
+    "id": 47,
+    "question": "What is Australia Day?",
+    "options": [
+      "1 January, marking Federation in 1901",
+      "25 April, honouring Anzac veterans",
+      "3 March, celebrating Australian citizenship",
+      "26 January, marking the arrival of the First Fleet in 1788"
+    ],
+    "correctIndex": 3,
+    "category": "symbols",
+    "explanation": "Australia Day is observed on 26 January each year, marking the date in 1788 when Captain Arthur Phillip raised the British flag at Sydney Cove. The date is celebrated as a national public holiday, though it is also a day of mourning for many Aboriginal and Torres Strait Islander Australians."
+  },
+  {
+    "id": 48,
+    "question": "What ocean is on the east coast of Australia?",
+    "options": ["Indian Ocean", "Southern Ocean", "Coral Sea", "Pacific Ocean"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "The Pacific Ocean borders Australia's east coast, with cities such as Sydney, Brisbane, and Melbourne situated along or near this coastline. The Pacific Ocean is the largest and deepest ocean in the world, covering more than 30% of Earth's surface."
+  },
+  {
+    "id": 49,
+    "question": "What is the largest state in Australia by area?",
+    "options": ["Queensland", "South Australia", "New South Wales", "Western Australia"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "Western Australia is the largest Australian state by area, covering approximately 2.5 million square kilometres — roughly one-third of the total land area of Australia. Its capital is Perth, and it is known for its mining industry, stunning coastline, and unique wildlife."
+  },
+  {
+    "id": 50,
+    "question": "What is the Great Barrier Reef?",
+    "options": [
+      "A mountain range in central Australia",
+      "The world's largest coral reef system, located off the coast of Queensland",
+      "A protected marine park in Western Australia",
+      "A series of barrier islands off the coast of New South Wales"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "explanation": "The Great Barrier Reef is the world's largest coral reef system, stretching over 2,300 kilometres along the coast of Queensland in northeastern Australia. It is a UNESCO World Heritage Site and one of the world's most biodiverse marine environments, supporting thousands of species of fish, coral, and other wildlife."
+  }
+]

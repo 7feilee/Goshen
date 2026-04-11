@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "question": "When was Canada confederated (became a country)?",
+    "options": ["July 1, 1867", "January 1, 1901", "April 17, 1982", "July 4, 1776"],
+    "correctIndex": 0,
+    "category": "history",
+    "explanation": "Canada became a country on July 1, 1867, when the British North America Act united the provinces of Canada, Nova Scotia, and New Brunswick into the Dominion of Canada. This date is celebrated each year as Canada Day."
+  },
+  {
+    "id": 2,
+    "question": "Who were the first people to live in Canada?",
+    "options": [
+      "French colonists from Normandy",
+      "British explorers from the Royal Navy",
+      "Indigenous peoples — First Nations, Métis, and Inuit",
+      "Viking settlers from Scandinavia"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Indigenous peoples — including First Nations, Métis, and Inuit — have lived in Canada for thousands of years before European contact. Their cultures, languages, and governance systems are an integral part of Canada's heritage."
+  },
+  {
+    "id": 3,
+    "question": "What does 'Confederation' mean in Canadian history?",
+    "options": [
+      "Canada's declaration of independence from Britain in 1931",
+      "The joining of British North American colonies to form the Dominion of Canada in 1867",
+      "The merger of Quebec and Ontario into a single province",
+      "The agreement between Canada and the United States on shared borders"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Confederation refers to the political union of the British North American colonies — the Province of Canada, Nova Scotia, and New Brunswick — into the Dominion of Canada on July 1, 1867. More provinces and territories joined over the following decades."
+  },
+  {
+    "id": 4,
+    "question": "Who was the first Prime Minister of Canada?",
+    "options": ["Sir Wilfrid Laurier", "Sir John A. Macdonald", "Alexander Mackenzie", "George Brown"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Sir John A. Macdonald was Canada's first Prime Minister, serving from 1867 to 1873 and again from 1878 to 1891. He was a key architect of Confederation and championed the construction of the Canadian Pacific Railway."
+  },
+  {
+    "id": 5,
+    "question": "Which war did Canada fight in as part of the British Empire from 1914 to 1918?",
+    "options": ["The Boer War", "The Crimean War", "World War I", "World War II"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Canada fought in World War I (1914–1918) as part of the British Empire, contributing over 600,000 troops. The war had a profound effect on Canada's sense of national identity and its desire for greater independence in foreign affairs."
+  },
+  {
+    "id": 6,
+    "question": "What was significant about the Battle of Vimy Ridge?",
+    "options": [
+      "It was Canada's first naval battle",
+      "It was a major Canadian victory in WWI, seen as a defining moment in Canadian national identity",
+      "It was the battle where Canada declared independence from Britain",
+      "It was the final battle of World War II in Europe"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Battle of Vimy Ridge in April 1917 was a decisive Canadian victory during World War I, where Canadian troops captured a ridge that British and French forces had failed to take. It is widely regarded as a defining moment in the forging of Canadian national identity."
+  },
+  {
+    "id": 7,
+    "question": "When did Canada gain full legislative independence (Statute of Westminster)?",
+    "options": ["1867", "1918", "1931", "1949"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Statute of Westminster in 1931 granted Canada and other Dominions full legislative independence from Britain, meaning Canada could now pass any laws it wished without British approval. This marked a major step in Canada's evolution as a fully sovereign nation."
+  },
+  {
+    "id": 8,
+    "question": "When did Canada enter World War II?",
+    "options": ["1937", "1938", "1939", "1941"],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Canada entered World War II in September 1939, one week after Britain — a deliberate decision that demonstrated Canada's newfound autonomy in foreign policy since gaining the Statute of Westminster in 1931. Over one million Canadians served during the war."
+  },
+  {
+    "id": 9,
+    "question": "What is the Canadian Charter of Rights and Freedoms?",
+    "options": [
+      "A colonial document from 1867 listing citizens' privileges",
+      "A provincial law protecting rights in Quebec",
+      "Part of the Constitution Act 1982, guaranteeing rights and freedoms for all Canadians",
+      "A UN resolution ratified by Canada in 1976"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Canadian Charter of Rights and Freedoms is Part I of the Constitution Act, 1982, and guarantees fundamental rights and freedoms to all people in Canada. It protects freedoms such as speech, religion, assembly, and the right to equality before the law."
+  },
+  {
+    "id": 10,
+    "question": "When did Quebec hold referendums on sovereignty?",
+    "options": ["1967 and 1980", "1980 and 1995", "1990 and 2000", "1976 and 1980"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Quebec held referendums on sovereignty in 1980 and 1995, both of which resulted in votes to remain within Canada. The 1995 referendum was extremely close, with the 'No' side winning by fewer than 50,000 votes."
+  },
+  {
+    "id": 11,
+    "question": "What is the significance of November 11 in Canada?",
+    "options": [
+      "Canada Day",
+      "Thanksgiving",
+      "Remembrance Day, commemorating veterans who died in wars",
+      "The anniversary of Confederation"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "November 11 is Remembrance Day in Canada, a national day of commemoration honouring the Canadians who died in World War I, World War II, the Korean War, and other armed conflicts. Ceremonies are held across the country at 11:00 AM."
+  },
+  {
+    "id": 12,
+    "question": "What was the first French settlement in Canada?",
+    "options": [
+      "Quebec City (1608)",
+      "Montreal (1642)",
+      "Port-Royal (1605) in present-day Nova Scotia",
+      "Trois-Rivières (1634)"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Port-Royal, established in 1605 in present-day Nova Scotia, was the first permanent French settlement in North America. It was founded by Pierre Dugua de Mons and Samuel de Champlain, who would later found Quebec City in 1608."
+  },
+  {
+    "id": 13,
+    "question": "What were the 'Responsible Government' reforms of the 19th century?",
+    "options": [
+      "Laws requiring all elected officials to pass financial audits",
+      "Reforms giving elected assemblies control over government in the colonies",
+      "Changes requiring the British Crown to approve all colonial legislation",
+      "Indigenous governance reforms negotiated with the Crown"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Responsible Government reforms of the 1840s established that the executive government (Cabinet) must be accountable to the elected legislative assembly, not to the appointed governor. This was a critical step toward democratic self-governance in British North America."
+  },
+  {
+    "id": 14,
+    "question": "When did women gain the right to vote in federal elections in Canada?",
+    "options": ["1905", "1918", "1929", "1940"],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Women gained the right to vote in federal elections in Canada in 1918, following the Military Voters Act and Wartime Elections Act of 1917 which gave the vote to female relatives of servicemen. Full women's suffrage in federal elections was extended to all women in 1918."
+  },
+  {
+    "id": 15,
+    "question": "What is the Indian Act in Canada?",
+    "options": [
+      "A trade agreement between Canada and India",
+      "A provincial law governing immigration from South Asia",
+      "A federal law governing the rights and governance of First Nations people in Canada",
+      "An international treaty on Indigenous land rights"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Indian Act is a federal law first enacted in 1876 that governs the lives, governance, and lands of registered First Nations people in Canada. It has been widely criticized for being paternalistic and for infringing on Indigenous sovereignty and rights."
+  },
+  {
+    "id": 16,
+    "question": "What type of government does Canada have?",
+    "options": [
+      "A presidential republic",
+      "A federal parliamentary republic",
+      "A constitutional monarchy and parliamentary democracy",
+      "An absolute monarchy"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Canada is a constitutional monarchy and parliamentary democracy, meaning it has a monarch as head of state (represented by the Governor General) and a Parliament that makes laws. The Prime Minister leads the government and is accountable to the elected House of Commons."
+  },
+  {
+    "id": 17,
+    "question": "Who is Canada's head of state?",
+    "options": [
+      "The Prime Minister",
+      "The Chief Justice of Canada",
+      "The Governor General acting alone",
+      "The King or Queen of Canada (the monarch), represented by the Governor General"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The King or Queen of Canada (currently King Charles III) is the head of state, represented in Canada by the Governor General at the federal level and by Lieutenant-Governors at the provincial level. This role is largely ceremonial but carries important constitutional functions."
+  },
+  {
+    "id": 18,
+    "question": "Who is Canada's head of government?",
+    "options": ["The Governor General", "The Chief Justice", "The Prime Minister", "The Speaker of the House"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Prime Minister is Canada's head of government and is responsible for running the country's day-to-day affairs and directing government policy. The Prime Minister is the leader of the party that holds the confidence of the House of Commons."
+  },
+  {
+    "id": 19,
+    "question": "How many provinces and territories does Canada have?",
+    "options": [
+      "8 provinces and 2 territories",
+      "10 provinces and 2 territories",
+      "10 provinces and 3 territories",
+      "12 provinces and 3 territories"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Canada has 10 provinces (including Ontario, Quebec, British Columbia, and Alberta) and 3 territories (Yukon, Northwest Territories, and Nunavut). Provinces have more constitutional powers than territories, which receive their authority from the federal government."
+  },
+  {
+    "id": 20,
+    "question": "What are the three branches of Canada's federal government?",
+    "options": [
+      "The Crown, the Senate, and the Courts",
+      "The Prime Minister, the Cabinet, and the Senate",
+      "Legislative (Parliament), Executive (Cabinet), and Judicial (courts)",
+      "Federal, provincial, and municipal governments"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Canada's federal government is divided into three branches: the legislative branch (Parliament, which makes laws), the executive branch (the Cabinet and Prime Minister, which carries out laws), and the judicial branch (the courts, which interpret laws)."
+  },
+  {
+    "id": 21,
+    "question": "What are the two houses of Canada's Parliament?",
+    "options": [
+      "The Assembly and the Council",
+      "The House of Lords and the House of Commons",
+      "The Senate and the House of Commons",
+      "The Legislative Assembly and the Senate"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Canada's Parliament consists of the Senate (the upper house, with appointed members) and the House of Commons (the lower house, with elected Members of Parliament). Legislation must pass both houses to become law."
+  },
+  {
+    "id": 22,
+    "question": "How are Senators chosen in Canada?",
+    "options": [
+      "Elected by the public in provincial elections",
+      "Appointed by the Governor General on the advice of the Prime Minister",
+      "Selected by provincial legislatures",
+      "Chosen by the Supreme Court of Canada"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "Senators are appointed by the Governor General on the advice of the Prime Minister, and they serve until age 75. In recent years, a non-partisan Independent Advisory Board has been established to recommend Senate appointments based on merit."
+  },
+  {
+    "id": 23,
+    "question": "What is the role of the Governor General?",
+    "options": [
+      "To run the day-to-day operations of the federal government",
+      "To oversee foreign policy on behalf of the Prime Minister",
+      "The monarch's representative in Canada, performing ceremonial and constitutional functions",
+      "To chair meetings of the Supreme Court"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Governor General serves as the monarch's representative in Canada, performing ceremonial duties such as opening Parliament and reading the Speech from the Throne. The Governor General also performs constitutional functions, including swearing in the Prime Minister and Cabinet."
+  },
+  {
+    "id": 24,
+    "question": "What document is the supreme law of Canada?",
+    "options": [
+      "The British North America Act 1867 alone",
+      "The Canadian Charter of Rights and Freedoms alone",
+      "The Constitution of Canada",
+      "The Parliament of Canada Act"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Constitution of Canada is the supreme law of the land, and any law that is inconsistent with it is of no force or effect. It includes the Constitution Act, 1867, the Constitution Act, 1982, and the Canadian Charter of Rights and Freedoms."
+  },
+  {
+    "id": 25,
+    "question": "What are the three levels of government in Canada?",
+    "options": [
+      "National, regional, and urban",
+      "Federal, provincial/territorial, and municipal",
+      "Parliamentary, judicial, and executive",
+      "Crown, Cabinet, and Senate"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "Canada has three levels of government: the federal government (responsible for national matters like defence and trade), provincial and territorial governments (responsible for areas like health care and education), and municipal governments (managing local services)."
+  },
+  {
+    "id": 26,
+    "question": "Who can vote in Canadian federal elections?",
+    "options": [
+      "All residents of Canada aged 18 and over",
+      "Canadian citizens and permanent residents aged 18 and over",
+      "Canadian citizens 18 years of age or older",
+      "All taxpayers regardless of citizenship"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Only Canadian citizens who are 18 years of age or older on election day are eligible to vote in federal elections. Permanent residents, even those who have lived in Canada for many years, cannot vote until they obtain citizenship."
+  },
+  {
+    "id": 27,
+    "question": "How often must a federal election be held in Canada?",
+    "options": ["At least every three years", "At least every four years", "At least every five years", "At least every six years"],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Under the Constitution Act, 1867, and the Canada Elections Act, a federal election must be held at least every five years. The fixed election date legislation sets elections on the third Monday in October every four years, though the Governor General can dissolve Parliament earlier."
+  },
+  {
+    "id": 28,
+    "question": "What is the Official Languages Act in Canada?",
+    "options": [
+      "A law requiring all immigrants to learn English within five years",
+      "Provincial legislation protecting minority-language education rights",
+      "A law that establishes English and French as Canada's official languages at the federal level",
+      "A treaty between Canada and France protecting the French language"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Official Languages Act (1969, revised 1988) establishes English and French as Canada's two official languages and requires the federal government to provide services in both languages. Canada is one of only a handful of countries with two official languages at the national level."
+  },
+  {
+    "id": 29,
+    "question": "What is the role of the Supreme Court of Canada?",
+    "options": [
+      "To write new laws on behalf of Parliament",
+      "To advise the Prime Minister on legal matters",
+      "The final court of appeal, interpreting the Constitution and federal law",
+      "To manage the federal court system's budget"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Supreme Court of Canada is the highest court in the country and the final court of appeal for all civil and criminal matters. It has nine judges, including the Chief Justice, and plays a crucial role in interpreting the Constitution and the Canadian Charter of Rights and Freedoms."
+  },
+  {
+    "id": 30,
+    "question": "What is a minority government in Canada?",
+    "options": [
+      "A government formed by a party representing a linguistic minority",
+      "A government where the ruling party holds fewer than half the seats in the House of Commons",
+      "A provincial government that governs a territory without a legislature",
+      "A government that relies entirely on the Senate to pass legislation"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "A minority government occurs when the party in power holds fewer than half of the seats (fewer than 170 of 338) in the House of Commons. It must seek support from other parties to pass legislation and maintain the confidence of the House."
+  },
+  {
+    "id": 31,
+    "question": "What are the fundamental freedoms in the Canadian Charter of Rights and Freedoms?",
+    "options": [
+      "The right to work, housing, and education",
+      "Freedom of conscience and religion, thought, expression, peaceful assembly, and association",
+      "The right to vote, run for office, and receive government services",
+      "The right to enter, remain in, and leave Canada"
+    ],
+    "correctIndex": 1,
+    "category": "rights",
+    "explanation": "Section 2 of the Charter guarantees fundamental freedoms including freedom of conscience and religion, freedom of thought, belief, opinion, and expression (including the press), freedom of peaceful assembly, and freedom of association. These rights protect Canadians from government interference in their beliefs and activities."
+  },
+  {
+    "id": 32,
+    "question": "What is the right to equality under the Canadian Charter?",
+    "options": [
+      "Every province must have equal representation in the Senate",
+      "Every individual is equal before and under the law without discrimination",
+      "All languages spoken in Canada must receive equal government funding",
+      "Men and women must receive equal salaries in the public service"
+    ],
+    "correctIndex": 1,
+    "category": "rights",
+    "explanation": "Section 15 of the Charter guarantees that every individual is equal before and under the law, and has the right to equal protection and equal benefit of the law without discrimination. This applies regardless of race, national or ethnic origin, colour, religion, sex, age, or mental or physical disability."
+  },
+  {
+    "id": 33,
+    "question": "What does the Canadian Human Rights Act prohibit?",
+    "options": [
+      "All forms of criticism of government policies",
+      "Discrimination in federal jurisdiction based on protected grounds like race, sex, religion, and disability",
+      "Any discussion of racial or religious differences in the media",
+      "Private businesses from choosing their own hiring criteria"
+    ],
+    "correctIndex": 1,
+    "category": "rights",
+    "explanation": "The Canadian Human Rights Act prohibits discrimination in employment and the provision of services in areas under federal jurisdiction, based on grounds such as race, national origin, religion, age, sex, sexual orientation, and disability. Provincial human rights codes provide similar protections at the provincial level."
+  },
+  {
+    "id": 34,
+    "question": "What is the right to a fair trial in Canada?",
+    "options": [
+      "The right to choose your own judge",
+      "The right to be tried only by a jury of 12 people",
+      "The right to be presumed innocent, to have a fair hearing, and to know the charges against you",
+      "The right to have all charges dropped after 30 days"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "Under the Charter, everyone charged with an offence has the right to be presumed innocent until proven guilty, to be tried within a reasonable time, and to be informed promptly of the specific offence they are charged with. These rights protect individuals from arbitrary state power."
+  },
+  {
+    "id": 35,
+    "question": "What is Aboriginal title in Canada?",
+    "options": [
+      "A government-issued document confirming Indigenous identity",
+      "The right of Indigenous peoples to lands they have occupied since before European arrival",
+      "The title given to elected Indigenous leaders",
+      "A land registration system for reserve lands"
+    ],
+    "correctIndex": 1,
+    "category": "rights",
+    "explanation": "Aboriginal title is a common-law right that recognises Indigenous peoples' connection to and governance of lands they occupied prior to European settlement. It has been affirmed by the Supreme Court of Canada and is distinct from other land rights recognized under treaties."
+  },
+  {
+    "id": 36,
+    "question": "What are language rights in Canada?",
+    "options": [
+      "The right to teach any language in public schools",
+      "The right to have all television broadcasts in your first language",
+      "The right to receive federal government services and education in English or French where numbers warrant",
+      "The right to use any language in court proceedings without a translator"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "Language rights in Canada guarantee that citizens can communicate with and receive services from federal institutions in either English or French. The Constitution also protects minority-language education rights, allowing French-speaking minorities outside Quebec and English-speaking minorities in Quebec to have their children educated in their language."
+  },
+  {
+    "id": 37,
+    "question": "What is the right to vote in Canada?",
+    "options": [
+      "A privilege granted to residents after five years of living in Canada",
+      "All Canadian citizens and permanent residents 18 and older may vote",
+      "All Canadian citizens 18 and older have the right to vote in federal, provincial, and municipal elections",
+      "Only taxpaying Canadian citizens can vote"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "Under Section 3 of the Charter, every Canadian citizen has the right to vote in federal and provincial elections. The right to vote in municipal elections is established by provincial law and is generally available to citizens and sometimes permanent residents."
+  },
+  {
+    "id": 38,
+    "question": "What is mobility rights in Canada?",
+    "options": [
+      "The right of all Canadians to use public transportation",
+      "The right to move freely within a city or municipality",
+      "The right of Canadian citizens and permanent residents to enter, remain in, and leave Canada",
+      "The right to work in any country with a Canadian passport"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "Section 6 of the Charter guarantees the mobility rights of Canadian citizens to enter, remain in, and leave Canada, as well as to move to and gain a livelihood in any province. These rights ensure Canadians are not trapped within or excluded from their own country."
+  },
+  {
+    "id": 39,
+    "question": "What does the Canadian Multiculturalism Act affirm?",
+    "options": [
+      "That all immigrants must adopt Canadian customs within three years",
+      "That only English and French cultural traditions are officially recognised",
+      "Canada's commitment to preserving and enhancing the multicultural heritage of Canadians",
+      "That multiculturalism is a provincial rather than federal responsibility"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "The Canadian Multiculturalism Act (1988) affirms that multiculturalism is a fundamental characteristic of Canadian society and commits the federal government to promoting the full participation of all Canadians while preserving and enhancing their diverse cultural heritage."
+  },
+  {
+    "id": 40,
+    "question": "What responsibility comes with rights in Canada?",
+    "options": [
+      "Citizens must pass a test to keep their rights each decade",
+      "Rights can only be exercised after a five-year residency period",
+      "Obeying Canadian laws, paying taxes, and respecting the rights of others",
+      "Citizens must perform community service to maintain their rights"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "While the Charter guarantees rights and freedoms, Canadian citizenship also comes with responsibilities such as obeying the law, paying taxes, voting in elections, and respecting the rights of others. Rights and responsibilities are two sides of the same coin in a democratic society."
+  },
+  {
+    "id": 41,
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "Ottawa, located in the province of Ontario on the border with Quebec, is the capital of Canada. It is home to Parliament Hill, the Prime Minister's official residence (Rideau Cottage), and numerous national museums and galleries."
+  },
+  {
+    "id": 42,
+    "question": "What is Canada's national symbol?",
+    "options": ["The beaver", "The goose", "The maple leaf", "The loon"],
+    "correctIndex": 2,
+    "category": "symbols",
+    "explanation": "The maple leaf is Canada's most iconic national symbol and appears on the Canadian flag. While the beaver is also an official national symbol (the national animal), the maple leaf is the pre-eminent emblem of Canadian identity."
+  },
+  {
+    "id": 43,
+    "question": "What are Canada's national colours?",
+    "options": ["Blue and white", "Red, white, and blue", "Red and white", "Green and gold"],
+    "correctIndex": 2,
+    "category": "symbols",
+    "explanation": "Canada's national colours are red and white, as seen on the Canadian flag (the Maple Leaf), adopted in 1965. These colours were proclaimed as Canada's official national colours by King George V in 1921."
+  },
+  {
+    "id": 44,
+    "question": "What is the largest province in Canada by area?",
+    "options": ["Ontario", "British Columbia", "Northwest Territories", "Quebec"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "Quebec is the largest province in Canada by area, covering approximately 1.5 million square kilometres. It is more than twice the size of Texas and is home to the majority of Canada's French-speaking population."
+  },
+  {
+    "id": 45,
+    "question": "What is Canada's national anthem?",
+    "options": ["God Save the King", "The Maple Leaf Forever", "O Canada", "True North Strong"],
+    "correctIndex": 2,
+    "category": "symbols",
+    "explanation": "O Canada is Canada's national anthem, adopted officially in 1980. Originally composed in 1880 by Calixa Lavallée with French lyrics by Adolphe-Basile Routhier, the English version became widely used after a translation by Robert Stanley Weir."
+  },
+  {
+    "id": 46,
+    "question": "What ocean borders Canada on the west?",
+    "options": ["Arctic Ocean", "Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "The Pacific Ocean borders Canada's west coast, along the province of British Columbia. Canada's Pacific coastline stretches for thousands of kilometres and includes major cities such as Vancouver and Victoria."
+  },
+  {
+    "id": 47,
+    "question": "What is the longest river in Canada?",
+    "options": ["St. Lawrence River", "Fraser River", "Yukon River", "Mackenzie River"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "The Mackenzie River, at approximately 4,241 kilometres, is the longest river in Canada and the second longest in North America. It flows through the Northwest Territories into the Beaufort Sea in the Arctic Ocean."
+  },
+  {
+    "id": 48,
+    "question": "What are the two official languages of Canada?",
+    "options": ["English and Indigenous languages", "English and French", "French and Spanish", "English and Inuktitut"],
+    "correctIndex": 1,
+    "category": "symbols",
+    "explanation": "English and French are Canada's two official languages at the federal level, as enshrined in the Official Languages Act and the Canadian Constitution. This bilingualism reflects Canada's dual heritage as a country shaped by both British and French colonisation."
+  },
+  {
+    "id": 49,
+    "question": "Which province is most associated with French language and culture in Canada?",
+    "options": ["Ontario", "New Brunswick", "Manitoba", "Quebec"],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "Quebec is the province most associated with French language and culture in Canada, with approximately 80% of its population speaking French as their first language. Quebec's distinct culture and language have been central to debates about Canadian identity and national unity."
+  },
+  {
+    "id": 50,
+    "question": "What is Canada Day?",
+    "options": [
+      "June 24, celebrating the founding of New France",
+      "September 1, marking the end of World War II",
+      "November 11, honouring veterans of all wars",
+      "July 1, celebrating Confederation in 1867"
+    ],
+    "correctIndex": 3,
+    "category": "symbols",
+    "explanation": "Canada Day, celebrated on July 1 each year, marks the anniversary of Confederation — the day the British North America Act came into force in 1867, creating the Dominion of Canada. It is a national public holiday celebrated with fireworks, parades, and community events across the country."
+  }
+]

@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "question": "What is the supreme law of the land?",
+    "options": [
+      "The Declaration of Independence",
+      "The Constitution",
+      "The Bill of Rights",
+      "The Federalist Papers"
+    ],
+    "correctIndex": 1,
+    "category": "principles",
+    "explanation": "The Constitution is the supreme law of the United States. It establishes the framework of the federal government and defines the rights and freedoms of Americans. All other laws must be consistent with the Constitution."
+  },
+  {
+    "id": 2,
+    "question": "What does the Constitution do?",
+    "options": [
+      "Declares independence from Great Britain",
+      "Sets up the government, defines the government, and protects basic rights of Americans",
+      "Establishes the national religion of the United States",
+      "Lists the grievances against the British Crown"
+    ],
+    "correctIndex": 1,
+    "category": "principles",
+    "explanation": "The Constitution sets up the structure of the U.S. government, defines how each branch operates, and protects the basic rights of Americans. It is the foundational legal document of the nation. Without the Constitution, the federal government would have no defined powers or limits."
+  },
+  {
+    "id": 3,
+    "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "options": [
+      "All men are",
+      "We the People",
+      "Congress shall make",
+      "In order to"
+    ],
+    "correctIndex": 1,
+    "category": "principles",
+    "explanation": "\"We the People\" are the first three words of the Constitution's Preamble. These words establish that the government's authority comes from the people themselves, not from a king or ruling class. This is the foundational concept of American self-government."
+  },
+  {
+    "id": 4,
+    "question": "What is an amendment?",
+    "options": [
+      "A presidential executive order",
+      "A Supreme Court ruling",
+      "A change or addition to the Constitution",
+      "A bill passed by Congress"
+    ],
+    "correctIndex": 2,
+    "category": "principles",
+    "explanation": "An amendment is a change to or addition to the Constitution. Amendments allow the Constitution to be updated over time to reflect the evolving values and needs of the nation. There is a deliberate process required to pass an amendment, making it difficult to alter the Constitution casually."
+  },
+  {
+    "id": 5,
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "options": [
+      "The Articles of Confederation",
+      "The Federalist Papers",
+      "The Declaration of Rights",
+      "The Bill of Rights"
+    ],
+    "correctIndex": 3,
+    "category": "principles",
+    "explanation": "The first ten amendments to the Constitution are called the Bill of Rights. They were ratified in 1791 and guarantee specific individual freedoms and rights to all Americans. These include freedoms such as speech, religion, assembly, and protection from unreasonable searches."
+  },
+  {
+    "id": 6,
+    "question": "What is one right or freedom from the First Amendment?",
+    "options": [
+      "The right to bear arms",
+      "The right to a fair trial",
+      "Freedom of speech",
+      "The right to vote"
+    ],
+    "correctIndex": 2,
+    "category": "principles",
+    "explanation": "The First Amendment protects several fundamental freedoms including speech, religion, press, assembly, and petition. Freedom of speech allows Americans to express their opinions without government censorship or punishment. This freedom is considered one of the cornerstones of American democracy."
+  },
+  {
+    "id": 7,
+    "question": "How many amendments does the Constitution have?",
+    "options": [
+      "Ten (10)",
+      "Fifteen (15)",
+      "Twenty-one (21)",
+      "Twenty-seven (27)"
+    ],
+    "correctIndex": 3,
+    "category": "principles",
+    "explanation": "The Constitution currently has twenty-seven amendments. The first ten, known as the Bill of Rights, were ratified in 1791. The most recent amendment, the 27th, was ratified in 1992 and deals with congressional pay raises."
+  },
+  {
+    "id": 8,
+    "question": "What did the Declaration of Independence do?",
+    "options": [
+      "Created the three branches of government",
+      "Announced our independence from Great Britain",
+      "Abolished slavery throughout the colonies",
+      "Established the Bill of Rights"
+    ],
+    "correctIndex": 1,
+    "category": "principles",
+    "explanation": "The Declaration of Independence, adopted on July 4, 1776, formally announced that the thirteen American colonies were separating from Great Britain. It explained the reasons for independence and articulated the principle that all men are created equal with unalienable rights. It did not create a new government but declared the colonies' right to exist as a free nation."
+  },
+  {
+    "id": 9,
+    "question": "What are two rights in the Declaration of Independence?",
+    "options": [
+      "Life and liberty",
+      "Equality and justice",
+      "Freedom and democracy",
+      "Peace and prosperity"
+    ],
+    "correctIndex": 0,
+    "category": "principles",
+    "explanation": "The Declaration of Independence states that all people are endowed with certain unalienable rights, including life, liberty, and the pursuit of happiness. Life and liberty are two of the three explicitly named rights. These rights were considered so fundamental that they could not be taken away by any government."
+  },
+  {
+    "id": 10,
+    "question": "What is freedom of religion?",
+    "options": [
+      "The government selects an approved list of religions",
+      "You can practice any religion, or not practice a religion",
+      "You must declare a religion when you become a citizen",
+      "Only certain religions are protected by law"
+    ],
+    "correctIndex": 1,
+    "category": "principles",
+    "explanation": "Freedom of religion means that every person in the United States has the right to practice any religion they choose, or to practice no religion at all. The First Amendment prohibits the government from establishing an official religion and from interfering with individuals' religious practices. This was one of the key reasons many early colonists came to America."
+  },
+  {
+    "id": 11,
+    "question": "What is the economic system in the United States?",
+    "options": [
+      "Socialist economy",
+      "Command economy",
+      "Capitalist economy / market economy",
+      "Mixed planned economy"
+    ],
+    "correctIndex": 2,
+    "category": "principles",
+    "explanation": "The United States has a capitalist economy, also called a market economy or free market economy. In this system, private individuals and businesses own the means of production, and prices are determined by supply and demand. The government plays a regulatory role but does not own most industries."
+  },
+  {
+    "id": 12,
+    "question": "What is the \"rule of law\"?",
+    "options": [
+      "Only lawmakers are subject to the law",
+      "The President decides what is legal",
+      "Everyone must follow the law and no one is above the law",
+      "The Supreme Court makes all final legal decisions for citizens"
+    ],
+    "correctIndex": 2,
+    "category": "principles",
+    "explanation": "The rule of law means that everyone — including government officials and the President — must follow the law. No person or institution is above the law. This principle ensures that the government cannot act arbitrarily and that all citizens are treated equally under the legal system."
+  },
+  {
+    "id": 13,
+    "question": "Name one branch or part of the government.",
+    "options": [
+      "The Department of State",
+      "Congress / legislative branch",
+      "The Federal Reserve",
+      "The Electoral College"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "The U.S. government is divided into three branches: the legislative (Congress), the executive (President), and the judicial (courts). Congress, the legislative branch, is made up of the Senate and the House of Representatives. Each branch has distinct powers to prevent any one branch from becoming too powerful."
+  },
+  {
+    "id": 14,
+    "question": "What stops one branch of government from becoming too powerful?",
+    "options": [
+      "The Electoral College",
+      "Regular national elections",
+      "Checks and balances / separation of powers",
+      "The free press and media"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Constitution established a system of checks and balances and separation of powers to prevent any one branch from gaining too much control. Each branch has specific powers that allow it to limit the other branches. For example, the President can veto laws, Congress can override vetoes, and the courts can strike down unconstitutional laws."
+  },
+  {
+    "id": 15,
+    "question": "Who is in charge of the executive branch?",
+    "options": [
+      "The Chief Justice",
+      "The Speaker of the House",
+      "The Senate Majority Leader",
+      "The President"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The President of the United States is the head of the executive branch. The executive branch is responsible for enforcing and implementing laws. The President is also the Commander in Chief of the armed forces and has the power to sign bills into law or veto them."
+  },
+  {
+    "id": 16,
+    "question": "Who makes federal laws?",
+    "options": [
+      "The President",
+      "The Supreme Court",
+      "Congress",
+      "The Cabinet"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "Congress is the legislative branch of the federal government and has the power to make federal laws. Congress is made up of the Senate and the House of Representatives. Once Congress passes a bill, it is sent to the President, who can sign it into law or veto it."
+  },
+  {
+    "id": 17,
+    "question": "What are the two parts of the U.S. Congress?",
+    "options": [
+      "The Supreme Court and the Cabinet",
+      "The Democratic Party and the Republican Party",
+      "The House of Representatives and the Senate",
+      "The Federal Assembly and the National Council"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The U.S. Congress is a bicameral legislature made up of the Senate and the House of Representatives. The Senate has 100 members (two per state), while the House has 435 voting members apportioned by state population. Both chambers must pass a bill for it to be sent to the President."
+  },
+  {
+    "id": 18,
+    "question": "How many U.S. Senators are there?",
+    "options": [
+      "Fifty (50)",
+      "One hundred (100)",
+      "Four hundred thirty-five (435)",
+      "Two hundred (200)"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "There are 100 U.S. Senators — two from each of the 50 states. Every state, regardless of population, is represented equally in the Senate. Senators serve six-year terms, with elections staggered so that roughly one-third of the Senate is up for election every two years."
+  },
+  {
+    "id": 19,
+    "question": "We elect a U.S. Senator for how many years?",
+    "options": [
+      "Two (2)",
+      "Four (4)",
+      "Six (6)",
+      "Eight (8)"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "U.S. Senators are elected to six-year terms. This longer term was designed to give Senators more independence and stability compared to the two-year terms of House members. Senate terms are staggered so that the entire Senate is never up for election at the same time."
+  },
+  {
+    "id": 20,
+    "question": "The House of Representatives has how many voting members?",
+    "options": [
+      "One hundred (100)",
+      "Two hundred sixty-five (265)",
+      "Three hundred (300)",
+      "Four hundred thirty-five (435)"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The House of Representatives has 435 voting members. The number of representatives from each state is based on that state's population as determined by the census conducted every ten years. States with larger populations have more representatives than states with smaller populations."
+  },
+  {
+    "id": 21,
+    "question": "We elect a U.S. Representative for how many years?",
+    "options": [
+      "Two (2)",
+      "Four (4)",
+      "Six (6)",
+      "Eight (8)"
+    ],
+    "correctIndex": 0,
+    "category": "government",
+    "explanation": "Members of the House of Representatives are elected to two-year terms. This means the entire House is up for election every two years. The shorter term was intended to keep Representatives closely connected to the people they represent and responsive to public opinion."
+  },
+  {
+    "id": 22,
+    "question": "Who does a U.S. Senator represent?",
+    "options": [
+      "Only the people who voted for them",
+      "The entire country",
+      "A specific congressional district within the state",
+      "All people of the state"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "Each U.S. Senator represents all the people of their state, regardless of which party they support or whether they voted for the Senator. Unlike House members who represent specific congressional districts, Senators represent their entire state. This is why there are only two Senators per state."
+  },
+  {
+    "id": 23,
+    "question": "Why do some states have more Representatives than other states?",
+    "options": [
+      "Because of the state's geographic size",
+      "Because of the state's wealth",
+      "Because of the state's population",
+      "Because of the state's number of counties"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The number of Representatives a state has in the House is based on its population. States with more people have more Representatives in the House. The census, taken every ten years, determines each state's population and therefore its number of House seats."
+  },
+  {
+    "id": 24,
+    "question": "We elect a President for how many years?",
+    "options": [
+      "Two (2)",
+      "Three (3)",
+      "Four (4)",
+      "Six (6)"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The President is elected to a four-year term. Under the 22nd Amendment, ratified in 1951, a President may serve a maximum of two terms. Presidential elections are held every four years in November, in even-numbered years divisible by four."
+  },
+  {
+    "id": 25,
+    "question": "In what month do we vote for President?",
+    "options": [
+      "October",
+      "November",
+      "December",
+      "January"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "Presidential elections are held in November, specifically on the first Tuesday after the first Monday in November. This date was set by Congress in 1845. The electoral votes are officially counted and the new President is inaugurated the following January."
+  },
+  {
+    "id": 26,
+    "question": "If the President can no longer serve, who becomes President?",
+    "options": [
+      "The Secretary of State",
+      "The Speaker of the House",
+      "The Vice President",
+      "The Senate Majority Leader"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "If the President is unable to serve — due to death, resignation, removal, or incapacity — the Vice President becomes President. This line of succession is established in the Constitution and further detailed by the Presidential Succession Act. The Vice President is always ready to assume the presidency."
+  },
+  {
+    "id": 27,
+    "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+    "options": [
+      "The Senate Majority Leader",
+      "The Secretary of State",
+      "The Chief Justice of the Supreme Court",
+      "The Speaker of the House"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "If both the President and Vice President are unable to serve, the Speaker of the House becomes President. This is established in the Presidential Succession Act. The line of succession continues through other Cabinet members if the Speaker is also unavailable."
+  },
+  {
+    "id": 28,
+    "question": "Who is the Commander in Chief of the military?",
+    "options": [
+      "The Secretary of Defense",
+      "The Chairman of the Joint Chiefs of Staff",
+      "The President",
+      "The Senate Armed Services Committee Chair"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The President of the United States is the Commander in Chief of the U.S. armed forces. This role is established in Article II of the Constitution. While military generals and admirals manage day-to-day military operations, ultimate authority over the military rests with the civilian President."
+  },
+  {
+    "id": 29,
+    "question": "Who signs bills to become laws?",
+    "options": [
+      "The Chief Justice",
+      "The President",
+      "The Speaker of the House",
+      "The Senate Majority Leader"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "Once Congress passes a bill, it is sent to the President, who must sign it for it to become law. The President has ten days (excluding Sundays) to sign or veto a bill. If the President does not act within that time and Congress is still in session, the bill automatically becomes law."
+  },
+  {
+    "id": 30,
+    "question": "Who vetoes bills?",
+    "options": [
+      "The Supreme Court",
+      "The Senate",
+      "The President",
+      "The Speaker of the House"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The President has the power to veto (reject) bills passed by Congress. A presidential veto prevents a bill from becoming law unless Congress overrides the veto with a two-thirds majority vote in both chambers. The veto is one of the President's most important checks on legislative power."
+  },
+  {
+    "id": 31,
+    "question": "What does the President's Cabinet do?",
+    "options": [
+      "Passes the federal budget",
+      "Confirms presidential appointments",
+      "Advises the President",
+      "Oversees federal elections"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The President's Cabinet is made up of the heads of the major executive departments, such as the Secretaries of State, Defense, and Treasury. The Cabinet's primary role is to advise the President on issues related to their respective departments. Cabinet members are appointed by the President and must be confirmed by the Senate."
+  },
+  {
+    "id": 32,
+    "question": "What does the judicial branch do?",
+    "options": [
+      "Writes new laws for the nation",
+      "Reviews laws and decides if laws are constitutional",
+      "Enforces laws through the police",
+      "Declares war on foreign nations"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "The judicial branch, headed by the Supreme Court, interprets the law and reviews whether laws are consistent with the Constitution. This power of judicial review allows courts to strike down laws that violate constitutional principles. Federal judges are appointed for life to insulate them from political pressure."
+  },
+  {
+    "id": 33,
+    "question": "What is the highest court in the United States?",
+    "options": [
+      "The U.S. Court of Appeals",
+      "The Federal District Court",
+      "The Supreme Court",
+      "The Court of International Trade"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Supreme Court is the highest court in the United States. Its decisions are final and binding on all lower courts. The Supreme Court hears cases involving constitutional questions, federal law, and disputes between states, and its rulings shape the interpretation of American law."
+  },
+  {
+    "id": 34,
+    "question": "How many justices are on the Supreme Court?",
+    "options": [
+      "Seven (7)",
+      "Eight (8)",
+      "Nine (9)",
+      "Twelve (12)"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Supreme Court currently has nine justices, including one Chief Justice and eight Associate Justices. The number of justices is set by Congress, not the Constitution. Supreme Court justices are appointed by the President and confirmed by the Senate, and they serve for life."
+  },
+  {
+    "id": 35,
+    "question": "Under the Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "options": [
+      "To issue driver's licenses",
+      "To establish local police departments",
+      "To print money",
+      "To set school curriculum"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The federal government has exclusive powers such as printing money, declaring war, and regulating interstate commerce. These powers are granted to the federal government by the Constitution and cannot be exercised by individual states. Printing and coining money is exclusively a federal power to maintain a uniform national currency."
+  },
+  {
+    "id": 36,
+    "question": "Under the Constitution, some powers belong to the states. What is one power of the states?",
+    "options": [
+      "To declare war",
+      "To print currency",
+      "To make treaties with foreign countries",
+      "To provide schooling and education"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "States have powers that are not granted to the federal government by the Constitution, such as providing education, issuing driver's licenses, and regulating local businesses. Education policy is primarily a state responsibility, which is why school systems vary from state to state. The 10th Amendment reserves these powers to the states."
+  },
+  {
+    "id": 37,
+    "question": "What are the two major political parties in the United States?",
+    "options": [
+      "Liberal and Conservative",
+      "Federalist and Anti-Federalist",
+      "Democratic and Republican",
+      "Progressive and Libertarian"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The two major political parties in the United States are the Democratic Party and the Republican Party. These two parties have dominated American politics since the mid-19th century, though third parties also exist. Democrats and Republicans differ on many policy issues including taxation, healthcare, and the role of government."
+  },
+  {
+    "id": 38,
+    "question": "How does the Speaker of the House of Representatives come to hold that office?",
+    "options": [
+      "Appointed by the President",
+      "Elected by House members from the majority party",
+      "Chosen by the Senate Majority Leader",
+      "Elected directly by the American public"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "The Speaker of the House is elected by the members of the House of Representatives, typically from the majority party. The Speaker is the presiding officer of the House and is second in the presidential line of succession after the Vice President. The Speaker plays a crucial role in setting the legislative agenda of the House."
+  },
+  {
+    "id": 39,
+    "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "options": [
+      "Only property owners may vote",
+      "Citizens eighteen (18) and older can vote",
+      "Only natural-born citizens may vote in federal elections",
+      "Residents must live in the U.S. for ten years before voting"
+    ],
+    "correctIndex": 1,
+    "category": "government",
+    "explanation": "The 26th Amendment, ratified in 1971, lowered the voting age to 18 for all elections. Other voting amendments include the 15th (prohibiting denial of the vote based on race), the 19th (granting women the right to vote), and the 24th (eliminating poll taxes). Together, these amendments have progressively expanded voting rights."
+  },
+  {
+    "id": 40,
+    "question": "What is one responsibility that is only for United States citizens?",
+    "options": [
+      "Paying federal income taxes",
+      "Obeying all federal, state, and local laws",
+      "Serve on a jury",
+      "Respecting the rights of others"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "Serving on a jury is a civic responsibility reserved for United States citizens. Jury duty is a fundamental part of the American judicial system, ensuring that defendants are judged by a jury of their peers. Non-citizens living in the U.S. are not eligible for federal jury duty."
+  },
+  {
+    "id": 41,
+    "question": "Name one right only for United States citizens.",
+    "options": [
+      "Freedom of speech",
+      "The right to a fair trial",
+      "Vote in a federal election",
+      "Freedom of religion"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "The right to vote in federal elections is reserved exclusively for United States citizens. While non-citizens enjoy many constitutional rights such as freedom of speech and due process, they cannot vote in federal or state elections. Voting is one of the most important ways citizens participate in their democracy."
+  },
+  {
+    "id": 42,
+    "question": "What are two rights of everyone living in the United States?",
+    "options": [
+      "Freedom of speech and freedom of religion",
+      "The right to vote and the right to hold public office",
+      "The right to a passport and freedom of travel",
+      "The right to welfare benefits and free education"
+    ],
+    "correctIndex": 0,
+    "category": "rights",
+    "explanation": "Freedom of speech and freedom of religion are rights that apply to everyone in the United States, not just citizens. The First Amendment protects these freedoms for all people within the country's borders. Many constitutional protections extend to all persons in the United States, regardless of citizenship status."
+  },
+  {
+    "id": 43,
+    "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+    "options": [
+      "The President and the Congress",
+      "The Constitution and the Bill of Rights",
+      "The United States and the flag",
+      "The Declaration of Independence and the founders"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "When reciting the Pledge of Allegiance, Americans declare their loyalty to the flag of the United States and to the republic for which it stands. The Pledge was written in 1892 and has been modified several times since then. It is a symbolic commitment to the ideals and values of the United States."
+  },
+  {
+    "id": 44,
+    "question": "How old do citizens have to be to vote for President?",
+    "options": [
+      "Sixteen (16) and older",
+      "Seventeen (17) and older",
+      "Twenty-one (21) and older",
+      "Eighteen (18) and older"
+    ],
+    "correctIndex": 3,
+    "category": "rights",
+    "explanation": "Citizens must be at least 18 years old to vote for President, as established by the 26th Amendment ratified in 1971. Before this amendment, the voting age was 21 in most states. The amendment was partly motivated by the argument that if 18-year-olds could be drafted to fight in wars, they should also have the right to vote."
+  },
+  {
+    "id": 45,
+    "question": "When is the last day you can send in federal income tax forms?",
+    "options": [
+      "March 15",
+      "April 15",
+      "May 1",
+      "June 30"
+    ],
+    "correctIndex": 1,
+    "category": "rights",
+    "explanation": "The federal income tax filing deadline is April 15 of each year. On this date, Americans must file their federal tax returns for income earned in the previous year. Taxpayers who need more time can file for an extension, though any taxes owed are still due by April 15."
+  },
+  {
+    "id": 46,
+    "question": "When must all men register for the Selective Service?",
+    "options": [
+      "At age sixteen (16)",
+      "At age seventeen (17)",
+      "At age eighteen (18)",
+      "At age twenty-one (21)"
+    ],
+    "correctIndex": 2,
+    "category": "rights",
+    "explanation": "All male U.S. citizens and male immigrants living in the United States must register with the Selective Service System within 30 days of turning 18. Registration is required by law and maintains a list of men who could be called to serve in the military if a national emergency required a draft. Women are not currently required to register."
+  },
+  {
+    "id": 47,
+    "question": "What is one reason colonists came to America?",
+    "options": [
+      "To find the Northwest Passage to Asia",
+      "Religious freedom",
+      "To establish a monarchy in the New World",
+      "To mine gold for European monarchs"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "Many colonists came to America to escape religious persecution and to practice their faith freely. Groups such as the Pilgrims and Puritans fled England to establish communities where they could worship as they chose. Religious freedom remains one of the foundational values of the United States."
+  },
+  {
+    "id": 48,
+    "question": "Who lived in America before the Europeans arrived?",
+    "options": [
+      "Vikings and Norse settlers",
+      "African explorers",
+      "American Indians / Native Americans",
+      "Asian migrants from the Pacific Islands"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "American Indians, also known as Native Americans, lived throughout North and South America for thousands of years before European explorers arrived. There were hundreds of distinct tribes and nations, each with their own cultures, languages, and traditions. European colonization had a devastating impact on these indigenous populations."
+  },
+  {
+    "id": 49,
+    "question": "What group of people was taken to America and sold as slaves?",
+    "options": [
+      "Irish indentured servants",
+      "Chinese laborers",
+      "Native Americans from South America",
+      "Africans / people from Africa"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "Millions of Africans were forcibly taken from their homelands, transported across the Atlantic in horrific conditions, and sold into slavery in the Americas. The transatlantic slave trade lasted for centuries and profoundly shaped American society, economy, and culture. The legacy of slavery continues to influence American life today."
+  },
+  {
+    "id": 50,
+    "question": "Why did the colonists fight the British?",
+    "options": [
+      "Because the British tried to take their land",
+      "Because of high taxes (taxation without representation)",
+      "Because the British enforced a mandatory state religion",
+      "Because the British banned colonial trade with France"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "A major cause of the American Revolution was the colonists' objection to being taxed by the British Parliament without having any elected representatives in that body — a grievance summed up as \"taxation without representation.\" The British imposed various taxes on the colonies to pay for war debts. The colonists believed this violated their rights as British subjects."
+  },
+  {
+    "id": 51,
+    "question": "Who wrote the Declaration of Independence?",
+    "options": [
+      "George Washington",
+      "Benjamin Franklin",
+      "John Adams",
+      "Thomas Jefferson"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "Thomas Jefferson was the principal author of the Declaration of Independence, drafted in 1776. A committee of five, including John Adams and Benjamin Franklin, was appointed to write it, but Jefferson did most of the writing. The document eloquently expressed Enlightenment ideals about natural rights and the consent of the governed."
+  },
+  {
+    "id": 52,
+    "question": "When was the Declaration of Independence adopted?",
+    "options": [
+      "July 4, 1774",
+      "July 4, 1776",
+      "September 17, 1787",
+      "December 15, 1791"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Declaration of Independence was adopted by the Continental Congress on July 4, 1776. This date is now celebrated as Independence Day, a national holiday. The Declaration formally announced the colonies' separation from Britain and articulated the philosophical basis for American independence."
+  },
+  {
+    "id": 53,
+    "question": "There were 13 original states. Which of the following lists three of them?",
+    "options": [
+      "Ohio, Kentucky, and Tennessee",
+      "Florida, Texas, and California",
+      "New Hampshire, Massachusetts, and Virginia",
+      "Michigan, Illinois, and Indiana"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The 13 original states were the former colonies that declared independence from Britain in 1776: New Hampshire, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, Maryland, Virginia, North Carolina, South Carolina, and Georgia. Ohio, Florida, Texas, and California were not among them as they joined the union later."
+  },
+  {
+    "id": 54,
+    "question": "What happened at the Constitutional Convention?",
+    "options": [
+      "The Declaration of Independence was signed",
+      "The Bill of Rights was ratified",
+      "The Constitution was written",
+      "The Articles of Confederation were adopted"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Constitutional Convention took place in Philadelphia in 1787, where delegates from the states gathered to draft a new plan of government. The result was the U.S. Constitution, which replaced the weaker Articles of Confederation. Key figures such as James Madison, George Washington, and Benjamin Franklin played important roles."
+  },
+  {
+    "id": 55,
+    "question": "When was the Constitution written?",
+    "options": [
+      "1776",
+      "1781",
+      "1787",
+      "1791"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Constitution was written in 1787 at the Constitutional Convention in Philadelphia. It was then sent to the states for ratification, and it became effective in 1789 when the required nine states had ratified it. The Bill of Rights, the first ten amendments, was added in 1791."
+  },
+  {
+    "id": 56,
+    "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "options": [
+      "Thomas Jefferson",
+      "John Adams",
+      "James Madison",
+      "Patrick Henry"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Federalist Papers were written by James Madison, Alexander Hamilton, and John Jay under the collective pseudonym \"Publius\" to argue for ratification of the Constitution. James Madison, often called the \"Father of the Constitution,\" wrote many of the most influential essays. The papers remain an important source for understanding the founders' intentions."
+  },
+  {
+    "id": 57,
+    "question": "What is one thing Benjamin Franklin is famous for?",
+    "options": [
+      "Writing the Constitution",
+      "Commanding the Continental Army",
+      "U.S. diplomat and writer of Poor Richard's Almanac",
+      "Delivering the Gettysburg Address"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Benjamin Franklin was a celebrated U.S. diplomat, inventor, author, and statesman. As a diplomat, he secured the crucial alliance with France during the American Revolution. He also wrote Poor Richard's Almanac, founded the first public library, and served as the first Postmaster General of the United States."
+  },
+  {
+    "id": 58,
+    "question": "Who is the \"Father of Our Country\"?",
+    "options": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Benjamin Franklin",
+      "George Washington"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "George Washington is known as the \"Father of Our Country\" for his central role in founding the United States. He commanded the Continental Army during the Revolutionary War and presided over the Constitutional Convention. He then served as the nation's first President, establishing many precedents for the office."
+  },
+  {
+    "id": 59,
+    "question": "Who was the first President?",
+    "options": [
+      "John Adams",
+      "Thomas Jefferson",
+      "Benjamin Franklin",
+      "George Washington"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "George Washington was unanimously elected as the first President of the United States and took office in 1789. He served two terms and voluntarily stepped down, setting an important precedent for the peaceful transfer of power. His leadership during the Revolutionary War and the founding era made him one of the most revered figures in American history."
+  },
+  {
+    "id": 60,
+    "question": "What territory did the United States buy from France in 1803?",
+    "options": [
+      "The Florida Territory",
+      "The Oregon Territory",
+      "The Louisiana Territory",
+      "The Alaska Territory"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Louisiana Purchase of 1803 doubled the size of the United States when President Thomas Jefferson bought a vast territory from France for approximately $15 million. The territory stretched from the Mississippi River to the Rocky Mountains. This acquisition opened the way for westward expansion."
+  },
+  {
+    "id": 61,
+    "question": "Name one war fought by the United States in the 1800s.",
+    "options": [
+      "World War I",
+      "The Korean War",
+      "The Civil War",
+      "The Vietnam War"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Civil War, fought from 1861 to 1865, was one of the most significant wars fought by the United States in the 1800s. Other 1800s wars include the War of 1812, the Mexican-American War, and the Spanish-American War. The Civil War resulted in the abolition of slavery and preserved the Union."
+  },
+  {
+    "id": 62,
+    "question": "Name the U.S. war between the North and the South.",
+    "options": [
+      "The Revolutionary War",
+      "The War of 1812",
+      "The Civil War",
+      "The Spanish-American War"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The Civil War (1861–1865) was fought between the Union (northern states) and the Confederacy (southern states that had seceded). It began over issues including slavery and states' rights. The Union's victory preserved the United States as one nation and led to the abolition of slavery through the 13th Amendment."
+  },
+  {
+    "id": 63,
+    "question": "Name one problem that led to the Civil War.",
+    "options": [
+      "Disagreements over immigration policy",
+      "Conflict over tariffs and trade with Britain",
+      "Slavery",
+      "Disputes over the Louisiana Purchase territory"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Slavery was the central issue that led to the Civil War. Southern states' economy depended heavily on enslaved labor, and they feared that the federal government would restrict or abolish the institution. When Abraham Lincoln was elected President in 1860 on a platform opposing the expansion of slavery, several Southern states seceded from the Union."
+  },
+  {
+    "id": 64,
+    "question": "What was one important thing that Abraham Lincoln did?",
+    "options": [
+      "Purchased the Louisiana Territory from France",
+      "Led the country through World War I",
+      "Freed the slaves (Emancipation Proclamation)",
+      "Wrote the Declaration of Independence"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, declaring enslaved people in Confederate states to be free. This was a landmark moment in American history that changed the nature of the Civil War and laid the groundwork for the 13th Amendment, which abolished slavery nationwide. Lincoln is also remembered for preserving the Union during the Civil War."
+  },
+  {
+    "id": 65,
+    "question": "What did the Emancipation Proclamation do?",
+    "options": [
+      "Abolished slavery throughout the entire United States immediately",
+      "Freed the slaves in Confederate states",
+      "Gave African Americans the right to vote",
+      "Ended the Civil War"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "The Emancipation Proclamation, issued by President Lincoln in 1863, declared that enslaved people in Confederate states in rebellion were to be considered free. It did not immediately free all enslaved people — it applied only to states in rebellion and not to border states still in the Union. The complete abolition of slavery required the 13th Amendment, ratified in 1865."
+  },
+  {
+    "id": 66,
+    "question": "What did Susan B. Anthony do?",
+    "options": [
+      "Wrote the first antislavery newspaper",
+      "Served as the first female senator",
+      "Led the Underground Railroad to freedom",
+      "Fought for women's rights"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "Susan B. Anthony was a pioneering activist who dedicated her life to fighting for women's rights, particularly the right to vote. She co-founded the National Woman Suffrage Association and was arrested for voting illegally in 1872. Although she did not live to see it, women gained the right to vote in 1920 with the 19th Amendment, sometimes called the Susan B. Anthony Amendment."
+  },
+  {
+    "id": 67,
+    "question": "Name one war fought by the United States in the 1900s.",
+    "options": [
+      "The Civil War",
+      "The Spanish-American War",
+      "World War II",
+      "The Revolutionary War"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "World War II (1939–1945) was one of several major wars fought by the United States in the 20th century. Other 20th-century U.S. wars include World War I, the Korean War, and the Vietnam War. The U.S. entered World War II after the Japanese attack on Pearl Harbor on December 7, 1941."
+  },
+  {
+    "id": 68,
+    "question": "Who was President during World War I?",
+    "options": [
+      "Theodore Roosevelt",
+      "William Howard Taft",
+      "Woodrow Wilson",
+      "Warren G. Harding"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Woodrow Wilson was President of the United States during World War I (1917–1918 for U.S. involvement). He initially kept the U.S. neutral but led the country into the war in April 1917 after German submarine attacks on American ships. Wilson later proposed his Fourteen Points as a framework for peace and helped create the League of Nations."
+  },
+  {
+    "id": 69,
+    "question": "Who was President during the Great Depression and World War II?",
+    "options": [
+      "Herbert Hoover",
+      "Harry Truman",
+      "Franklin Roosevelt",
+      "Dwight Eisenhower"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Franklin D. Roosevelt (FDR) was President through both the Great Depression and World War II. He was elected in 1932 and served an unprecedented four terms until his death in 1945. FDR launched the New Deal programs to combat the Depression and led the nation through most of World War II."
+  },
+  {
+    "id": 70,
+    "question": "Who did the United States fight in World War II?",
+    "options": [
+      "France, China, and Russia",
+      "Japan, Germany, and Italy",
+      "Spain, Portugal, and Austria",
+      "Korea, Vietnam, and China"
+    ],
+    "correctIndex": 1,
+    "category": "history",
+    "explanation": "In World War II, the United States fought against the Axis Powers, which were primarily Japan, Germany, and Italy. The U.S. entered the war in December 1941 after Japan attacked Pearl Harbor, Hawaii. The Allied forces, which included the U.S., Great Britain, and the Soviet Union, ultimately defeated the Axis Powers in 1945."
+  },
+  {
+    "id": 71,
+    "question": "Before he was President, Eisenhower was a general. What war was he in?",
+    "options": [
+      "World War I",
+      "The Korean War",
+      "The Vietnam War",
+      "World War II"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "Dwight D. Eisenhower was a five-star general in World War II and served as Supreme Commander of the Allied Expeditionary Forces in Europe. He planned and led the D-Day invasion of Normandy in June 1944. His military success made him a national hero and helped him win the presidency in 1952."
+  },
+  {
+    "id": 72,
+    "question": "During the Cold War, what was the main concern of the United States?",
+    "options": [
+      "Nuclear war with China",
+      "Economic competition with Japan",
+      "Terrorism in the Middle East",
+      "Communism"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "During the Cold War (roughly 1947–1991), the United States' primary concern was the spread of communism, particularly the influence of the Soviet Union. The U.S. and Soviet Union engaged in a decades-long ideological and geopolitical struggle without direct military conflict. This led to events such as the Korean War, the Vietnam War, and the nuclear arms race."
+  },
+  {
+    "id": 73,
+    "question": "What movement tried to end racial discrimination?",
+    "options": [
+      "The labor union movement",
+      "The women's suffrage movement",
+      "The civil rights movement",
+      "The progressive movement"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The civil rights movement of the 1950s and 1960s was a social and political struggle to end racial discrimination and segregation, particularly against African Americans. Key achievements included the Civil Rights Act of 1964 and the Voting Rights Act of 1965. Leaders such as Martin Luther King Jr. used nonviolent protest to demand equal rights."
+  },
+  {
+    "id": 74,
+    "question": "What did Martin Luther King, Jr. do?",
+    "options": [
+      "Founded the NAACP and filed lawsuits against segregation",
+      "Led the March on Selma and wrote the Emancipation Proclamation",
+      "Fought for civil rights and worked for equality for all Americans",
+      "Ran for President to challenge segregation laws"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Martin Luther King Jr. was the most prominent leader of the American civil rights movement. He advocated for racial equality through nonviolent protest and delivered his famous \"I Have a Dream\" speech at the March on Washington in 1963. His leadership was instrumental in passing landmark legislation like the Civil Rights Act of 1964."
+  },
+  {
+    "id": 75,
+    "question": "What major event happened on September 11, 2001 in the United States?",
+    "options": [
+      "A natural disaster destroyed major U.S. cities",
+      "The United States declared war on Afghanistan",
+      "Terrorists attacked the United States",
+      "A major economic crash caused a national emergency"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "On September 11, 2001, members of the al-Qaeda terrorist organization hijacked four commercial airplanes and crashed them into the World Trade Center in New York City, the Pentagon, and a field in Pennsylvania. Nearly 3,000 people were killed in the deadliest terrorist attack on U.S. soil. The attacks led to major changes in U.S. national security and foreign policy."
+  },
+  {
+    "id": 76,
+    "question": "Name one American Indian tribe in the United States.",
+    "options": [
+      "Aztec",
+      "Inca",
+      "Maori",
+      "Cherokee"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "The Cherokee are one of the largest and most well-known Native American tribes in the United States, originally inhabiting the southeastern United States. Other recognized tribes include the Navajo, Sioux, Chippewa, and Apache. The U.S. government officially recognizes hundreds of distinct American Indian tribes."
+  },
+  {
+    "id": 77,
+    "question": "Name one of the two longest rivers in the United States.",
+    "options": [
+      "Colorado River",
+      "Ohio River",
+      "Mississippi River",
+      "Columbia River"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "explanation": "The Mississippi River and the Missouri River are the two longest rivers in the United States. The Mississippi River stretches approximately 2,340 miles from its source in Minnesota to the Gulf of Mexico. It has played a crucial role in American exploration, trade, and development throughout history."
+  },
+  {
+    "id": 78,
+    "question": "What ocean is on the West Coast of the United States?",
+    "options": [
+      "Atlantic Ocean",
+      "Arctic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "The Pacific Ocean borders the West Coast of the United States, touching states such as California, Oregon, Washington, and also Alaska and Hawaii. The Pacific is the world's largest ocean. The U.S. West Coast has major ports including Los Angeles, San Francisco, and Seattle that are important for trade with Asia."
+  },
+  {
+    "id": 79,
+    "question": "What ocean is on the East Coast of the United States?",
+    "options": [
+      "Pacific Ocean",
+      "Arctic Ocean",
+      "Atlantic Ocean",
+      "Gulf of Mexico"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "explanation": "The Atlantic Ocean borders the East Coast of the United States, from Maine in the north to Florida in the south. The Atlantic was the ocean that early European explorers and settlers crossed to reach the Americas. Major East Coast cities with important ports include New York, Boston, and Miami."
+  },
+  {
+    "id": 80,
+    "question": "Name one U.S. territory.",
+    "options": [
+      "Cuba",
+      "The Bahamas",
+      "Puerto Rico",
+      "Jamaica"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "explanation": "Puerto Rico is one of several U.S. territories, meaning it is under U.S. jurisdiction but not a state. Other U.S. territories include Guam, the U.S. Virgin Islands, American Samoa, and the Northern Mariana Islands. People born in Puerto Rico are U.S. citizens, but Puerto Rico does not have voting representation in Congress."
+  },
+  {
+    "id": 81,
+    "question": "Name one state that borders Canada.",
+    "options": [
+      "Oregon",
+      "Colorado",
+      "Nebraska",
+      "Montana"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "Montana is one of thirteen U.S. states that share a border with Canada. Other states bordering Canada include Alaska, Washington, Idaho, North Dakota, Minnesota, Michigan, Ohio, Pennsylvania, New York, Vermont, New Hampshire, and Maine. The U.S.-Canada border is the world's longest international boundary between two countries."
+  },
+  {
+    "id": 82,
+    "question": "Name one state that borders Mexico.",
+    "options": [
+      "Nevada",
+      "Oklahoma",
+      "Florida",
+      "California"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "California is one of four U.S. states that share a border with Mexico. The others are Arizona, New Mexico, and Texas. The U.S.-Mexico border stretches nearly 2,000 miles from the Pacific Ocean to the Gulf of Mexico. These border states have significant cultural and economic ties with Mexico."
+  },
+  {
+    "id": 83,
+    "question": "What is the capital of the United States?",
+    "options": [
+      "New York City",
+      "Philadelphia",
+      "Washington, D.C.",
+      "Boston"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "explanation": "Washington, D.C. (District of Columbia) is the capital of the United States and the seat of the federal government. It is home to the White House, the Capitol Building, and the Supreme Court. Unlike states, D.C. is a federal district under the authority of Congress and is not part of any state."
+  },
+  {
+    "id": 84,
+    "question": "Where is the Statue of Liberty?",
+    "options": [
+      "Boston Harbor, Massachusetts",
+      "Chesapeake Bay, Maryland",
+      "San Francisco Bay, California",
+      "New York Harbor / Liberty Island"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "The Statue of Liberty stands on Liberty Island in New York Harbor, between New York City and New Jersey. It was a gift from France to the United States, dedicated in 1886. For millions of immigrants arriving by sea, it was a symbol of hope, freedom, and the promise of American democracy."
+  },
+  {
+    "id": 85,
+    "question": "Why does the flag have 13 stripes?",
+    "options": [
+      "Because the flag was designed by 13 founding fathers",
+      "Because there were 13 original colonies",
+      "Because the Revolutionary War lasted 13 years",
+      "Because the number 13 is considered lucky in American tradition"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "explanation": "The 13 stripes on the U.S. flag represent the 13 original colonies that declared independence from Britain in 1776. The alternating red and white stripes have been a consistent feature of the flag since its adoption. When new states joined the Union, new stars were added to the flag, but the number of stripes remained at 13."
+  },
+  {
+    "id": 86,
+    "question": "Why does the flag have 50 stars?",
+    "options": [
+      "Because there are 50 years since the nation's founding milestone",
+      "Because 50 generals led the Revolutionary War",
+      "Because there is one star for each state",
+      "Because the founders chose 50 as a symbol of unity"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "explanation": "The 50 stars on the U.S. flag represent the 50 states in the Union. A new star is added whenever a new state is admitted to the Union. The most recent star was added in 1960 when Hawaii became the 50th state. The current 50-star flag has been in use longer than any previous design."
+  },
+  {
+    "id": 87,
+    "question": "What is the name of the national anthem?",
+    "options": [
+      "America the Beautiful",
+      "My Country, 'Tis of Thee",
+      "The Star-Spangled Banner",
+      "God Bless America"
+    ],
+    "correctIndex": 2,
+    "category": "geography",
+    "explanation": "\"The Star-Spangled Banner\" is the national anthem of the United States. It was written by Francis Scott Key in 1814 after he witnessed the British bombardment of Fort McHenry during the War of 1812. Congress officially designated it as the national anthem in 1931."
+  },
+  {
+    "id": 88,
+    "question": "When do we celebrate Independence Day?",
+    "options": [
+      "June 14",
+      "July 4",
+      "September 17",
+      "November 11"
+    ],
+    "correctIndex": 1,
+    "category": "geography",
+    "explanation": "Independence Day is celebrated on July 4 each year to commemorate the adoption of the Declaration of Independence on July 4, 1776. It is a federal holiday marked by fireworks, parades, and other patriotic celebrations. The holiday represents the birth of the United States as an independent nation."
+  },
+  {
+    "id": 89,
+    "question": "Name two national U.S. holidays.",
+    "options": [
+      "Thanksgiving and Independence Day",
+      "Presidents' Day and Columbus Day",
+      "Halloween and St. Patrick's Day",
+      "Valentine's Day and Mother's Day"
+    ],
+    "correctIndex": 0,
+    "category": "geography",
+    "explanation": "Thanksgiving and Independence Day are two of the eleven federal holidays in the United States. Independence Day (July 4) commemorates the nation's founding, while Thanksgiving (the fourth Thursday of November) is a traditional harvest festival with roots going back to the Pilgrims. Other federal holidays include Christmas, New Year's Day, and Memorial Day."
+  },
+  {
+    "id": 90,
+    "question": "What is the Supreme Court's primary role?",
+    "options": [
+      "To write new laws for Congress to vote on",
+      "To advise the President on policy matters",
+      "To interpret the Constitution and federal law",
+      "To oversee federal elections and certify results"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The Supreme Court's primary role is to interpret the Constitution and federal law through its rulings on cases. This power of judicial review allows the Court to determine whether laws and government actions comply with the Constitution. The Supreme Court's decisions are final and binding on all lower courts in the country."
+  },
+  {
+    "id": 91,
+    "question": "How is an amendment added to the Constitution?",
+    "options": [
+      "The President signs an executive order",
+      "The Supreme Court approves a new legal interpretation",
+      "Proposed by Congress and ratified by three-fourths of the states",
+      "Passed by a majority vote in a national referendum"
+    ],
+    "correctIndex": 2,
+    "category": "principles",
+    "explanation": "Adding an amendment to the Constitution is a two-step process: Congress must propose the amendment (with a two-thirds majority in both chambers) and then three-fourths of the states (38 of 50) must ratify it. This high bar ensures that only widely supported changes are made to the Constitution. Alternatively, a constitutional convention called by two-thirds of state legislatures can propose amendments."
+  },
+  {
+    "id": 92,
+    "question": "What is the Bill of Rights?",
+    "options": [
+      "A declaration passed by the Continental Congress in 1775",
+      "The original Constitution before any amendments",
+      "The first ten amendments to the Constitution",
+      "A document listing the responsibilities of U.S. citizens"
+    ],
+    "correctIndex": 2,
+    "category": "principles",
+    "explanation": "The Bill of Rights refers to the first ten amendments to the U.S. Constitution, ratified in 1791. These amendments protect fundamental individual rights and freedoms such as freedom of speech, religion, and the press, as well as protections against unreasonable searches and the right to a fair trial. They were added to address concerns that the original Constitution did not adequately protect individual liberties."
+  },
+  {
+    "id": 93,
+    "question": "Who was President during the Civil War?",
+    "options": [
+      "Ulysses S. Grant",
+      "Andrew Johnson",
+      "James Buchanan",
+      "Abraham Lincoln"
+    ],
+    "correctIndex": 3,
+    "category": "history",
+    "explanation": "Abraham Lincoln was President of the United States during the Civil War, from 1861 until his assassination in April 1865, just days after the war ended. Lincoln's leadership preserved the Union and led to the abolition of slavery through the Emancipation Proclamation and eventually the 13th Amendment. He is consistently ranked as one of the greatest U.S. presidents."
+  },
+  {
+    "id": 94,
+    "question": "What did the civil rights movement accomplish?",
+    "options": [
+      "It ended poverty among African Americans",
+      "It established affirmative action as a constitutional requirement",
+      "Greater legal equality and protections for African Americans",
+      "It resulted in the election of the first Black Supreme Court Justice"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "The civil rights movement of the 1950s and 1960s achieved greater legal equality and protections for African Americans. Major accomplishments include the Civil Rights Act of 1964, which outlawed discrimination based on race, color, religion, sex, or national origin, and the Voting Rights Act of 1965, which protected voting rights. These laws dismantled the legal framework of segregation and racial discrimination."
+  },
+  {
+    "id": 95,
+    "question": "What is the minimum wage set by?",
+    "options": [
+      "The President through an executive order",
+      "The Supreme Court through constitutional interpretation",
+      "Individual businesses and employers",
+      "Federal law, though states may set higher minimums"
+    ],
+    "correctIndex": 3,
+    "category": "government",
+    "explanation": "The federal minimum wage is set by Congress through federal law, specifically the Fair Labor Standards Act. However, states and localities are free to set their own minimum wages as long as they are at or above the federal minimum. Many states have set higher minimum wages than the federal level in response to local economic conditions."
+  },
+  {
+    "id": 96,
+    "question": "What is the purpose of the census?",
+    "options": [
+      "To register all eligible voters before federal elections",
+      "To measure the national economy and tax revenues",
+      "To count the population and determine House representation",
+      "To track immigration and naturalization numbers"
+    ],
+    "correctIndex": 2,
+    "category": "government",
+    "explanation": "The census counts the total U.S. population and is used to determine how many seats each state gets in the House of Representatives, a process called apportionment. The Constitution requires a census every ten years. Census data also influences the distribution of federal funding to states and local governments."
+  },
+  {
+    "id": 97,
+    "question": "What year did women gain the right to vote in the United States?",
+    "options": [
+      "1865",
+      "1900",
+      "1920",
+      "1945"
+    ],
+    "correctIndex": 2,
+    "category": "history",
+    "explanation": "Women gained the right to vote in 1920 with the ratification of the 19th Amendment to the Constitution. This was the culmination of decades of activism by the women's suffrage movement, with figures like Susan B. Anthony and Elizabeth Cady Stanton leading the fight. The 19th Amendment states that the right to vote cannot be denied on account of sex."
+  },
+  {
+    "id": 98,
+    "question": "What is the 19th Amendment?",
+    "options": [
+      "Abolished slavery throughout the United States",
+      "Lowered the voting age to 18",
+      "Prohibited the denial of the right to vote based on race",
+      "Gave women the right to vote"
+    ],
+    "correctIndex": 3,
+    "category": "rights",
+    "explanation": "The 19th Amendment, ratified on August 18, 1920, gave women the right to vote. It states that the right of citizens to vote shall not be denied or abridged by the United States or any state on account of sex. This was a landmark achievement after more than 70 years of campaigning by the women's suffrage movement."
+  },
+  {
+    "id": 99,
+    "question": "What does \"We the People\" mean in the Constitution?",
+    "options": [
+      "That all people in the world are equal under U.S. law",
+      "That Congress represents the will of the majority",
+      "The government's power comes from the people",
+      "That the Constitution was written by ordinary citizens"
+    ],
+    "correctIndex": 2,
+    "category": "principles",
+    "explanation": "\"We the People\" in the Preamble to the Constitution signifies that the authority and legitimacy of the U.S. government derive from the people themselves. This concept of popular sovereignty means that the government exists to serve the people and can only govern with their consent. It is one of the most fundamental principles of American democracy."
+  },
+  {
+    "id": 100,
+    "question": "How many states are in the United States?",
+    "options": [
+      "Forty-eight (48)",
+      "Forty-nine (49)",
+      "Fifty-one (51)",
+      "Fifty (50)"
+    ],
+    "correctIndex": 3,
+    "category": "geography",
+    "explanation": "There are 50 states in the United States. The most recent states to join the Union were Alaska and Hawaii, both admitted in 1959. The 50 states are represented by the 50 stars on the American flag. Together with Washington, D.C. and several territories, they make up the United States of America."
+  }
+]
