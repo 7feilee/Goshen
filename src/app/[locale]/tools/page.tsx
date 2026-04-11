@@ -11,11 +11,12 @@ const PILLAR_META: Record<string, { icon: string; color: string }> = {
   business: { icon: '🏢', color: 'bg-green-50 border-green-100' },
 }
 
-export default function ToolsPage({
-  params: { locale },
+export default async function ToolsPage({
+  params,
 }: {
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }) {
+  const { locale } = await params
   const liveCount = TOOLS.filter((t) => t.status === 'live').length
   const betaCount = TOOLS.filter((t) => t.status === 'beta').length
 

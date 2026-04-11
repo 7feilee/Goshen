@@ -1,14 +1,15 @@
-import { useTranslations } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
 import { TOOLS_BY_PILLAR } from '@/lib/data/tools'
 import { COUNTRY_LIST } from '@/lib/data/countries'
 import Link from 'next/link'
 
-export default function HomePage({
-  params: { locale },
+export default async function HomePage({
+  params,
 }: {
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }) {
-  const t = useTranslations()
+  const { locale } = await params
+  const t = await getTranslations()
 
   return (
     <main className="min-h-screen">
