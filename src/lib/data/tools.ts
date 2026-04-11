@@ -60,8 +60,8 @@ export const TOOLS: Tool[] = [
     titleKey: 'tools.languageCoach.title',
     descriptionKey: 'tools.languageCoach.description',
     countries: ['US', 'DE', 'UK', 'CA', 'AU'],
-    aiPowered: true,
-    status: 'beta',
+    aiPowered: false,
+    status: 'live',
   },
   // Work pillar
   {
@@ -81,8 +81,8 @@ export const TOOLS: Tool[] = [
     titleKey: 'tools.workerRights.title',
     descriptionKey: 'tools.workerRights.description',
     countries: ['US', 'DE', 'UK', 'CA', 'AU'],
-    aiPowered: true,
-    status: 'planned',
+    aiPowered: false,
+    status: 'live',
   },
   // Assets pillar
   {
@@ -103,7 +103,7 @@ export const TOOLS: Tool[] = [
     descriptionKey: 'tools.remittance.description',
     countries: ['US', 'DE', 'UK', 'CA', 'AU'],
     aiPowered: false,
-    status: 'planned',
+    status: 'live',
   },
   // Family pillar
   {
