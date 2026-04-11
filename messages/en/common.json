@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "Child benefits",
       "description": "Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "Pet import guide",
+      "description": "Bring your cat or dog when you move abroad"
     }
   },
   "common": {

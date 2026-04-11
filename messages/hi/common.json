@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "[TRANSLATE] Child benefits",
       "description": "[TRANSLATE] Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "पालतू जानवर आयात गाइड",
+      "description": "विदेश जाते समय अपनी बिल्ली या कुत्ते को साथ लाएं"
     }
   },
   "common": {

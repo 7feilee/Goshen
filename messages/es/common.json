@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "Beneficios por hijos",
       "description": "Descubre los beneficios a los que puedes tener derecho"
+    },
+    "petImport": {
+      "title": "Guía de importación de mascotas",
+      "description": "Lleva tu gato o perro cuando te mudes al extranjero"
     }
   },
   "common": {

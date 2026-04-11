@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "[TRANSLATE] Child benefits",
       "description": "[TRANSLATE] Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "반려동물 입국 안내",
+      "description": "해외 이사 시 고양이나 개를 데려오세요"
     }
   },
   "common": {

@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "[TRANSLATE] Child benefits",
       "description": "[TRANSLATE] Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "Gabay sa pag-import ng alagang hayop",
+      "description": "Dalhin ang iyong pusa o aso kapag lumipat sa ibang bansa"
     }
   },
   "common": {

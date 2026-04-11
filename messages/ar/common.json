@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "[TRANSLATE] Child benefits",
       "description": "[TRANSLATE] Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "دليل استيراد الحيوانات الأليفة",
+      "description": "أحضر قطتك أو كلبك عند الانتقال للخارج"
     }
   },
   "common": {

@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "[TRANSLATE] Child benefits",
       "description": "[TRANSLATE] Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "Haustier-Einreiseführer",
+      "description": "Bringen Sie Ihre Katze oder Ihren Hund mit ins Ausland"
     }
   },
   "common": {

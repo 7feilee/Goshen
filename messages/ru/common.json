@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "[TRANSLATE] Child benefits",
       "description": "[TRANSLATE] Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "Руководство по ввозу домашних животных",
+      "description": "Возьмите кошку или собаку при переезде за рубеж"
     }
   },
   "common": {

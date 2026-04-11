@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "[TRANSLATE] Child benefits",
       "description": "[TRANSLATE] Find benefits you may be entitled to"
+    },
+    "petImport": {
+      "title": "ペット輸入ガイド",
+      "description": "海外移住の際に猫や犬を連れていく方法"
     }
   },
   "common": {

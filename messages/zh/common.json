@@ -75,6 +75,10 @@
     "childBenefits": {
       "title": "儿童福利",
       "description": "查询您可能有权享受的福利"
+    },
+    "petImport": {
+      "title": "宠物入境指南",
+      "description": "搬到海外时携带您的猫或狗"
     }
   },
   "common": {

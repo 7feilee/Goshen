@@ -126,6 +126,16 @@ export const TOOLS: Tool[] = [
     aiPowered: false,
     status: 'live',
   },
+  {
+    id: 'pet-import',
+    slug: 'pet-import',
+    pillar: 'family',
+    titleKey: 'tools.petImport.title',
+    descriptionKey: 'tools.petImport.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'live',
+  },
 ]
 
 export const TOOLS_BY_PILLAR = TOOLS.reduce((acc, tool) => {
