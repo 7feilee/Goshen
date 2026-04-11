@@ -18,7 +18,7 @@ export const TOOLS: Tool[] = [
     pillar: 'visa',
     titleKey: 'tools.citizenshipTest.title',
     descriptionKey: 'tools.citizenshipTest.description',
-    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    countries: ['DE'],
     aiPowered: false,
     status: 'live',
   },

@@ -1,0 +1,2018 @@
+{
+  "Baden-Württemberg": {
+    "code": "BW",
+    "capital": "Stuttgart",
+    "questions": [
+      {
+        "id": "BW_1",
+        "question": "Welches ist ein Landkreis in Baden-Württemberg?",
+        "options": [
+          "Uckermark",
+          "Nordfriesland",
+          "Breisgau-Hochschwarzwald",
+          "Prignitz"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "布赖斯高-高黑森林县（Breisgau-Hochschwarzwald）是巴登-符腾堡州的一个县，位于弗莱堡附近。其他选项均属于其他联邦州的县。"
+      },
+      {
+        "id": "BW_2",
+        "question": "Welche Farben hat die Landesflagge von Baden-Württemberg?",
+        "options": [
+          "Blau-Weiß",
+          "Schwarz-Gold",
+          "Grün-Weiß",
+          "Rot-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴登-符腾堡州州旗的颜色是黑色和金色（黑金）。这两种颜色也出现在该州的州徽上，具有悠久的历史传统。"
+      },
+      {
+        "id": "BW_3",
+        "question": "Wie heißt der Landtag in Baden-Württemberg?",
+        "options": [
+          "Bürgerschaft",
+          "Landtag Baden-Württemberg",
+          "Abgeordnetenhaus",
+          "Senat"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴登-符腾堡州的州议会称为\"巴登-符腾堡州议会\"（Landtag Baden-Württemberg）。该议会位于首府斯图加特，是州的最高立法机构。"
+      },
+      {
+        "id": "BW_4",
+        "question": "Wann wurde das Land Baden-Württemberg gegründet?",
+        "options": [
+          "1945",
+          "1952",
+          "1957",
+          "1961"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴登-符腾堡州于1952年4月25日成立，由原来的巴登、符腾堡-巴登和符腾堡-霍亨索伦三个州合并而成，是德国较晚成立的州之一。"
+      },
+      {
+        "id": "BW_5",
+        "question": "Welcher Fluss fließt durch Stuttgart, die Landeshauptstadt von Baden-Württemberg?",
+        "options": [
+          "Rhein",
+          "Neckar",
+          "Donau",
+          "Main"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "内卡河（Neckar）流经斯图加特市区。内卡河发源于黑森林，向北流入莱茵河，是巴登-符腾堡州最重要的河流之一。"
+      },
+      {
+        "id": "BW_6",
+        "question": "Welches Gericht ist das höchste Gericht in Baden-Württemberg für Verwaltungsstreitigkeiten?",
+        "options": [
+          "Oberlandesgericht",
+          "Bundesverwaltungsgericht",
+          "Verwaltungsgerichtshof Baden-Württemberg",
+          "Bundesgerichtshof"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "巴登-符腾堡州行政法院（Verwaltungsgerichtshof Baden-Württemberg）是该州处理行政法律纠纷的最高法院，位于曼海姆。联邦行政法院才是全国最高行政法院。"
+      },
+      {
+        "id": "BW_7",
+        "question": "In welcher Stadt befindet sich das Bundesverfassungsgericht?",
+        "options": [
+          "Stuttgart",
+          "Freiburg",
+          "Karlsruhe",
+          "Mannheim"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "联邦宪法法院（Bundesverfassungsgericht）位于卡尔斯鲁厄，这是巴登-符腾堡州第三大城市。联邦宪法法院是德国最高法院，负责解释基本法。"
+      },
+      {
+        "id": "BW_8",
+        "question": "Welches ist ein Wahrzeichen Baden-Württembergs?",
+        "options": [
+          "Brandenburger Tor",
+          "Schloss Heidelberg",
+          "Kölner Dom",
+          "Frauenkirche München"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "海德堡城堡（Schloss Heidelberg）是巴登-符腾堡州最著名的地标之一，是欧洲最重要的文艺复兴建筑遗址之一，每年吸引数百万游客。"
+      },
+      {
+        "id": "BW_9",
+        "question": "Wie viele Einwohner hat Baden-Württemberg ungefähr?",
+        "options": [
+          "7 Millionen",
+          "11 Millionen",
+          "16 Millionen",
+          "4 Millionen"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴登-符腾堡州约有1100万居民，是德国人口第三多的州，仅次于北莱茵-威斯特法伦州和巴伐利亚州。"
+      },
+      {
+        "id": "BW_10",
+        "question": "Welche Universität ist die älteste Universität in Baden-Württemberg?",
+        "options": [
+          "Universität Stuttgart",
+          "Universität Mannheim",
+          "Ruprecht-Karls-Universität Heidelberg",
+          "Universität Freiburg"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "鲁普莱希特-卡尔斯海德堡大学（Ruprecht-Karls-Universität Heidelberg）成立于1386年，是德国最古老的大学，也是巴登-符腾堡州乃至整个德语区最著名的高等学府之一。"
+      }
+    ]
+  },
+  "Bayern": {
+    "code": "BY",
+    "capital": "München",
+    "questions": [
+      {
+        "id": "BY_1",
+        "question": "Welches ist ein Landkreis in Bayern?",
+        "options": [
+          "Jerichower Land",
+          "Altötting",
+          "Prignitz",
+          "Oberhavel"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "阿尔托廷县（Altötting）是巴伐利亚州的一个县，以其著名的朝圣地而闻名。其他选项均属于萨克森-安哈尔特州或勃兰登堡州的县。"
+      },
+      {
+        "id": "BY_2",
+        "question": "Welche Farben hat die Landesflagge von Bayern?",
+        "options": [
+          "Schwarz-Rot-Gold",
+          "Blau-Weiß",
+          "Rot-Weiß",
+          "Grün-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴伐利亚州州旗的颜色是蓝色和白色（蓝白），这两种颜色来源于巴伐利亚公爵的传统纹章，也体现在著名的蓝白菱形图案中。"
+      },
+      {
+        "id": "BY_3",
+        "question": "Wie heißt das Landesparlament in Bayern?",
+        "options": [
+          "Senat",
+          "Bürgerschaft",
+          "Landtag",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "巴伐利亚州的州议会称为\"州议会\"（Landtag），位于慕尼黑，是州的最高立法机关。巴伐利亚直到2013年才废除其参议院（Senat）。"
+      },
+      {
+        "id": "BY_4",
+        "question": "Was ist das Wappen von Bayern?",
+        "options": [
+          "Ein weißer Schwan auf blauem Grund",
+          "Blau-Weiße Rauten mit Löwe",
+          "Ein roter Adler",
+          "Eine goldene Krone"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴伐利亚州徽由蓝白菱形图案和金色狮子组成。蓝白菱形是巴伐利亚最具代表性的传统标志，而金狮则来源于古老的维特尔斯巴赫王室纹章。"
+      },
+      {
+        "id": "BY_5",
+        "question": "Welcher Berg ist der höchste Gipfel in Bayern und in Deutschland?",
+        "options": [
+          "Watzmann",
+          "Zugspitze",
+          "Großglockner",
+          "Feldberg"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "楚格峰（Zugspitze）海拔2962米，是德国最高峰，位于巴伐利亚州加米施-帕滕基兴附近，德奥边界上。它是德国著名的旅游胜地。"
+      },
+      {
+        "id": "BY_6",
+        "question": "In welcher Stadt in Bayern findet jährlich das Oktoberfest statt?",
+        "options": [
+          "Nürnberg",
+          "Augsburg",
+          "München",
+          "Regensburg"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "慕尼黑啤酒节（Oktoberfest）每年在巴伐利亚州首府慕尼黑的特蕾莎草坪举行，是世界上规模最大的民间节日，每年吸引超过600万游客。"
+      },
+      {
+        "id": "BY_7",
+        "question": "Welcher Fluss fließt durch München?",
+        "options": [
+          "Donau",
+          "Inn",
+          "Isar",
+          "Lech"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "伊萨尔河（Isar）流经慕尼黑市区，是慕尼黑市民重要的休闲场所。伊萨尔河发源于奥地利的卡尔文德尔山脉，最终注入多瑙河。"
+      },
+      {
+        "id": "BY_8",
+        "question": "Wann trat Bayern der Bundesrepublik Deutschland bei?",
+        "options": [
+          "1945",
+          "1949",
+          "1952",
+          "1957"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴伐利亚州于1949年加入联邦德国，但值得注意的是，巴伐利亚是唯一一个拒绝批准基本法的原始西德州，尽管它后来仍受基本法约束。"
+      },
+      {
+        "id": "BY_9",
+        "question": "Welches Schloss in Bayern ist das bekannteste und wurde von König Ludwig II. erbaut?",
+        "options": [
+          "Schloss Nymphenburg",
+          "Schloss Herrenchiemsee",
+          "Schloss Neuschwanstein",
+          "Schloss Linderhof"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "新天鹅堡（Schloss Neuschwanstein）是巴伐利亚最著名的城堡，由国王路德维希二世下令建造，于1886年开放。它是世界上参观人数最多的城堡之一，也是迪士尼城堡的原型。"
+      },
+      {
+        "id": "BY_10",
+        "question": "Welche Partei hat Bayern seit Jahrzehnten regiert?",
+        "options": [
+          "SPD",
+          "FDP",
+          "CSU",
+          "CDU"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "基督教社会联盟（CSU，Christlich-Soziale Union）自1957年以来几乎连续执政巴伐利亚州。CSU是仅在巴伐利亚活动的政党，与全国性的CDU是姐妹党。"
+      }
+    ]
+  },
+  "Berlin": {
+    "code": "BE",
+    "capital": "Berlin",
+    "questions": [
+      {
+        "id": "BE_1",
+        "question": "Berlin ist ein Stadtstaat. Was bedeutet das?",
+        "options": [
+          "Berlin ist eine Stadt ohne Landrechte",
+          "Berlin ist gleichzeitig Stadt und Bundesland",
+          "Berlin gehört zu Brandenburg",
+          "Berlin hat keinen eigenen Landtag"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "柏林是一个城市州，这意味着柏林同时既是一座城市，也是一个联邦州。德国共有三个城市州：柏林、汉堡和不莱梅。柏林既有市政府职能，也承担州政府职能。"
+      },
+      {
+        "id": "BE_2",
+        "question": "Wie heißt das Landesparlament in Berlin?",
+        "options": [
+          "Landtag",
+          "Bürgerschaft",
+          "Abgeordnetenhaus",
+          "Senat"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "柏林州议会称为\"众议院\"（Abgeordnetenhaus），是柏林的最高立法机关。议员由柏林市民直接选举产生，任期五年。柏林政府（执行机构）称为元老院（Senat）。"
+      },
+      {
+        "id": "BE_3",
+        "question": "Wann fiel die Berliner Mauer?",
+        "options": [
+          "3. Oktober 1990",
+          "9. November 1989",
+          "1. Juli 1990",
+          "17. Juni 1953"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "柏林墙于1989年11月9日倒塌，这是20世纪最重要的历史事件之一。柏林墙从1961年建造至1989年倒塌，将柏林分为东西两部分长达28年。"
+      },
+      {
+        "id": "BE_4",
+        "question": "Was ist das bekannteste Wahrzeichen Berlins?",
+        "options": [
+          "Fernsehturm",
+          "Brandenburger Tor",
+          "Reichstagsgebäude",
+          "Berliner Dom"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "勃兰登堡门（Brandenburger Tor）是柏林最著名的地标，也是德国统一的象征。建于1788至1791年，是新古典主义建筑，曾是东西柏林边界的标志性建筑。"
+      },
+      {
+        "id": "BE_5",
+        "question": "In welchem Bezirk befindet sich das Regierungsviertel Berlins?",
+        "options": [
+          "Charlottenburg",
+          "Mitte",
+          "Prenzlauer Berg",
+          "Kreuzberg"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "柏林的政府区位于米特区（Mitte），这里有联邦议院（设在国会大厦）、联邦总理府（总理府）和其他联邦政府机构，是德国政治权力的中心。"
+      },
+      {
+        "id": "BE_6",
+        "question": "Wann wurde Berlin zur Hauptstadt des wiedervereinigten Deutschlands?",
+        "options": [
+          "1989",
+          "1990",
+          "1991",
+          "1999"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "虽然德国统一于1990年实现，德国议会（联邦议院）也于1991年投票决定将首都迁往柏林，但联邦政府实际上直到1999年才完成从波恩迁往柏林的工作。"
+      },
+      {
+        "id": "BE_7",
+        "question": "Welcher Fluss fließt durch Berlin?",
+        "options": [
+          "Elbe",
+          "Oder",
+          "Spree",
+          "Havel"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "施普雷河（Spree）流经柏林市中心，是柏林最重要的河流。施普雷河在柏林附近注入哈韦尔河，国会大厦、博物馆岛等著名建筑都沿施普雷河分布。"
+      },
+      {
+        "id": "BE_8",
+        "question": "Wie viele Bezirke hat Berlin?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "16"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "柏林共有12个行政区（Bezirke），2001年行政改革将原来的23个区合并为现在的12个区，包括米特、弗里德里希斯海因-克罗伊茨贝格、潘科等。"
+      },
+      {
+        "id": "BE_9",
+        "question": "Was befand sich auf dem Gelände des heutigen Holocaust-Mahnmals in Berlin?",
+        "options": [
+          "Ein Stadtpark",
+          "Der frühere Königspalast",
+          "Die frühere Ruine des Führerbunkers",
+          "Das ehemalige Stasi-Hauptquartier"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "柏林欧洲被害犹太人纪念碑（Holocaust-Mahnmal）建于勃兰登堡门附近，该地点靠近希特勒的元首地堡（Führerbunker）遗址。纪念碑于2005年正式开放，由2711块混凝土板组成。"
+      },
+      {
+        "id": "BE_10",
+        "question": "Welche Mauer teilte Berlin von 1961 bis 1989?",
+        "options": [
+          "Westmauer",
+          "Berliner Mauer",
+          "Eiserner Vorhang",
+          "Grenzwall"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "柏林墙（Berliner Mauer）从1961年8月13日起将柏林分为东西两部分，总长约155公里，由东德（DDR）建造，目的是阻止东德居民逃往西德。1989年11月9日墙倒塌。"
+      }
+    ]
+  },
+  "Brandenburg": {
+    "code": "BB",
+    "capital": "Potsdam",
+    "questions": [
+      {
+        "id": "BB_1",
+        "question": "Welches ist ein Landkreis in Brandenburg?",
+        "options": [
+          "Stormarn",
+          "Barnim",
+          "Nordfriesland",
+          "Pinneberg"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "巴尔尼姆县（Barnim）是勃兰登堡州的一个县，位于柏林东北部。其他选项均属于石勒苏益格-荷尔斯泰因州的县。"
+      },
+      {
+        "id": "BB_2",
+        "question": "Welche Farben hat die Landesflagge von Brandenburg?",
+        "options": [
+          "Blau-Weiß",
+          "Rot-Weiß",
+          "Schwarz-Rot",
+          "Grün-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "勃兰登堡州州旗的颜色是红色和白色（红白），州徽是红色背景上的银色（白色）鹰，这一传统纹章图案已有数百年历史。"
+      },
+      {
+        "id": "BB_3",
+        "question": "Wie heißt das Landesparlament in Brandenburg?",
+        "options": [
+          "Senat",
+          "Bürgerschaft",
+          "Landtag Brandenburg",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "勃兰登堡州的州议会称为\"勃兰登堡州议会\"（Landtag Brandenburg），位于首府波茨坦。该议会是州的最高立法机关，由选民直接选举产生。"
+      },
+      {
+        "id": "BB_4",
+        "question": "Wann wurde das Land Brandenburg (wieder)gegründet?",
+        "options": [
+          "1945",
+          "1952",
+          "1990",
+          "1994"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "勃兰登堡州于1990年10月3日德国统一时重建，此前它曾于1952年被东德解散，分为数个专区。1990年德国统一后，勃兰登堡作为新联邦州重新成立。"
+      },
+      {
+        "id": "BB_5",
+        "question": "Welches Schloss in Potsdam ist ein UNESCO-Weltkulturerbe?",
+        "options": [
+          "Schloss Charlottenburg",
+          "Schloss Sanssouci",
+          "Schloss Neuschwanstein",
+          "Schloss Belvedere"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "无忧宫（Schloss Sanssouci）是波茨坦最著名的宫殿，由腓特烈大帝下令建于1747年。它连同周边的公园和宫殿群于1990年被列入联合国教科文组织世界文化遗产名录。"
+      },
+      {
+        "id": "BB_6",
+        "question": "Welcher Fluss bildet die Grenze zwischen Brandenburg und Polen?",
+        "options": [
+          "Elbe",
+          "Weichsel",
+          "Oder",
+          "Neiße"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "奥得河（Oder）构成勃兰登堡州（以及德国）与波兰的边界的一部分。奥得河-尼斯河线（Oder-Neiße-Linie）是二战后确定的德波边界，1990年德国统一时由德国正式承认。"
+      },
+      {
+        "id": "BB_7",
+        "question": "Welche Stadt ist die Hauptstadt von Brandenburg?",
+        "options": [
+          "Frankfurt (Oder)",
+          "Cottbus",
+          "Potsdam",
+          "Brandenburg an der Havel"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "波茨坦（Potsdam）是勃兰登堡州的首府，以其众多宫殿和花园而闻名，尤其是无忧宫及其花园。1945年的波茨坦会议也在此召开。"
+      },
+      {
+        "id": "BB_8",
+        "question": "Welcher See ist der größte See in Brandenburg?",
+        "options": [
+          "Schwielochsee",
+          "Stechlinsee",
+          "Schweriner See",
+          "Plauer See"
+        ],
+        "correctIndex": 0,
+        "explanation_zh": "施维洛赫湖（Schwielochsee）是勃兰登堡州最大的湖泊，面积约13.3平方公里，位于达梅-海德-泽恩兰自然公园内。施特希林湖虽然是另一个著名湖泊，但面积较小。"
+      },
+      {
+        "id": "BB_9",
+        "question": "Was ist das Spreewald in Brandenburg?",
+        "options": [
+          "Ein Nationalpark",
+          "Eine Heidelandschaft",
+          "Ein UNESCO-Biosphärenreservat mit Flusssystem",
+          "Ein Weinanbaugebiet"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "施普雷瓦尔德（Spreewald）是联合国教科文组织认定的生物圈保护区，由施普雷河分成数百条水道形成。这里是索布族（Sorben/Wenden）的传统家园，以腌黄瓜（Spreewälder Gurken）闻名。"
+      },
+      {
+        "id": "BB_10",
+        "question": "Welche Minderheit hat in Brandenburg und Sachsen ihre traditionelle Heimat?",
+        "options": [
+          "Friesen",
+          "Sorben",
+          "Dänen",
+          "Sinti und Roma"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "索布族（Sorben）是一个斯拉夫少数民族，在勃兰登堡和萨克森州有其传统家园。在勃兰登堡，他们被称为文德人（Wenden），其语言和文化受到德国法律的保护。"
+      }
+    ]
+  },
+  "Bremen": {
+    "code": "HB",
+    "capital": "Bremen",
+    "questions": [
+      {
+        "id": "HB_1",
+        "question": "Bremen ist ein Stadtstaat. Aus welchen zwei Städten besteht das Bundesland Bremen?",
+        "options": [
+          "Bremen und Oldenburg",
+          "Bremen und Bremerhaven",
+          "Bremen und Delmenhorst",
+          "Bremen und Wilhelmshaven"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "不莱梅州由两座城市组成：不莱梅市和不莱梅哈芬市（Bremerhaven）。尽管不莱梅哈芬在地理上被下萨克森州包围，但它是不莱梅州的一部分，两城之间相距约60公里。"
+      },
+      {
+        "id": "HB_2",
+        "question": "Wie heißt das Landesparlament in Bremen?",
+        "options": [
+          "Landtag",
+          "Abgeordnetenhaus",
+          "Bürgerschaft",
+          "Senat"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "不莱梅州议会称为\"公民大会\"（Bürgerschaft），是不莱梅的最高立法机关。不莱梅的执行机构（政府）称为元老院（Senat），由市长（Bürgermeister）领导。"
+      },
+      {
+        "id": "HB_3",
+        "question": "Was ist das bekannteste Wahrzeichen Bremens?",
+        "options": [
+          "Der Bremer Dom",
+          "Die Stadtmusikanten",
+          "Das Rathaus",
+          "Die Böttcherstraße"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "不莱梅城市乐手（Die Bremer Stadtmusikanten）雕塑是不莱梅最著名的地标，位于市政厅旁边。这一雕塑来源于格林兄弟的同名童话故事，1953年由雕塑家格哈德·马尔克斯创作。"
+      },
+      {
+        "id": "HB_4",
+        "question": "Welche Farben hat die Flagge der Freien Hansestadt Bremen?",
+        "options": [
+          "Blau-Weiß",
+          "Schwarz-Gold",
+          "Weiß-Rot",
+          "Rot-Weiß"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "不莱梅州旗的颜色是红色和白色，州徽是白色背景上有红白相间竖条纹的盾牌，上方有一把金色钥匙——这把钥匙是不莱梅传统上作为自由汉萨城市的象征。"
+      },
+      {
+        "id": "HB_5",
+        "question": "Seit wann hat Bremen den Status einer freien Hansestadt?",
+        "options": [
+          "1358",
+          "1646",
+          "1815",
+          "1949"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "不莱梅的\"自由汉萨城市\"（Freie Hansestadt）称号正式确立于1815年维也纳会议，当时不莱梅、汉堡和吕贝克作为自由城市加入德意志邦联。不莱梅早在中世纪就是汉萨同盟成员。"
+      },
+      {
+        "id": "HB_6",
+        "question": "Welcher Fluss fließt durch Bremen?",
+        "options": [
+          "Elbe",
+          "Ems",
+          "Weser",
+          "Aller"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "威悉河（Weser）流经不莱梅，是不莱梅历史上繁荣的基础。不莱梅历来是重要的港口城市，威悉河将其与北海相连。不莱梅哈芬位于威悉河入海口。"
+      },
+      {
+        "id": "HB_7",
+        "question": "Was ist das Roland-Standbild in Bremen ein Symbol für?",
+        "options": [
+          "Die Hansezeit",
+          "Stadtfreiheit und Handelsrecht",
+          "Den Kaiser des Heiligen Römischen Reiches",
+          "Die Seefahrtstradition"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "罗兰雕像（Roland-Standbild）是不莱梅市自由和贸易权利的象征，建于1404年，高5.47米，是德国保存最好的罗兰雕像之一，2004年与市政厅一同被列入世界文化遗产。"
+      },
+      {
+        "id": "HB_8",
+        "question": "Wofür ist der Bremer Hafen bekannt?",
+        "options": [
+          "Fischerei",
+          "Automobilexport",
+          "Als einer der größten Universalhäfen Deutschlands",
+          "Kreuzfahrtterminal"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "不莱梅港（及不莱梅哈芬港）是德国最重要的综合性港口之一，特别以汽车进出口闻名。不莱梅哈芬是世界上最大的汽车转运港之一，也是欧洲主要的集装箱港口。"
+      },
+      {
+        "id": "HB_9",
+        "question": "Welche Bremer Institution ist als UNESCO-Weltkulturerbe anerkannt?",
+        "options": [
+          "Die Böttcherstraße",
+          "Das Schnoorviertel",
+          "Rathaus und Roland",
+          "Die Überseestadt"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "不莱梅市政厅（Rathaus）和罗兰雕像于2004年被联合国教科文组织列入世界文化遗产名录。市政厅建于15世纪初，是北德砖砌哥特式建筑的杰出代表。"
+      },
+      {
+        "id": "HB_10",
+        "question": "Welches Unternehmen hat seinen Hauptsitz in Bremen und ist für die Luft- und Raumfahrt bekannt?",
+        "options": [
+          "ThyssenKrupp",
+          "Siemens",
+          "Airbus",
+          "MAN"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "空客公司（Airbus）在不莱梅设有重要工厂，是该市最大的雇主之一。不莱梅是欧洲航空航天工业的重要中心，生产空客飞机的翼部等重要部件，并在此进行相关研发工作。"
+      }
+    ]
+  },
+  "Hamburg": {
+    "code": "HH",
+    "capital": "Hamburg",
+    "questions": [
+      {
+        "id": "HH_1",
+        "question": "Hamburg ist ein Stadtstaat. Wie lautet der offizielle Name?",
+        "options": [
+          "Freistaat Hamburg",
+          "Hansestadt Hamburg",
+          "Freie und Hansestadt Hamburg",
+          "Stadtrepublik Hamburg"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "汉堡的官方名称是\"汉堡自由汉萨城市\"（Freie und Hansestadt Hamburg），反映了其悠久的自由城市和汉萨同盟成员历史。汉堡是德国三个城市州之一。"
+      },
+      {
+        "id": "HH_2",
+        "question": "Wie heißt das Landesparlament in Hamburg?",
+        "options": [
+          "Landtag",
+          "Abgeordnetenhaus",
+          "Senat",
+          "Bürgerschaft"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "汉堡州议会称为\"公民大会\"（Bürgerschaft），是汉堡的最高立法机关，共121个席位，议员任期四年。汉堡政府（行政机构）称为元老院（Senat）。"
+      },
+      {
+        "id": "HH_3",
+        "question": "Welche Farben hat die Flagge Hamburgs?",
+        "options": [
+          "Blau-Weiß",
+          "Rot-Weiß",
+          "Schwarz-Rot",
+          "Weiß-Rot-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "汉堡州旗颜色为红色和白色，州徽是白色背景上的红色白色城堡图案（汉堡城堡）。这一传统纹章图案代表了汉堡城市的标志，已有数百年历史。"
+      },
+      {
+        "id": "HH_4",
+        "question": "Was ist die Elbphilharmonie in Hamburg?",
+        "options": [
+          "Ein Fußballstadion",
+          "Ein Konzerthaus",
+          "Ein Museum",
+          "Ein Einkaufszentrum"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "易北爱乐音乐厅（Elbphilharmonie）是汉堡的标志性音乐厅，于2017年正式开放，是欧洲最大、音响效果最好的音乐厅之一。建筑建在一座老仓库之上，成为汉堡新的城市地标。"
+      },
+      {
+        "id": "HH_5",
+        "question": "Welcher Hamburger Hafen ist der größte Hafen Deutschlands?",
+        "options": [
+          "Hamburger Freihafen",
+          "Hamburger Hafen",
+          "Containerhafen Altenwerder",
+          "Hafencity"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "汉堡港（Hamburger Hafen）是德国最大的港口，也是欧洲第三大港口，仅次于鹿特丹和安特卫普。它是德国最重要的对外贸易门户，每年处理数千万吨货物。"
+      },
+      {
+        "id": "HH_6",
+        "question": "Welcher Fluss fließt durch Hamburg?",
+        "options": [
+          "Weser",
+          "Elbe",
+          "Alster",
+          "Bille"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "易北河（Elbe）流经汉堡，汉堡港即位于易北河沿岸。阿尔斯特河（Alster）也流经汉堡市区，形成著名的内阿尔斯特湖和外阿尔斯特湖，是汉堡的重要景观。"
+      },
+      {
+        "id": "HH_7",
+        "question": "Wann wurde Hamburg Mitglied der Hanse?",
+        "options": [
+          "1241",
+          "1358",
+          "1520",
+          "1648"
+        ],
+        "correctIndex": 0,
+        "explanation_zh": "汉堡于1241年与吕贝克签订条约，标志着汉萨同盟的萌芽。汉堡是汉萨同盟最重要的成员城市之一，汉萨同盟是中世纪北欧最重要的商业同盟，对汉堡的繁荣发展起到决定性作用。"
+      },
+      {
+        "id": "HH_8",
+        "question": "Wie viele Einwohner hat Hamburg ungefähr?",
+        "options": [
+          "1 Million",
+          "1,8 Millionen",
+          "3 Millionen",
+          "500.000"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "汉堡约有180万居民，是德国第二大城市，仅次于柏林。汉堡也是德国最富裕的城市之一，人均GDP位居全国前列。"
+      },
+      {
+        "id": "HH_9",
+        "question": "Was ist die Speicherstadt in Hamburg?",
+        "options": [
+          "Ein Wohngebiet",
+          "Ein historisches Lagerhausviertel (UNESCO-Weltkulturerbe)",
+          "Ein Industriegebiet",
+          "Ein Einkaufsviertel"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "仓库城（Speicherstadt）是汉堡的历史仓库区，建于19世纪末20世纪初，是世界上最大的连续砖砌仓库建筑群。2015年与相邻的智利大厦一同被列入联合国教科文组织世界文化遗产名录。"
+      },
+      {
+        "id": "HH_10",
+        "question": "In welchem Hamburger Stadtteil befindet sich der bekannte Vergnügungspark \"Hamburger Dom\"?",
+        "options": [
+          "Altona",
+          "Eimsbüttel",
+          "Hamburg-Mitte (Heiligengeistfeld)",
+          "Wandsbek"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "汉堡圆顶游乐场（Hamburger Dom）是德国最大的游乐场，每年在圣灵广场（Heiligengeistfeld）举办三次，位于汉堡中区（Hamburg-Mitte）。每次为期五周的活动吸引数百万游客。"
+      }
+    ]
+  },
+  "Hessen": {
+    "code": "HE",
+    "capital": "Wiesbaden",
+    "questions": [
+      {
+        "id": "HE_1",
+        "question": "Welches ist ein Landkreis in Hessen?",
+        "options": [
+          "Ludwigsburg",
+          "Bergstraße",
+          "Rhein-Neckar-Kreis",
+          "Heilbronn"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "贝格施特拉瑟县（Bergstraße）是黑森州的一个县，位于莱茵河平原东侧。其他选项均属于巴登-符腾堡州的县。"
+      },
+      {
+        "id": "HE_2",
+        "question": "Welche Farben hat die Landesflagge von Hessen?",
+        "options": [
+          "Blau-Weiß",
+          "Rot-Weiß",
+          "Schwarz-Rot-Gold",
+          "Rot-Weiß-Rot"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "黑森州州旗颜色为红色和白色，源自黑森-拿骚公国的传统纹章。州徽是白色背景上的红色狮子，这一纹章图案可追溯至中世纪。"
+      },
+      {
+        "id": "HE_3",
+        "question": "Wie heißt das Landesparlament in Hessen?",
+        "options": [
+          "Senat",
+          "Bürgerschaft",
+          "Hessischer Landtag",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "黑森州议会称为\"黑森州议会\"（Hessischer Landtag），位于首府威斯巴登，是黑森州的最高立法机构，共137个席位。"
+      },
+      {
+        "id": "HE_4",
+        "question": "In welcher hessischen Stadt befindet sich die Europäische Zentralbank (EZB)?",
+        "options": [
+          "Wiesbaden",
+          "Kassel",
+          "Darmstadt",
+          "Frankfurt am Main"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "欧洲中央银行（EZB）总部位于黑森州最大城市法兰克福。法兰克福也是欧元区最重要的金融中心，德意志联邦银行（Bundesbank）和许多国际金融机构也设于此。"
+      },
+      {
+        "id": "HE_5",
+        "question": "Welcher Fluss fließt durch Frankfurt am Main?",
+        "options": [
+          "Rhein",
+          "Neckar",
+          "Main",
+          "Lahn"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "美因河（Main）流经法兰克福，法兰克福的全名\"法兰克福-美因\"即来源于此。美因河在法兰克福附近向西注入莱茵河，是法兰克福历史发展的重要因素。"
+      },
+      {
+        "id": "HE_6",
+        "question": "Wo wurde der Dichter Johann Wolfgang von Goethe geboren?",
+        "options": [
+          "Weimar",
+          "Frankfurt am Main",
+          "Wiesbaden",
+          "Marburg"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "约翰·沃尔夫冈·冯·歌德（1749-1832）出生于法兰克福，是德国最伟大的文学家之一，《浮士德》和《少年维特之烦恼》是其代表作。法兰克福的歌德故居现已成为博物馆。"
+      },
+      {
+        "id": "HE_7",
+        "question": "Was ist der Taunus in Hessen?",
+        "options": [
+          "Ein Fluss",
+          "Ein Mittelgebirge nördlich von Frankfurt",
+          "Ein Stadtbezirk",
+          "Ein Naturschutzgebiet an der Rheinschleife"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "陶努斯（Taunus）是黑森州法兰克福以北的一座中等山脉，最高峰大费尔德贝格山（Großer Feldberg）海拔879米，是法兰克福市民重要的休闲和自然区域。"
+      },
+      {
+        "id": "HE_8",
+        "question": "Welche Universität gilt als die älteste noch bestehende Universität Hessens?",
+        "options": [
+          "Goethe-Universität Frankfurt",
+          "Justus-Liebig-Universität Gießen",
+          "Philipps-Universität Marburg",
+          "TU Darmstadt"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "马尔堡腓力大学（Philipps-Universität Marburg）成立于1527年，是黑森州最古老的大学，也是世界上最古老的新教大学之一，由黑森伯爵腓力一世创建。"
+      },
+      {
+        "id": "HE_9",
+        "question": "Was ist die Hauptstadt von Hessen?",
+        "options": [
+          "Frankfurt am Main",
+          "Kassel",
+          "Wiesbaden",
+          "Darmstadt"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "威斯巴登（Wiesbaden）是黑森州的首府，尽管法兰克福是该州最大的城市和经济中心。威斯巴登以其温泉和美丽的新古典主义建筑著称，历史上曾是重要的疗养胜地。"
+      },
+      {
+        "id": "HE_10",
+        "question": "Welches Mittelgebirge liegt im Norden Hessens?",
+        "options": [
+          "Schwarzwald",
+          "Rhön",
+          "Eifel",
+          "Kaufunger Wald"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "莱恩山（Rhön）是位于黑森州、图林根州和巴伐利亚州交界处的一座中等山脉，部分位于黑森州北部。它是联合国教科文组织认定的生物圈保护区，以其独特的玄武岩地貌和大量濒危物种而闻名。"
+      }
+    ]
+  },
+  "Mecklenburg-Vorpommern": {
+    "code": "MV",
+    "capital": "Schwerin",
+    "questions": [
+      {
+        "id": "MV_1",
+        "question": "Welches ist ein Landkreis in Mecklenburg-Vorpommern?",
+        "options": [
+          "Uckermark",
+          "Vorpommern-Rügen",
+          "Elbe-Elster",
+          "Oder-Spree"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "前波美拉尼亚-吕根县（Vorpommern-Rügen）是梅克伦堡-前波美拉尼亚州的一个县，包含德国最大的岛屿吕根岛。其他选项属于勃兰登堡州的县。"
+      },
+      {
+        "id": "MV_2",
+        "question": "Welche Farben hat die Landesflagge von Mecklenburg-Vorpommern?",
+        "options": [
+          "Blau-Weiß",
+          "Blau-Weiß-Gelb",
+          "Rot-Weiß",
+          "Grün-Weiß-Rot"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "梅克伦堡-前波美拉尼亚州州旗颜色为蓝色、白色和黄色（金色），结合了梅克伦堡（蓝白）和前波美拉尼亚（蓝白红）的传统纹章颜色，中间黄色条纹代表格赖夫斯瓦尔德地区的传统色彩。"
+      },
+      {
+        "id": "MV_3",
+        "question": "Wie heißt das Landesparlament in Mecklenburg-Vorpommern?",
+        "options": [
+          "Bürgerschaft",
+          "Senat",
+          "Landtag Mecklenburg-Vorpommern",
+          "Volkskammer"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "梅克伦堡-前波美拉尼亚州议会称为\"梅克伦堡-前波美拉尼亚州议会\"（Landtag Mecklenburg-Vorpommern），位于首府什未林，共71个席位。"
+      },
+      {
+        "id": "MV_4",
+        "question": "Welche deutsche Ostseeinsel gehört zu Mecklenburg-Vorpommern?",
+        "options": [
+          "Fehmarn",
+          "Sylt",
+          "Rügen",
+          "Föhr"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "吕根岛（Rügen）是德国最大的岛屿，属于梅克伦堡-前波美拉尼亚州，以其白垩悬崖（贾斯蒙德白垩悬崖）和美丽海滩著称。贾斯蒙德国家公园已被列入世界遗产名录。"
+      },
+      {
+        "id": "MV_5",
+        "question": "Welche Stadt in Mecklenburg-Vorpommern ist bekannt für ihre mittelalterliche Altstadt und den Dom?",
+        "options": [
+          "Rostock",
+          "Stralsund",
+          "Greifswald",
+          "Wismar"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "施特拉尔松德（Stralsund）以其保存完好的中世纪老城区而闻名，其历史老城于2002年与维斯马一同被列入联合国教科文组织世界文化遗产名录。圣尼古拉教堂是其最著名的哥特式建筑。"
+      },
+      {
+        "id": "MV_6",
+        "question": "Wann wurde Mecklenburg-Vorpommern als Bundesland (wieder)gegründet?",
+        "options": [
+          "1945",
+          "1952",
+          "1990",
+          "1994"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "梅克伦堡-前波美拉尼亚州于1990年10月3日德国统一时重建。该州在东德时期（1952年）被解散，分为数个专区。1990年两德统一后重新作为联邦州成立。"
+      },
+      {
+        "id": "MV_7",
+        "question": "Was ist die Seenplatte Mecklenburg-Vorpommerns bekannt für?",
+        "options": [
+          "Weinanbau",
+          "Tausende von Seen und Wasserstraßen",
+          "Kohlebergbau",
+          "Automobilindustrie"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "梅克伦堡湖区（Mecklenburgische Seenplatte）以其数千个湖泊和水道系统著称，是中欧最大的连续湖区之一，也是著名的自然旅游目的地。梅克伦堡湖区国家公园保护着这一独特生态系统。"
+      },
+      {
+        "id": "MV_8",
+        "question": "Welcher Nationalpark befindet sich auf der Insel Rügen?",
+        "options": [
+          "Nationalpark Vorpommersche Boddenlandschaft",
+          "Nationalpark Jasmund",
+          "Nationalpark Müritz",
+          "Nationalpark Berchtesgaden"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "贾斯蒙德国家公园（Nationalpark Jasmund）位于吕根岛北部，以其壮观的白垩悬崖（Kreidefelsen）著称，国王椅（Königsstuhl）是最著名的景点。公园内的榉木森林已被列入世界自然遗产。"
+      },
+      {
+        "id": "MV_9",
+        "question": "Welche Hansestadt in Mecklenburg-Vorpommern ist die größte Stadt des Landes?",
+        "options": [
+          "Schwerin",
+          "Stralsund",
+          "Rostock",
+          "Greifswald"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "罗斯托克（Rostock）是梅克伦堡-前波美拉尼亚州最大的城市，人口约21万，是波罗的海沿岸重要的港口城市和汉萨同盟成员。罗斯托克大学建于1419年，是德国最古老的大学之一。"
+      },
+      {
+        "id": "MV_10",
+        "question": "Welches Tier ist im Wappen von Mecklenburg-Vorpommern zu sehen?",
+        "options": [
+          "Ein Adler und ein Stier",
+          "Ein Greif und ein Stierkopf",
+          "Ein Löwe und ein Bär",
+          "Ein Schwan und ein Wolf"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "梅克伦堡-前波美拉尼亚州徽中有两种动物：来自前波美拉尼亚的红色鹰头狮身兽（Greif）和来自梅克伦堡传统纹章的公牛头（Stierkopf）。鹰头狮身兽也是许多波美拉尼亚城市的传统标志。"
+      }
+    ]
+  },
+  "Niedersachsen": {
+    "code": "NI",
+    "capital": "Hannover",
+    "questions": [
+      {
+        "id": "NI_1",
+        "question": "Welches ist ein Landkreis in Niedersachsen?",
+        "options": [
+          "Märkisch-Oderland",
+          "Celle",
+          "Uckermark",
+          "Dahme-Spreewald"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "策勒县（Celle）是下萨克森州的一个县，以其保存完好的半木结构老城区著称。其他选项均属于勃兰登堡州的县。"
+      },
+      {
+        "id": "NI_2",
+        "question": "Welche Farben hat die Landesflagge von Niedersachsen?",
+        "options": [
+          "Blau-Gelb",
+          "Schwarz-Weiß",
+          "Rot-Weiß",
+          "Grün-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "下萨克森州州旗颜色为黑色和白色（黑白），州徽是白色背景上的白色奔马（萨克森马），马的背景为红色，整个图案以黑黄（金色）镶边。奔马是下萨克森州最具代表性的标志。"
+      },
+      {
+        "id": "NI_3",
+        "question": "Wie heißt das Landesparlament in Niedersachsen?",
+        "options": [
+          "Bürgerschaft",
+          "Senat",
+          "Niedersächsischer Landtag",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "下萨克森州议会称为\"下萨克森州议会\"（Niedersächsischer Landtag），位于首府汉诺威，是该州的最高立法机构，共137个席位，议员任期五年。"
+      },
+      {
+        "id": "NI_4",
+        "question": "In welcher niedersächsischen Stadt befindet sich die Volkswagen-Zentrale?",
+        "options": [
+          "Hannover",
+          "Braunschweig",
+          "Osnabrück",
+          "Wolfsburg"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "大众汽车公司（Volkswagen）总部位于下萨克森州的沃尔夫斯堡（Wolfsburg），该城市是1938年专为大众汽车工厂建立的。大众汽车是下萨克森州最重要的雇主，州政府也持有大众汽车的股份。"
+      },
+      {
+        "id": "NI_5",
+        "question": "Welches Mittelgebirge liegt im südlichen Niedersachsen?",
+        "options": [
+          "Schwarzwald",
+          "Harz",
+          "Taunus",
+          "Eifel"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "哈茨山（Harz）位于下萨克森州南部（同时也延伸至萨克森-安哈尔特州和图林根州），是德国北部最高的山脉。哈茨山的布罗肯峰（Brocken）海拔1141米，是下萨克森州的最高点。"
+      },
+      {
+        "id": "NI_6",
+        "question": "In welcher Stadt fand 2000 die Weltausstellung (EXPO 2000) statt?",
+        "options": [
+          "Hamburg",
+          "Bremen",
+          "Hannover",
+          "Braunschweig"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "2000年世界博览会（EXPO 2000）在下萨克森州首府汉诺威举办，这是首次在德国举办的世界博览会，共有172个国家参展，约1800万人参观。EXPO场地现已成为汉诺威的重要展览中心。"
+      },
+      {
+        "id": "NI_7",
+        "question": "Welcher Fluss fließt durch Hannover?",
+        "options": [
+          "Weser",
+          "Elbe",
+          "Ems",
+          "Leine"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "莱纳河（Leine）流经汉诺威，是下萨克森州的重要河流之一。汉诺威建城于莱纳河沿岸，城市名称可能源自中低地德语\"hohes Ufer\"（高岸）。"
+      },
+      {
+        "id": "NI_8",
+        "question": "Welches niedersächsische Schloss und sein Garten sind UNESCO-Weltkulturerbe?",
+        "options": [
+          "Schloss Celle",
+          "Schloss Wolfenbüttel",
+          "Residenz und Gärten von Herrenhausen",
+          "Residenzschloss Hannover"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "汉诺威的赫伦豪森宫殿和花园（Residenz und Gärten von Herrenhausen）是巴洛克园林艺术的杰出代表，其中大花园（Großer Garten）是欧洲保存最完好的17世纪巴洛克园林之一。"
+      },
+      {
+        "id": "NI_9",
+        "question": "Welches Gebäude in Hildesheim ist UNESCO-Weltkulturerbe?",
+        "options": [
+          "Hildesheimer Dom und St. Michaelis",
+          "Rathaus Hildesheim",
+          "Knochenhaueramtshaus",
+          "Burg Hildesheim"
+        ],
+        "correctIndex": 0,
+        "explanation_zh": "希尔德斯海姆大教堂（Hildesheimer Dom）和圣米迦勒教堂（St. Michaelis）于1985年被列入联合国教科文组织世界文化遗产名录，是下萨克森州重要的历史文化遗址，代表了奥托王朝时期辉煌的建筑艺术。"
+      },
+      {
+        "id": "NI_10",
+        "question": "Welche Minderheit hat ihre traditionelle Heimat in Niedersachsen?",
+        "options": [
+          "Sorben",
+          "Friesen",
+          "Dänen",
+          "Slowenen"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "弗里斯人（Friesen）在下萨克森州有其传统家园，主要分布在北海沿岸的东弗里斯兰地区。弗里斯语是一种独立的日耳曼语言，受德国法律保护。弗里斯兰的特特斯风车和茶文化是其独特的文化遗产。"
+      }
+    ]
+  },
+  "Nordrhein-Westfalen": {
+    "code": "NW",
+    "capital": "Düsseldorf",
+    "questions": [
+      {
+        "id": "NW_1",
+        "question": "Welches ist ein Landkreis in Nordrhein-Westfalen?",
+        "options": [
+          "Uckermark",
+          "Segeberg",
+          "Heinsberg",
+          "Nordfriesland"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "海因斯贝格县（Heinsberg）是北莱茵-威斯特法伦州的一个县，位于亚琛附近，德荷边境地区。其他选项属于勃兰登堡州或石勒苏益格-荷尔斯泰因州的县。"
+      },
+      {
+        "id": "NW_2",
+        "question": "Welche Farben hat die Landesflagge von Nordrhein-Westfalen?",
+        "options": [
+          "Blau-Weiß-Rot",
+          "Schwarz-Gold",
+          "Grün-Weiß-Rot",
+          "Schwarz-Weiß-Grün"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "北莱茵-威斯特法伦州州旗颜色为绿色、白色和红色，源自莱茵省（红白）和威斯特法伦省（绿白）的传统纹章颜色的结合。"
+      },
+      {
+        "id": "NW_3",
+        "question": "Wie heißt das Landesparlament in Nordrhein-Westfalen?",
+        "options": [
+          "Bürgerschaft",
+          "Senat",
+          "Landtag Nordrhein-Westfalen",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "北莱茵-威斯特法伦州议会称为\"北莱茵-威斯特法伦州议会\"（Landtag Nordrhein-Westfalen），位于首府杜塞尔多夫，是德国最大的州议会，也是人口最多的州的立法机构。"
+      },
+      {
+        "id": "NW_4",
+        "question": "Welche Stadt in NRW ist bekannt für ihren gotischen Dom?",
+        "options": [
+          "Düsseldorf",
+          "Dortmund",
+          "Köln",
+          "Aachen"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "科隆大教堂（Kölner Dom）是科隆市最著名的地标，是世界上最大的哥特式教堂之一，于1996年被列入联合国教科文组织世界文化遗产名录。科隆大教堂的建设始于1248年，直到1880年才最终完工。"
+      },
+      {
+        "id": "NW_5",
+        "question": "Welcher Fluss fließt durch Nordrhein-Westfalen und ist der längste Fluss Deutschlands?",
+        "options": [
+          "Elbe",
+          "Main",
+          "Rhein",
+          "Weser"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "莱茵河（Rhein）流经北莱茵-威斯特法伦州，是德国最重要的河流，也是欧洲最重要的内河航运水道之一。莱茵河全长约1230公里，科隆、杜塞尔多夫等重要城市都位于莱茵河沿岸。"
+      },
+      {
+        "id": "NW_6",
+        "question": "Was war das Ruhrgebiet historisch bekannt für?",
+        "options": [
+          "Weinanbau",
+          "Kohle- und Stahlindustrie",
+          "Tourismus",
+          "Landwirtschaft"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "鲁尔区（Ruhrgebiet）历史上以煤炭和钢铁工业著称，是欧洲最重要的工业区之一，19世纪至20世纪中期是德国工业化的核心地带。如今鲁尔区已完成结构转型，成为文化和服务业中心。"
+      },
+      {
+        "id": "NW_7",
+        "question": "Wie viele Einwohner hat Nordrhein-Westfalen ungefähr?",
+        "options": [
+          "11 Millionen",
+          "14 Millionen",
+          "18 Millionen",
+          "22 Millionen"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "北莱茵-威斯特法伦州约有1800万居民，是德国人口最多的州，约占全国总人口的22%。该州也是德国最重要的经济区域之一，拥有科隆、杜塞尔多夫、多特蒙德等重要城市。"
+      },
+      {
+        "id": "NW_8",
+        "question": "In welcher Stadt in NRW hat der Westdeutsche Rundfunk (WDR) seinen Sitz?",
+        "options": [
+          "Düsseldorf",
+          "Dortmund",
+          "Köln",
+          "Münster"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "西德广播公司（WDR，Westdeutscher Rundfunk）总部位于科隆，是德国最大的公共广播机构，也是欧洲最大的广播机构之一，为ARD（德国公共广播联盟）提供大量节目内容。"
+      },
+      {
+        "id": "NW_9",
+        "question": "Welcher Karneval in NRW ist weltberühmt?",
+        "options": [
+          "Düsseldorfer Karneval",
+          "Aachener Karneval",
+          "Kölner Karneval",
+          "Dortmunder Karneval"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "科隆狂欢节（Kölner Karneval）是世界上最著名的狂欢节之一，也是德国规模最大的狂欢庆典，在2月份举行，吸引数百万参与者。玫瑰星期一（Rosenmontag）大游行是其最重要的活动。"
+      },
+      {
+        "id": "NW_10",
+        "question": "Wann wurde das Bundesland Nordrhein-Westfalen gegründet?",
+        "options": [
+          "1945",
+          "1946",
+          "1949",
+          "1952"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "北莱茵-威斯特法伦州于1946年8月23日由英国占领当局成立，通过合并原来的普鲁士莱茵省（Rheinprovinz）北部和威斯特法伦省（Westfalen）以及里珀（Lippe）的自由邦而创建。"
+      }
+    ]
+  },
+  "Rheinland-Pfalz": {
+    "code": "RP",
+    "capital": "Mainz",
+    "questions": [
+      {
+        "id": "RP_1",
+        "question": "Welches ist ein Landkreis in Rheinland-Pfalz?",
+        "options": [
+          "Starnberg",
+          "Cochem-Zell",
+          "Lindau",
+          "Rottal-Inn"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "科赫姆-策尔县（Cochem-Zell）是莱茵兰-普法尔茨州的一个县，位于摩泽尔河沿岸，以葡萄酒产区和科赫姆城堡著称。其他选项属于巴伐利亚州的县。"
+      },
+      {
+        "id": "RP_2",
+        "question": "Welche Farben hat die Landesflagge von Rheinland-Pfalz?",
+        "options": [
+          "Schwarz-Rot-Gold",
+          "Blau-Weiß",
+          "Rot-Weiß-Rot",
+          "Schwarz-Rot"
+        ],
+        "correctIndex": 0,
+        "explanation_zh": "莱茵兰-普法尔茨州州旗颜色为黑色、红色和金色，与德国国旗相同，州徽叠加在旗帜中央。这是该州1946年成立时选定的颜色，体现了民主和德国统一的传统。"
+      },
+      {
+        "id": "RP_3",
+        "question": "Wie heißt das Landesparlament in Rheinland-Pfalz?",
+        "options": [
+          "Senat",
+          "Bürgerschaft",
+          "Abgeordnetenhaus",
+          "Landtag Rheinland-Pfalz"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "莱茵兰-普法尔茨州议会称为\"莱茵兰-普法尔茨州议会\"（Landtag Rheinland-Pfalz），位于首府美因茨，是该州的最高立法机构，共101个席位。"
+      },
+      {
+        "id": "RP_4",
+        "question": "Welcher Fluss ist bekannt für seine romantische Schlucht und Weinberge in Rheinland-Pfalz?",
+        "options": [
+          "Main",
+          "Mosel",
+          "Nahe",
+          "Lahn"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "摩泽尔河（Mosel）流经莱茵兰-普法尔茨州，以其陡峭的葡萄园和众多中世纪城堡著称，是德国最著名的葡萄酒产区之一，也是重要的旅游目的地。摩泽尔河最终在科布伦茨汇入莱茵河。"
+      },
+      {
+        "id": "RP_5",
+        "question": "In welcher rheinland-pfälzischen Stadt steht das Deutsche Eck?",
+        "options": [
+          "Mainz",
+          "Trier",
+          "Koblenz",
+          "Ludwigshafen"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "德国角（Deutsches Eck）是科布伦茨的著名地标，位于摩泽尔河汇入莱茵河的交汇处，建有威廉一世皇帝骑马雕像。科布伦茨上德莱茵河谷于2002年被列入世界文化遗产。"
+      },
+      {
+        "id": "RP_6",
+        "question": "Welche älteste Stadt Deutschlands liegt in Rheinland-Pfalz?",
+        "options": [
+          "Mainz",
+          "Koblenz",
+          "Trier",
+          "Worms"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "特里尔（Trier）是德国最古老的城市，建于公元前16年，曾是罗马帝国时代的重要城市。特里尔有多处罗马建筑遗址，包括波尔塔·尼格拉（Porta Nigra）城门，于1986年被列入世界文化遗产。"
+      },
+      {
+        "id": "RP_7",
+        "question": "Wofür ist das Rheinland-Pfalz besonders bekannt?",
+        "options": [
+          "Kohlebergbau",
+          "Weinbau",
+          "Automobilindustrie",
+          "Schwerindustrie"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "莱茵兰-普法尔茨州是德国最重要的葡萄酒产区，葡萄园面积约65000公顷，占德国葡萄酒总产量的约三分之二。莱茵黑森（Rheinhessen）是德国最大的单一葡萄酒产区。"
+      },
+      {
+        "id": "RP_8",
+        "question": "Wo wurde Karl Marx geboren?",
+        "options": [
+          "Mainz",
+          "Koblenz",
+          "Trier",
+          "Ludwigshafen"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "卡尔·马克思（Karl Marx，1818-1883）出生于特里尔，是著名的哲学家、经济学家和社会主义理论家，《共产党宣言》和《资本论》的作者。特里尔有马克思故居博物馆纪念这位伟人。"
+      },
+      {
+        "id": "RP_9",
+        "question": "Wann wurde das Bundesland Rheinland-Pfalz gegründet?",
+        "options": [
+          "1945",
+          "1946",
+          "1949",
+          "1952"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "莱茵兰-普法尔茨州于1946年由法国占领当局创建，通过合并来自不同地区的领土而成立，包括莱茵黑森（前普鲁士领土）、普法尔茨（前巴伐利亚领土）和前莱茵省部分地区。"
+      },
+      {
+        "id": "RP_10",
+        "question": "Welche Mittelgebirge liegen in Rheinland-Pfalz?",
+        "options": [
+          "Schwarzwald und Schwäbische Alb",
+          "Eifel und Hunsrück",
+          "Taunus und Westerwald",
+          "Eifel, Hunsrück, Westerwald und Taunus"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "莱茵兰-普法尔茨州境内有四座主要山脉：艾弗尔山（Eifel）、洪斯吕克山（Hunsrück）、威斯特瓦尔德山（Westerwald）和陶努斯山（Taunus），州内地形以中等山地为主，这些山脉构成了莱茵峡谷的天然屏障。"
+      }
+    ]
+  },
+  "Saarland": {
+    "code": "SL",
+    "capital": "Saarbrücken",
+    "questions": [
+      {
+        "id": "SL_1",
+        "question": "Das Saarland ist das flächenmäßig kleinste Flächenland Deutschlands. Was bedeutet \"Flächenland\"?",
+        "options": [
+          "Ein Land ohne Küste",
+          "Ein Bundesland, das kein Stadtstaat ist",
+          "Ein Land mit besonders flachem Gelände",
+          "Ein Land ohne eigene Regierung"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "\\\"面积州\\\"（Flächenland）是指德国非城市州的普通联邦州，即有完整行政区域、不同于柏林、汉堡、不莱梅这三个城市州的联邦州。萨尔州是13个面积州中面积最小的。"
+      },
+      {
+        "id": "SL_2",
+        "question": "Welche Farben hat die Landesflagge des Saarlandes?",
+        "options": [
+          "Schwarz-Rot-Gold",
+          "Blau-Rot",
+          "Weiß-Blau",
+          "Schwarz-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨尔州州旗颜色为蓝色和红色，源自萨尔州历史上作为国际联盟和后来联合国托管领土时期的旗帜传统。州徽由四个历史徽章组成，反映了萨尔地区复杂的历史背景。"
+      },
+      {
+        "id": "SL_3",
+        "question": "Wie heißt das Landesparlament im Saarland?",
+        "options": [
+          "Bürgerschaft",
+          "Saarländischer Landtag",
+          "Abgeordnetenhaus",
+          "Senat"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨尔州议会称为\"萨尔州议会\"（Saarländischer Landtag），位于首府萨尔布吕肯，共51个议席，是德国最小的州议会之一。"
+      },
+      {
+        "id": "SL_4",
+        "question": "Wann wurde das Saarland Teil der Bundesrepublik Deutschland?",
+        "options": [
+          "1945",
+          "1949",
+          "1957",
+          "1990"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "萨尔州于1957年1月1日通过全民公决后正式加入联邦德国。此前萨尔区一直是法国的保护领地，1955年的公投中萨尔居民拒绝了\"萨尔化\"方案，随后选择回归德国。"
+      },
+      {
+        "id": "SL_5",
+        "question": "Welcher Fluss fließt durch Saarbrücken?",
+        "options": [
+          "Mosel",
+          "Saar",
+          "Blies",
+          "Nied"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨尔河（Saar）流经萨尔布吕肯，是萨尔州最重要的河流，也是萨尔布吕肯市名的来源（萨尔河上的桥）。萨尔河最终在特里尔附近注入摩泽尔河。"
+      },
+      {
+        "id": "SL_6",
+        "question": "An welche zwei Nachbarstaaten grenzt das Saarland?",
+        "options": [
+          "Belgien und Luxemburg",
+          "Frankreich und Luxemburg",
+          "Frankreich und Belgien",
+          "Schweiz und Österreich"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨尔州与法国和卢森堡接壤，是德国与这两个邻国的重要边境地区。由于地处法德边境，萨尔州的文化和历史深受法国影响，法语在该州有一定的普及程度。"
+      },
+      {
+        "id": "SL_7",
+        "question": "Wofür war das Saarland historisch bekannt?",
+        "options": [
+          "Tourismus",
+          "Kohle- und Stahlindustrie",
+          "Weinbau",
+          "Textilindustrie"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨尔州历史上以煤炭和钢铁工业著称，萨尔煤矿（Saargruben）是欧洲重要的煤炭产地。随着煤炭工业衰退，萨尔州已完成经济结构转型，发展了汽车工业和服务业。"
+      },
+      {
+        "id": "SL_8",
+        "question": "Welches ist die einzige Universität des Saarlandes?",
+        "options": [
+          "Universität des Saarlandes",
+          "Hochschule für Technik und Wirtschaft",
+          "Katholische Universität Saarbrücken",
+          "Fachhochschule Saarland"
+        ],
+        "correctIndex": 0,
+        "explanation_zh": "萨尔大学（Universität des Saarlandes）是萨尔州唯一的大学，1948年在萨尔布吕肯成立，以计算机科学和信息技术研究著称，是德国重要的信息技术研究中心。"
+      },
+      {
+        "id": "SL_9",
+        "question": "Was ist die Saarschleife?",
+        "options": [
+          "Eine historische Eisenbahnlinie",
+          "Eine bekannte Flussschleife der Saar bei Mettlach",
+          "Ein Bergpass",
+          "Ein Weinanbaugebiet"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨尔弯道（Saarschleife）是萨尔河在梅特拉赫附近形成的著名蜿蜒河曲，从奥宾（Orscholz）可以俯瞰整个蛇形河道全景，是萨尔州最著名的自然景观和旅游胜地之一。"
+      },
+      {
+        "id": "SL_10",
+        "question": "Welcher deutsch-französische Kooperationsraum liegt im Saarland?",
+        "options": [
+          "Eurodistrikt Straßburg",
+          "Saar-Lor-Lux (Großregion)",
+          "Regio TriRhena",
+          "Euregio Maas-Rhein"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨尔-洛林-卢森堡大区（Saar-Lor-Lux，Großregion）是跨越德国、法国、卢森堡和比利时的跨境合作区域，萨尔州是其重要组成部分。这一跨境合作区促进了区域内劳动力、文化和经济的交流。"
+      }
+    ]
+  },
+  "Sachsen": {
+    "code": "SN",
+    "capital": "Dresden",
+    "questions": [
+      {
+        "id": "SN_1",
+        "question": "Welches ist ein Landkreis in Sachsen?",
+        "options": [
+          "Altmarkkreis Salzwedel",
+          "Erzgebirgskreis",
+          "Börde",
+          "Mansfeld-Südharz"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "厄尔士山县（Erzgebirgskreis）是萨克森州的一个县，位于厄尔士山脉地区。这一山区以采矿业和木雕工艺著称，其文化遗产已被列入联合国教科文组织世界遗产名录候选名单。其他选项属于萨克森-安哈尔特州。"
+      },
+      {
+        "id": "SN_2",
+        "question": "Welche Farben hat die Landesflagge von Sachsen?",
+        "options": [
+          "Schwarz-Gelb",
+          "Weiß-Grün",
+          "Blau-Weiß",
+          "Rot-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "萨克森州州旗颜色为白色和绿色，源自历史上韦廷王朝的传统纹章。这两种颜色自中世纪以来就代表着萨克森公国，现代萨克森州继承了这一传统。"
+      },
+      {
+        "id": "SN_3",
+        "question": "Wie heißt das Landesparlament in Sachsen?",
+        "options": [
+          "Senat",
+          "Bürgerschaft",
+          "Sächsischer Landtag",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "萨克森州议会称为\"萨克森州议会\"（Sächsischer Landtag），位于首府德累斯顿，共120个议席。萨克森州在1990年德国统一后重建，是五个新联邦州之一。"
+      },
+      {
+        "id": "SN_4",
+        "question": "Welche berühmte Kunstsammlung befindet sich in Dresden?",
+        "options": [
+          "Alte Pinakothek",
+          "Grünes Gewölbe und Gemäldegalerie Alte Meister",
+          "Hamburger Kunsthalle",
+          "Städel Museum"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "德累斯顿以其丰富的艺术收藏著称，绿色穹顶（Grünes Gewölbe）是欧洲最重要的珍宝馆之一，而德累斯顿老大师画廊（Gemäldegalerie Alte Meister）收藏有拉斐尔的《西斯廷圣母》等世界名作。"
+      },
+      {
+        "id": "SN_5",
+        "question": "Welcher Fluss fließt durch Dresden?",
+        "options": [
+          "Spree",
+          "Oder",
+          "Elbe",
+          "Mulde"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "易北河（Elbe）流经德累斯顿，德累斯顿易北河谷以其壮观的巴洛克建筑群而闻名，曾被列入世界遗产名录（后因建桥而除名）。萨克森州长约130公里的易北河段是德国最美的河段之一。"
+      },
+      {
+        "id": "SN_6",
+        "question": "Wann wurde Sachsen als Bundesland (wieder)gegründet?",
+        "options": [
+          "1945",
+          "1952",
+          "1990",
+          "1994"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "萨克森州于1990年10月3日德国统一时重建。萨克森在东德时期（1952年）被解散并分为多个专区，1990年德国统一后作为联邦州重新成立，是经济最强的东部联邦州之一。"
+      },
+      {
+        "id": "SN_7",
+        "question": "Welches Gebirge bildet die südliche Grenze Sachsens zu Tschechien?",
+        "options": [
+          "Harz",
+          "Erzgebirge",
+          "Riesengebirge",
+          "Frankenwald"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "厄尔士山脉（Erzgebirge，意为矿石山）构成萨克森州与捷克的南部边界，是萨克森最重要的山脉。这一山区历史上以银矿开采著称，采矿业和相关手工艺文化遗产已被列入世界遗产名录。"
+      },
+      {
+        "id": "SN_8",
+        "question": "Welche Stadt in Sachsen ist bekannt als Messestadt?",
+        "options": [
+          "Dresden",
+          "Chemnitz",
+          "Zwickau",
+          "Leipzig"
+        ],
+        "correctIndex": 3,
+        "explanation_zh": "莱比锡（Leipzig）以其悠久的博览会传统著称，Leipzig Messe是德国最古老的博览会城市，贸易历史可追溯至中世纪。莱比锡还以其音乐传统（巴赫、门德尔松）和圣托马斯合唱团而闻名。"
+      },
+      {
+        "id": "SN_9",
+        "question": "Welche sorbische Minderheit hat ihre Heimat in Sachsen?",
+        "options": [
+          "Niedersorbisch sprechende Sorben",
+          "Obersorbisch sprechende Sorben",
+          "Beide, Ober- und Niedersorbisch",
+          "Keine, nur in Brandenburg"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "说上索布语（Obersorbisch）的索布族在萨克森州（主要在巴茨岑/包岑地区）有其传统家园，而说下索布语的索布族主要生活在勃兰登堡州。索布语和文化受德国法律保护。"
+      },
+      {
+        "id": "SN_10",
+        "question": "Was ist das Völkerschlachtdenkmal in Leipzig?",
+        "options": [
+          "Ein mittelalterlicher Dom",
+          "Ein Denkmal für die Völkerschlacht von 1813",
+          "Ein Kriegsdenkmal für den 1. Weltkrieg",
+          "Eine moderne Kunst-Installation"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "民族战役纪念碑（Völkerschlachtdenkmal）是莱比锡的著名地标，于1913年建成，纪念1813年的莱比锡战役（又称民族战役），在这场战役中拿破仑军队被欧洲联军击败。纪念碑高91米，是欧洲最大的纪念碑之一。"
+      }
+    ]
+  },
+  "Sachsen-Anhalt": {
+    "code": "ST",
+    "capital": "Magdeburg",
+    "questions": [
+      {
+        "id": "ST_1",
+        "question": "Welches ist ein Landkreis in Sachsen-Anhalt?",
+        "options": [
+          "Nordsachsen",
+          "Börde",
+          "Elbe-Elster",
+          "Prignitz"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "伯德县（Börde）是萨克森-安哈尔特州的一个县，以肥沃的黑土地（黄土）农业区著称，是德国重要的粮食产区。其他选项属于萨克森州或勃兰登堡州的县。"
+      },
+      {
+        "id": "ST_2",
+        "question": "Welche Farben hat die Landesflagge von Sachsen-Anhalt?",
+        "options": [
+          "Schwarz-Gelb",
+          "Grün-Weiß",
+          "Gelb-Schwarz",
+          "Weiß-Grün"
+        ],
+        "correctIndex": 0,
+        "explanation_zh": "萨克森-安哈尔特州州旗颜色为黑色和金色（黄色），这两种颜色来自萨克森-安哈尔特历史上的两个组成部分：萨克森（黑金色）和安哈尔特（绿色，但旗帜采用了萨克森色调）。"
+      },
+      {
+        "id": "ST_3",
+        "question": "Wie heißt das Landesparlament in Sachsen-Anhalt?",
+        "options": [
+          "Bürgerschaft",
+          "Senat",
+          "Landtag von Sachsen-Anhalt",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "萨克森-安哈尔特州议会称为\"萨克森-安哈尔特州议会\"（Landtag von Sachsen-Anhalt），位于首府马格德堡，共87个议席，是该州的最高立法机构。"
+      },
+      {
+        "id": "ST_4",
+        "question": "Wann wurde Sachsen-Anhalt als Bundesland (wieder)gegründet?",
+        "options": [
+          "1945",
+          "1952",
+          "1990",
+          "1994"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "萨克森-安哈尔特州于1990年10月3日德国统一时重建。该州在东德时期（1952年）被解散并分为数个专区（马格德堡和哈勒专区），1990年德国统一后重新作为联邦州成立。"
+      },
+      {
+        "id": "ST_5",
+        "question": "Welcher Fluss fließt durch Magdeburg?",
+        "options": [
+          "Weser",
+          "Oder",
+          "Elbe",
+          "Saale"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "易北河（Elbe）流经马格德堡，是这座城市历史发展的重要基础。马格德堡是易北河沿岸最重要的城市之一，以其雄伟的大教堂和奥托大帝的历史遗迹而闻名。"
+      },
+      {
+        "id": "ST_6",
+        "question": "Was ist die Lutherstadt Wittenberg bekannt für?",
+        "options": [
+          "Als Geburtsort von Karl Marx",
+          "Als Wirkungsstätte Martin Luthers und Beginn der Reformation",
+          "Als Hauptort der Bauernkriege",
+          "Als Sitz des sächsischen Kurfürsten"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "路德城维滕贝格（Lutherstadt Wittenberg）因马丁·路德（1483-1546）在此工作和生活而闻名，他于1517年在此教堂门上张贴《九十五条论纲》，揭开了宗教改革的序幕。维滕贝格是联合国教科文组织世界文化遗产地。"
+      },
+      {
+        "id": "ST_7",
+        "question": "Welches Gebirge liegt im südlichen Sachsen-Anhalt?",
+        "options": [
+          "Riesengebirge",
+          "Thüringer Wald",
+          "Harz",
+          "Erzgebirge"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "哈茨山（Harz）南部延伸至萨克森-安哈尔特州，布罗肯峰（Brocken）海拔1141米，是哈茨山最高峰，也是萨克森-安哈尔特州的最高点。哈茨国家公园保护着这一珍贵的自然生态系统。"
+      },
+      {
+        "id": "ST_8",
+        "question": "Welche Stadt in Sachsen-Anhalt ist bekannt als Chemiestandort?",
+        "options": [
+          "Magdeburg",
+          "Halle (Saale)",
+          "Merseburg/Leuna",
+          "Dessau"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "梅尔泽堡/洛伊纳地区（Merseburg/Leuna）是萨克森-安哈尔特州重要的化工中心，洛伊纳化工厂（Leunawerke）是德国最重要的化工基地之一，历史可追溯至一战时期。"
+      },
+      {
+        "id": "ST_9",
+        "question": "Was ist das Bauhaus und wo wurde es gegründet?",
+        "options": [
+          "Eine Architekturbewegung, gegründet in München",
+          "Eine Kunstschule, gegründet 1919 in Dessau",
+          "Eine Kunstschule, gegründet 1919 in Weimar (und später in Dessau)",
+          "Ein Baustil aus der DDR-Zeit"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "包豪斯（Bauhaus）是1919年由瓦尔特·格罗皮乌斯在魏玛创立的著名艺术学校，1925年迁至萨克森-安哈尔特州的德绍（Dessau）。包豪斯对现代设计、建筑和艺术产生了深远影响，德绍包豪斯校舍已被列入世界文化遗产。"
+      },
+      {
+        "id": "ST_10",
+        "question": "In welcher Stadt Sachsen-Anhalts wurde Georg Friedrich Händel geboren?",
+        "options": [
+          "Magdeburg",
+          "Halle (Saale)",
+          "Dessau",
+          "Naumburg"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "格奥尔格·弗里德里希·亨德尔（1685-1759）出生于哈勒（萨勒），是巴洛克时期最重要的作曲家之一，代表作有清唱剧《弥赛亚》（Messiah）。哈勒每年举办亨德尔音乐节纪念这位伟大作曲家。"
+      }
+    ]
+  },
+  "Schleswig-Holstein": {
+    "code": "SH",
+    "capital": "Kiel",
+    "questions": [
+      {
+        "id": "SH_1",
+        "question": "Welches ist ein Landkreis in Schleswig-Holstein?",
+        "options": [
+          "Uckermark",
+          "Barnim",
+          "Segeberg",
+          "Dahme-Spreewald"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "泽格贝格县（Segeberg）是石勒苏益格-荷尔斯泰因州的一个县，位于汉堡北部。其他选项均属于勃兰登堡州的县。"
+      },
+      {
+        "id": "SH_2",
+        "question": "Welche Farben hat die Landesflagge von Schleswig-Holstein?",
+        "options": [
+          "Blau-Weiß",
+          "Blau-Weiß-Rot",
+          "Rot-Weiß-Blau",
+          "Weiß-Rot"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "石勒苏益格-荷尔斯泰因州州旗颜色为蓝色、白色和红色，结合了石勒苏益格（蓝白）和荷尔斯泰因（红白）传统纹章的颜色，反映了该州由两个历史地区合并的背景。"
+      },
+      {
+        "id": "SH_3",
+        "question": "Wie heißt das Landesparlament in Schleswig-Holstein?",
+        "options": [
+          "Bürgerschaft",
+          "Senat",
+          "Landtag Schleswig-Holstein",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "石勒苏益格-荷尔斯泰因州议会称为\"石勒苏益格-荷尔斯泰因州议会\"（Landtag Schleswig-Holstein），位于首府基尔，共73个议席，是该州的最高立法机构。"
+      },
+      {
+        "id": "SH_4",
+        "question": "Schleswig-Holstein ist das einzige Bundesland, das an zwei Meere grenzt. An welche?",
+        "options": [
+          "Nordsee und Atlantik",
+          "Nordsee und Ostsee",
+          "Ostsee und Atlantik",
+          "Nordsee und Mittelmeer"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "石勒苏益格-荷尔斯泰因州是德国唯一同时濒临两个海洋的州：西部濒临北海，东部濒临波罗的海，两海之间的水路由北海-波罗的海运河（基尔运河）相连，是世界上最繁忙的人工水道之一。"
+      },
+      {
+        "id": "SH_5",
+        "question": "Welche Minderheiten sind in Schleswig-Holstein anerkannt?",
+        "options": [
+          "Sorben und Friesen",
+          "Dänen und Friesen (Nordfriesen)",
+          "Dänen und Sorben",
+          "Friesen und Sinti und Roma"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "石勒苏益格-荷尔斯泰因州承认两个少数民族：丹麦少数民族（主要在石勒苏益格北部）和北弗里斯人（沿北海海岸）。此外还有辛提人和罗姆人被承认为少数民族。丹麦少数民族受基尔宣言（1949年）保护。"
+      },
+      {
+        "id": "SH_6",
+        "question": "Was ist der Nord-Ostsee-Kanal?",
+        "options": [
+          "Ein historischer Handelsweg",
+          "Der meistbefahrene künstliche Schifffahrtskanal der Welt",
+          "Ein Kanal für die Binnenschifffahrt",
+          "Ein Bewässerungskanal für die Landwirtschaft"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "北海-波罗的海运河（Nord-Ostsee-Kanal，又称基尔运河）是世界上最繁忙的人工航运水道，全长98公里，连接北海和波罗的海。运河于1895年开通，每年通行船只超过3万艘，大幅缩短了两海之间的航行距离。"
+      },
+      {
+        "id": "SH_7",
+        "question": "Auf welcher Insel liegt das Wattenmeer-UNESCO-Weltnaturerbe in Schleswig-Holstein?",
+        "options": [
+          "Fehmarn",
+          "Sylt",
+          "Das schleswig-holsteinische Wattenmeer liegt an der Küste (keine Insel)",
+          "Helgoland"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "石勒苏益格-荷尔斯泰因州的瓦登海（Wattenmeer）不是位于某个特定岛屿，而是沿北海海岸分布的浅滩潮汐生态系统。石勒苏益格-荷尔斯泰因瓦登海于1985年成为国家公园，2009年被列入联合国教科文组织世界自然遗产。"
+      },
+      {
+        "id": "SH_8",
+        "question": "Welcher Kieler Woche ist ein weltbekanntes Ereignis?",
+        "options": [
+          "Ein Musikfestival",
+          "Die weltgrößte Segelveranstaltung",
+          "Ein Volksfest mit Bier",
+          "Ein Filmfestival"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "基尔周（Kieler Woche）是世界上最大的帆船赛事，每年6月在基尔湾举行，吸引来自世界各地的帆船运动员参与。自1882年起举办，是国际帆船运动的重要赛事，也是基尔市最重要的年度庆典。"
+      },
+      {
+        "id": "SH_9",
+        "question": "Welche Insel gehört zu Schleswig-Holstein und gilt als windigste Insel Deutschlands?",
+        "options": [
+          "Rügen",
+          "Fehmarn",
+          "Sylt",
+          "Borkum"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "叙尔特岛（Sylt）是德国最北端的岛屿，以其强风、美丽沙滩和高档度假地而闻名，也是德国最著名的北海岛屿之一。叙尔特岛通过提斯特洲堤道（Hindenburgdamm）与大陆相连。"
+      },
+      {
+        "id": "SH_10",
+        "question": "In welcher Stadt Schleswig-Holsteins ist die Bundeswehr-Universität?",
+        "options": [
+          "Kiel",
+          "Lübeck",
+          "Flensburg",
+          "Hamburg (in der Metropolregion)"
+        ],
+        "correctIndex": 0,
+        "explanation_zh": "基尔大学（Christian-Albrechts-Universität zu Kiel）成立于1665年，是石勒苏益格-荷尔斯泰因州最古老和最大的大学。基尔也是北约海军基地所在地，德国海军（Marine）在此有重要设施。"
+      }
+    ]
+  },
+  "Thüringen": {
+    "code": "TH",
+    "capital": "Erfurt",
+    "questions": [
+      {
+        "id": "TH_1",
+        "question": "Welches ist ein Landkreis in Thüringen?",
+        "options": [
+          "Mansfeld-Südharz",
+          "Gotha",
+          "Börde",
+          "Altmarkkreis Salzwedel"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "哥达县（Gotha）是图林根州的一个县，历史上是哥达公国的中心，以哥达保险公司和普特斯地图出版社（Justus Perthes）著称。其他选项属于萨克森-安哈尔特州的县。"
+      },
+      {
+        "id": "TH_2",
+        "question": "Welche Farben hat die Landesflagge von Thüringen?",
+        "options": [
+          "Blau-Weiß",
+          "Rot-Weiß",
+          "Weiß-Rot",
+          "Grün-Weiß"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "图林根州州旗颜色为红色和白色，源自图林根传统纹章的颜色。州徽是红色背景上的白色狮子，来自图林根方伯国的历史纹章，已有数百年传统。"
+      },
+      {
+        "id": "TH_3",
+        "question": "Wie heißt das Landesparlament in Thüringen?",
+        "options": [
+          "Bürgerschaft",
+          "Senat",
+          "Thüringer Landtag",
+          "Abgeordnetenhaus"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "图林根州议会称为\"图林根州议会\"（Thüringer Landtag），位于首府埃尔福特，共88个议席。图林根州在1990年德国统一后重建，是五个新联邦州之一。"
+      },
+      {
+        "id": "TH_4",
+        "question": "Auf welcher Burg in Thüringen übersetzte Martin Luther die Bibel ins Deutsche?",
+        "options": [
+          "Burg Eltz",
+          "Wartburg",
+          "Burg Hohenzollern",
+          "Burg Trifels"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "马丁·路德于1521-1522年在图林根的瓦特堡（Wartburg）将《新约圣经》翻译成德语，这是德国文化史上的重要事件，对德语书面语的形成产生了深远影响。瓦特堡于1999年被列入联合国教科文组织世界文化遗产名录。"
+      },
+      {
+        "id": "TH_5",
+        "question": "In welcher Stadt Thüringens wurde Johann Sebastian Bach geboren?",
+        "options": [
+          "Erfurt",
+          "Weimar",
+          "Eisenach",
+          "Gotha"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "约翰·塞巴斯蒂安·巴赫（1685-1750）出生于图林根州的艾森纳赫（Eisenach），是巴洛克时期最伟大的作曲家之一。艾森纳赫还有著名的瓦特堡，马丁·路德曾在此翻译圣经。"
+      },
+      {
+        "id": "TH_6",
+        "question": "Wann wurde Thüringen als Bundesland (wieder)gegründet?",
+        "options": [
+          "1945",
+          "1952",
+          "1990",
+          "1994"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "图林根州于1990年10月3日德国统一时重建。该州在东德时期（1952年）被解散并分为数个专区（埃尔福特、哈勒和格拉专区的一部分），1990年德国统一后重新作为联邦州成立。"
+      },
+      {
+        "id": "TH_7",
+        "question": "Welche Stadt in Thüringen ist bekannt als Klassikstadt (Goethe und Schiller)?",
+        "options": [
+          "Erfurt",
+          "Jena",
+          "Weimar",
+          "Gotha"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "魏玛（Weimar）是图林根州著名的古典主义文化中心，歌德和席勒曾在此生活和工作，魏玛成为18世纪末德国文化的中心。魏玛古典主义文化遗址于1998年被列入世界文化遗产，包豪斯遗址也于1996年列入。"
+      },
+      {
+        "id": "TH_8",
+        "question": "Was ist der Thüringer Wald?",
+        "options": [
+          "Ein Nationalpark",
+          "Ein Mittelgebirge im Südwesten Thüringens",
+          "Eine Waldschutzzone",
+          "Ein Waldgebiet im Norden Thüringens"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "图林根森林（Thüringer Wald）是位于图林根州西南部的一座中等山脉，最高峰格罗瑟尔贝格（Großer Beerberg）海拔983米，是重要的旅游区和冬季运动胜地，也是著名的蓝岭徒步路线（Rennsteig）所在地。"
+      },
+      {
+        "id": "TH_9",
+        "question": "Welche Universität in Jena ist eine der ältesten Deutschlands?",
+        "options": [
+          "Technische Universität Ilmenau",
+          "Bauhaus-Universität Weimar",
+          "Friedrich-Schiller-Universität Jena",
+          "Ernst-Abbe-Hochschule Jena"
+        ],
+        "correctIndex": 2,
+        "explanation_zh": "弗里德里希·席勒大学耶拿（Friedrich-Schiller-Universität Jena）成立于1558年，是图林根州最重要的大学，也是德国最古老的大学之一。该大学以哲学（黑格尔、费希特、席勒曾在此执教）和光学（卡尔·蔡司公司发源地）著称。"
+      },
+      {
+        "id": "TH_10",
+        "question": "Was ist das KZ-Gedenkstätte Buchenwald?",
+        "options": [
+          "Ein Kriegsmuseum",
+          "Eine Gedenkstätte für das nationalsozialistische Konzentrationslager bei Weimar",
+          "Ein DDR-Museum",
+          "Eine Naturschutzzone"
+        ],
+        "correctIndex": 1,
+        "explanation_zh": "布痕瓦尔德纪念地（KZ-Gedenkstätte Buchenwald）是纪念魏玛附近纳粹集中营受害者的重要历史遗址。布痕瓦尔德集中营于1937-1945年运作，关押了来自欧洲各国的约25万名囚犯，其中约5.6万人遇难。"
+      }
+    ]
+  }
+}

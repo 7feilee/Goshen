@@ -1,0 +1,3902 @@
+[
+  {
+    "id": 1,
+    "question": "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
+    "options": [
+      "der Staat dies erlaubt.",
+      "die Redefreiheit durch das Grundgesetz geschützt wird.",
+      "die Menschen keine Angst vor der Regierung haben.",
+      "die Regierung schwach ist."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "在德国，言论自由受《基本法》第5条保护。《基本法》（Grundgesetz）是德国的宪法，它保障每个人公开表达意见的权利，即使批评政府也不例外。这是民主制度的核心原则之一，国家权力不能限制公民的正当言论。"
+  },
+  {
+    "id": 2,
+    "question": "In Deutschland können Bürgerinnen und Bürger …",
+    "options": [
+      "ihren Wohnort frei wählen.",
+      "nur in bestimmten Gebieten wohnen.",
+      "ohne Genehmigung ins Ausland reisen.",
+      "ihren Beruf nur mit Erlaubnis des Staates ausüben."
+    ],
+    "correctIndex": 0,
+    "category": "Grundrechte",
+    "explanation_zh": "根据德国《基本法》第11条，德国公民享有迁徙自由，可以在德国境内自由选择居住地。这一基本权利保障公民不受国家干涉地自主决定居住地点，是个人自由的重要组成部分。"
+  },
+  {
+    "id": 3,
+    "question": "Deutschland ist eine Republik. Was bedeutet das?",
+    "options": [
+      "Deutschland wird von einem König oder einer Königin regiert.",
+      "Das Staatsoberhaupt wird nicht durch Erbfolge bestimmt.",
+      "Es gibt keine Regierung in Deutschland.",
+      "Deutschland wird von der Kirche regiert."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "共和制（Republik）意味着国家元首不是通过世袭产生的，而是通过选举或任命产生的。德国是联邦共和国，联邦总统是国家元首，由联邦大会选举产生，任期五年，不是世袭职位。"
+  },
+  {
+    "id": 4,
+    "question": "Was ist das Grundgesetz?",
+    "options": [
+      "Ein einfaches Bundesgesetz",
+      "Die Verfassung der Bundesrepublik Deutschland",
+      "Ein Gesetz der Europäischen Union",
+      "Eine internationale Vereinbarung"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "《基本法》（Grundgesetz）是德意志联邦共和国的宪法，于1949年5月23日生效。它规定了国家的基本原则、公民的基本权利以及国家机构的组织方式。《基本法》是德国最高法律，所有其他法律都必须与之相符。"
+  },
+  {
+    "id": 5,
+    "question": "Welches Grundprinzip gilt für die Bundesrepublik Deutschland?",
+    "options": [
+      "Sie ist ein sozialistischer Einheitsstaat.",
+      "Sie ist ein demokratischer und sozialer Bundesstaat.",
+      "Sie ist eine konstitutionelle Monarchie.",
+      "Sie ist ein theokratischer Staat."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "根据《基本法》第20条，德意志联邦共和国是一个民主的、社会的联邦国家（demokratischer und sozialer Bundesstaat）。这意味着国家权力来自人民，国家有责任保障社会公正，且权力在联邦和各州之间分配。"
+  },
+  {
+    "id": 6,
+    "question": "Wie wird in Deutschland die Würde des Menschen geschützt?",
+    "options": [
+      "Durch ein einfaches Bundesgesetz",
+      "Durch das erste Artikel des Grundgesetzes",
+      "Durch einen Beschluss des Bundestages",
+      "Durch internationale Verträge"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第1条第1款明确规定：\"人的尊严不可侵犯。尊重和保护人的尊严是国家所有权力的义务。\"这是《基本法》中最重要的条款，被视为所有基本权利的基础，是不可修改的核心条款之一。"
+  },
+  {
+    "id": 7,
+    "question": "Welche Staatsform hat die Bundesrepublik Deutschland?",
+    "options": [
+      "Absolute Monarchie",
+      "Parlamentarische Demokratie",
+      "Präsidiale Demokratie",
+      "Oligarchie"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "德国是议会民主制国家（parlamentarische Demokratie）。在这种制度下，政府（联邦政府）由议会（联邦议院）产生并对其负责。联邦总理由联邦议院选举产生，与美国的总统制不同，德国总统的权力相对有限。"
+  },
+  {
+    "id": 8,
+    "question": "Was bedeutet die Aussage, dass Deutschland ein Rechtsstaat ist?",
+    "options": [
+      "Es gibt sehr viele Rechtsanwälte in Deutschland.",
+      "Alle staatlichen Handlungen müssen auf Gesetzen beruhen.",
+      "Das Recht steht über der Demokratie.",
+      "Nur Juristen können Politiker werden."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "法治国家原则（Rechtsstaat）意味着国家的所有行为必须有法律依据，公民受法律保护，不受国家的任意行为侵害。这包括法律面前人人平等、司法独立、行政行为可受法院审查等原则，是德国民主制度的根基之一。"
+  },
+  {
+    "id": 9,
+    "question": "Welches Organ der Bundesrepublik Deutschland hat die Aufgabe, Gesetze zu erlassen?",
+    "options": [
+      "Der Bundespräsident",
+      "Der Bundesrat",
+      "Der Bundestag",
+      "Das Bundesverfassungsgericht"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "联邦议院（Bundestag）是德国联邦立法机构，负责制定联邦法律。联邦议院由选民直接选举产生，是德国人民意志的代表机构。联邦参议院（Bundesrat）也参与立法，但代表各州利益，而联邦总统主要是签署并颁布法律。"
+  },
+  {
+    "id": 10,
+    "question": "Was versteht man unter dem Föderalismus in Deutschland?",
+    "options": [
+      "Die Zentralisierung aller Macht beim Bund",
+      "Die Aufteilung staatlicher Aufgaben und Kompetenzen zwischen Bund und Ländern",
+      "Die Zusammenarbeit Deutschlands mit anderen EU-Staaten",
+      "Die Gleichberechtigung aller politischen Parteien"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦制（Föderalismus）是德国国家结构的基本原则，国家权力在联邦（Bund）和16个联邦州（Länder）之间分配。各州在教育、警察、文化等领域拥有自己的立法权。这种权力分散有助于防止权力过度集中，是吸取纳粹专制历史教训的结果。"
+  },
+  {
+    "id": 11,
+    "question": "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "德意志联邦共和国由16个联邦州（Bundesländer）组成。其中包括3个城市州（柏林、不来梅和汉堡）以及13个面积较大的州。1990年德国统一后，原东德的5个州加入联邦，使总数达到16个。"
+  },
+  {
+    "id": 12,
+    "question": "Welche Funktion hat der Bundesrat?",
+    "options": [
+      "Er wählt den Bundeskanzler.",
+      "Er vertritt die Interessen der Länder auf Bundesebene.",
+      "Er kontrolliert die Arbeit des Bundespräsidenten.",
+      "Er ernennt die Bundesminister."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦参议院（Bundesrat）代表各联邦州在联邦层面的利益。它参与联邦立法，尤其是在涉及各州利益的法律方面拥有同意权或反对权。联邦参议院由各州政府的成员组成，而非直接选举产生，是联邦制的重要体现。"
+  },
+  {
+    "id": 13,
+    "question": "Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?",
+    "options": [
+      "Der Bundeskanzler",
+      "Der Bundestagspräsident",
+      "Der Bundespräsident",
+      "Der Bundesratspräsident"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "联邦总统（Bundespräsident）是德意志联邦共和国的国家元首。他由联邦大会（Bundesversammlung）选举产生，任期五年，可连任一次。与议会制相对应，联邦总统主要履行代表性职能，实际政治权力由联邦总理掌握。"
+  },
+  {
+    "id": 14,
+    "question": "Wie wird der Bundespräsident gewählt?",
+    "options": [
+      "Direkt vom Volk",
+      "Vom Bundestag",
+      "Von der Bundesversammlung",
+      "Vom Bundesrat"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "联邦总统由联邦大会（Bundesversammlung）选举产生，联邦大会由联邦议院全体议员和各联邦州议会选出的同等数量代表组成。联邦总统不由公民直接选举，这反映了德国议会民主制的特点，也是吸取魏玛共和国直选总统导致权力集中的历史教训。"
+  },
+  {
+    "id": 15,
+    "question": "Wer wählt den Bundeskanzler?",
+    "options": [
+      "Die Bevölkerung direkt",
+      "Der Bundespräsident",
+      "Der Bundestag",
+      "Der Bundesrat"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "联邦总理（Bundeskanzler）由联邦议院（Bundestag）选举产生，通常是在联邦大选后由能够组建多数联合政府的政党领袖担任。联邦总理是德国政府首脑，掌握实际行政权力，负责制定政策方针。"
+  },
+  {
+    "id": 16,
+    "question": "Was ist die Aufgabe des Bundesverfassungsgerichts?",
+    "options": [
+      "Es erlässt neue Gesetze.",
+      "Es kontrolliert die Vereinbarkeit von Gesetzen mit dem Grundgesetz.",
+      "Es wählt den Bundespräsidenten.",
+      "Es verwaltet den Bundeshaushalt."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦宪法法院（Bundesverfassungsgericht）负责审查法律是否符合《基本法》，是德国最高法律机构。它可以宣布违宪的法律无效，保护公民的基本权利，并裁决国家机构之间的权限争议。宪法法院位于卡尔斯鲁厄，是德国法治国家原则的重要保障。"
+  },
+  {
+    "id": 17,
+    "question": "Welche drei Gewalten gibt es in der Bundesrepublik Deutschland?",
+    "options": [
+      "Legislative, Exekutive und Judikative",
+      "Monarchie, Aristokratie und Demokratie",
+      "Bundesregierung, Bundesrat und Bundestag",
+      "Bund, Länder und Gemeinden"
+    ],
+    "correctIndex": 0,
+    "category": "Demokratie",
+    "explanation_zh": "根据《基本法》第20条，国家权力分为三权：立法权（Legislative，制定法律）、行政权（Exekutive，执行法律）和司法权（Judikative，适用法律）。三权分立原则防止权力集中于一处，相互制衡，是民主法治国家的重要保障。"
+  },
+  {
+    "id": 18,
+    "question": "Was bedeutet das Prinzip der Gewaltenteilung?",
+    "options": [
+      "Die Macht wird gleichmäßig auf alle Bürger verteilt.",
+      "Die staatliche Macht wird auf verschiedene Organe aufgeteilt, die sich gegenseitig kontrollieren.",
+      "Das Militär und die Polizei teilen sich die Macht.",
+      "Die Macht liegt bei der Mehrheit der Bevölkerung."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "权力分立原则（Gewaltenteilung）意味着国家权力被分配给不同的机构，这些机构相互制衡和监督。立法机关制定法律，行政机关执行法律，司法机关审判案件。这种制度防止任何一个机构或人物独揽权力，是民主制度的基石。"
+  },
+  {
+    "id": 19,
+    "question": "In Deutschland ist die Presse- und Meinungsfreiheit gesetzlich geregelt. Was bedeutet das konkret?",
+    "options": [
+      "Alle Zeitungen gehören dem Staat.",
+      "Journalisten dürfen nur positive Nachrichten berichten.",
+      "Medien können frei berichten, ohne staatliche Kontrolle.",
+      "Der Staat kontrolliert alle Medieninhalte."
+    ],
+    "correctIndex": 2,
+    "category": "Grundrechte",
+    "explanation_zh": "根据《基本法》第5条，新闻自由（Pressefreiheit）和言论自由（Meinungsfreiheit）受到宪法保护。媒体可以自由报道，包括批评政府，不受国家审查。独立的媒体是民主社会的第四权力，监督政府和公共事务。"
+  },
+  {
+    "id": 20,
+    "question": "Was schützt Artikel 1 des Grundgesetzes?",
+    "options": [
+      "Das Recht auf Eigentum",
+      "Die Würde des Menschen",
+      "Die Reisefreiheit",
+      "Das Recht auf Bildung"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第1条保护人的尊严（Menschenwürde），宣告\"人的尊严不可侵犯\"。这是德国宪法最核心的条款，被视为所有基本权利的源泉和基础。这条规定直接来源于对纳粹时代践踏人的尊严的历史反思，并且是《基本法》中不可通过修宪改变的永久性条款。"
+  },
+  {
+    "id": 21,
+    "question": "Was garantiert das Grundgesetz in Artikel 3?",
+    "options": [
+      "Das Recht auf Arbeit",
+      "Die Gleichberechtigung von Mann und Frau",
+      "Das Recht auf Wohnraum",
+      "Die Versammlungsfreiheit"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第3条第2款明确规定男女平等（Gleichberechtigung von Mann und Frau）。该条款还规定，国家应积极推动男女实质平等，消除现有的不平等。这一原则对德国社会、劳动、家庭等各个领域都有深远影响。"
+  },
+  {
+    "id": 22,
+    "question": "Was besagt das Grundgesetz zur Religionsfreiheit?",
+    "options": [
+      "Das Christentum ist die Staatsreligion.",
+      "Die Religionsfreiheit ist gewährleistet.",
+      "Nur anerkannte Religionen sind erlaubt.",
+      "Religion ist Privatsache und gesetzlich nicht geregelt."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第4条保障宗教自由（Religionsfreiheit），包括信仰自由、宗教活动自由和拒绝信仰的自由。德国没有国家宗教，国家与教会在制度上分离，但二者之间存在合作关系，如收取教会税等。"
+  },
+  {
+    "id": 23,
+    "question": "Welches Recht garantiert Artikel 8 des Grundgesetzes?",
+    "options": [
+      "Das Recht auf freie Berufsausübung",
+      "Das Recht auf Versammlungsfreiheit",
+      "Das Recht auf Eigentum",
+      "Das Recht auf Bildung"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第8条保障集会自由（Versammlungsfreiheit），即德国公民有权在不事先通知或获得许可的情况下和平集会。对于公共场所的集会，需要事先通知，但当局不得随意禁止。这一权利是民主参与的重要形式。"
+  },
+  {
+    "id": 24,
+    "question": "Was schützt Artikel 9 des Grundgesetzes?",
+    "options": [
+      "Die Koalitionsfreiheit und das Recht, Vereine zu gründen",
+      "Das Recht auf politisches Asyl",
+      "Die Freiheit der Wissenschaft",
+      "Das Briefgeheimnis"
+    ],
+    "correctIndex": 0,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第9条保障结社自由（Vereinigungsfreiheit）和组建工会的权利（Koalitionsfreiheit）。公民有权自由成立和加入社团、协会、工会等组织。工会权利（Koalitionsfreiheit）专门保障劳动者和雇主组建行业协会、开展集体谈判的权利。"
+  },
+  {
+    "id": 25,
+    "question": "Was regelt das Grundgesetz bezüglich der Familie?",
+    "options": [
+      "Familien haben keinen besonderen Schutz.",
+      "Ehe und Familie stehen unter dem besonderen Schutz der staatlichen Ordnung.",
+      "Der Staat bestimmt, wer heiraten darf.",
+      "Kinder gehören dem Staat."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第6条规定，婚姻和家庭受国家秩序的特别保护。这意味着国家有义务通过立法和政策支持家庭，如提供育儿补贴、亲假、税收优惠等。同时，父母有抚养和教育子女的权利和义务，国家在通常情况下不干涉家庭事务。"
+  },
+  {
+    "id": 26,
+    "question": "Was ist das Asylrecht in Deutschland?",
+    "options": [
+      "Ein Recht, das nur EU-Bürgern zusteht",
+      "Das Recht politisch Verfolgter auf Schutz in Deutschland",
+      "Ein Recht auf kostenlosen Wohnraum",
+      "Das Recht, dauerhaft in Deutschland zu bleiben"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "根据《基本法》第16a条，遭受政治迫害的人享有在德国的庇护权（Asylrecht）。这一权利保护因种族、宗教、政治观点等原因受到迫害的人，使其免于被驱逐回迫害国。德国的庇护制度是二战后基于历史责任建立的，反映了对纳粹迫害受害者的深刻反思。"
+  },
+  {
+    "id": 27,
+    "question": "Darf man in Deutschland eine Partei gründen?",
+    "options": [
+      "Nein, es sind nur die bestehenden Parteien erlaubt.",
+      "Ja, das Grundgesetz garantiert die Parteiengründungsfreiheit.",
+      "Nur wenn der Bundespräsident zustimmt.",
+      "Nur Parteien, die demokratische Grundsätze ablehnen, sind verboten."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "《基本法》第21条保障政党自由，公民可以自由创建政党。政党在民主意志形成过程中发挥重要作用。但反对自由民主基本秩序的政党可以被联邦宪法法院禁止，如历史上对德国共产党（KPD，1956年）的禁止令。"
+  },
+  {
+    "id": 28,
+    "question": "Was passiert in Deutschland, wenn ein Gesetz gegen das Grundgesetz verstößt?",
+    "options": [
+      "Das Gesetz gilt trotzdem.",
+      "Der Bundespräsident ändert das Gesetz.",
+      "Das Bundesverfassungsgericht kann das Gesetz für nichtig erklären.",
+      "Das Gesetz wird automatisch ungültig."
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "当一项法律违反《基本法》时，联邦宪法法院（Bundesverfassungsgericht）有权宣布该法律违宪并无效。这一审查机制（Normenkontrolle）确保了《基本法》作为最高法律的权威性。任何公民都可以通过宪法申诉（Verfassungsbeschwerde）保护自己的基本权利。"
+  },
+  {
+    "id": 29,
+    "question": "Was ist das aktive Wahlrecht in Deutschland?",
+    "options": [
+      "Das Recht, als Kandidat zur Wahl anzutreten",
+      "Das Recht, an Wahlen teilzunehmen und zu wählen",
+      "Das Recht, Wahlen zu organisieren",
+      "Das Recht, Wahlkampf zu betreiben"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "主动选举权（aktives Wahlrecht）是指参加选举投票的权利。在德国联邦议院选举中，年满18周岁的德国公民享有主动选举权。与之相对的是被动选举权（passives Wahlrecht），即作为候选人参加竞选的权利，联邦议院选举的被选年龄也是18岁。"
+  },
+  {
+    "id": 30,
+    "question": "Wie oft wird der Deutsche Bundestag regulär gewählt?",
+    "options": [
+      "Alle drei Jahre",
+      "Alle vier Jahre",
+      "Alle fünf Jahre",
+      "Alle sechs Jahre"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "德国联邦议院（Bundestag）通常每四年选举一次。《基本法》第39条规定了四年任期，但在特定情况下可以提前举行选举，例如总理在信任投票中失败并申请总统解散议会时。定期选举是民主问责制的核心机制。"
+  },
+  {
+    "id": 31,
+    "question": "Was ist die Fünf-Prozent-Hürde bei Bundestagswahlen?",
+    "options": [
+      "Eine Partei braucht 5% der Bevölkerung als Mitglieder.",
+      "Eine Partei muss mindestens 5% der Stimmen erhalten, um in den Bundestag einzuziehen.",
+      "Der Bundestag muss zu 5% aus Frauen bestehen.",
+      "Kandidaten brauchen 5% der Stimmen im Wahlkreis."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "五percent门槛（Fünf-Prozent-Hürde）规定政党必须在全国范围内获得至少5%的有效票，才能进入联邦议院。这一规定旨在防止议会过于碎片化，避免魏玛共和国时期小党林立导致政治不稳定的局面重演。例外情况是获得至少三个直选选区席位的政党可免除此限制。"
+  },
+  {
+    "id": 32,
+    "question": "Welches Wahlsystem gilt in Deutschland bei Bundestagswahlen?",
+    "options": [
+      "Reines Mehrheitswahlrecht",
+      "Personalisierte Verhältniswahl",
+      "Reines Verhältniswahlrecht",
+      "Blockwahl"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "德国联邦议院选举采用个人化比例代表制（personalisierte Verhältniswahl）。选民有两票：第一票（Erststimme）直接选举本选区候选人，第二票（Zweitstimme）选择政党。第二票决定各党在议会中的席位比例，第一票决定由哪些候选人进入议会。这一制度兼顾了选区代表性和比例代表性。"
+  },
+  {
+    "id": 33,
+    "question": "Was ist der Unterschied zwischen Erst- und Zweitstimme bei der Bundestagswahl?",
+    "options": [
+      "Die Erststimme wählt den Kanzler, die Zweitstimme wählt den Präsidenten.",
+      "Mit der Erststimme wählt man den Direktkandidaten, mit der Zweitstimme die Partei.",
+      "Die Erststimme ist wichtiger als die Zweitstimme.",
+      "Beide Stimmen wählen die gleiche Person."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "在联邦议院选举中，第一票（Erststimme）用于选择选区候选人，获得最多选票的候选人直接进入议会。第二票（Zweitstimme）用于选择政党，决定各党在议会中的总体席位比例，是决定选举结果的更重要一票。两票制是德国独特的混合选举制度的核心。"
+  },
+  {
+    "id": 34,
+    "question": "Wann haben Frauen in Deutschland das Wahlrecht erhalten?",
+    "options": [
+      "1871",
+      "1918",
+      "1945",
+      "1949"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "德国女性于1918年获得选举权，这发生在第一次世界大战结束、威廉帝国崩溃之后。1918年11月12日，新成立的魏玛共和国宣布赋予女性选举权。1919年1月19日举行的国民议会选举是德国女性首次参加的全国性选举，比许多其他国家更早。"
+  },
+  {
+    "id": 35,
+    "question": "Was ist der Unterschied zwischen einem demokratischen und einem autoritären Staat?",
+    "options": [
+      "In der Demokratie gibt es keine Gesetze.",
+      "In der Demokratie geht die Staatsgewalt vom Volk aus, im autoritären Staat liegt die Macht bei einer Person oder Gruppe.",
+      "Demokratien haben keine Streitkräfte.",
+      "In autoritären Staaten gibt es freie Wahlen."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "民主国家的国家权力来自人民，通过自由选举、权力分立和法治来保障；而独裁国家的权力集中于一个人或一个团体手中，不受制约。《基本法》第20条规定\"所有国家权力来自人民\"，这是德国民主制度的根本原则，直接区别于纳粹德国的独裁体制。"
+  },
+  {
+    "id": 36,
+    "question": "Was ist eine Koalition in der deutschen Politik?",
+    "options": [
+      "Ein Verbot für politische Parteien",
+      "Ein Bündnis mehrerer Parteien zur Bildung einer Regierungsmehrheit",
+      "Eine internationale Allianz",
+      "Eine Vereinigung von Gewerkschaften"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "联合政府（Koalition）是指两个或多个政党为了在议会中形成多数并组成政府而建立的政治联盟。由于德国比例代表制的特点，单一政党通常难以获得议会绝对多数，因此联合政府是德国政治的常态。联合各方需要谈判并签署联合执政协议（Koalitionsvertrag）。"
+  },
+  {
+    "id": 37,
+    "question": "Was sind Grundrechte?",
+    "options": [
+      "Rechte, die nur deutschen Staatsbürgern zustehen",
+      "Unveräußerliche Rechte, die jedem Menschen zustehen und im Grundgesetz verankert sind",
+      "Rechte, die der Staat verleihen und entziehen kann",
+      "Rechte, die nur im Notfall gelten"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "基本权利（Grundrechte）是《基本法》第1至19条中规定的不可剥夺的权利，保护个人免受国家权力的侵害。大多数基本权利适用于所有人（人权），部分公民权利仅适用于德国公民。这些权利直接适用于法律，任何人都可以通过宪法申诉加以主张。"
+  },
+  {
+    "id": 38,
+    "question": "Was bedeutet das Sozialstaatsprinzip in Deutschland?",
+    "options": [
+      "Der Staat besitzt alle Produktionsmittel.",
+      "Der Staat ist verpflichtet, für soziale Gerechtigkeit und Sicherheit zu sorgen.",
+      "Alle Bürger erhalten das gleiche Einkommen.",
+      "Soziale Leistungen sind nur für Deutsche."
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "社会国家原则（Sozialstaatsprinzip）规定于《基本法》第20条，要求国家采取积极措施保障社会公正和社会安全。这包括失业保险、医疗保险、养老保险、社会救助等制度。德国的社会市场经济（Soziale Marktwirtschaft）将市场经济与社会保障相结合，是战后德国发展的重要基础。"
+  },
+  {
+    "id": 39,
+    "question": "Was ist die Aufgabe der Bundesregierung?",
+    "options": [
+      "Gesetze zu erlassen",
+      "Das Land zu regieren und die Gesetze auszuführen",
+      "Die Verfassung auszulegen",
+      "Den Bundespräsidenten zu wählen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦政府（Bundesregierung）由联邦总理和联邦部长组成，其主要职责是执政和执行法律。联邦总理确定政策方针，各联邦部长在其各自领域独立负责。联邦政府还拥有立法倡议权，可以向联邦议院提出法律草案。"
+  },
+  {
+    "id": 40,
+    "question": "Welche Aufgabe hat der Bundespräsident?",
+    "options": [
+      "Er leitet die Bundesregierung.",
+      "Er ist das Staatsoberhaupt und repräsentiert Deutschland nach innen und außen.",
+      "Er erlässt Gesetze ohne Zustimmung des Bundestages.",
+      "Er ist der Oberbefehlshaber der Bundeswehr."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦总统（Bundespräsident）是德国国家元首，主要承担代表性职能，代表德国进行国内外活动。他签署并颁布联邦法律，任命和免除联邦官员，在政治危机中发挥调解作用。与行政总理制不同，联邦总统通常不参与日常政治决策。"
+  },
+  {
+    "id": 41,
+    "question": "Wie lange ist die Amtszeit des Bundespräsidenten?",
+    "options": [
+      "Drei Jahre",
+      "Vier Jahre",
+      "Fünf Jahre",
+      "Sechs Jahre"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "联邦总统的任期为五年，可连任一次，即最多任职十年。这与联邦议院四年的任期不同步，有助于维持政治稳定性。联邦总统由联邦大会选举，联邦大会由联邦议院全体议员和各州选出的同等数量代表组成。"
+  },
+  {
+    "id": 42,
+    "question": "Was ist die Aufgabe des Bundestagspräsidenten?",
+    "options": [
+      "Er leitet die Sitzungen des Bundestages.",
+      "Er ernennt die Bundesminister.",
+      "Er vertritt Deutschland im Ausland.",
+      "Er kontrolliert die Bundesregierung."
+    ],
+    "correctIndex": 0,
+    "category": "Staat",
+    "explanation_zh": "联邦议院议长（Bundestagspräsident）主持联邦议院的会议，维持议会秩序，代表联邦议院对外。他是联邦议院的最高代表，在联邦总统缺位时代行部分职责。联邦议院议长通常由最大党团推荐，并由议院全体会议选举产生。"
+  },
+  {
+    "id": 43,
+    "question": "Was ist eine Opposition im deutschen Parlamentssystem?",
+    "options": [
+      "Eine verbotene politische Bewegung",
+      "Die Parteien im Bundestag, die nicht Teil der Regierung sind",
+      "Die Anhänger des Bundespräsidenten",
+      "Eine Bürgerinitiative gegen die Regierung"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "在议会制度中，反对党（Opposition）是指议会中不参与组成政府的政党。反对党的主要功能是监督和批评执政政府，提出替代政策，是民主制衡机制的重要部分。强有力的反对党是健康民主制度的标志，德国《基本法》保障反对党的权利。"
+  },
+  {
+    "id": 44,
+    "question": "Was ist das konstruktive Misstrauensvotum?",
+    "options": [
+      "Ein Verfahren, mit dem der Bundestag den Bundeskanzler abwählen und gleichzeitig einen neuen wählen kann",
+      "Ein Verfahren zur Auflösung des Bundestages",
+      "Ein Antrag auf Neuwahlen",
+      "Eine Vertrauensfrage des Kanzlers"
+    ],
+    "correctIndex": 0,
+    "category": "Staat",
+    "explanation_zh": "建设性不信任投票（konstruktives Misstrauensvotum）是《基本法》第67条规定的程序：联邦议院要罢免联邦总理，必须同时以多数票选出新的联邦总理。这一机制防止了魏玛共和国时期议会仅能推翻政府但无法形成新多数的\"消极多数\"困境，维护政治稳定。"
+  },
+  {
+    "id": 45,
+    "question": "Welches Gremium ist das höchste Verfassungsorgan in Deutschland?",
+    "options": [
+      "Der Bundesrat",
+      "Das Bundesverfassungsgericht",
+      "Der Bundestag",
+      "Alle Verfassungsorgane sind gleichrangig."
+    ],
+    "correctIndex": 3,
+    "category": "Staat",
+    "explanation_zh": "在德国宪法体系中，各宪法机构（Verfassungsorgane）如联邦总统、联邦议院、联邦参议院、联邦政府和联邦宪法法院在各自职能范围内是平等的，没有哪一个机构高于其他机构。权力分立和制衡是《基本法》的核心原则，防止任何单一机构取得主导地位。"
+  },
+  {
+    "id": 46,
+    "question": "Was versteht man unter dem Begriff \"Volkssouveränität\"?",
+    "options": [
+      "Der König ist Souverän des Volkes.",
+      "Alle Staatsgewalt geht vom Volk aus.",
+      "Das Volk muss alle Gesetze direkt beschließen.",
+      "Das Volk ist dem Staat untergeordnet."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "人民主权（Volkssouveränität）是指所有国家权力来源于人民的原则，规定于《基本法》第20条。人民通过选举和公民投票等形式行使权力，也通过选出的代表在立法、行政、司法机构中间接行使权力。这与封建制度下主权在于君主的原则根本不同。"
+  },
+  {
+    "id": 47,
+    "question": "Welche Farben hat die deutsche Nationalflagge?",
+    "options": [
+      "Schwarz, Weiß, Rot",
+      "Schwarz, Rot, Gold",
+      "Blau, Weiß, Rot",
+      "Grün, Weiß, Rot"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "德国国旗由黑色、红色和金色（金黄色）三条横带组成（从上到下）。这三种颜色源于1813年拿破仑战争时期的反抗运动，后来成为1848年德国民主运动的象征。1949年《基本法》将黑红金确定为联邦共和国国旗颜色，象征自由与民主。"
+  },
+  {
+    "id": 48,
+    "question": "Was ist das Bundesverfassungsgericht und wo hat es seinen Sitz?",
+    "options": [
+      "Das höchste Strafgericht in Berlin",
+      "Das höchste deutsche Gericht für Verfassungsfragen mit Sitz in Karlsruhe",
+      "Das europäische Gericht in Straßburg",
+      "Ein Gericht nur für Bundesbeamte in Bonn"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦宪法法院（Bundesverfassungsgericht）是德国处理宪法事务的最高法院，位于卡尔斯鲁厄。它由16名法官组成，分为两个审判庭，法官任期12年，不可连任。宪法法院的判决具有最高法律效力，即使联邦议院的法律也可能被其宣布违宪。"
+  },
+  {
+    "id": 49,
+    "question": "Was ist das Prinzip der repräsentativen Demokratie?",
+    "options": [
+      "Alle Bürger entscheiden direkt über alle Gesetze.",
+      "Gewählte Vertreter treffen im Namen des Volkes politische Entscheidungen.",
+      "Eine kleine Gruppe von Experten regiert das Land.",
+      "Das Volk kann keine politischen Entscheidungen treffen."
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "代议制民主（repräsentative Demokratie）是指公民选举代表，由代表代表人民做出政治决策的制度。在德国，联邦议员由选民选出，代表全体人民（而非仅代表其选区）做出立法决定。这区别于直接民主，后者要求公民直接参与每项决策。"
+  },
+  {
+    "id": 50,
+    "question": "Was ist die Europäische Union?",
+    "options": [
+      "Ein Militärbündnis europäischer Staaten",
+      "Ein politischer und wirtschaftlicher Zusammenschluss europäischer Staaten",
+      "Eine Organisation aller Staaten der Welt",
+      "Ein Bündnis nur zwischen Deutschland und Frankreich"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "欧盟（Europäische Union）是由27个欧洲国家组成的政治和经济联盟，德国是创始成员之一。欧盟的前身是1957年成立的欧洲经济共同体（EWG）。欧盟拥有统一的内部市场、共同货币（欧元）以及共同的立法和司法机构，是欧洲一体化进程的结晶。"
+  },
+  {
+    "id": 51,
+    "question": "Welches Gericht ist zuständig, wenn jemand seine Grundrechte verletzt sieht?",
+    "options": [
+      "Das Amtsgericht",
+      "Das Bundesverwaltungsgericht",
+      "Das Bundesverfassungsgericht mittels Verfassungsbeschwerde",
+      "Der Europäische Gerichtshof"
+    ],
+    "correctIndex": 2,
+    "category": "Grundrechte",
+    "explanation_zh": "当公民认为其基本权利受到国家行为侵害时，可以向联邦宪法法院提起宪法申诉（Verfassungsbeschwerde）。但前提是必须先穷尽所有普通司法救济途径。这一制度使每位公民都能直接保护自己的宪法权利，是德国法治国家原则的重要体现。"
+  },
+  {
+    "id": 52,
+    "question": "Was bedeutet \"Bundesrepublik\" im Namen \"Bundesrepublik Deutschland\"?",
+    "options": [
+      "Deutsch-land ist ein Kaiserreich.",
+      "Deutschland ist ein Zusammenschluss mehrerer Länder (Bundesstaat) ohne Monarchie (Republik).",
+      "Deutschland wird von einem Bundesfürsten regiert.",
+      "Es handelt sich um einen Einheitsstaat."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "\"联邦共和国\"（Bundesrepublik）包含两个含义：\"联邦\"（Bundes-）表示国家由多个联邦州组成，是联邦制国家；\"共和国\"（-republik）表示国家不是君主制，国家元首不是世袭产生的。这两个原则都是《基本法》第20条规定的国家基本特征，属于不可修改的永久性条款。"
+  },
+  {
+    "id": 53,
+    "question": "Wer kann in Deutschland ein Gesetz initiieren?",
+    "options": [
+      "Nur die Bundesregierung",
+      "Nur der Bundestag",
+      "Die Bundesregierung, der Bundestag und der Bundesrat",
+      "Nur der Bundespräsident"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "在德国，联邦政府、联邦议院（议员团体或一定数量的议员）以及联邦参议院都有权提出法律草案（Gesetzesinitiative）。实践中大多数法律草案由联邦政府提出。法律草案经联邦议院讨论通过，某些情况下还需要联邦参议院批准，最后由联邦总统签署颁布。"
+  },
+  {
+    "id": 54,
+    "question": "Was ist der Unterschied zwischen Bundesgesetzen und Landesgesetzen in Deutschland?",
+    "options": [
+      "Es gibt keinen Unterschied.",
+      "Bundesgesetze gelten für ganz Deutschland, Landesgesetze nur für das jeweilige Bundesland.",
+      "Landesgesetze sind wichtiger als Bundesgesetze.",
+      "Nur Bundesgesetze müssen vom Bundespräsidenten unterschrieben werden."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦法律（Bundesgesetze）在全德国范围内有效，由联邦议院制定；各州法律（Landesgesetze）只在该联邦州境内有效，由各州议会制定。根据《基本法》，联邦法律优先于州法律（\"Bundesrecht bricht Landesrecht\"）。各州在教育、文化、警察等领域拥有较大的立法自主权。"
+  },
+  {
+    "id": 55,
+    "question": "Was ist die Präambel des Grundgesetzes?",
+    "options": [
+      "Das letzte Kapitel des Grundgesetzes",
+      "Eine Einleitung, die den Sinn und Zweck des Grundgesetzes erläutert",
+      "Eine Liste aller Grundrechte",
+      "Die Definition der deutschen Staatsgrenzen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "前言（Präambel）是《基本法》的开篇，说明了立宪的背景、目的和基本价值取向。它提到德国人民在追求自由的基础上通过这部宪法，以服务世界和平，并强调欧洲一体化的目标。前言虽无直接法律约束力，但对解释《基本法》的精神有重要意义。"
+  },
+  {
+    "id": 56,
+    "question": "Welche Institution in Deutschland hat die Aufgabe, die öffentliche Ordnung und Sicherheit zu gewährleisten?",
+    "options": [
+      "Das Militär",
+      "Die Polizei",
+      "Der Verfassungsschutz",
+      "Das Bundeskriminalamt"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "警察（Polizei）是负责维护公共秩序和安全的主要执法机构。在德国，警察主要是各联邦州的事务，各州拥有自己的警察力量。联邦层面有联邦警察（Bundespolizei）和联邦刑事局（BKA），分别负责边境保护和跨州重大犯罪调查。"
+  },
+  {
+    "id": 57,
+    "question": "Was ist der Verfassungsschutz?",
+    "options": [
+      "Eine Organisation zum physischen Schutz von Verfassungsgebäuden",
+      "Ein Nachrichtendienst, der die freiheitlich-demokratische Grundordnung schützt",
+      "Eine Abteilung der Polizei für Verbrechen gegen den Staat",
+      "Ein Ausschuss des Bundestages"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "宪法保卫局（Verfassungsschutz）是德国的国内情报机构，负责收集关于威胁自由民主基本秩序的团体和个人的信息。联邦宪法保卫局（BfV）与各州的宪法保卫局共同工作，监视极端主义、间谍活动等威胁。它不是执法机构，无逮捕权。"
+  },
+  {
+    "id": 58,
+    "question": "Was bedeutet es, dass Deutschland ein sozialer Rechtsstaat ist?",
+    "options": [
+      "Alle Bürger haben das gleiche Einkommen.",
+      "Der Staat sorgt für Recht und Ordnung und gleichzeitig für soziale Gerechtigkeit.",
+      "Soziale Rechte haben Vorrang vor dem Grundgesetz.",
+      "Sozialhilfe ist freiwillig."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "社会法治国家（sozialer Rechtsstaat）是《基本法》第20条规定的双重原则：一方面，国家是法治国家，依法治国，保护公民权利；另一方面，国家是社会国家，有责任保障社会公正和减少社会不平等。这两个原则相互补充，构成德国国家制度的核心特征。"
+  },
+  {
+    "id": 59,
+    "question": "Welche Partei wurde nach dem Zweiten Weltkrieg gegründet und ist heute noch bedeutsam?",
+    "options": [
+      "NSDAP",
+      "CDU (Christlich Demokratische Union)",
+      "KPD",
+      "DNVP"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "基督教民主联盟（CDU，Christlich Demokratische Union）于1945年二战结束后不久成立，是德国战后历史上最重要的政党之一。该党以基督教价值观和社会市场经济为基础，与巴伐利亚的基社盟（CSU）是姐妹党，长期主导联邦政府，阿德纳厄、科尔、默克尔等著名总理均来自该党。"
+  },
+  {
+    "id": 60,
+    "question": "Was ist der Bundeshaushalt?",
+    "options": [
+      "Das Privatvermögen des Bundeskanzlers",
+      "Der jährliche Finanzplan des Bundes für Einnahmen und Ausgaben",
+      "Die Immobilien im Besitz des Bundes",
+      "Das Budget des Bundestages"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦预算（Bundeshaushalt）是联邦政府每年制定的财政计划，列明联邦的收入（主要来自税收）和支出（用于基础设施、社会保障、国防等）。联邦预算由联邦政府起草，须经联邦议院批准为法律，是议会对行政权力进行财政控制的重要手段。"
+  },
+  {
+    "id": 61,
+    "question": "Was bedeutet \"Meinungsfreiheit\" in Deutschland?",
+    "options": [
+      "Jede Meinung darf ohne Einschränkung geäußert werden.",
+      "Das Recht, seine Meinung frei zu äußern, mit gewissen gesetzlichen Einschränkungen.",
+      "Nur Meinungen, die der Regierung gefallen, sind erlaubt.",
+      "Meinungsfreiheit gilt nur im privaten Bereich."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "言论自由（Meinungsfreiheit）受《基本法》第5条保护，保障每个人有权自由表达意见。但这一权利并非无限制：例如，煽动仇恨（Volksverhetzung）、侮辱他人、散布纳粹符号等是违法的。权利的行使不得侵害他人的权利和尊严，这体现了基本权利之间的平衡。"
+  },
+  {
+    "id": 62,
+    "question": "Was schützt das Post- und Fernmeldegeheimnis?",
+    "options": [
+      "Die Arbeit der Deutschen Post",
+      "Die Vertraulichkeit der privaten Kommunikation",
+      "Das Recht auf kostenlosen Postversand",
+      "Die staatliche Kontrolle der Kommunikation"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "邮件和通讯秘密（Brief-, Post- und Fernmeldegeheimnis）由《基本法》第10条保护，保障私人通讯的保密性，包括信件、电话、电子邮件等。国家机构未经法院授权不得对私人通讯进行监控。这一权利保护个人私生活不受国家任意干涉。"
+  },
+  {
+    "id": 63,
+    "question": "Was ist das Petitionsrecht?",
+    "options": [
+      "Das Recht, Unterschriften zu sammeln",
+      "Das Recht, sich mit Bitten und Beschwerden schriftlich an den Bundestag oder andere staatliche Stellen zu wenden",
+      "Das Recht auf politisches Engagement",
+      "Das Recht auf eine Antwort vom Bundespräsidenten"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "请愿权（Petitionsrecht）由《基本法》第17条保障，每个人（不限于德国公民）都有权以书面形式向联邦议院或其他公共机构提出请求或投诉，并有权得到答复。这是公民参与政治的一种直接形式，联邦议院设有专门的请愿委员会处理相关事务。"
+  },
+  {
+    "id": 64,
+    "question": "Welche Rechte können auch Nicht-Deutsche in Deutschland haben?",
+    "options": [
+      "Keine, nur Deutsche haben Rechte.",
+      "Menschenrechte gelten für alle; nur einige Grundrechte sind Deutschen vorbehalten.",
+      "Ausländer haben die gleichen Rechte wie Deutsche.",
+      "Ausländer haben nur das Recht zu arbeiten."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》中的部分权利属于人权（Jedermannsrechte），适用于所有在德国境内的人，无论国籍，如生命权、人身自由、言论自由、宗教自由等。另一部分权利（Deutschenrechte）则仅限德国公民享有，如集会自由、结社自由、职业自由和选举权等。"
+  },
+  {
+    "id": 65,
+    "question": "Was ist der Unterschied zwischen Bürger- und Menschenrechten?",
+    "options": [
+      "Es gibt keinen Unterschied.",
+      "Menschenrechte gelten für alle Menschen, Bürgerrechte nur für Staatsbürger.",
+      "Bürgerrechte sind wichtiger.",
+      "Menschenrechte gelten nur international."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "人权（Menschenrechte）基于人的本质和尊严，适用于所有人，不论国籍或公民身份；公民权（Bürgerrechte）则是特定国家赋予本国公民的权利，如选举权。《基本法》中的基本权利兼具两种性质，部分权利（如人身自由）是人权，部分权利（如选举权）是公民权。"
+  },
+  {
+    "id": 66,
+    "question": "In welchem Jahr wurde die Bundesrepublik Deutschland gegründet?",
+    "options": [
+      "1945",
+      "1947",
+      "1949",
+      "1955"
+    ],
+    "correctIndex": 2,
+    "category": "Geschichte",
+    "explanation_zh": "德意志联邦共和国于1949年5月23日正式成立，当天《基本法》正式生效。1949年9月14日，西德首届联邦政府正式成立，阿登纳（Konrad Adenauer）成为第一任联邦总理。与此同时，苏占区于1949年10月7日成立了德意志民主共和国（东德）。"
+  },
+  {
+    "id": 67,
+    "question": "Was geschah am 9. November 1989?",
+    "options": [
+      "Deutschland wurde gegründet.",
+      "Die Berliner Mauer fiel.",
+      "Deutschland trat der EU bei.",
+      "Die NATO wurde gegründet."
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "1989年11月9日，柏林墙倒塌，这是20世纪最重要的历史事件之一。东德政府宣布开放边境后，数以万计的东德公民涌向西柏林。这一事件标志着德国分裂的结束，并很快导致了1990年10月3日德国的统一，今天10月3日是德国的国家统一日。"
+  },
+  {
+    "id": 68,
+    "question": "Wann fand die deutsche Wiedervereinigung statt?",
+    "options": [
+      "9. November 1989",
+      "1. Juli 1990",
+      "3. Oktober 1990",
+      "31. Dezember 1991"
+    ],
+    "correctIndex": 2,
+    "category": "Geschichte",
+    "explanation_zh": "德国统一于1990年10月3日正式完成，原东德的五个联邦州（勃兰登堡、梅克伦堡-前波美拉尼亚、萨克森、萨克森-安哈尔特和图林根）以及东柏林并入联邦德国。此后10月3日成为德国国庆日（Tag der Deutschen Einheit），纪念分裂45年后的重新统一。"
+  },
+  {
+    "id": 69,
+    "question": "Was war die DDR?",
+    "options": [
+      "Ein westdeutscher Bundesstaat",
+      "Die Deutsche Demokratische Republik, der kommunistische Staat in Ostdeutschland (1949–1990)",
+      "Ein Bundesland in Süddeutschland",
+      "Eine politische Partei"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "德意志民主共和国（DDR，Deutsche Demokratische Republik）是1949年至1990年间存在于德国东部的社会主义国家，在苏联的势力范围内。东德实行一党专政，由德国统一社会党（SED）执政，公民的基本自由受到严格限制，秘密警察（斯塔西）对社会进行广泛监控。"
+  },
+  {
+    "id": 70,
+    "question": "Welche Bedeutung hat der 8. Mai für Deutschland?",
+    "options": [
+      "Er ist der Tag der deutschen Einheit.",
+      "Er ist der Tag der Kapitulation Deutschlands im Zweiten Weltkrieg und der Befreiung vom Nationalsozialismus.",
+      "Er ist der Gründungstag der Bundesrepublik.",
+      "Er ist der Nationalfeiertag."
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "1945年5月8日，纳粹德国无条件投降，第二次世界大战在欧洲战场结束。这一天在德国被视为从国家社会主义（纳粹主义）统治下的解放日。前联邦总统理查德·冯·魏茨泽克在1985年的著名演讲中将这一天定性为\"解放日\"而非\"失败日\"，深刻影响了德国的历史认识。"
+  },
+  {
+    "id": 71,
+    "question": "Was war der Nationalsozialismus?",
+    "options": [
+      "Eine demokratische Bewegung des 20. Jahrhunderts",
+      "Eine totalitäre, rassistische und antidemokratische Ideologie unter Adolf Hitler (1933–1945)",
+      "Ein wirtschaftliches System in Ostdeutschland",
+      "Eine politische Partei in der Weimarer Republik"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "国家社会主义（Nationalsozialismus，简称纳粹主义）是阿道夫·希特勒领导下的极权主义、种族主义和反民主意识形态，1933年至1945年在德国统治。纳粹政权废除民主制度，迫害并屠杀了数百万犹太人及其他群体（大屠杀），发动了第二次世界大战，造成了巨大的历史灾难。"
+  },
+  {
+    "id": 72,
+    "question": "Was ist der Holocaust?",
+    "options": [
+      "Ein Krieg zwischen Deutschland und Frankreich",
+      "Die systematische Ermordung von ca. 6 Millionen Juden und anderen Gruppen durch die Nazis",
+      "Ein Begriff für den Ersten Weltkrieg",
+      "Die Bombardierung Dresdens"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "大屠杀（Holocaust，希伯来语称为\"Shoah\"）是纳粹德国对约600万犹太人以及辛提人、罗姆人、残障人士、政治异见人士、同性恋者等的系统性灭绝。这一罪行是20世纪最大的种族灭绝事件，对德国的历史认识和《基本法》的制定产生了深远影响，铭刻于德国的集体记忆之中。"
+  },
+  {
+    "id": 73,
+    "question": "Warum ist der Zweite Weltkrieg in Deutschland ein besonders wichtiges historisches Thema?",
+    "options": [
+      "Weil Deutschland ihn gewonnen hat",
+      "Weil Deutschland die Hauptverantwortung trägt und sich zur Aufarbeitung verpflichtet hat",
+      "Weil er nur in Deutschland stattfand",
+      "Weil er die deutsche Wirtschaft gestärkt hat"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "二战在德国是极其重要的历史议题，因为纳粹德国对这场战争和大屠杀负有主要责任。战后德国承担起历史责任，积极进行过去的清算（Vergangenheitsbewältigung），包括纽伦堡审判、赔偿受害者、在教育中讲授这段历史以及通过法律禁止纳粹宣传。这种历史反思是德国民主文化的重要基础。"
+  },
+  {
+    "id": 74,
+    "question": "Was war die Weimarer Republik?",
+    "options": [
+      "Ein Kaiserreich",
+      "Die erste deutsche Demokratie (1919–1933)",
+      "Die DDR",
+      "Ein Stadtstaat"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "魏玛共和国（Weimarer Republik）是1919年至1933年间存在的德国第一个民主共和国，以制宪会议召开地魏玛命名。它建立了议会民主制和基本权利保障，但最终因经济危机、政治极端化和制度缺陷而走向失败，1933年希特勒上台，魏玛民主宣告终结。德国《基本法》的许多设计正是为了避免重蹈魏玛共和国的覆辙。"
+  },
+  {
+    "id": 75,
+    "question": "Was bedeutet \"Vergangenheitsbewältigung\" in Deutschland?",
+    "options": [
+      "Das Vergessen der deutschen Geschichte",
+      "Die kritische Auseinandersetzung mit der NS-Vergangenheit",
+      "Die Feier von Kriegshelden",
+      "Das Verbot, über die Geschichte zu sprechen"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "\"过去的清算\"（Vergangenheitsbewältigung）指德国社会对纳粹历史的批判性反思和处理，包括法律追究纳粹罪犯（纽伦堡审判）、向受害者赔偿、在学校教授这段历史、建立纪念馆和博物馆、禁止否认大屠杀等。这种主动承担历史责任的态度被许多国家视为典范。"
+  },
+  {
+    "id": 76,
+    "question": "Wer war Konrad Adenauer?",
+    "options": [
+      "Der erste Bundespräsident der BRD",
+      "Der erste Bundeskanzler der Bundesrepublik Deutschland",
+      "Der letzte Kaiser Deutschlands",
+      "Der Gründer der SPD"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "康拉德·阿登纳（Konrad Adenauer）是德意志联邦共和国首任联邦总理，1949年至1963年在任，来自CDU。他领导德国在战后重建，推动西方融合（加入NATO和欧洲共同体），实现\"经济奇迹\"（Wirtschaftswunder），并与法国签订《爱丽舍条约》，奠定德法和解的基础。"
+  },
+  {
+    "id": 77,
+    "question": "Was ist die Hauptstadt der Bundesrepublik Deutschland?",
+    "options": [
+      "Bonn",
+      "Frankfurt",
+      "München",
+      "Berlin"
+    ],
+    "correctIndex": 3,
+    "category": "Staat",
+    "explanation_zh": "柏林（Berlin）是德意志联邦共和国的首都。德国统一后，1991年联邦议院决定将政府和议会从波恩迁往柏林，1999年迁都完成。联邦议院、联邦政府、联邦总统府等主要国家机构均设于柏林。柏林也是德国最大的城市，人口约380万。"
+  },
+  {
+    "id": 78,
+    "question": "Was ist das Grundprinzip der sozialen Marktwirtschaft in Deutschland?",
+    "options": [
+      "Der Staat kontrolliert alle wirtschaftlichen Aktivitäten.",
+      "Freie Marktwirtschaft wird mit sozialer Absicherung verbunden.",
+      "Es gibt keine staatliche Wirtschaftspolitik.",
+      "Alle Unternehmen gehören dem Staat."
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "社会市场经济（Soziale Marktwirtschaft）是德国战后确立的经济模式，将自由市场原则与社会保障体系相结合。国家保障市场竞争，但同时通过社会保险、劳动保护、反垄断法规等干预市场，纠正市场失灵，保障社会公平。这一模式是德国战后经济奇迹的制度基础。"
+  },
+  {
+    "id": 79,
+    "question": "Was ist die Aufgabe der Gewerkschaften in Deutschland?",
+    "options": [
+      "Die Arbeitgeber zu vertreten",
+      "Die Interessen der Arbeitnehmer zu vertreten",
+      "Den Staat bei der Arbeitsmarktpolitik zu beraten",
+      "Die Arbeitsvermittlung zu übernehmen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "工会（Gewerkschaften）代表工人的利益，与雇主进行集体谈判，争取更好的工资和工作条件，保护工人权益。德国主要工会联合会是德国工会联合会（DGB）。工会和雇主组织之间的自主谈判（Tarifautonomie）是德国劳动关系的核心原则，受《基本法》第9条保护。"
+  },
+  {
+    "id": 80,
+    "question": "Was ist die Aufgabe des Bundesrechnungshofes?",
+    "options": [
+      "Die Steuererhebung",
+      "Die Kontrolle der Haushaltsführung und Wirtschaftlichkeit des Bundes",
+      "Die Verwaltung des Bundesvermögens",
+      "Die Prüfung von Gesetzentwürfen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦审计院（Bundesrechnungshof）是独立的联邦最高审计机构，负责审查联邦财政管理是否合法、经济，监督联邦政府的财政支出是否按照联邦预算法合理使用，并向联邦议院和联邦政府报告审计结果，是财政问责制的重要保障。"
+  },
+  {
+    "id": 81,
+    "question": "Wie nennt man das Recht der Bürger, bei politischen Entscheidungen mitzuwirken?",
+    "options": [
+      "Widerstandsrecht",
+      "Mitbestimmungsrecht",
+      "Politische Teilhabe",
+      "Petitionsrecht"
+    ],
+    "correctIndex": 2,
+    "category": "Demokratie",
+    "explanation_zh": "政治参与（politische Teilhabe）是指公民通过各种方式参与政治决策过程的权利，包括选举投票、加入政党、参加公民运动、提出请愿、参与公众咨询等。民主制度的活力依赖于公民的积极参与，这也是《基本法》强调公民权利的根本目的。"
+  },
+  {
+    "id": 82,
+    "question": "Was ist ein Bürgerbegehren bzw. Volksbegehren in Deutschland?",
+    "options": [
+      "Eine Wahl des Bundestages",
+      "Ein Instrument direkter Demokratie, bei dem Bürger über eine Sachfrage abstimmen oder ein Volksbegehren einleiten können",
+      "Ein Antrag an den Bundespräsidenten",
+      "Eine Sammelklage vor dem Verfassungsgericht"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "公民申请（Bürgerbegehren）和公民投票（Volksbegehren/Volksentscheid）是直接民主的工具，允许公民就具体事项发起投票或立法建议。在德国，直接民主主要在州和地方层面运用，联邦层面的直接民主工具较为有限，《基本法》侧重于代议制民主。"
+  },
+  {
+    "id": 83,
+    "question": "Was regelt das Bürgerliche Gesetzbuch (BGB)?",
+    "options": [
+      "Das öffentliche Recht",
+      "Das Strafrecht",
+      "Privatrechtliche Verhältnisse zwischen Personen (Verträge, Familie, Erbrecht)",
+      "Das Steuerrecht"
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "《德国民法典》（BGB，Bürgerliches Gesetzbuch）规范私人法律关系，包括合同法、财产法、家庭法和继承法等领域。BGB于1900年1月1日生效，是德国私法的核心法典，对许多其他国家的民法典有深远影响。它在《基本法》框架内适用，基本权利对私法关系也有间接效力。"
+  },
+  {
+    "id": 84,
+    "question": "Was ist Steuerpflicht in Deutschland?",
+    "options": [
+      "Nur Reiche müssen Steuern zahlen.",
+      "Die gesetzliche Pflicht, Steuern an den Staat zu entrichten.",
+      "Das Recht, Steuern zu zahlen.",
+      "Steuern sind freiwillig."
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "纳税义务（Steuerpflicht）是公民依法向国家缴纳税款的法律义务。在德国，税收是国家最重要的财政来源，用于提供公共服务、基础设施、社会保障等。主要税种包括所得税（Einkommensteuer）、增值税（Mehrwertsteuer）、企业税（Körperschaftsteuer）等。"
+  },
+  {
+    "id": 85,
+    "question": "Welche Pflichten haben Eltern gegenüber ihren Kindern laut deutschem Recht?",
+    "options": [
+      "Keine besonderen Pflichten",
+      "Die Pflicht zur Pflege, Erziehung und Unterhalt",
+      "Nur die Pflicht zur finanziellen Unterstützung",
+      "Kinder müssen für ihre Eltern arbeiten"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "根据《基本法》第6条和《民法典》，父母有抚养、教育和赡养子女的义务，这包括为子女提供物质保障、教育子女成为负责任的社会成员等。国家监督父母履行这些义务，在虐待或严重忽视情况下，青少年局（Jugendamt）可以干预，保护儿童权益。"
+  },
+  {
+    "id": 86,
+    "question": "Welches Recht hat ein Angeklagter in Deutschland?",
+    "options": [
+      "Keine Rechte",
+      "Das Recht auf ein faires Verfahren und einen Anwalt",
+      "Das Recht, das Urteil selbst zu bestimmen",
+      "Das Recht, den Richter abzulehnen"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "在德国，被告人（Angeklagter）享有公正审判的权利（Recht auf ein faires Verfahren），包括获得法律援助的权利、保持沉默的权利、了解指控内容的权利等。这些权利受《基本法》第103条和欧洲人权公约保护，体现了法治国家原则中保护个人不受国家任意权力侵害的核心要求。"
+  },
+  {
+    "id": 87,
+    "question": "Was ist Pressefreiheit?",
+    "options": [
+      "Zeitungen sind kostenlos.",
+      "Medien dürfen frei und unabhängig vom Staat berichten.",
+      "Nur staatliche Medien sind erlaubt.",
+      "Journalisten brauchen eine Erlaubnis des Staates."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "新闻自由（Pressefreiheit）受《基本法》第5条保护，媒体机构可以自由独立地报道新闻，不受国家审查或干预。自由媒体是民主社会的\"第四权力\"，监督政府和公共机构。德国没有国家控制的官方媒体，公共广播机构（ARD、ZDF等）通过独立的监督委员会保持编辑独立性。"
+  },
+  {
+    "id": 88,
+    "question": "Was ist das Recht auf informationelle Selbstbestimmung?",
+    "options": [
+      "Das Recht, selbst Informationen zu sammeln",
+      "Das Recht, über die Verwendung eigener personenbezogener Daten selbst zu entscheiden",
+      "Das Recht auf freien Internetzugang",
+      "Das Recht, staatliche Informationen zu erhalten"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "信息自决权（Recht auf informationelle Selbstbestimmung）是联邦宪法法院在1983年人口普查判决中确立的基本权利，允许个人控制关于自身的个人数据的收集和使用。这一权利源自《基本法》第2条（人格自由发展权）和第1条（人的尊严），是数字时代数据保护的宪法基础。"
+  },
+  {
+    "id": 89,
+    "question": "Was bedeutet Neutralität der deutschen Staatskirche?",
+    "options": [
+      "Der Staat unterstützt alle Religionen gleichermaßen stark.",
+      "Der Staat ist weltanschaulich neutral und hat keine offizielle Staatsreligion.",
+      "Religionen dürfen sich nicht politisch äußern.",
+      "Kirchen erhalten kein Geld vom Staat."
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国国家在宗教事务上保持中立（Neutralität），没有国家宗教。国家与教会在制度上分离，国家不得支持或歧视任何宗教。虽然德国通过税务系统代收教会税（Kirchensteuer）并为教会提供某些支持，但这基于合作而非优先，所有宗教团体在法律上地位平等。"
+  },
+  {
+    "id": 90,
+    "question": "Was ist das Recht auf freie Entfaltung der Persönlichkeit?",
+    "options": [
+      "Das Recht auf ein freies Leben ohne jede Einschränkung",
+      "Das in Artikel 2 GG verankerte Recht, sich frei zu entwickeln, soweit die Rechte anderer nicht verletzt werden",
+      "Das Recht auf ein hohes Einkommen",
+      "Das Recht auf Bildung"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "人格自由发展权（Recht auf freie Entfaltung der Persönlichkeit）由《基本法》第2条第1款保障，是一般性自由权利的基础，保护个人按照自己意愿生活和发展，只要不违反他人权利、宪法秩序或道德准则。这一条款也是联邦宪法法院发展出许多新基本权利（如信息自决权）的法律依据。"
+  },
+  {
+    "id": 91,
+    "question": "Was ist das Recht auf körperliche Unversehrtheit?",
+    "options": [
+      "Das Recht auf Gesundheitsversorgung",
+      "Das in Artikel 2 GG verankerte Recht, nicht körperlich verletzt zu werden",
+      "Das Verbot von Sport",
+      "Das Recht auf Selbstverteidigung"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "身体完整权（Recht auf körperliche Unversehrtheit）由《基本法》第2条第2款保障，任何人的身体完整性不得受到侵害。国家在通常情况下不得对个人施加身体强制，强制医疗、酷刑等均被禁止。这一权利在医疗同意、警察执法、军事服务等领域具有重要的法律意义。"
+  },
+  {
+    "id": 92,
+    "question": "Was ist das Recht auf Leben?",
+    "options": [
+      "Das Recht, so lange wie möglich zu leben",
+      "Das in Artikel 2 GG verankerte Grundrecht, dass niemand willkürlich getötet werden darf",
+      "Das Verbot der Sterbehilfe",
+      "Das Recht auf staatliche Lebensunterhaltssicherung"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "生命权（Recht auf Leben）由《基本法》第2条第2款保障，任何人的生命权不得受到侵犯。国家不仅有消极义务不得任意剥夺生命，还有积极义务保护公民的生命安全。德国已于1949年在《基本法》中废除死刑（Todesstrafe），这是当时与纳粹政权的重要决裂之一。"
+  },
+  {
+    "id": 93,
+    "question": "Was schützt die Unverletzlichkeit der Wohnung laut Grundgesetz?",
+    "options": [
+      "Den Wohnungsmarkt",
+      "Das Recht, dass die eigene Wohnung ein geschützter Privatraum ist und nicht ohne Weiteres betreten werden darf",
+      "Das Eigentumsrecht an einer Wohnung",
+      "Mieter vor Kündigung"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "住所不可侵犯权（Unverletzlichkeit der Wohnung）由《基本法》第13条保障，私人住所是受保护的私人空间，国家机构（如警察）未经法院签发的搜查令通常不得进入。这一权利保护个人私生活免受国家任意干涉，体现了法治国家对私人领域的尊重。"
+  },
+  {
+    "id": 94,
+    "question": "Was ist Berufsfreiheit laut dem Grundgesetz?",
+    "options": [
+      "Jeder darf jeden Beruf ausüben ohne Qualifikation.",
+      "Das in Artikel 12 GG verankerte Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen.",
+      "Arbeitnehmer dürfen kündigen wann sie wollen.",
+      "Berufe dürfen nur vom Staat vergeben werden."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "职业自由（Berufsfreiheit）由《基本法》第12条保障，德国公民（此为公民权）有权自由选择职业、工作场所和培训场所。国家可以通过法律对职业准入进行规范（如资质要求），但这种限制必须有充分理由。这一权利保障个人在经济生活中的自主性。"
+  },
+  {
+    "id": 95,
+    "question": "Was schützt Artikel 14 des Grundgesetzes?",
+    "options": [
+      "Das Recht auf Arbeit",
+      "Das Eigentum und das Erbrecht",
+      "Die Freizügigkeit",
+      "Das Recht auf Bildung"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "《基本法》第14条保障财产权（Eigentumsrecht）和继承权（Erbrecht）。财产权受到保护，但同时规定\"财产负有义务，其使用应同时服务于公共利益\"。国家仅在出于公共利益目的并给予合理补偿的情况下才可征收私有财产（Enteignung）。"
+  },
+  {
+    "id": 96,
+    "question": "Was bedeutet Diskriminierungsverbot im Grundgesetz?",
+    "options": [
+      "Alle Menschen müssen gleich behandelt werden, niemand darf wegen Herkunft, Geschlecht, Glauben usw. benachteiligt werden.",
+      "Diskriminierung ist nur im Beruf verboten.",
+      "Nur Deutsche haben diesen Schutz.",
+      "Das Verbot gilt nur für staatliche Stellen."
+    ],
+    "correctIndex": 0,
+    "category": "Grundrechte",
+    "explanation_zh": "反歧视原则由《基本法》第3条规定，禁止基于性别、出身、种族、语言、家乡、信仰、宗教或政治观点对任何人进行歧视。这一原则适用于国家机构，也通过普通立法（如《一般平等待遇法》AGG）在私人关系中得到体现，保护所有人免受不合理的区别对待。"
+  },
+  {
+    "id": 97,
+    "question": "Was ist das Widerstandsrecht nach dem Grundgesetz?",
+    "options": [
+      "Das Recht der Bürger, gegen die Regierung zu protestieren",
+      "Das in Artikel 20 GG verankerte Recht aller Deutschen, Widerstand zu leisten, wenn jemand die verfassungsmäßige Ordnung beseitigen will",
+      "Das Recht auf Notwehr",
+      "Das Recht, Steuern zu verweigern"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "抵抗权（Widerstandsrecht）由《基本法》第20条第4款规定，当有人试图颠覆德国的宪法秩序时，如果没有其他补救手段，所有德国人都有权进行抵抗。这一条款是1968年宪法修正案加入的，针对企图通过非民主手段推翻自由民主基本秩序的行为，也是对纳粹夺权历史教训的回应。"
+  },
+  {
+    "id": 98,
+    "question": "Was ist die \"streitbare Demokratie\" in Deutschland?",
+    "options": [
+      "Eine Demokratie, in der viel gestritten wird",
+      "Ein Konzept, nach dem die Demokratie sich gegen ihre Feinde wehren darf (z.B. durch Parteiverbote)",
+      "Eine militaristische Demokratie",
+      "Eine Demokratie ohne Kompromisse"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "战斗性民主（streitbare Demokratie，也称wehrhafte Demokratie）是德国宪法的重要概念，意指民主制度有权利和义务保护自身免受反民主力量的颠覆。具体措施包括可禁止反宪政政党（《基本法》第21条）、剥夺滥用基本权利者的相关权利（第18条）等。这一概念直接来源于对纳粹合法夺权的历史反思。"
+  },
+  {
+    "id": 99,
+    "question": "Was bedeutet die Unschuldsvermutung im deutschen Recht?",
+    "options": [
+      "Alle Angeklagten sind unschuldig.",
+      "Jeder gilt als unschuldig, bis seine Schuld durch ein Gericht bewiesen ist.",
+      "Die Polizei darf keine Verdächtigen festnehmen.",
+      "Geständnisse sind immer wahr."
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "无罪推定原则（Unschuldsvermutung）是刑事诉讼的基本原则，即在法院依法证明罪行之前，被告人应被视为无罪。这一原则源自欧洲人权公约第6条，并被德国司法实践所确认。它保护公民免受无根据指控，是法治国家公正审判权利的重要组成部分。"
+  },
+  {
+    "id": 100,
+    "question": "Was ist die \"freiheitlich-demokratische Grundordnung\" (FDGO) in Deutschland?",
+    "options": [
+      "Ein Parteiprogramm der FDP",
+      "Die grundlegenden Prinzipien der deutschen Demokratie, die unantastbar sind und gegen die niemand handeln darf",
+      "Ein einfaches Bundesgesetz",
+      "Die Wirtschaftsordnung Deutschlands"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "自由民主基本秩序（freiheitlich-demokratische Grundordnung，FDGO）是德国宪法秩序的核心，包含人的尊严、民主原则、法治国家原则等不可侵犯的基本价值。任何人、政党或组织都不得采取行动破坏FDGO。宪法保卫局负责监视威胁FDGO的活动，政党也可因违反FDGO而被联邦宪法法院禁止。"
+  },
+  {
+    "id": 101,
+    "question": "Was versteht man unter dem Begriff 'Sozialversicherung' in Deutschland?",
+    "options": [
+      "Eine freiwillige private Versicherung",
+      "Ein staatliches System zur Absicherung bei Krankheit, Alter, Arbeitslosigkeit und Pflegebeduerftigkeit",
+      "Eine Versicherung nur fuer Beamte",
+      "Ein Fonds fuer soziale Projekte"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "社会保险（Sozialversicherung）是德国强制性社会保障制度的核心，涵盖医疗（Krankenversicherung）、养老（Rentenversicherung）、失业（Arbeitslosenversicherung）、事故（Unfallversicherung）和护理保险（Pflegeversicherung）五大支柱。"
+  },
+  {
+    "id": 102,
+    "question": "Wie nennt man das Prinzip, dass in Deutschland jede Gemeinde ihre eigenen Angelegenheiten selbst regelt?",
+    "options": [
+      "Bundesstaatlichkeit",
+      "Kommunale Selbstverwaltung",
+      "Dezentralisierung",
+      "Subsidiaritaet"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "市政自治（Kommunale Selbstverwaltung）原则由《基本法》第28条保障，各市镇（Gemeinden）有权在法律框架内自主管理本地事务，如道路建设、学校管理等。"
+  },
+  {
+    "id": 103,
+    "question": "Was ist der Unterschied zwischen einem Buergermeister und einem Bundeskanzler?",
+    "options": [
+      "Es gibt keinen Unterschied, beide regieren Deutschland.",
+      "Der Buergermeister leitet eine Stadt/Gemeinde, der Bundeskanzler leitet die Bundesregierung.",
+      "Der Bundeskanzler wird direkt gewaehlt, der Buergermeister nicht.",
+      "Der Buergermeister hat mehr Macht als der Bundeskanzler."
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "市长（Bürgermeister）负责领导城市或市镇政府，是地方行政首长；联邦总理（Bundeskanzler）领导联邦政府，是国家最高行政首长，职责范围完全不同。"
+  },
+  {
+    "id": 104,
+    "question": "Was sind die Aufgaben der Polizei in Deutschland?",
+    "options": [
+      "Die Buerger zu ueberwachen und zu kontrollieren",
+      "Die oeffentliche Sicherheit zu gewaehrleisten und Straftaten zu verfolgen",
+      "Gesetze zu erlassen",
+      "Den Bundestag zu schuetzen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "警察（Polizei）的职能是维护公共安全与秩序、追查刑事犯罪、保护公民安全。在德国，警察事务主要由各州（Länder）管理，属于州警察（Landespolizei），联邦层面有联邦刑事警察局（BKA）等机构。"
+  },
+  {
+    "id": 105,
+    "question": "Welche Taetigkeit ist fuer Vereinigungen verboten, die sich gegen die freiheitlich-demokratische Grundordnung richten?",
+    "options": [
+      "Politische Werbung",
+      "Alle politischen Taetigkeiten",
+      "Das Verbot gilt nur fuer bewaffnete Gruppen",
+      "Nur oeffentliche Versammlungen sind verboten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "根据《基本法》，反对自由民主基本秩序（freiheitlich-demokratische Grundordnung）的组织可以被禁止，其所有政治活动均为违法，这是德国\"抗拒性民主\"（streitbare Demokratie）的体现。"
+  },
+  {
+    "id": 106,
+    "question": "Was versteht man unter dem Recht auf freie Entfaltung der Persoenlichkeit?",
+    "options": [
+      "Jeder darf tun, was er will, ohne Ruecksicht auf andere",
+      "Jeder Mensch hat das Recht, sein Leben nach eigenen Vorstellungen zu gestalten, solange er die Rechte anderer nicht verletzt",
+      "Nur Deutsche haben dieses Recht",
+      "Das Recht gilt nur fuer Kinder"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "自由发展个人人格权（Recht auf freie Entfaltung der Persönlichkeit）由《基本法》第2条保障，每人有权按自己的意愿生活，但以不侵犯他人权利和违反宪法为限。"
+  },
+  {
+    "id": 107,
+    "question": "Was ist das Ziel der europaeischen Integration?",
+    "options": [
+      "Einen europaeischen Einheitsstaat zu schaffen",
+      "Frieden, Stabilitaet und Wohlstand in Europa zu foerdern",
+      "Die NATO zu ersetzen",
+      "Die Nationalstaaten aufzuloesen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "欧洲一体化（europäische Integration）的目标是促进欧洲的和平、稳定与繁荣，通过建立共同市场、单一货币（欧元）和共同政策来加强成员国间的合作与联系。"
+  },
+  {
+    "id": 108,
+    "question": "Was ist der Euro?",
+    "options": [
+      "Die Waehrung aller EU-Mitglieder",
+      "Die gemeinsame Waehrung vieler EU-Mitgliedsstaaten",
+      "Eine europaeische Kreditkarte",
+      "Eine Recheneinheit ohne physische Form"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "欧元（Euro）是欧元区（Eurozone）内多个欧盟成员国使用的共同货币，自1999年起以账面货币使用，2002年起硬币和纸币正式流通。目前并非所有欧盟成员国都使用欧元。"
+  },
+  {
+    "id": 109,
+    "question": "Was ist die NATO?",
+    "options": [
+      "Eine europaeische Wirtschaftsunion",
+      "Ein transatlantisches Verteidigungsbuendnis",
+      "Eine internationale Handelsorganisation",
+      "Eine UN-Unterorganisation fuer Abruestung"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "北约（NATO，北大西洋公约组织）是由北美和欧洲国家组成的集体防御联盟，成立于1949年，德国1955年加入，成员国依据第5条承担集体防御义务。"
+  },
+  {
+    "id": 110,
+    "question": "Was bedeutet Pressefreiheit fuer die Demokratie?",
+    "options": [
+      "Zeitungen duerfen kostenfrei verteilt werden",
+      "Medien koennen unabhaengig und ohne staatliche Zensur berichten und so die Demokratie staerken",
+      "Journalisten sind von Steuern befreit",
+      "Staatliche Medien haben Vorrang vor privaten"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "新闻自由（Pressefreiheit）对民主至关重要，使媒体能够独立报道、揭露腐败、监督权力，是民主社会\"第四权力\"的基础。无新闻自由的社会极易走向独裁。"
+  },
+  {
+    "id": 111,
+    "question": "Was bedeutet Gewissensfreiheit im Grundgesetz?",
+    "options": [
+      "Jeder darf alles tun, was sein Gewissen erlaubt",
+      "Niemand darf gegen sein Gewissen zu einer Handlung gezwungen werden",
+      "Gewissen ist eine religioesei Angelegenheit, die der Staat nicht regelt",
+      "Gewissensfreiheit gilt nur fuer religioesei Fragen"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "良心自由（Gewissensfreiheit）由《基本法》第4条保障，任何人不得被强迫违背自己的良心行事。例如，公民可以出于良心拒绝服兵役（Kriegsdienstverweigerung）。"
+  },
+  {
+    "id": 112,
+    "question": "Was versteht man unter dem Begriff Volkssouveraenitaet?",
+    "options": [
+      "Der Koenig regiert im Namen des Volkes",
+      "Die Staatsgewalt geht vom Volk aus",
+      "Das Volk entscheidet alle Fragen per Volksabstimmung",
+      "Das Volk waehlt den Staatspraesidenten direkt"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "人民主权（Volkssouveränität）原则由《基本法》第20条第2款确立，规定\"所有国家权力来自人民\"，人民通过选举和公投行使这一权力，是民主制度的根本原则。"
+  },
+  {
+    "id": 113,
+    "question": "Welches Merkmal kennzeichnet eine Diktatur?",
+    "options": [
+      "Freie Wahlen und starke Medien",
+      "Konzentration der Macht in einer Person oder Gruppe ohne Kontrolle",
+      "Stark ausgepragte Opposition",
+      "Unabhaengige Justiz"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "独裁制度（Diktatur）的典型特征是权力集中于一人或少数人手中，缺乏有效的权力制衡，没有自由选举，言论自由和新闻自由受到压制，与民主制度形成鲜明对立。"
+  },
+  {
+    "id": 114,
+    "question": "Wie nennt man die Regierung eines Bundeslandes?",
+    "options": [
+      "Bundesregierung",
+      "Landesregierung",
+      "Stadtregierung",
+      "Kreisregierung"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦州政府称为州政府（Landesregierung），由州长（Ministerpräsident/Senatsvorsitzender）领导，负责州一级的行政事务。柏林、汉堡、不来梅三个城市州的行政首长称为市长/第一市长。"
+  },
+  {
+    "id": 115,
+    "question": "Was ist das Wahlgeheimnis?",
+    "options": [
+      "Wahlprogramme werden vor der Wahl geheim gehalten",
+      "Das Recht der Waehlerinnen und Waehler, ihre Wahlentscheidung nicht preisgeben zu muessen",
+      "Nur bestimmte Personen wissen, wo die Wahllokale sind",
+      "Die Kandidatenliste ist geheim"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "选举保密原则（Wahlgeheimnis）保障选民无需透露自己的投票选择，这是防止选举威胁和报复的重要保护机制，是德国选举五项基本原则之一（普遍、直接、自由、平等、秘密）。"
+  },
+  {
+    "id": 116,
+    "question": "Was bedeutet Versammlungsfreiheit?",
+    "options": [
+      "Das Recht, private Feiern abzuhalten",
+      "Das Recht, sich friedlich und ohne Waffen zu versammeln",
+      "Das Recht, sich in staatlichen Gebaeuden zu versammeln",
+      "Das Recht, bewaffnete Milizen zu bilden"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "集会自由（Versammlungsfreiheit）由《基本法》第8条保障，公民有权在不携带武器的情况下和平集会，这是政治参与和示威抗议的宪法基础。"
+  },
+  {
+    "id": 117,
+    "question": "Was ist ein Streikrecht?",
+    "options": [
+      "Das Recht der Polizei, Demonstrationen aufzuloesen",
+      "Das Recht der Arbeitnehmer, die Arbeit niederzulegen, um bessere Bedingungen zu erkaempfen",
+      "Das Recht der Arbeitgeber, Mitarbeiter zu entlassen",
+      "Das Recht der Regierung, Betriebe zu schliessen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "罢工权（Streikrecht）是工人争取改善工资和工作条件的合法手段，德国允许工会组织合法罢工，是集体谈判自主权（Tarifautonomie）体系的重要组成部分，受《基本法》第9条保护。"
+  },
+  {
+    "id": 118,
+    "question": "Welche Sprachen haben in Deutschland offiziellen Minderheitsstatus?",
+    "options": [
+      "Tuerkisch und Arabisch",
+      "Daenisch, Nordfriesisch, Saterfriesisch, Niedersorbisch und Obersorbisch",
+      "Englisch und Franzoesisch",
+      "Polnisch und Russisch"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国承认以下少数民族语言：丹麦语（在石勒苏益格-荷尔斯泰因）、北弗里斯兰语（Nordfriesisch）、东弗里斯兰语（Saterfriesisch）、低地索布语（Niedersorbisch）和高地索布语（Obersorbisch），受《欧洲区域或少数民族语言宪章》保护。"
+  },
+  {
+    "id": 119,
+    "question": "Was ist das Prinzip der Subsidiaritaet?",
+    "options": [
+      "Alle Entscheidungen sollen zentral getroffen werden",
+      "Aufgaben sollen moeglichst auf der niedrigst moeglichen Ebene erledigt werden",
+      "Der Staat uebernimmt alle Aufgaben der Buerger",
+      "Bund und Laender muessen alle Entscheidungen gemeinsam treffen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "辅助原则（Subsidiaritätsprinzip）规定，决策应尽可能在最低层级（个人、家庭、地方）作出，只有当低层级无法有效处理时，才上移至更高层级，这一原则也是欧盟运作的重要基础。"
+  },
+  {
+    "id": 120,
+    "question": "Was ist ein Wohlfahrtsstaat?",
+    "options": [
+      "Ein Staat, der nur fuer reiche Buerger sorgt",
+      "Ein Staat, der Sozialleistungen wie Renten, Arbeitslosengeld und Krankenversicherung bereitstellt",
+      "Ein Staat ohne Steuern",
+      "Ein Staat, der nur fuer Beamte Leistungen erbringt"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "福利国家（Wohlfahrtsstaat）通过公共社会保障体系（养老金、失业救济金、医疗保险等）保障公民基本生活水平，德国是世界上最早建立社会保险制度的国家之一（俾斯麦改革，19世纪末）。"
+  },
+  {
+    "id": 121,
+    "question": "Was ist ein Buergerrecht?",
+    "options": [
+      "Ein Recht, das nur Beamte haben",
+      "Ein Recht, das speziell Staatsangehoerigen zusteht, wie das Wahlrecht",
+      "Ein Recht, das alle Menschen weltweit haben",
+      "Ein Recht, das von der Gemeinde verliehen wird"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "公民权（Bürgerrecht）是专属于本国国籍持有者的权利，如选举权（Wahlrecht）和被选举权（passives Wahlrecht），与适用于所有人的普世人权（Menschenrechte）有所区别。"
+  },
+  {
+    "id": 122,
+    "question": "Was bedeutet Gleichberechtigung von Maennern und Frauen in Deutschland?",
+    "options": [
+      "Frauen und Maenner muessen dieselbe Arbeit machen",
+      "Frauen und Maenner sind gleichwertig und haben dieselben Rechte",
+      "Frauen werden in Deutschland bevorzugt behandelt",
+      "Maenner haben in manchen Bereichen mehr Rechte"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "男女平等（Gleichberechtigung von Männern und Frauen）由《基本法》第3条第2款明确规定，男女享有同等权利，国家有义务促进实质性别平等，消除现有的不平等。"
+  },
+  {
+    "id": 123,
+    "question": "Welches Dokument regelt die Buergerrechte und die Staatsorganisation in Deutschland?",
+    "options": [
+      "Das Buergerliche Gesetzbuch (BGB)",
+      "Das Grundgesetz",
+      "Die Strafprozessordnung (StPO)",
+      "Das Staatsschutzgesetz"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "《基本法》（Grundgesetz）既规定了公民的基本权利，也确立了国家的基本组织结构。《民法典》（BGB）则主要规范私人法律关系，属于普通法律层级。"
+  },
+  {
+    "id": 124,
+    "question": "Was ist der Unterschied zwischen einem Buerger und einem Auslaender in Deutschland?",
+    "options": [
+      "Es gibt keinen Unterschied, alle haben dieselben Rechte",
+      "Deutsche Staatsbuerger haben politische Rechte wie das Wahlrecht, die Auslaender nicht haben",
+      "Auslaender zahlen hoehere Steuern",
+      "Deutsche Staatsbuerger muessen keine Gesetze befolgen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国公民拥有联邦选举权和被选举权等政治权利，外国人通常不享有这些权利，但两者都受《基本法》中适用于所有人的基本权利（如人的尊严、宗教自由等）保护。"
+  },
+  {
+    "id": 125,
+    "question": "Was ist eine Ombudsfrau / ein Ombudsmann?",
+    "options": [
+      "Ein Mitglied der Bundesregierung",
+      "Eine unabhaengige Person, die Beschwerden von Buergern gegenueber Behoerden untersucht",
+      "Ein Staatsanwalt",
+      "Ein gewaehlter Buergervertreter"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "监察专员（Ombudsmann/Ombudsfrau）是独立调查公民针对政府机构投诉的人员，在德国联邦层面，联邦议院的请愿委员会（Petitionsausschuss）承担类似职能，处理公民请愿。"
+  },
+  {
+    "id": 126,
+    "question": "Welche Konsequenz hat es, wenn man in Deutschland eine Straftat begeht?",
+    "options": [
+      "Man wird sofort des Landes verwiesen",
+      "Man kann strafrechtlich verfolgt, verurteilt und bestraft werden",
+      "Man verliert automatisch die Staatsangehoerigkeit",
+      "Die Familie haftet fuer die Tat"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "在德国犯罪将面临刑事追诉，可能被逮捕、起诉并由法院依法判决，处以罚款或监禁等刑罚。外国人还可能面临驱逐出境的额外后果。"
+  },
+  {
+    "id": 127,
+    "question": "Warum ist die Unabhaengigkeit der Gerichte wichtig?",
+    "options": [
+      "Damit Richter mehr verdienen als andere Beamte",
+      "Damit Gerichte ohne politischen Druck fair urteilen koennen",
+      "Damit Urteile nicht angefochten werden koennen",
+      "Damit nur ausgebildete Juristen Richter werden koennen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "司法独立（Unabhängigkeit der Gerichte）确保法官能够不受政治压力公正裁判，是法治国家（Rechtsstaat）的基石，防止行政权力干预司法，保障公民获得公平审判的权利。"
+  },
+  {
+    "id": 128,
+    "question": "Was ist eine Verfassung?",
+    "options": [
+      "Eine Liste von Regeln fuer den taeglichen Umgang",
+      "Das grundlegende Rechtsdokument eines Staates, das seine Struktur und die Rechte der Buerger festlegt",
+      "Ein internationaler Vertrag",
+      "Ein Regelwerk fuer wirtschaftliche Aktivitaeten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "宪法（Verfassung）是国家的根本法，规定国家的基本结构、权力分配和公民基本权利，是所有其他法律的最高依据。德国的宪法称为《基本法》（Grundgesetz）。"
+  },
+  {
+    "id": 129,
+    "question": "Was bedeutet parlamentarische Demokratie?",
+    "options": [
+      "Alle Buerger regieren direkt",
+      "Das Volk waehlt ein Parlament, das die Regierung kontrolliert und Gesetze beschliesst",
+      "Der Praesident regiert mit absoluter Macht",
+      "Die Armee uebernimmt politische Aufgaben"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "议会民主制（parlamentarische Demokratie）是指人民通过选举产生议会，议会负责立法和监督政府，政府对议会负责，这是德国政体的核心特征。"
+  },
+  {
+    "id": 130,
+    "question": "Welches Staatsprinzip schuetzt das Grundgesetz durch die Ewigkeitsklausel?",
+    "options": [
+      "Das Wahlrecht fuer alle Buerger",
+      "Die Menschenwuerde und die foederale demokratische Grundstruktur",
+      "Das Recht auf Eigentum",
+      "Das Sozialstaatsprinzip allein"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "《基本法》第79条第3款（永久条款/Ewigkeitsklausel）规定，人的尊严（第1条）和民主联邦制国家基本结构（第20条）不得通过修宪予以废除，确保宪法核心价值的永久效力。"
+  },
+  {
+    "id": 131,
+    "question": "Was regelt das Buergerliche Gesetzbuch (BGB)?",
+    "options": [
+      "Straftaten und Strafen",
+      "Privatrechtliche Beziehungen wie Vertraege, Eigentum und Familie",
+      "Das Verhaeltnis zwischen Buerger und Staat",
+      "Das Steuerrecht"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "《民法典》（Bürgerliches Gesetzbuch, BGB）规范私法领域的法律关系，包括合同法、物权法、家庭法、继承法等，是德国私法的基本法典，于1900年1月1日生效。"
+  },
+  {
+    "id": 132,
+    "question": "Was ist die Aufgabe der Staatsanwaltschaft in Deutschland?",
+    "options": [
+      "Gesetze zu erlassen",
+      "Straftaten zu verfolgen und Anklage zu erheben",
+      "Gefangene zu betreuen",
+      "Die Bundesregierung zu beraten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "检察机关（Staatsanwaltschaft）负责调查犯罪、代表国家提起公诉，是刑事司法程序的重要组成部分，独立于政府但隶属于司法部管辖体系。"
+  },
+  {
+    "id": 133,
+    "question": "Was ist in Deutschland eine Gemeinde?",
+    "options": [
+      "Eine religioesei Gruppe",
+      "Die kleinste politische Verwaltungseinheit in Deutschland",
+      "Ein Zusammenschluss mehrerer Bundeslaender",
+      "Ein staatliches Unternehmen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "市镇（Gemeinde）是德国最小的行政单位，享有《基本法》第28条保障的地方自治权，负责管理本地公共设施、道路、幼儿园等地方事务。"
+  },
+  {
+    "id": 134,
+    "question": "In welchem Verhaeltnis stehen Bund und Laender bei der Gesetzgebung?",
+    "options": [
+      "Der Bund hat immer Vorrang.",
+      "Die Laender haben immer Vorrang.",
+      "In manchen Bereichen ist der Bund zustaendig, in anderen die Laender; bei Konflikten gilt Bundesrecht.",
+      "Beide sind voellig unabhaengig voneinander."
+    ],
+    "correctIndex": 2,
+    "category": "Staat",
+    "explanation_zh": "根据德国联邦制，不同领域的立法权分属联邦（如外交、国防）或各州（如教育、警察），存在竞合立法领域；发生冲突时联邦法律优先，体现了权力分配的层级原则。"
+  },
+  {
+    "id": 135,
+    "question": "Was ist der Unterschied zwischen einem Recht und einer Pflicht?",
+    "options": [
+      "Es gibt keinen Unterschied, beide sind freiwillig",
+      "Ein Recht ist etwas, das man tun darf; eine Pflicht ist etwas, das man tun muss",
+      "Rechte gelten nur fuer Buerger, Pflichten fuer alle",
+      "Pflichten gelten nur im Berufsleben"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "权利（Recht）是公民可以主张的自由或利益，如言论自由；义务（Pflicht）是法律要求必须履行的行为，如纳税义务（Steuerpflicht）或学校教育义务（Schulpflicht）。权利与义务是公民身份的两个重要方面。"
+  },
+  {
+    "id": 136,
+    "question": "Welche religioesei Gruppe war das Hauptziel des nationalsozialistischen Rassismus?",
+    "options": [
+      "Christen",
+      "Muslime",
+      "Juden",
+      "Buddhisten"
+    ],
+    "correctIndex": 2,
+    "category": "Geschichte",
+    "explanation_zh": "纳粹种族主义的主要迫害对象是犹太人（Juden），纳粹意识形态将犹太人定性为\"劣等种族\"，推行系统性的歧视和迫害，最终演变为大屠杀（Holocaust），约600万犹太人遇难。"
+  },
+  {
+    "id": 137,
+    "question": "Wie nennt man das Phaenomen, dass ein Mensch wegen seiner Herkunft, Religion oder Hautfarbe benachteiligt wird?",
+    "options": [
+      "Toleranz",
+      "Integration",
+      "Diskriminierung",
+      "Assimilation"
+    ],
+    "correctIndex": 2,
+    "category": "Gesellschaft",
+    "explanation_zh": "歧视（Diskriminierung）是指因民族、宗教、肤色、性别等原因对人进行不公平对待，在德国受《通用平等待遇法》（AGG）和《基本法》第3条保护，歧视行为属于违法。"
+  },
+  {
+    "id": 138,
+    "question": "Was ist das Allgemeine Gleichbehandlungsgesetz (AGG)?",
+    "options": [
+      "Ein Gesetz, das allen Buergern denselben Lohn garantiert",
+      "Ein Gesetz, das Diskriminierung aufgrund von Merkmalen wie Herkunft, Geschlecht oder Religion verbietet",
+      "Ein Gesetz, das die Staatsangehoerigkeit regelt",
+      "Ein Steuergesetz"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "《通用平等待遇法》（Allgemeines Gleichbehandlungsgesetz, AGG）禁止基于种族、民族、性别、宗教、残疾、年龄或性取向的歧视，适用于就业、教育和服务领域，是欧盟反歧视指令的国内实施法律。"
+  },
+  {
+    "id": 139,
+    "question": "Was ist Antisemitismus?",
+    "options": [
+      "Ein politisches Programm zur Integration von Migranten",
+      "Feindseligkeit, Vorurteile und Diskriminierung gegen Juden",
+      "Eine religioesei Bewegung im Judentum",
+      "Eine Wirtschaftsideologie"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "反犹主义（Antisemitismus）是针对犹太人的偏见、仇恨和歧视，在德国历史中有深厚根源并最终导致大屠杀。在德国，宣扬反犹主义是违法行为，德国也高度重视对这段历史的责任与反思。"
+  },
+  {
+    "id": 140,
+    "question": "Was ist Rassismus?",
+    "options": [
+      "Die wissenschaftliche Erforschung verschiedener Kulturen",
+      "Die Diskriminierung und Abwertung von Menschen aufgrund ihrer Herkunft oder aeusserlichen Merkmale",
+      "Das Streben nach nationaler Einheit",
+      "Ein wirtschaftliches Konzept"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "种族主义（Rassismus）是基于种族、肤色、民族等身份特征对人进行歧视和贬低，在德国被视为违反《基本法》平等原则的违法行为，德国通过多项法律打击种族歧视。"
+  },
+  {
+    "id": 141,
+    "question": "Was versteht man unter Integration in Deutschland?",
+    "options": [
+      "Die vollstaendige Aufgabe der eigenen Kultur",
+      "Das Zusammenleben und gegenseitige Anpassen von Einwanderern und der aufnehmenden Gesellschaft",
+      "Die Rueckkehr von Migranten in ihre Heimatlaender",
+      "Die staatliche Ueberwachung von Auslaendern"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "融合（Integration）是指移民与接收社会相互适应和共同生活的过程，不要求移民完全放弃本国文化，而是在尊重基本价值观和法律的基础上，参与德国社会经济文化生活。"
+  },
+  {
+    "id": 142,
+    "question": "Was ist ein Fluechtling?",
+    "options": [
+      "Ein Mensch, der aus wirtschaftlichen Gruenden sein Land verlaesst",
+      "Eine Person, die ihr Heimatland verlaesst, weil sie dort verfolgt wird oder in Gefahr ist",
+      "Ein Mensch, der eine bessere Arbeit sucht",
+      "Ein Tourist ohne Rueckreisekarte"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "难民（Flüchtling）是指因遭受迫害（基于种族、宗教、国籍、政治观点或特定社会群体成员身份）而被迫逃离本国的人，受《日内瓦难民公约》（Genfer Flüchtlingskonvention）国际保护。"
+  },
+  {
+    "id": 143,
+    "question": "Was ist das Bundesverwaltungsgericht?",
+    "options": [
+      "Das oberste Gericht fuer Verfassungsfragen",
+      "Das oberste Verwaltungsgericht Deutschlands, das Streitigkeiten zwischen Buergern und Behoerden klaert",
+      "Das hoechste Strafgericht Deutschlands",
+      "Ein Gericht fuer Wirtschaftsstreitigkeiten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦行政法院（Bundesverwaltungsgericht）是德国最高行政司法机构，受理公民与政府机关之间的行政争议（如申请签证被拒、行政处罚等），设在莱比锡（Leipzig）。"
+  },
+  {
+    "id": 144,
+    "question": "Was bedeutet das Recht auf Asyl in Deutschland?",
+    "options": [
+      "Alle Einwanderer duerfen unbegrenzt in Deutschland bleiben",
+      "Politisch Verfolgte haben das Recht auf Schutz in Deutschland",
+      "Nur EU-Buerger koennen Asyl beantragen",
+      "Asyl wird nur temporaer gewaehrt und muss jaehrlich verlaengert werden"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "庇护权（Recht auf Asyl）载于《基本法》第16a条，规定政治迫害者有权在德国申请庇护。庇护申请通过联邦移民与难民局（BAMF）审核，获批者可在德国合法居留。"
+  },
+  {
+    "id": 145,
+    "question": "Was ist die Aufgabe des Bundesrechnungshofs?",
+    "options": [
+      "Gesetze zu erlassen",
+      "Die Haushaltsfuehrung des Bundes zu pruefen und auf ordnungsgemaessen Einsatz oeffentlicher Mittel zu achten",
+      "Das Bundesbudget zu beschliessen",
+      "Die Steuern festzusetzen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦审计院（Bundesrechnungshof）负责审查联邦政府的财政管理是否合规、高效，确保公共资金的正确使用，向联邦议院和联邦政府报告，是对行政财政行为的独立监督机构。"
+  },
+  {
+    "id": 146,
+    "question": "Was ist eine Petition?",
+    "options": [
+      "Ein formeller Protest gegen die Regierung",
+      "Ein Antrag oder eine Bitte, die an ein offizielles Gremium gerichtet wird",
+      "Ein Gesetz, das das Volk direkt einbringt",
+      "Eine Klage vor Gericht"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "请愿（Petition）是向官方机构（如议会）提交的请求或陈情，《基本法》第17条保障了每个人向国家机构提交请愿书的权利，联邦议院设有专门的请愿委员会（Petitionsausschuss）处理此类申请。"
+  },
+  {
+    "id": 147,
+    "question": "Was ist eine Interessenvertretung (Lobbyismus)?",
+    "options": [
+      "Eine Form der Korruption, die immer illegal ist",
+      "Die Einflussnahme von Gruppen oder Verbaenden auf politische Entscheidungen",
+      "Eine staatliche Aufsichtsbehoerde",
+      "Ein Zweig der Justiz"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "游说（Lobbyismus）是指利益团体（如工会、企业协会）向政策制定者施加影响，在民主社会中属于合法的政治参与形式，但需保持透明度，德国已出台游说登记制度以增强透明度。"
+  },
+  {
+    "id": 148,
+    "question": "Wann wurden Frauen in Deutschland wahlberechtigt?",
+    "options": [
+      "1871",
+      "1919",
+      "1949",
+      "1972"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "德国女性于1918年11月革命后获得选举权，并在1919年1月的国民议会选举中首次行使了这一权利，比许多其他国家更早实现女性参政权。"
+  },
+  {
+    "id": 149,
+    "question": "Was bedeutet die Redefreiheit (Meinungsfreiheit) in Deutschland?",
+    "options": [
+      "Jeder darf alles sagen, ohne Konsequenzen",
+      "Jeder darf seine Meinung aeussern, hat aber auch eine Verantwortung gegenueber anderen",
+      "Nur Politiker haben Redefreiheit",
+      "Die Presse hat keine Redefreiheit"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "言论自由（Meinungsfreiheit）保障公民自由表达意见，但伴随着责任：煽动性言论、诽谤、否认大屠杀（Holocaustleugnung）等行为在德国是违法的，体现了权利与责任并行的原则。"
+  },
+  {
+    "id": 150,
+    "question": "Was versteht man unter dem Prinzip der Verhaeltnismaessigkeit im deutschen Recht?",
+    "options": [
+      "Alle Strafen muessen gleich sein",
+      "Staatliche Massnahmen duerfen nicht unverhaeltnismaessig in die Rechte der Buerger eingreifen",
+      "Die Justiz muss immer auf Seiten des Staates stehen",
+      "Alle Gesetze muessen von einer Mehrheit beschlossen werden"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "比例原则（Verhältnismäßigkeitsprinzip）是德国法律的核心原则，要求国家措施必须适当（geeignet）、必要（erforderlich）且相称（angemessen），不得对公民权利造成过度限制，是法治国家原则的重要体现。"
+  },
+  {
+    "id": 151,
+    "question": "Was bedeutet die Kunstfreiheit im Grundgesetz?",
+    "options": [
+      "Kuenstler zahlen keine Steuern",
+      "Kunst und Wissenschaft sind frei von staatlicher Zensur und Einschraenkung",
+      "Nur staatlich anerkannte Kunst darf oeffentlich gezeigt werden",
+      "Kunstwerke duerfen nicht verkauft werden"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "艺术自由（Kunstfreiheit）由《基本法》第5条第3款保障，艺术和科学不受国家审查，但不能以此为由侵犯他人的基本权利（如人格权）。"
+  },
+  {
+    "id": 152,
+    "question": "Was ist der Unterschied zwischen dem Grundgesetz und einfachen Gesetzen?",
+    "options": [
+      "Das Grundgesetz ist einfacher zu aendern als normale Gesetze",
+      "Das Grundgesetz hat hoeherem Rang und alle anderen Gesetze muessen ihm entsprechen",
+      "Einfache Gesetze gehen dem Grundgesetz vor",
+      "Es gibt keinen Unterschied"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "《基本法》是德国的最高法律，具有最高效力（Höchstrang），所有其他法律（包括普通法律）都必须符合《基本法》。修改《基本法》需要特殊程序（三分之二多数），而普通立法只需简单多数。"
+  },
+  {
+    "id": 153,
+    "question": "Was sind Bundesbehoerden?",
+    "options": [
+      "Behoerden, die von den Bundeslaendern verwaltet werden",
+      "Staatliche Verwaltungseinheiten auf Bundesebene",
+      "Privatunternehmen im staatlichen Auftrag",
+      "Behoerden, die von der EU kontrolliert werden"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦机关（Bundesbehörden）是联邦层面的国家行政机构，如联邦移民与难民局（BAMF）、联邦宪法保卫局（BfV）等，负责执行联邦事务，与州级机关（Landesbehörden）有所区别。"
+  },
+  {
+    "id": 154,
+    "question": "Was ist das Ziel von Bildung in einer Demokratie?",
+    "options": [
+      "Alle Buerger sollen dasselbe Berufsbild anstreben",
+      "Bildung soll muendige, kritisch denkende Buerger foerdern, die an der Demokratie teilnehmen koennen",
+      "Bildung soll ausschliesslich wirtschaftlich nuetzliche Faehigkeiten vermitteln",
+      "Bildung ist eine private Angelegenheit ohne staatliche Beteiligung"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "民主中的教育目标是培养能够独立思考、批判性分析和积极参与民主进程的公民（mündige Bürger），德国宪法和各州教育法都将民主公民教育作为学校的重要任务。"
+  },
+  {
+    "id": 155,
+    "question": "Was ist die Schulpflicht in Deutschland?",
+    "options": [
+      "Schulen muessen kostenlos sein",
+      "Alle Kinder sind verpflichtet, eine Schule zu besuchen",
+      "Eltern muessen ihre Kinder selbst unterrichten",
+      "Die Schule ist optional bis zum 16. Lebensjahr"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "义务教育（Schulpflicht）要求德国境内所有儿童必须接受学校教育，通常从6岁开始，持续9至10年。义务教育由各州负责管理，公立学校免收学费。"
+  },
+  {
+    "id": 156,
+    "question": "Was ist in Deutschland die Aufgabe der Finanzaemter?",
+    "options": [
+      "Das Geld des Staates verwalten und ausgeben",
+      "Steuern erheben und Steuerrecht durchsetzen",
+      "Die Bundesbank kontrollieren",
+      "Wirtschaftsfoerderung betreiben"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "税务局（Finanzämter）负责征收税款并执行税法，是州级行政机构，管辖德国各类税种的评估和征缴，如所得税（Einkommensteuer）、增值税（Umsatzsteuer）等。"
+  },
+  {
+    "id": 157,
+    "question": "Fuer wen gilt das Recht auf Meinungsfreiheit in Deutschland?",
+    "options": [
+      "Nur fuer Deutsche",
+      "Nur fuer Journalisten und Politiker",
+      "Fuer alle Menschen in Deutschland",
+      "Nur fuer Personen mit dauerhaftem Aufenthaltsrecht"
+    ],
+    "correctIndex": 2,
+    "category": "Demokratie",
+    "explanation_zh": "言论自由（Meinungsfreiheit）是一项人权，适用于德国境内所有人，不论国籍或居留身份，是《基本法》第5条保障的基本权利，外国人同样享有这一权利。"
+  },
+  {
+    "id": 158,
+    "question": "Was ist eine staatsbuergerliche Pflicht in Deutschland?",
+    "options": [
+      "Mitglied einer Partei zu sein",
+      "Steuern zu zahlen",
+      "An Volksabstimmungen teilzunehmen",
+      "Einen Beruf auszuueben"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "纳税（Steuern zahlen）是德国公民和居民的法定义务，税收是资助公共服务（教育、医疗、基础设施等）的主要来源。此外，陪审员义务（Schöffenpflicht）也是法定义务。"
+  },
+  {
+    "id": 159,
+    "question": "Was regelt die Einbuergerung in Deutschland?",
+    "options": [
+      "Die Voraussetzungen, unter denen Auslaender die deutsche Staatsbuergerschaft erwerben koennen",
+      "Die Bedingungen fuer die Niederlassungserlaubnis",
+      "Die Regelungen fuer den Familiennachzug",
+      "Das Verfahren zur Anerkennung von Berufsabschluessen"
+    ],
+    "correctIndex": 0,
+    "category": "Gesellschaft",
+    "explanation_zh": "入籍（Einbürgerung）规定了外国人获得德国国籍的条件，包括合法居留年限、语言能力、经济自足、无犯罪记录及认同自由民主基本秩序等，现行规定由《国籍法》（Staatsangehörigkeitsgesetz）管理。"
+  },
+  {
+    "id": 160,
+    "question": "Welches Gericht ist fuer strafrechtliche Vergehen in Deutschland zustaendig?",
+    "options": [
+      "Das Verwaltungsgericht",
+      "Das Amtsgericht oder Landgericht je nach Schwere der Tat",
+      "Das Bundesverfassungsgericht",
+      "Das Arbeitsgericht"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "刑事案件根据严重程度分别由区法院（Amtsgericht，轻微刑事案件）或地方法院（Landgericht，重大刑事案件）管辖，严重刑事案件还可上诉至州高等法院（Oberlandesgericht）。"
+  },
+  {
+    "id": 161,
+    "question": "Welche Rolle spielt der Bundesrat im deutschen Gesetzgebungsverfahren?",
+    "options": [
+      "Er erlaesst alle Bundesgesetze",
+      "Er verhandelt und stimmt ueber Gesetze ab, die die Laender betreffen, und hat ein Mitwirkungsrecht",
+      "Er ist nur ein Beratungsgremium ohne Stimmrecht",
+      "Er ueberprueft die Verfassungsmaessigkeit von Gesetzen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦参议院（Bundesrat）代表各州参与联邦立法，对涉及州利益的法律拥有批准权（Zustimmungsgesetze），对其他法律拥有反对权（Einspruchsgesetze），是德国立法程序中不可或缺的环节。"
+  },
+  {
+    "id": 162,
+    "question": "Was ist die Funktion des Bundesfinanzministers?",
+    "options": [
+      "Die Haushaltsplanung des Bundes und die Wirtschaftspolitik",
+      "Nur die Kontrolle der Steuern",
+      "Die Verwaltung der Rentenversicherung",
+      "Die Regulierung der Banken"
+    ],
+    "correctIndex": 0,
+    "category": "Staat",
+    "explanation_zh": "联邦财政部长（Bundesfinanzminister）负责制定联邦财政预算、管理公共财政和协调经济财政政策，是联邦内阁中最重要的职位之一，通常由执政联盟中的重要政党担任。"
+  },
+  {
+    "id": 163,
+    "question": "Was ist eine Steuererklaerung?",
+    "options": [
+      "Eine Ankuendigung von Steuererhoehungen",
+      "Eine Aufstellung der Einnahmen und Ausgaben, die beim Finanzamt eingereicht wird",
+      "Ein Protestschreiben gegen Steuern",
+      "Eine staatliche Bescheinigung ueber gezahlte Steuern"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "报税申报（Steuererklärung）是纳税人向税务局（Finanzamt）申报收入和支出的文件，税务局据此计算应纳税额，允许抵扣相关费用，可能导致退税或补税。"
+  },
+  {
+    "id": 164,
+    "question": "Was ist das Ziel der Berufsausbildung in Deutschland?",
+    "options": [
+      "Ausschliesslich akademische Bildung zu foerdern",
+      "Jugendliche auf einen Beruf vorzubereiten und ihnen Qualifikationen zu vermitteln",
+      "Arbeitnehmer fuer staatliche Betriebe auszubilden",
+      "Den Uebergang ins Ausland zu erleichtern"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "职业培训（Berufsausbildung）旨在让青年人获得职业资格，德国的\"双元制\"（duales Ausbildungssystem）模式将企业实践与职业学校理论教育相结合，在全球享有盛誉。"
+  },
+  {
+    "id": 165,
+    "question": "Welche Institutionen sind in Deutschland fuer die politische Bildung zustaendig?",
+    "options": [
+      "Nur die Schulen",
+      "Unter anderem die Bundeszentrale fuer politische Bildung und schulische Einrichtungen",
+      "Nur staatliche Fernsehsender",
+      "Ausschliesslich die politischen Parteien"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国联邦政治教育中心（Bundeszentrale für politische Bildung, bpb）和各州政治教育中心、学校、媒体等机构共同承担公民政治教育职责，旨在增强公民的民主意识和政治参与能力。"
+  },
+  {
+    "id": 166,
+    "question": "Was ist die Aufgabe des Jugendamts in Deutschland?",
+    "options": [
+      "Jugendkriminalitaet zu bestrafen",
+      "Kinder und Jugendliche zu schuetzen und Familien bei der Erziehung zu unterstuetzen",
+      "Schulen zu verwalten",
+      "Berufsausbildungen zu vermitteln"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "青少年局（Jugendamt）是德国地方政府负责青少年福利的机构，任务包括保护儿童（Kinderschutz）、支持家庭（Familienhilfe）、提供托育服务等，是儿童和青少年保护体系的核心。"
+  },
+  {
+    "id": 167,
+    "question": "Was ist Umweltschutz in Deutschland?",
+    "options": [
+      "Die wirtschaftliche Nutzung der Natur",
+      "Massnahmen zum Schutz der natuerlichen Umwelt vor Schaeden",
+      "Die staatliche Kontrolle von Industrieunternehmen",
+      "Ein freiwilliges Programm fuer Unternehmen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "环境保护（Umweltschutz）是指保护自然环境（空气、水、土壤）不受破坏的各种措施，2002年《基本法》第20a条将保护自然环境（包括为后代负责）确立为国家目标，德国在气候和环保领域有较高的立法标准。"
+  },
+  {
+    "id": 168,
+    "question": "Was bedeutet Klimaschutz in Deutschland?",
+    "options": [
+      "Die Foerderung von Kohleindustrie",
+      "Massnahmen zur Reduzierung von Treibhausgasemissionen und zum Schutz des Klimas",
+      "Die staatliche Regulierung von Wetterdiensten",
+      "Der Schutz von historischen Gebaeuden"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "气候保护（Klimaschutz）涉及减少温室气体排放、扩大可再生能源比例的各项措施，德国制定了2045年前实现气候中立的目标，相关政策受《气候保护法》（Klimaschutzgesetz）约束。"
+  },
+  {
+    "id": 169,
+    "question": "Was versteht man unter Energiewende in Deutschland?",
+    "options": [
+      "Der Wechsel von erneuerbaren zu fossilen Energietraegern",
+      "Der Uebergang von fossilen Brennstoffen zu erneuerbaren Energien",
+      "Die staatliche Uebernahme von Energieunternehmen",
+      "Die Abschaltung aller Kraftwerke"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "能源转型（Energiewende）指德国从化石能源（煤炭、石油、天然气）和核能向可再生能源（风能、太阳能等）转变的系统性变革，是德国应对气候变化、实现可持续能源供应的国家战略。"
+  },
+  {
+    "id": 170,
+    "question": "Was ist die Bundesagentur fuer Arbeit?",
+    "options": [
+      "Eine private Personalvermittlung",
+      "Eine staatliche Behoerde, die Arbeitslosen hilft und Arbeitslosengeld zahlt",
+      "Ein Ministerium der Bundesregierung",
+      "Eine Organisation der Arbeitgeber"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "联邦劳动局（Bundesagentur für Arbeit）是德国负责就业服务的联邦机构，提供失业救济金（Arbeitslosengeld）、就业咨询、职业培训支持等服务，总部设在纽伦堡（Nürnberg）。"
+  },
+  {
+    "id": 171,
+    "question": "Was ist die Rentenversicherung in Deutschland?",
+    "options": [
+      "Eine private Altersvorsorge",
+      "Ein staatliches System zur Sicherung des Lebensunterhalts im Alter",
+      "Eine freiwillige Versicherung fuer Rentner",
+      "Eine Versicherung gegen Unfaelle im Alter"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "养老保险（Rentenversicherung）是德国社会保险体系的核心支柱之一，通过代际契约运作：在职工人缴纳的保险费用于支付当代退休者的养老金，是德国老龄保障的基础。"
+  },
+  {
+    "id": 172,
+    "question": "Was ist die Krankenversicherungspflicht in Deutschland?",
+    "options": [
+      "Alle Personen in Deutschland muessen krankenversichert sein",
+      "Nur Arbeitnehmer muessen krankenversichert sein",
+      "Nur Deutsche muessen krankenversichert sein",
+      "Die Krankenversicherung ist freiwillig"
+    ],
+    "correctIndex": 0,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国实行全民医疗保险义务（Krankenversicherungspflicht），所有在德国居住或工作的人必须参加法定医疗保险（GKV）或私人医疗保险（PKV），确保全民获得基本医疗保障。"
+  },
+  {
+    "id": 173,
+    "question": "Warum ist die Redefreiheit begrenzt?",
+    "options": [
+      "Weil der Staat alle Meinungen kontrollieren muss",
+      "Weil sie nicht dazu benutzt werden darf, Hass zu verbreiten oder andere Grundrechte zu verletzen",
+      "Weil nicht alle Meinungen gleichwertig sind",
+      "Weil die Presse das Informationsmonopol haben soll"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "言论自由虽受保护，但有其界限：不得用于散布仇恨（Volksverhetzung）、否认大屠杀、侮辱他人或煽动违法行为。这些限制旨在保护他人权利，不是国家审查，符合国际人权标准。"
+  },
+  {
+    "id": 174,
+    "question": "Was ist die Aufgabe des Verfassungsschutzes?",
+    "options": [
+      "Gesetze zu erlassen",
+      "Den Staat und die Verfassung vor extremistischen Bestrebungen zu schuetzen",
+      "Die Grenzen zu kontrollieren",
+      "Die Polizei zu leiten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "宪法保卫局（Verfassungsschutz）是德国情报机构，任务是保护国家和宪法不受极端主义势力（包括右翼、左翼极端主义和伊斯兰极端主义）的威胁，在联邦和各州层面均有相应机构。"
+  },
+  {
+    "id": 175,
+    "question": "Welche Voraussetzungen muessen fuer die Einbuergerung in Deutschland meist erfuellt sein?",
+    "options": [
+      "Nur ein langer Aufenthalt ist erforderlich",
+      "Unter anderem ausreichende Deutschkenntnisse, legaler Aufenthalt und das Bekenntnis zur freiheitlich-demokratischen Grundordnung",
+      "Man muss bereit sein, die Staatsangehoerigkeit aufzugeben",
+      "Ein Arbeitsvertrag mit einem deutschen Unternehmen ist ausreichend"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "申请入籍德国通常需要满足：合法居留若干年、具备足够德语能力（通常B1级别）、经济自给、无严重犯罪记录以及认同《基本法》所体现的自由民主基本秩序。"
+  },
+  {
+    "id": 176,
+    "question": "Wer hat die Initiative fuer ein Gesetz in Deutschland?",
+    "options": [
+      "Nur der Bundespraesident",
+      "Mitglieder des Bundestages, der Bundesrat oder die Bundesregierung",
+      "Nur die Bundesregierung",
+      "Nur der Bundestag"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "在德国，联邦议员（Bundestag成员）、联邦参议院（Bundesrat）和联邦政府（Bundesregierung）均有权提出立法草案，大多数法律草案来自联邦政府。"
+  },
+  {
+    "id": 177,
+    "question": "Was ist der Unterschied zwischen einer direkten und einer repraesentativen Demokratie?",
+    "options": [
+      "In der direkten Demokratie waehlt das Volk Vertreter, in der repraesentativen stimmt es direkt ab",
+      "In der direkten Demokratie stimmt das Volk direkt ueber Fragen ab, in der repraesentativen waehlt es Vertreter",
+      "In der repraesentativen Demokratie hat die Regierung mehr Macht",
+      "Es gibt keinen Unterschied"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "直接民主（direkte Demokratie）中公民直接就议题投票决定，代议制民主（repräsentative Demokratie）中公民选出代表代为决策。德国以代议制为主，在州和地方层面也存在一些直接民主要素（如公民复决）。"
+  },
+  {
+    "id": 178,
+    "question": "Was ist eine koalitionsfreie Regierung?",
+    "options": [
+      "Eine Regierung ohne Bundesrat",
+      "Eine Alleinregierung einer Partei mit absoluter Mehrheit",
+      "Eine Regierung ohne Parlament",
+      "Eine Regierung der nationalen Einheit"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "单党政府（Alleinregierung/koalitionsfreie Regierung）是指一个政党单独获得议会绝对多数，不需要与其他政党组成联合政府，在德国联邦层面较为罕见。"
+  },
+  {
+    "id": 179,
+    "question": "Was ist das Konstruktive Misstrauensvotum im deutschen Grundgesetz?",
+    "options": [
+      "Ein Verfahren, mit dem der Bundestag dem Bundespraesident das Vertrauen entzieht",
+      "Ein Verfahren, mit dem der Bundestag den Bundeskanzler abwaehlen und gleichzeitig einen neuen waehlen muss",
+      "Ein Recht des Bundeskanzlers, den Bundestag aufzuloesen",
+      "Ein Verfahren zur Aenderung des Grundgesetzes"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "建设性不信任投票（konstruktives Misstrauensvotum）规定联邦议院在罢免现任联邦总理时，必须同时以多数票选出新总理，防止出现\"无政府\"状态，是对魏玛共和国经验教训的总结，由《基本法》第67条规定。"
+  },
+  {
+    "id": 180,
+    "question": "Wie oft findet in Deutschland normalerweise eine Bundestagswahl statt?",
+    "options": [
+      "Alle 3 Jahre",
+      "Alle 4 Jahre",
+      "Alle 5 Jahre",
+      "Alle 6 Jahre"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "德国联邦议院选举（Bundestagswahl）通常每4年举行一次，但在联邦总理提出信任投票失败后，联邦总统可解散议院，提前举行选举，这在历史上曾发生过几次。"
+  },
+  {
+    "id": 181,
+    "question": "Was ist die Aufgabe von Parteiprogrammen?",
+    "options": [
+      "Sie legen gesetzlich bindende Regeln fest",
+      "Sie erklaeren die politischen Ziele und Grundsaetze einer Partei",
+      "Sie bestimmen den Koalitionsvertrag",
+      "Sie ersetzen das Grundgesetz"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "政党纲领（Parteiprogramm）阐述政党的政治目标和基本立场，是选民了解政党政策取向的重要依据，分为基本纲领（Grundsatzprogramm）和选举纲领（Wahlprogramm）两种。"
+  },
+  {
+    "id": 182,
+    "question": "Was ist Heimat in Deutschland?",
+    "options": [
+      "Ausschliesslich der Geburtsort eines Menschen",
+      "Der Ort oder die Region, mit der man sich verbunden fuehlt und wo man aufgewachsen ist",
+      "Nur das Bundesland, in dem man lebt",
+      "Das Land, aus dem die eigene Familie stammt"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "家乡（Heimat）是德国文化中一个重要概念，指人与某个地方或地区之间的情感联系，不仅限于出生地，也包括成长或长期生活的地方，对许多德国人具有深厚的文化和情感意义。"
+  },
+  {
+    "id": 183,
+    "question": "Was versteht man in Deutschland unter dem Begriff Foederalismus?",
+    "options": [
+      "Eine zentrale Regierung, die alle Bereiche kontrolliert",
+      "Die Verteilung von Macht und Zustaendigkeiten zwischen Bund und Laendern",
+      "Eine Form der Monarchie",
+      "Ein System direkter Demokratie"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦主义（Föderalismus）是德国政治体制的核心特征，权力和职责在联邦（Bund）和16个联邦州（Länder）之间分配，各州拥有自己的宪法、政府和议会，在教育、文化、警察等领域有重要的自主权。"
+  },
+  {
+    "id": 184,
+    "question": "Was ist Buergerbeteiligung?",
+    "options": [
+      "Das Zahlen von Steuern",
+      "Die aktive Teilnahme der Bevoelkerung an politischen und gesellschaftlichen Prozessen",
+      "Die Pflicht zum Militaerdienst",
+      "Das Tragen von staatlichen Aemtern"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "公民参与（Bürgerbeteiligung）是公民积极介入政治和社会事务的各种形式，包括投票选举、参与规划程序、加入公民团体（Bürgerverein）、提交请愿等，是健康民主社会的重要支柱。"
+  },
+  {
+    "id": 185,
+    "question": "Was bedeutet Immunitaet fuer Abgeordnete des Bundestages?",
+    "options": [
+      "Sie duerfen nicht zur Steuerpflicht herangezogen werden",
+      "Sie sind vor strafrechtlicher Verfolgung fuer ihre parlamentarischen Aussagen und Abstimmungen geschuetzt",
+      "Sie koennen nicht aus dem Bundestag ausgeschlossen werden",
+      "Sie muessen nicht Waehlerauftraege erfuellen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "豁免权（Immunität）保护联邦议员在议会内的发言和表决行为不受刑事追诉，而不受侵害权（Indemnität）则保护议员在议会外不受任意逮捕，这些保障旨在确保议员能独立履行职务。"
+  },
+  {
+    "id": 186,
+    "question": "Was versteht man unter Pluralismus der Medien?",
+    "options": [
+      "Es gibt nur einen staatlichen Fernsehsender",
+      "Es gibt eine Vielfalt unabhaengiger Medien mit verschiedenen Blickwinkeln",
+      "Alle Medien muessen dieselbe Meinung vertreten",
+      "Medienbesitz ist auf staatliche Unternehmen beschraenkt"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "媒体多元化（Pluralismus der Medien）意味着存在各种观点不同的独立媒体，是民主社会信息多样性的保障。德国的媒体格局由私营媒体和公共广播（ARD、ZDF等）共同构成。"
+  },
+  {
+    "id": 187,
+    "question": "Was ist die Aufgabe der Staatsanwaltschaft bei einem Strafverfahren?",
+    "options": [
+      "Den Angeklagten zu verteidigen",
+      "Im Namen des Staates Anklage zu erheben und zu vertreten",
+      "Das Urteil zu sprechen",
+      "Die Strafe zu vollziehen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "检察机关（Staatsanwaltschaft）在刑事诉讼中代表国家提起公诉，调查犯罪事实，向法院起诉被告，是刑事司法程序中的重要公共机关，与辩护律师（Verteidiger）形成对立双方。"
+  },
+  {
+    "id": 188,
+    "question": "Was bedeutet Gewaltentrennung zwischen Justiz und Exekutive?",
+    "options": [
+      "Die Polizei darf keine Waffen tragen",
+      "Gerichte und Regierung sind voneinander unabhaengig und kontrollieren sich gegenseitig",
+      "Die Justiz ist der Regierung untergeordnet",
+      "Die Regierung ernennt alle Richter direkt"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "司法与行政分离（Gewaltentrennung zwischen Justiz und Exekutive）确保法院独立于政府，不受行政干预，是法治国家的基本要求。德国法官享有独立性保障，不接受政府指令。"
+  },
+  {
+    "id": 189,
+    "question": "Welche Laender gehoeren zu den Gruendungsmitgliedern der Europaeischen Union?",
+    "options": [
+      "Deutschland und Frankreich gehoeren zu den Gruendungsstaaten",
+      "Deutschland, Frankreich, Italien, die Niederlande, Belgien und Luxemburg sind Gruendungsstaaten",
+      "Nur Deutschland und Frankreich gruendeten die EU",
+      "Die EU wurde von allen 27 aktuellen Mitgliedstaaten gleichzeitig gegruendet"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "1957年签署《罗马条约》成立欧洲经济共同体（EWG）的六个创始国是：德国、法国、意大利、荷兰、比利时和卢森堡，这奠定了今日欧盟的基础。"
+  },
+  {
+    "id": 190,
+    "question": "Was ist das Ziel der deutschen Aussenpolitik?",
+    "options": [
+      "Deutschland soll alle anderen Staaten dominieren",
+      "Frieden, Sicherheit und internationale Zusammenarbeit zu foerdern",
+      "Neue Gebiete zu erwerben",
+      "Deutschland aus allen internationalen Organisationen herauszuhalten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "德国外交政策以促进和平、安全和国际合作为目标，通过多边机构（联合国、欧盟、北约等）积极参与全球事务，也致力于人权保护和发展援助，这是吸取二战历史教训后确立的外交理念。"
+  },
+  {
+    "id": 191,
+    "question": "Was ist die Funktion des Bundesnachrichtendienstes (BND)?",
+    "options": [
+      "Die Ueberwachung der deutschen Buerger",
+      "Die Beschaffung von Auslandsaufklaerungsinformationen zum Schutz Deutschlands",
+      "Die Verwaltung der Grenzkontrolle",
+      "Die Fuehrung der Bundeswehr"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦情报局（Bundesnachrichtendienst, BND）是德国对外情报机构，主要在国外收集信息，为联邦政府提供外交政策和安全决策所需的情报，类似于美国的中央情报局（CIA）。"
+  },
+  {
+    "id": 192,
+    "question": "Was ist die Bundeswehr?",
+    "options": [
+      "Der Bundesgrenzschutz",
+      "Die Streitkraefte der Bundesrepublik Deutschland",
+      "Die Bundespolizei",
+      "Ein freiwilliger Buergerwehr"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦国防军（Bundeswehr）是德意志联邦共和国的正规武装力量，成立于1955年，由陆军、海军、空军、联合支援部队等组成，德国目前实行志愿兵役制，自2011年起暂停义务兵役。"
+  },
+  {
+    "id": 193,
+    "question": "Was bedeutet die Formulierung 'Im Namen des Volkes' vor deutschen Urteilen?",
+    "options": [
+      "Das Volk hat persoenlich ueber den Angeklagten abgestimmt",
+      "Die Gerichte handeln im Auftrag und Namen der Gemeinschaft der Buerger",
+      "Nur Volksvertreter duerfen Urteile sprechen",
+      "Urteile muessen von der Mehrheit der Buerger bestaetigt werden"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "德国法院判决冠以\"以人民的名义\"（Im Namen des Volkes），意味着司法权来源于人民（民主原则），法官代表国家和全体公民行使司法权，体现了人民主权原则在司法领域的体现。"
+  },
+  {
+    "id": 194,
+    "question": "Was ist die Aufgabe des Bundesinnenministeriums?",
+    "options": [
+      "Aussenpolitik zu gestalten",
+      "Innere Sicherheit, Verfassungsschutz, Migration und oeffentliche Ordnung zu koordinieren",
+      "Die Bundeswehr zu fuehren",
+      "Das Steuerrecht zu verwalten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦内政部（Bundesinnenministerium）负责国内安全（宪法保卫、联邦警察）、移民与难民政策、公民事务和公共秩序等，是德国安全和内政管理的核心部门。"
+  },
+  {
+    "id": 195,
+    "question": "Was ist eine Parteienstaat-Demokratie?",
+    "options": [
+      "Ein Einparteienstaat",
+      "Eine Demokratie, in der politische Parteien eine zentrale Rolle in der Willensbildung spielen",
+      "Ein Staat ohne Parteien",
+      "Ein Staat, in dem die Partei identisch mit dem Staat ist"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "政党制民主（Parteienstaat-Demokratie）指政党在政治意志形成中发挥核心作用的民主形式，《基本法》第21条承认政党在民主中的特殊地位，赋予其参与政治意志形成的宪法功能。"
+  },
+  {
+    "id": 196,
+    "question": "Welche Menschenrechte sind unverauesserlich?",
+    "options": [
+      "Nur das Wahlrecht",
+      "Grundlegende Rechte wie Menschenwuerde, Freiheit und Gleichheit, die nicht weggenommen werden koennen",
+      "Nur wirtschaftliche Rechte",
+      "Nur die Rechte von Staatsbuegrerinnen und Staatsbürgern"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "不可剥夺的人权（unveräußerliche Menschenrechte）包括人的尊严、自由和平等等基本权利，这些权利不因任何国家法律或政权决定而丧失，是国际人权法和德国《基本法》的核心基础。"
+  },
+  {
+    "id": 197,
+    "question": "Was bedeutet das Rueckkehrverbot fuer politische Fluechtlinge?",
+    "options": [
+      "Fluechtlinge duerfen nie in ihre Heimat zurueckkehren",
+      "Politische Fluechtlinge duerfen nicht in Laender abgeschoben werden, in denen sie verfolgt werden",
+      "Alle Fluechtlinge muessen nach drei Jahren zurueckkehren",
+      "Fluechtlinge duerfen Deutschland nicht verlassen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "不驱回原则（Non-Refoulement/Rückkehrverbot）禁止将难民遣返至其面临迫害或严重人权侵犯危险的国家，是国际难民法和人权法的核心原则，也是《日内瓦难民公约》的基本规定。"
+  },
+  {
+    "id": 198,
+    "question": "Was ist die Aufgabe des Bundesjustizministeriums?",
+    "options": [
+      "Kriminelle zu verhaften",
+      "Das Rechtssystem zu koordinieren und Rechtsgesetze vorzubereiten",
+      "Richter zu ernennen",
+      "Die Bundesanwaltschaft zu leiten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦司法部（Bundesjustizministerium）负责协调德国法律体系、起草法律草案、维护法治，是联邦政府中负责法律事务的核心部门，被称为\"基本权利部\"（Grundrechtsministerium）。"
+  },
+  {
+    "id": 199,
+    "question": "Was ist die freiheitlich-demokratische Grundordnung (FDGO)?",
+    "options": [
+      "Eine Partei in Deutschland",
+      "Die grundlegenden Prinzipien der deutschen Demokratie, die durch das Grundgesetz geschuetzt werden",
+      "Ein Wirtschaftssystem",
+      "Ein internationaler Vertrag ueber Menschenrechte"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "自由民主基本秩序（freiheitlich-demokratische Grundordnung，FDGO）是德国宪法秩序的核心价值，包括人的尊严、民主原则、三权分立、法治等不可侵犯的基本价值。任何威胁FDGO的行为都受到德国法律的严格限制。"
+  },
+  {
+    "id": 200,
+    "question": "Was bedeutet es, dass Deutschland eine streitbare Demokratie ist?",
+    "options": [
+      "Deutschland streitet oft mit anderen Laendern",
+      "Die Demokratie verteidigt sich aktiv gegen Feinde der Verfassung, z.B. durch Parteiverbote",
+      "Wahlen in Deutschland sind sehr umkaempft",
+      "Deutsche Politiker streiten viel im Bundestag"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "抗拒性民主（streitbare Demokratie）意味着德国的民主制度具有自我防卫机制，可以通过禁止反宪法政党（Parteiverbot）、取消滥用基本权利者的权利等手段保护自身，以免重蹈魏玛共和国因过于软弱而被纳粹摧毁的覆辙。"
+  },
+  {
+    "id": 201,
+    "question": "In Deutschland dürfen Frauen und Männer...",
+    "options": [
+      "unterschiedlich hohe Löhne für gleiche Arbeit verlangen.",
+      "nicht gleichzeitig berufstätig sein.",
+      "die gleichen Berufe ausüben.",
+      "nur in bestimmten Branchen arbeiten."
+    ],
+    "correctIndex": 2,
+    "category": "Grundrechte",
+    "explanation_zh": "德国基本法第3条明确规定男女平等。女性和男性可以从事相同的职业，享有同等的工作权利。尽管实践中仍存在差距，但法律保障了两性的职业平等。"
+  },
+  {
+    "id": 202,
+    "question": "Was ist in Deutschland durch das Grundgesetz garantiert?",
+    "options": [
+      "Die Pflicht zur Religionszugehörigkeit",
+      "Die Glaubens- und Gewissensfreiheit",
+      "Die staatliche Kontrolle der Kirchen",
+      "Die Abschaffung aller Religionen"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "德国基本法第4条保障信仰自由和良心自由。每个人都有权自由选择自己的宗教信仰，或者没有任何信仰。国家不得强迫任何人信仰或放弃某种宗教。"
+  },
+  {
+    "id": 203,
+    "question": "Welches Recht haben Arbeitnehmer in Deutschland?",
+    "options": [
+      "Das Recht, ihren Arbeitgeber jederzeit zu wechseln ohne Kündigung",
+      "Das Recht auf einen bezahlten Jahresurlaub",
+      "Das Recht auf ein eigenes Büro",
+      "Das Recht auf eine Vier-Tage-Woche"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "根据德国《联邦休假法》，每位员工每年至少享有24个工作日的带薪年假。这是劳动者的基本权利，雇主必须给予员工带薪休假。实际上很多企业提供更多天数的假期。"
+  },
+  {
+    "id": 204,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Tarifvertrag\"?",
+    "options": [
+      "Ein Vertrag zwischen Staat und Kirche",
+      "Eine Vereinbarung zwischen Arbeitgebern und Gewerkschaften über Arbeitsbedingungen",
+      "Ein Steuervertrag zwischen Bund und Ländern",
+      "Ein Vertrag zwischen Schulen und Eltern"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "劳资协议（Tarifvertrag）是雇主协会与工会之间签订的集体协议，规定工资水平、工作时间、假期等劳动条件。它是德国劳动关系的重要组成部分，保护工人的权益。"
+  },
+  {
+    "id": 205,
+    "question": "Was ist in Deutschland die Aufgabe der Gewerkschaften?",
+    "options": [
+      "Die politische Führung der Arbeiter zu übernehmen",
+      "Die Interessen der Arbeitnehmer gegenüber den Arbeitgebern zu vertreten",
+      "Die Unternehmen zu kontrollieren",
+      "Die Arbeitslosen zu verwalten"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "工会（Gewerkschaften）的主要任务是代表工人的利益，与雇主谈判工资和工作条件。德国最大的工会联合会是德国工会联合会（DGB）。工会通过集体谈判和必要时的罢工来维护工人权益。"
+  },
+  {
+    "id": 206,
+    "question": "Welche Versicherung ist in Deutschland für alle Arbeitnehmer Pflicht?",
+    "options": [
+      "Eine private Krankenversicherung",
+      "Die gesetzliche Krankenversicherung oder eine private Krankenversicherung",
+      "Nur eine Unfallversicherung",
+      "Eine Lebensversicherung"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "在德国，所有人都必须参加医疗保险。工薪阶层通常加入法定医疗保险（GKV），而收入较高者可以选择私人医疗保险（PKV）。这一制度确保每个人都能获得基本医疗保障。"
+  },
+  {
+    "id": 207,
+    "question": "Was ist die gesetzliche Rentenversicherung in Deutschland?",
+    "options": [
+      "Eine freiwillige Sparform für den Ruhestand",
+      "Eine Pflichtversicherung, die im Alter eine Rente zahlt",
+      "Eine staatliche Schenkung an ältere Menschen",
+      "Ein privates Investmentprodukt"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "法定养老保险是德国社会保障体系的核心支柱，雇员和雇主共同缴纳保险费。退休后，参保人将获得与其缴费年限和金额相应的养老金。该制度按代际互助原则运作，即在职人员的缴费支付当前退休人员的养老金。"
+  },
+  {
+    "id": 208,
+    "question": "Was regelt das Arbeitslosengeld I in Deutschland?",
+    "options": [
+      "Es ist eine Sozialhilfe für alle Bedürftigen",
+      "Es ist eine Versicherungsleistung für Arbeitnehmer, die ihren Job verloren haben",
+      "Es ist ein staatliches Grundeinkommen",
+      "Es ist ein Zuschuss für Studenten"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "失业金一（ALG I）是一种保险性质的福利，面向因失业而已缴纳足够失业保险费的劳动者。领取金额通常为失业前净收入的60%至67%。领取期限取决于之前的就业时间和年龄。"
+  },
+  {
+    "id": 209,
+    "question": "Was ist das Bürgergeld in Deutschland?",
+    "options": [
+      "Ein Lohn für ehrenamtliche Arbeit",
+      "Eine staatliche Grundsicherung für Hilfebedürftige",
+      "Eine Steuerrückerstattung für alle Bürger",
+      "Ein Kindergeld für Familien"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "公民金（Bürgergeld，原哈茨四世/Hartz IV）是德国的基本生活保障制度，为无法通过自身劳动维持生计的人提供最低生活保障。它于2023年取代了原来的失业金二（ALG II），旨在更好地支持受益人重新就业。"
+  },
+  {
+    "id": 210,
+    "question": "Welche der folgenden Aussagen zur Pflegeversicherung in Deutschland ist richtig?",
+    "options": [
+      "Sie ist nur für ältere Menschen gedacht",
+      "Sie ist eine Pflichtversicherung, die bei Pflegebedürftigkeit Leistungen erbringt",
+      "Sie wird vollständig vom Staat finanziert",
+      "Sie ersetzt die Krankenversicherung im Alter"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "护理保险（Pflegeversicherung）是德国社会保险的第五大支柱，于1995年引入。当参保人因病、残疾或年老而需要长期护理时，该保险提供相应的福利和支持。雇员和雇主共同缴纳保费。"
+  },
+  {
+    "id": 211,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Sozialstaat\"?",
+    "options": [
+      "Ein Staat, der alle Bürger gleich behandelt ohne Rücksicht auf soziale Unterschiede",
+      "Ein Staat, der die soziale Sicherheit und Gerechtigkeit für seine Bürger gewährleistet",
+      "Ein Staat ohne Privateigentum",
+      "Ein Staat, in dem der Staat alle Unternehmen besitzt"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "福利国家（Sozialstaat）原则在德国基本法第20条中有所体现。它意味着国家有义务为公民提供社会保障、公平分配财富、保护弱势群体。德国通过医疗、失业、养老等社会保险体系实现这一原则。"
+  },
+  {
+    "id": 212,
+    "question": "Was ist das Kindergeld in Deutschland?",
+    "options": [
+      "Ein Lohn für Kinder, die arbeiten",
+      "Eine staatliche Zahlung an Eltern zur finanziellen Unterstützung bei der Kindererziehung",
+      "Ein Schulgeldzuschuss",
+      "Eine Belohnung für gute Schulleistungen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "儿童补贴（Kindergeld）是德国政府向有子女的家庭提供的财政补贴，旨在减轻家庭抚养子女的经济负担。补贴按月发放，直至子女年满18岁，在某些情况下可延至25岁。"
+  },
+  {
+    "id": 213,
+    "question": "In Deutschland hat jedes Kind das Recht auf...",
+    "options": [
+      "eine Privatschule",
+      "Bildung und Erziehung",
+      "ein eigenes Zimmer",
+      "ein Taschengeld vom Staat"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "每个孩子都有受教育和被抚养的权利，这在德国法律中有明确保障。国家通过提供免费的公立学校教育来实现这一权利。家长有义务送孩子上学，这就是所谓的义务教育制度。"
+  },
+  {
+    "id": 214,
+    "question": "Ab welchem Alter besteht in Deutschland die Schulpflicht?",
+    "options": [
+      "Ab 4 Jahren",
+      "Ab 6 Jahren",
+      "Ab 8 Jahren",
+      "Ab 10 Jahren"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "在德国，儿童通常从6岁开始进入小学，届时义务教育正式开始。义务教育通常持续9至10年，具体取决于所在州的规定。违反义务教育规定的家长可能面临处罚。"
+  },
+  {
+    "id": 215,
+    "question": "Wie ist das Schulsystem in Deutschland grundsätzlich aufgebaut?",
+    "options": [
+      "Es gibt nur Einheitsschulen für alle Kinder",
+      "Es gibt verschiedene Schularten wie Hauptschule, Realschule und Gymnasium",
+      "Alle Kinder gehen bis zum Abitur in dieselbe Schule",
+      "Das Schulsystem wird ausschließlich vom Bund geregelt"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国学校系统在完成小学（通常4年）后分为多种类型：主体中学（Hauptschule）、实科中学（Realschule）和文理中学（Gymnasium）等。由于教育是各州的职责，各州的具体学制可能有所不同。"
+  },
+  {
+    "id": 216,
+    "question": "Was ist das Abitur in Deutschland?",
+    "options": [
+      "Ein Berufsausbildungsabschluss",
+      "Die allgemeine Hochschulreife, die zum Studium an einer Universität berechtigt",
+      "Ein mittlerer Schulabschluss",
+      "Ein staatlicher Arbeitsnachweis"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "高中毕业会考（Abitur）是德国文理中学的毕业考试，通过者获得普通高等教育入学资格（Allgemeine Hochschulreife）。这是进入大学学习的必要条件。学生通常在12至13年级参加这一考试。"
+  },
+  {
+    "id": 217,
+    "question": "Was ist das duale Ausbildungssystem in Deutschland?",
+    "options": [
+      "Ein System, bei dem man gleichzeitig zwei Sprachen lernt",
+      "Eine Berufsausbildung, die sowohl im Betrieb als auch in der Berufsschule stattfindet",
+      "Ein System mit Ganztags- und Halbtagsschulen",
+      "Eine gemeinsame Ausbildung für Deutsche und Ausländer"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "双元制职业培训系统是德国的特色，学生同时在企业（实践部分）和职业学校（理论部分）接受培训。这一系统被视为德国经济成功的重要因素，为许多行业培养了高素质的技术工人。"
+  },
+  {
+    "id": 218,
+    "question": "Was versteht man in Deutschland unter \"Elterngeld\"?",
+    "options": [
+      "Ein Gehalt für Haushaltsführung",
+      "Eine staatliche Leistung für Eltern, die nach der Geburt eines Kindes vorübergehend nicht oder weniger arbeiten",
+      "Ein monatlicher Zuschuss für alle Eltern",
+      "Eine einmalige Zahlung bei der Geburt"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "父母津贴（Elterngeld）是德国政府为鼓励父母在子女出生后照顾孩子而提供的经济支持。父母可以领取最多14个月的父母津贴，金额约为税前收入的65%。这一政策旨在促进家庭与工作的平衡，并鼓励父亲参与育儿。"
+  },
+  {
+    "id": 219,
+    "question": "Was besagt das Prinzip der Gleichberechtigung von Mann und Frau in Deutschland?",
+    "options": [
+      "Frauen und Männer müssen dieselben Berufe ergreifen",
+      "Frauen und Männer haben vor dem Gesetz gleiche Rechte und Pflichten",
+      "Männer müssen Frauen bei der Arbeit bevorzugen",
+      "Frauen haben mehr Rechte als Männer, um historische Nachteile auszugleichen"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "男女平等原则在德国基本法第3条第2款中明确规定：\"男女权利平等。\"这意味着在法律面前，男性和女性享有相同的权利和承担相同的义务，在工作、家庭和社会生活中不得因性别而受到歧视。"
+  },
+  {
+    "id": 220,
+    "question": "Was ist in Deutschland die Aufgabe des Jugendamtes?",
+    "options": [
+      "Die schulische Ausbildung der Jugendlichen zu organisieren",
+      "Kinder und Jugendliche zu schützen und Familien in schwierigen Situationen zu unterstützen",
+      "Die Berufsberatung für junge Menschen",
+      "Die Freizeitgestaltung der Jugendlichen zu koordinieren"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "青少年局（Jugendamt）是德国保护儿童和青少年权益的政府机构。其主要职责包括：为有需要的家庭提供支持、保护儿童免受虐待或忽视、在必要时将儿童带离危险家庭。它还负责监督寄养家庭和孤儿院。"
+  },
+  {
+    "id": 221,
+    "question": "Was ist in Deutschland die Ehe rechtlich gesehen?",
+    "options": [
+      "Eine religiöse Zeremonie ohne rechtliche Wirkung",
+      "Ein gesetzlich geregelter Vertrag zwischen zwei Personen",
+      "Eine staatlich angeordnete Partnerschaft",
+      "Ein Vertrag nur zwischen Mann und Frau"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "在德国，婚姻是一种法律合同，由民事登记处（Standesamt）登记确认，具有法律效力。自2017年起，同性伴侣也可以结婚并享有与异性婚姻相同的法律权利。宗教婚礼不具有法律效力，必须先进行民事登记。"
+  },
+  {
+    "id": 222,
+    "question": "Seit wann dürfen in Deutschland gleichgeschlechtliche Paare heiraten?",
+    "options": [
+      "Seit 1990",
+      "Seit 2001",
+      "Seit 2017",
+      "Seit 2020"
+    ],
+    "correctIndex": 2,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国于2017年10月1日正式允许同性伴侣缔结婚姻，享有与异性婚姻相同的法律权利，包括共同收养子女的权利。此前，同性伴侣只能登记为生活伴侣（eingetragene Lebenspartnerschaft），权利较为有限。"
+  },
+  {
+    "id": 223,
+    "question": "Was ist das Sorgerecht in Deutschland?",
+    "options": [
+      "Das Recht der Großeltern, Kinder zu besuchen",
+      "Das Recht und die Pflicht der Eltern, für ihre Kinder zu sorgen",
+      "Das Recht des Staates, Kinder zu erziehen",
+      "Eine staatliche Genehmigung für die Kinderbetreuung"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "监护权（Sorgerecht）是父母对未成年子女的法定权利和义务，包括照顾子女的人身安全、教育和财产。通常由父母共同行使监护权；在父母离婚的情况下，法院会根据子女的最佳利益决定监护安排。"
+  },
+  {
+    "id": 224,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Religionsfreiheit\"?",
+    "options": [
+      "Die Pflicht, einer Kirche beizutreten",
+      "Das Recht, eine Religion frei zu wählen oder keine Religion zu haben",
+      "Die staatliche Förderung aller Religionen",
+      "Das Recht der Kirchen, Steuern zu erheben"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "宗教自由是德国基本法第4条保障的基本权利，包括选择信仰宗教的自由和不信仰宗教的自由。每个人都有权自由公开地实践自己的宗教，只要不违反其他法律。国家对所有宗教一视同仁，不设国教。"
+  },
+  {
+    "id": 225,
+    "question": "Welche Religionen sind in Deutschland am weitesten verbreitet?",
+    "options": [
+      "Islam und Hinduismus",
+      "Christentum (evangelisch und katholisch) und Islam",
+      "Buddhismus und Christentum",
+      "Judentum und Islam"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "基督教是德国最大的宗教，分为新教（约占人口24%）和天主教（约占人口26%）两大分支。伊斯兰教是第三大宗教，约有400至500万穆斯林。越来越多的德国人自称没有宗教信仰。"
+  },
+  {
+    "id": 226,
+    "question": "Was ist die Kirchensteuer in Deutschland?",
+    "options": [
+      "Eine staatliche Steuer für alle Bürger",
+      "Eine Abgabe, die Kirchenmitglieder an ihre Kirche zahlen, über die Finanzämter erhoben",
+      "Ein freiwilliger Beitrag für den Kirchenbau",
+      "Eine Steuer, die der Staat an die Kirchen abführt"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "教会税（Kirchensteuer）是德国教会成员通过国家税务机关缴纳给所属教会的税款，通常为所得税的8%至9%。只有正式登记为某教会成员的人才需缴纳。退出教会后即可停止缴纳，但需要在相关机构正式办理手续。"
+  },
+  {
+    "id": 227,
+    "question": "Was bedeutet in Deutschland das Recht auf freie Meinungsäußerung?",
+    "options": [
+      "Man darf alles sagen, auch wenn es andere beleidigt oder zur Gewalt aufruft",
+      "Man darf seine Meinung frei äußern, aber nicht andere beleidigen oder zur Gewalt aufrufen",
+      "Nur die Presse hat das Recht auf freie Meinungsäußerung",
+      "Die freie Meinungsäußerung gilt nur für Deutsche"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "言论自由（Meinungsfreiheit）是德国基本法第5条保障的基本权利，但并非毫无限制。德国法律禁止煽动仇恨、侮辱他人、否认大屠杀等行为。这种平衡反映了历史教训，防止言论自由被滥用来伤害他人或破坏民主。"
+  },
+  {
+    "id": 228,
+    "question": "Was ist die Pressefreiheit in Deutschland?",
+    "options": [
+      "Das Recht der Regierung, die Presse zu kontrollieren",
+      "Das Recht der Medien, frei und unabhängig von staatlicher Einflussnahme zu berichten",
+      "Die Pflicht der Presse, nur positive Nachrichten zu berichten",
+      "Das Recht der Bürger, kostenlose Zeitungen zu erhalten"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "新闻自由（Pressefreiheit）受德国基本法第5条保护，是民主社会的重要支柱。媒体可以自由报道和评论，不受政府控制或审查。德国的新闻自由在全球排名中始终处于较高位置，独立媒体对监督权力、告知公众起着关键作用。"
+  },
+  {
+    "id": 229,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Integration\"?",
+    "options": [
+      "Die vollständige Anpassung von Migranten an die deutsche Kultur unter Aufgabe der eigenen Identität",
+      "Die Teilhabe von Menschen mit Migrationshintergrund am gesellschaftlichen Leben bei Bewahrung der eigenen Kultur",
+      "Die Abschottung von Migranten in eigenen Stadtteilen",
+      "Die ausschließlich schulische Eingliederung von Kindern mit Migrationshintergrund"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "融合（Integration）在德国意指移民参与社会生活的各个层面，包括学习德语、了解并遵守德国法律和价值观，同时保留自己的文化身份。成功的融合需要双方的努力：移民努力适应，社会也为其提供机会和支持。"
+  },
+  {
+    "id": 230,
+    "question": "Was ist der Unterschied zwischen Asylbewerber und anerkanntem Flüchtling in Deutschland?",
+    "options": [
+      "Es gibt keinen Unterschied",
+      "Ein Asylbewerber hat seinen Antrag noch nicht bearbeitet bekommen, ein anerkannter Flüchtling hat Schutzstatus erhalten",
+      "Asylbewerber kommen aus Europa, Flüchtlinge aus anderen Kontinenten",
+      "Asylbewerber dürfen arbeiten, anerkannte Flüchtlinge nicht"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "寻求庇护者（Asylbewerber）是指已提出庇护申请但申请尚在审理中的人。一旦申请获批，他们成为被认可的难民（anerkannte Flüchtlinge），获得保护地位，享有更多权利，如长期居留权和在一定条件下的工作权。"
+  },
+  {
+    "id": 231,
+    "question": "Was ist in Deutschland das Grundrecht auf Asyl?",
+    "options": [
+      "Ein Recht für alle Menschen, unbegrenzt in Deutschland zu leben",
+      "Ein Recht für politisch Verfolgte, in Deutschland Schutz zu suchen",
+      "Ein Recht für alle Arbeitssuchenden aus der EU",
+      "Ein Recht nur für Kriegsflüchtlinge"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "庇护权在德国基本法第16a条中有明确规定，为遭受政治迫害的人提供保护。这一权利来源于二战后的历史经验。然而，来自被认定为安全的第三国或安全原籍国的人通常不能享受这一权利。"
+  },
+  {
+    "id": 232,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Diskriminierung\"?",
+    "options": [
+      "Eine besondere Behandlung aufgrund von Talenten",
+      "Eine ungleiche Behandlung aufgrund von Merkmalen wie Herkunft, Geschlecht oder Religion",
+      "Eine bevorzugte Behandlung älterer Menschen",
+      "Die Unterscheidung nach Bildungsabschlüssen"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "歧视（Diskriminierung）是指因种族、性别、宗教、残疾、年龄或性取向等特征而对人进行不平等对待。德国《一般平等待遇法》（AGG）禁止工作场所和日常生活中的歧视行为，违者可能面临法律处罚。"
+  },
+  {
+    "id": 233,
+    "question": "Was ist das Allgemeine Gleichbehandlungsgesetz (AGG) in Deutschland?",
+    "options": [
+      "Ein Gesetz zur Angleichung der Löhne in allen Branchen",
+      "Ein Gesetz zum Schutz vor Benachteiligung und Diskriminierung",
+      "Ein Gesetz zur Gleichbehandlung von Deutschen im Ausland",
+      "Ein Gesetz zur Gleichverteilung von Steuergeldern"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "《一般平等待遇法》（AGG）于2006年颁布，旨在防止因种族、民族血统、性别、宗教或世界观、残疾、年龄或性取向等因素导致的歧视。该法适用于就业和日常生活领域，被歧视者可向反歧视机构寻求帮助。"
+  },
+  {
+    "id": 234,
+    "question": "Welche Möglichkeit haben Bürger in Deutschland, sich gegen Entscheidungen des Staates zu wehren?",
+    "options": [
+      "Sie können nur bei der Regierung protestieren",
+      "Sie können den Rechtsweg beschreiten und vor Gericht klagen",
+      "Sie haben keine Möglichkeit, staatliche Entscheidungen anzufechten",
+      "Sie können nur an den Bundespräsidenten appellieren"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "德国公民有权通过法律途径对抗国家决定，包括向行政法院（Verwaltungsgericht）提起诉讼。必要时，公民甚至可以向联邦宪法法院提起宪法投诉（Verfassungsbeschwerde），挑战被认为违宪的法律或行政行为。"
+  },
+  {
+    "id": 235,
+    "question": "Was ist der Verbraucherschutz in Deutschland?",
+    "options": [
+      "Der Schutz der deutschen Industrie vor ausländischen Waren",
+      "Maßnahmen zum Schutz der Rechte von Käufern und Nutzern von Waren und Dienstleistungen",
+      "Die staatliche Regulierung der Preise",
+      "Der Schutz vor zu vielen Werbeanzeigen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "消费者保护（Verbraucherschutz）涵盖保护消费者权益的法律法规和机构。在德国，消费者有权在购买后14天内无理由退货（网购），并受到产品质量保证、反欺骗广告法律等多方面保护。消费者建议中心（Verbraucherzentrale）提供免费咨询服务。"
+  },
+  {
+    "id": 236,
+    "question": "Was ist in Deutschland das Widerrufsrecht beim Online-Shopping?",
+    "options": [
+      "Das Recht, einen Kauf nach 30 Tagen rückgängig zu machen",
+      "Das Recht, einen Online-Kauf innerhalb von 14 Tagen ohne Angabe von Gründen zu widerrufen",
+      "Das Recht, Produkte zeitlich unbegrenzt zurückzugeben",
+      "Das Recht, nur fehlerhafte Produkte zurückzugeben"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "根据欧盟指令和德国法律，网购消费者有权在收到商品后14天内无需说明理由撤销购买合同。这一权利旨在弥补消费者无法在购买前亲自检验商品的不足，是保护网购消费者的重要措施。"
+  },
+  {
+    "id": 237,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Ehrenamt\"?",
+    "options": [
+      "Eine bezahlte Tätigkeit für besonders ehrenwerte Bürger",
+      "Ein freiwilliges, unbezahltes gesellschaftliches Engagement",
+      "Eine Auszeichnung für besondere Verdienste",
+      "Ein staatliches Amt mit besonderen Privilegien"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "志愿服务（Ehrenamt）是指不以报酬为目的、为社会做贡献的自愿活动。在德国，数百万人从事各种形式的志愿工作，如在消防队、体育俱乐部、社会服务机构等。志愿精神被视为公民社会的重要基础。"
+  },
+  {
+    "id": 238,
+    "question": "Welche Rolle spielen Vereine in der deutschen Gesellschaft?",
+    "options": [
+      "Sie sind hauptsächlich für die Wirtschaft wichtig",
+      "Sie sind wichtige Orte des gesellschaftlichen Lebens und der Gemeinschaft",
+      "Sie sind staatliche Organisationen zur Überwachung der Bürger",
+      "Sie spielen kaum eine Rolle im modernen Deutschland"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "社团（Vereine）在德国社会生活中扮演着至关重要的角色。德国大约有60万个注册社团，覆盖体育、文化、慈善、兴趣爱好等各个领域。社团是公民参与社区生活、建立社会联系的主要平台，体现了德国强大的公民社会传统。"
+  },
+  {
+    "id": 239,
+    "question": "Was ist der Deutsche Bundestag?",
+    "options": [
+      "Die Regierung Deutschlands",
+      "Das direkt gewählte Parlament auf Bundesebene",
+      "Das höchste Gericht Deutschlands",
+      "Der Rat der Bundesländer"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "联邦议院（Bundestag）是德国联邦层面的议会，由选民直接选举产生。它是德国最高立法机构，负责通过联邦法律、选举联邦总理、审批国家预算并监督政府。联邦议院通常有约700名议员。"
+  },
+  {
+    "id": 240,
+    "question": "Wie oft findet in Deutschland die Bundestagswahl statt?",
+    "options": [
+      "Alle drei Jahre",
+      "Alle vier Jahre",
+      "Alle fünf Jahre",
+      "Alle sechs Jahre"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "德国联邦议院选举每四年举行一次，选举日通常定在星期日。公民通过直接选举和政党名单两种方式选出议员。德国使用联立式混合选举制度（Verhältniswahlrecht mit Direktmandaten）来确定议席分配。"
+  },
+  {
+    "id": 241,
+    "question": "Was ist der Bundesrat in Deutschland?",
+    "options": [
+      "Die gewählte Volksvertretung auf Bundesebene",
+      "Das Organ, durch das die Bundesländer an der Gesetzgebung des Bundes mitwirken",
+      "Das Bundesverfassungsgericht",
+      "Der Beirat des Bundespräsidenten"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦参议院（Bundesrat）是代表德国16个州利益的宪法机构。各州政府派代表参加联邦参议院，州的代表数量取决于其人口规模（3至6票）。它参与联邦立法，某些法律须经联邦参议院批准方能生效。"
+  },
+  {
+    "id": 242,
+    "question": "Wer ist in Deutschland der Bundespräsident?",
+    "options": [
+      "Das mächtigste Mitglied der Bundesregierung",
+      "Das Staatsoberhaupt, das repräsentative Aufgaben hat",
+      "Der Vorsitzende des Bundesrates",
+      "Der Chef der Bundeswehr"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦总统（Bundespräsident）是德国的国家元首，主要履行代表性职能。他由联邦大会（Bundesversammlung）每5年选举一次，可连任一届。与议会制度中的总统不同，德国联邦总统的实际政治权力相对有限，真正的行政权力掌握在联邦总理手中。"
+  },
+  {
+    "id": 243,
+    "question": "Was ist die Aufgabe des Bundeskanzlers/der Bundeskanzlerin in Deutschland?",
+    "options": [
+      "Das Staatsoberhaupt zu vertreten",
+      "Die Bundesregierung zu leiten und die Richtlinien der Politik zu bestimmen",
+      "Die Gesetze zu unterschreiben",
+      "Die Streitkräfte zu befehligen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦总理（Bundeskanzler/in）是德国政府首脑，由联邦议院选举产生，掌握实际行政权力。总理负责制定政府政策方针（Richtlinienkompetenz），领导内阁，协调各部工作。总理对联邦议院负责，议院可通过建设性不信任投票（konstruktives Misstrauensvotum）将其罢免。"
+  },
+  {
+    "id": 244,
+    "question": "Was ist das Bundesverfassungsgericht in Deutschland?",
+    "options": [
+      "Das höchste Gericht für Strafrecht",
+      "Das höchste Gericht, das über die Einhaltung des Grundgesetzes wacht",
+      "Das Gericht für internationale Streitigkeiten",
+      "Das Gericht, das den Bundespräsidenten wählt"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦宪法法院（Bundesverfassungsgericht）是德国最高司法机构，负责监督宪法的遵守。它可以宣布与基本法相悖的法律无效，裁决国家机构之间的权限争议，并审理公民提出的宪法投诉。该法院设在卡尔斯鲁厄，被视为保护民主和基本权利的守护者。"
+  },
+  {
+    "id": 245,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Umweltschutz\"?",
+    "options": [
+      "Der Schutz des deutschen Waldes vor Touristen",
+      "Maßnahmen zur Bewahrung und zum Schutz der natürlichen Umwelt",
+      "Die staatliche Kontrolle der Industrieabfälle",
+      "Die Förderung der Landwirtschaft"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "环境保护（Umweltschutz）是德国政策的重要优先事项。2002年，环境保护被写入德国基本法。德国积极推动可再生能源（\"能源转型\" Energiewende）、垃圾分类回收体系（Recycling）和气候保护措施，这些在国际上均处于领先地位。"
+  },
+  {
+    "id": 246,
+    "question": "Was ist das Pfandsystem in Deutschland?",
+    "options": [
+      "Ein staatliches Sparförderprogramm",
+      "Ein System zur Rückgabe von Einwegflaschen und -dosen gegen eine Pfandgebühr",
+      "Eine Mietsicherheitsleistung für Wohnungen",
+      "Ein staatliches Förderprogramm für Investitionen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "押金系统（Pfandsystem）是德国的一种环保措施，消费者购买饮料时支付押金（通常为0.25欧元），退还瓶子或易拉罐时可取回押金。这一系统大大提高了包装废弃物的回收率，是德国循环经济的成功案例之一。"
+  },
+  {
+    "id": 247,
+    "question": "Was ist in Deutschland die Mülltrennung?",
+    "options": [
+      "Das Sortieren von Abfällen nach Art des Materials zur besseren Wiederverwertung",
+      "Die Entsorgung von Müll durch Verbrennung",
+      "Das Verbot bestimmter Verpackungen",
+      "Die staatliche Abgabe für die Müllentsorgung"
+    ],
+    "correctIndex": 0,
+    "category": "Gesellschaft",
+    "explanation_zh": "垃圾分类（Mülltrennung）是德国的日常环保实践，居民将垃圾按有机废弃物（棕色桶）、包装材料（黄色桶/袋）、废纸（蓝色桶）和普通垃圾（灰/黑色桶）分类投放。这一系统促进了资源回收利用，是德国环保意识的体现。"
+  },
+  {
+    "id": 248,
+    "question": "Was bedeutet in Deutschland das Prinzip der Nachhaltigkeit?",
+    "options": [
+      "Eine dauerhafte wirtschaftliche Wachstumsstrategie",
+      "Die Nutzung von Ressourcen, ohne die Bedürfnisse zukünftiger Generationen zu gefährden",
+      "Die Erhaltung traditioneller Kulturgüter",
+      "Ein staatliches Förderprogramm für Familien"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "可持续性（Nachhaltigkeit）原则要求当代人在满足自身需求的同时，不损害后代满足其需求的能力。在德国，这一原则体现在环境政策、能源政策（可再生能源转型）、经济政策等各个领域，是德国政策制定的重要指导原则。"
+  },
+  {
+    "id": 249,
+    "question": "Was ist die Einkommensteuer in Deutschland?",
+    "options": [
+      "Eine Steuer auf den Kauf von Waren",
+      "Eine Steuer auf das Einkommen von natürlichen Personen",
+      "Eine Steuer auf Unternehmensgewinne",
+      "Eine Steuer auf Erbschaften"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "所得税（Einkommensteuer）是德国对个人收入征收的税种，采用累进税率制度，即收入越高，税率越高。税率从14%起，最高可达45%（不含附加税）。德国的税收制度还包括团结附加税（Solidaritätszuschlag）和教会税（若为教会成员）。"
+  },
+  {
+    "id": 250,
+    "question": "Was ist die Mehrwertsteuer in Deutschland?",
+    "options": [
+      "Eine Steuer auf das Einkommen von Unternehmen",
+      "Eine Steuer, die beim Kauf von Waren und Dienstleistungen anfällt",
+      "Eine besondere Steuer für Luxusgüter",
+      "Eine Steuer nur für internationale Transaktionen"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "增值税（Mehrwertsteuer/MwSt.）是德国消费者购买商品和服务时支付的税款，通常已包含在价格中。标准税率为19%，部分商品（如食品、书籍、公共交通）适用7%的优惠税率。增值税是德国政府最重要的税收来源之一。"
+  },
+  {
+    "id": 251,
+    "question": "Was ist in Deutschland die Lohnsteuer?",
+    "options": [
+      "Eine Sonderabgabe für Selbstständige",
+      "Eine besondere Form der Einkommensteuer, die direkt vom Arbeitgeber einbehalten wird",
+      "Eine staatliche Gebühr für Arbeitnehmer",
+      "Eine Steuer auf Kapitalerträge"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "工资税（Lohnsteuer）是雇主代雇员预扣并缴纳给税务局的所得税形式。雇主每月从工资中扣除相应税款，这意味着雇员收到的是税后净工资。工资税的税率取决于工资级别（Steuerklasse）和收入水平。"
+  },
+  {
+    "id": 252,
+    "question": "Was ist in Deutschland die staatsbürgerliche Pflicht bei einer Wahl?",
+    "options": [
+      "Jeder Bürger muss wählen gehen, sonst wird er bestraft",
+      "Es ist eine moralische, aber keine rechtliche Pflicht, an Wahlen teilzunehmen",
+      "Nur Personen über 30 Jahren müssen wählen",
+      "Alle Einwohner Deutschlands müssen an Wahlen teilnehmen"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "在德国，选举参与是道德义务而非法律义务。公民有投票权，但没有法定投票义务，不投票不会受到处罚。然而，公民积极参与民主进程被视为重要的公民责任，有助于维护民主制度的健康运作。"
+  },
+  {
+    "id": 253,
+    "question": "Was versteht man in Deutschland unter dem Begriff \"Bürgerinitiative\"?",
+    "options": [
+      "Eine staatliche Verwaltungseinheit",
+      "Ein freiwilliger Zusammenschluss von Bürgern zur Durchsetzung gemeinsamer Interessen",
+      "Eine Parteiorganisation auf Gemeindeebene",
+      "Ein staatliches Programm zur Bürgerbeteiligung"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "公民倡议（Bürgerinitiative）是公民为推动共同利益或解决某一具体问题而自发组织的团体。这是一种直接民主参与形式，公民可以通过请愿、示威等方式影响政治决策，是代议制民主的重要补充。"
+  },
+  {
+    "id": 254,
+    "question": "Was ist in Deutschland das Volksbegehren?",
+    "options": [
+      "Eine regelmäßige Bürgerbefragung ohne rechtliche Wirkung",
+      "Ein Instrument der direkten Demokratie, bei dem Bürger ein parlamentarisches Verfahren einleiten können",
+      "Eine staatliche Umfrage über aktuelle politische Themen",
+      "Eine Wahl des Bundesrates durch die Bevölkerung"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "公民创议（Volksbegehren）是直接民主的一种工具，允许公民通过收集足够多的签名来启动议会程序或推动立法。在德国，这一工具主要在州级（Landesebene）层面使用，各州规则不同。在联邦层面，德国基本法并未规定全民公投或公民创议制度。"
+  },
+  {
+    "id": 255,
+    "question": "Was ist in Deutschland die Meinungsfreiheit?",
+    "options": [
+      "Das Recht, alles ohne Einschränkungen zu sagen oder zu schreiben",
+      "Das Recht, Meinungen frei zu äußern, innerhalb der gesetzlichen Grenzen",
+      "Das Recht nur für Journalisten, ihre Meinung zu äußern",
+      "Ein Recht, das nur für politische Äußerungen gilt"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "言论自由（Meinungsfreiheit）受德国基本法第5条保障，但存在法律限制。禁止煽动种族仇恨、散布纳粹宣传、公开否认大屠杀等行为。这些限制反映了德国从历史中汲取的教训，旨在保护民主和人类尊严。"
+  },
+  {
+    "id": 256,
+    "question": "Was ist in Deutschland die Versammlungsfreiheit?",
+    "options": [
+      "Das Recht, private Feiern ohne staatliche Erlaubnis abzuhalten",
+      "Das Recht, sich friedlich zu versammeln und zu demonstrieren",
+      "Das Recht, politische Parteien zu gründen",
+      "Das Recht auf kostenlose Nutzung öffentlicher Plätze"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "集会自由（Versammlungsfreiheit）在德国基本法第8条中有明确保障，允许公民和平集会和示威游行。公共场所的集会通常需要提前向警方登记，但宗旨和平的集会受到保护，国家不得任意禁止。这是民主参与的重要权利。"
+  },
+  {
+    "id": 257,
+    "question": "Was ist in Deutschland die Vereinigungsfreiheit?",
+    "options": [
+      "Das Recht, sich mit Ausländern zu verheiraten",
+      "Das Recht, Vereine, Gewerkschaften oder Verbände zu gründen",
+      "Das Recht, in andere Bundesländer umzuziehen",
+      "Das Recht auf freien Personenverkehr in der EU"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "结社自由（Vereinigungsfreiheit）受德国基本法第9条保障，赋予公民创建或加入社团、工会及协会的权利。这一权利不适用于以破坏宪法秩序为目的的组织。德国有数十万注册社团，从体育俱乐部到专业协会，形成了活跃的公民社会。"
+  },
+  {
+    "id": 258,
+    "question": "Was ist in Deutschland das Briefgeheimnis?",
+    "options": [
+      "Das Recht, anonyme Briefe zu schreiben",
+      "Der Schutz der Vertraulichkeit von Briefen, Post und Telekommunikation",
+      "Das Recht des Staates, Briefe zu lesen",
+      "Das Recht auf kostenlose Zustellung von Briefen"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "信件保密权（Brief-, Post- und Fernmeldegeheimnis）受德国基本法第10条保护，确保私人通信不受国家监视。这一权利也适用于电子邮件和电话通话。只有在极特殊情况下，经法院批准后，国家才能依法进行监听。"
+  },
+  {
+    "id": 259,
+    "question": "Was ist in Deutschland das Recht auf informationelle Selbstbestimmung?",
+    "options": [
+      "Das Recht, falsche Informationen zu verbreiten",
+      "Das Recht, selbst zu bestimmen, wer welche persönlichen Daten erhebt und verwendet",
+      "Das Recht auf kostenlose Informationen vom Staat",
+      "Das Recht auf anonyme Nutzung des Internets"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "信息自决权（Recht auf informationelle Selbstbestimmung）是德国联邦宪法法院在1983年人口普查判决中确立的基本权利，赋予个人控制其个人数据的权利。这一权利是今天欧盟《通用数据保护条例》（DSGVO/GDPR）的重要基础。"
+  },
+  {
+    "id": 260,
+    "question": "Was bedeutet Datenschutz in Deutschland?",
+    "options": [
+      "Der Schutz von Computerdaten vor Hackern",
+      "Der Schutz personenbezogener Daten vor unbefugter Verwendung",
+      "Die staatliche Kontrolle aller digitalen Daten",
+      "Die Speicherung von Daten im Ausland"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "数据保护（Datenschutz）在德国有着严格的法律规定。欧盟《通用数据保护条例》（DSGVO）和德国《联邦数据保护法》（BDSG）规定，个人数据只能在获得当事人明确同意或有其他合法依据的情况下才能收集和处理。违规者可能面临高额罚款。"
+  },
+  {
+    "id": 261,
+    "question": "Was versteht man unter dem Begriff \"Minderheitenschutz\" in Deutschland?",
+    "options": [
+      "Die bevorzugte Behandlung von Minderheiten bei der Stellenvergabe",
+      "Maßnahmen zum Schutz der Rechte von ethnischen, religiösen oder anderen Minderheitsgruppen",
+      "Das Verbot der Kritik an Minderheiten",
+      "Die staatliche Kontrolle von Minderheitsgemeinschaften"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "少数民族保护（Minderheitenschutz）是德国基本法中平等原则的延伸，确保少数族裔、宗教少数群体等不受歧视，并能保留其文化和语言身份。德国还承认索布人、丹麦人等特定的本国少数民族，并支持其文化保护。"
+  },
+  {
+    "id": 262,
+    "question": "Was sind die nationalen Minderheiten in Deutschland?",
+    "options": [
+      "Türken, Polen und Griechen",
+      "Dänen, Sorben, Friesen und Sinti und Roma",
+      "Österreicher, Schweizer und Luxemburger",
+      "Flüchtlinge und Asylbewerber"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国正式承认的四个本国少数民族是：丹麦人（主要在石勒苏益格-荷尔斯泰因州）、索布人（在勃兰登堡和萨克森州）、弗里斯兰人（在北弗里斯兰和东弗里斯兰）以及辛提人和罗姆人（分布全国）。这些少数民族的文化和语言受到特别保护。"
+  },
+  {
+    "id": 263,
+    "question": "Was ist die Deutsche Sprache in Bezug auf die Integration?",
+    "options": [
+      "Die Kenntnis der deutschen Sprache ist optional für Migranten",
+      "Deutschkenntnisse sind ein wichtiger Schlüssel zur Integration und Teilhabe",
+      "Migranten müssen nur in ihrer Muttersprache kommunizieren",
+      "Die deutsche Sprache ist nur für die Staatsbürgerschaft relevant"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德语能力是融入德国社会的关键因素，对于参与就业市场、教育体系和社会生活至关重要。德国政府提供综合的语言培训课程，包括面向移民的融合课程（Integrationskurse），帮助新来者学习德语和了解德国社会。"
+  },
+  {
+    "id": 264,
+    "question": "Was bieten Integrationskurse in Deutschland an?",
+    "options": [
+      "Ausschließlich Sprachunterricht in der Muttersprache der Migranten",
+      "Deutschsprachkurse und Orientierungskurse zur deutschen Gesellschaft und Geschichte",
+      "Berufsausbildung für Migranten",
+      "Kulturelle Veranstaltungen für Ausländer"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "融合课程（Integrationskurse）由德国移民与难民局（BAMF）组织，包括德语课程（600课时）和方向课程（100课时）。方向课程涵盖德国历史、文化、法律和民主价值观。完成课程后参加'融入德国'（Leben in Deutschland）考试，通过者可获得证书。"
+  },
+  {
+    "id": 265,
+    "question": "Was ist der Einbürgerungstest in Deutschland?",
+    "options": [
+      "Ein Test für alle Deutschen über ihre Geschichte",
+      "Ein Test, der Kenntnisse über Deutschland als Voraussetzung für die Einbürgerung prüft",
+      "Ein Sprachtest für alle Ausländer",
+      "Eine Prüfung für die Verlängerung der Aufenthaltserlaubnis"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "入籍测试（Einbürgerungstest）是申请德国国籍的必要条件之一，由联邦移民与难民局（BAMF）设计，包含33道题目，考查申请人对德国政治制度、法律体系、历史和文化的了解。申请人需正确回答至少17道题（约50%）才能通过。"
+  },
+  {
+    "id": 266,
+    "question": "Was sind Voraussetzungen für die Einbürgerung in Deutschland?",
+    "options": [
+      "Nur ein langer Aufenthalt in Deutschland",
+      "Unter anderem ausreichende Deutschkenntnisse, ein gesicherter Lebensunterhalt und die Bekenntnis zur freiheitlich-demokratischen Grundordnung",
+      "Nur die Heirat mit einem deutschen Staatsbürger",
+      "Nur das Bestehen des Einbürgerungstests"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "申请德国国籍的主要条件包括：在德国合法居住一定年限（通常5至8年，根据2024年新法，某些情况可缩短至3至5年）、具备足够的德语能力、能够自食其力（不依赖社会救济）、通过入籍测试、认同自由民主基本秩序，以及通常情况下放弃原有国籍。"
+  },
+  {
+    "id": 267,
+    "question": "Was ist das Merkmal einer demokratischen Gesellschaft?",
+    "options": [
+      "Die Herrschaft einer einzelnen starken Partei",
+      "Die Beteiligung der Bürger an politischen Entscheidungen und der Schutz von Grundrechten",
+      "Die staatliche Planung der gesamten Wirtschaft",
+      "Die Einschränkung der freien Meinungsäußerung"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "民主社会的基本特征包括：公民参与政治决策（通过选举和其他形式）、保护基本权利、权力分立（行政、立法、司法）、法治原则以及保障少数派权利。这些特征确保政府权力来自人民并受到制约。"
+  },
+  {
+    "id": 268,
+    "question": "Welches Prinzip wird durch die Gewaltenteilung in Deutschland gewährleistet?",
+    "options": [
+      "Die Konzentration von Macht in einer Hand",
+      "Die gegenseitige Kontrolle und Begrenzung der Staatsgewalten",
+      "Die Überlegenheit der Exekutive über Parlament und Justiz",
+      "Die Unabhängigkeit jeder Staatsgewalt ohne jegliche Kontrolle"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "权力分立原则将国家权力分为立法权（议会）、行政权（政府）和司法权（法院），相互制衡，防止任何一方权力过大。这一原则是自由民主国家的基础，在德国基本法中有明确体现，确保权力不被滥用。"
+  },
+  {
+    "id": 269,
+    "question": "Was ist die freiheitlich-demokratische Grundordnung (FDGO) in Deutschland?",
+    "options": [
+      "Eine bestimmte politische Ideologie",
+      "Die grundlegenden Prinzipien der deutschen Demokratie, die besonders geschützt werden",
+      "Eine Liste der erlaubten politischen Parteien",
+      "Das Wahlrecht in Deutschland"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "自由民主基本秩序（FDGO）是德国民主制度的核心原则集合，包括：人的尊严、人民主权、权力分立、政府负责制、司法独立、多党制和反对党权利等。德国宪法（基本法）赋予国家保卫这一秩序的权利，可禁止危害FDGO的政党（\"能战斗的民主\"）。"
+  },
+  {
+    "id": 270,
+    "question": "Was ist das Prinzip der Menschenwürde in Deutschland?",
+    "options": [
+      "Ein Prinzip, das nur für Deutsche gilt",
+      "Das unveräußerliche Recht jedes Menschen auf Achtung und Schutz seiner Würde",
+      "Ein Prinzip, das nur in sozialen Notlagen gilt",
+      "Ein Ziel, das noch nicht in der Verfassung verankert ist"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "人的尊严（Menschenwürde）是德国基本法中最核心的价值，在第1条第1款中明确规定：\"人的尊严不可侵犯，尊重和保护人的尊严是所有国家权力的义务。\"这一原则具有最高的宪法地位，不可修改，是所有其他基本权利的基础。"
+  },
+  {
+    "id": 271,
+    "question": "Was ist das Recht auf körperliche Unversehrtheit in Deutschland?",
+    "options": [
+      "Das Recht auf kostenlose medizinische Versorgung",
+      "Das Recht, dass niemand ohne eigene Zustimmung körperlich verletzt oder misshandelt werden darf",
+      "Das Recht auf Sicherheit auf öffentlichen Straßen",
+      "Das Recht auf Schutz vor Krankheiten"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "身体完整权（Recht auf körperliche Unversehrtheit）在德国基本法第2条第2款中受到保护，规定\"人人有权享有生命与身体不受侵犯的权利\"。这一权利保护每个人免受未经同意的身体侵害，既约束国家行为，也保护个人免受他人伤害。"
+  },
+  {
+    "id": 272,
+    "question": "Was ist das Recht auf freie Entfaltung der Persönlichkeit in Deutschland?",
+    "options": [
+      "Das Recht, jeden Beruf ohne Einschränkungen auszuüben",
+      "Das Recht, sein Leben nach eigenen Vorstellungen zu gestalten, solange man andere nicht verletzt",
+      "Das Recht auf unbegrenzte Selbstdarstellung in der Öffentlichkeit",
+      "Das Recht auf staatliche Unterstützung bei persönlichen Projekten"
+    ],
+    "correctIndex": 1,
+    "category": "Grundrechte",
+    "explanation_zh": "人格自由发展权（Recht auf freie Entfaltung der Persönlichkeit）在德国基本法第2条第1款中受到保障，允许每个人按照自己的意愿生活，只要不侵犯他人权利、不违反宪法秩序或道德准则。这是一种广泛的自由权利，是其他具体自由的兜底条款。"
+  },
+  {
+    "id": 273,
+    "question": "Was ist Antisemitismus und wie wird er in Deutschland behandelt?",
+    "options": [
+      "Eine politische Meinung, die von der Meinungsfreiheit geschützt ist",
+      "Eine Form des Hasses gegen Juden, die in Deutschland verboten und strafbar ist",
+      "Eine religiöse Bewegung, die in Deutschland toleriert wird",
+      "Eine historische Erscheinung ohne Bedeutung für die Gegenwart"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "反犹太主义（Antisemitismus）在德国是被明确谴责并受法律惩处的行为。鉴于大屠杀（Holocaust）的历史，德国对此有严格的法律限制：煽动针对犹太人的仇恨、展示纳粹符号、否认大屠杀等均属违法。德国将打击反犹太主义视为国家责任。"
+  },
+  {
+    "id": 274,
+    "question": "Was ist der Holocaust in der deutschen Geschichte?",
+    "options": [
+      "Ein Krieg zwischen Deutschland und anderen europäischen Ländern",
+      "Die systematische Ermordung von sechs Millionen Juden und anderen Gruppen durch das NS-Regime",
+      "Eine Naturkatastrophe im Zweiten Weltkrieg",
+      "Die Bombardierung deutscher Städte im Zweiten Weltkrieg"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "大屠杀（Holocaust）是指纳粹德国在1933年至1945年间有计划地系统性屠杀约600万犹太人，以及数百万辛提人、罗姆人、残障人士、政治反对者和其他群体的罪行。这是人类历史上最严重的种族灭绝行为之一，是德国历史的重要部分，德国对此负有特殊的历史责任。"
+  },
+  {
+    "id": 275,
+    "question": "Was bedeutet \"Erinnerungskultur\" in Deutschland?",
+    "options": [
+      "Die Pflege traditioneller Volksfeste",
+      "Der bewusste Umgang mit der deutschen Geschichte, besonders der NS-Zeit und dem Holocaust",
+      "Die Aufbewahrung historischer Dokumente in Archiven",
+      "Das Gedächtnis für Kulturveranstaltungen"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "纪念文化（Erinnerungskultur）是德国对待本国历史（尤其是纳粹时期和大屠杀）的独特方式，包括在学校讲授这段历史、建立纪念场所（如柏林大屠杀纪念碑）、保留集中营遗址等。这种主动面对历史的态度是现代德国身份认同的重要组成部分。"
+  },
+  {
+    "id": 276,
+    "question": "Was ist der Tag der Deutschen Einheit?",
+    "options": [
+      "Der 9. November, der Tag des Mauerfalls",
+      "Der 3. Oktober, der Tag der Wiedervereinigung Deutschlands im Jahr 1990",
+      "Der 8. Mai, der Tag des Kriegsendes",
+      "Der 23. Mai, der Gründungstag der Bundesrepublik"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "德国统一日（Tag der Deutschen Einheit）是10月3日，是德国的国庆节。1990年10月3日，东德（DDR）并入西德（BRD），实现了两德统一。这一天是德国为数不多的全国法定假日之一，每年举行各种庆典活动。"
+  },
+  {
+    "id": 277,
+    "question": "Was war die DDR?",
+    "options": [
+      "Eine westdeutsche Provinz",
+      "Die Deutsche Demokratische Republik, der kommunistische Staat in Ostdeutschland (1949-1990)",
+      "Ein Teil der Weimarer Republik",
+      "Eine Bezeichnung für das Dritte Reich"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "东德（DDR，Deutsche Demokratische Republik，德意志民主共和国）是1949年至1990年存在于德国东部的社会主义国家，属于苏联影响范围。东德由统一社会党（SED）一党执政，以柏林墙（1961-1989年）与西德隔绝。1990年东西德统一后，DDR并入联邦德国。"
+  },
+  {
+    "id": 278,
+    "question": "Was geschah am 9. November 1989 in Deutschland?",
+    "options": [
+      "Das Ende des Zweiten Weltkrieges",
+      "Der Fall der Berliner Mauer",
+      "Die Unterzeichnung des Grundgesetzes",
+      "Die erste freie Wahl in der DDR"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "1989年11月9日，柏林墙倒塌，这是20世纪最具历史意义的事件之一。当晚，东德当局宣布开放边境，数以万计的东德人涌向边境检查站，庆祝分裂了近28年的两德重获联系。这一事件标志着冷战结束的开始，并为1990年的两德统一铺平了道路。"
+  },
+  {
+    "id": 279,
+    "question": "Was ist die Bedeutung des 8. Mai in Deutschland?",
+    "options": [
+      "Der Gedenktag für den Beginn des Zweiten Weltkrieges",
+      "Der Tag der Befreiung und des Kriegsendes in Europa 1945",
+      "Der Gründungstag der Bundesrepublik Deutschland",
+      "Der Gedenktag für die Opfer des Ersten Weltkrieges"
+    ],
+    "correctIndex": 1,
+    "category": "Geschichte",
+    "explanation_zh": "1945年5月8日是德国无条件投降、欧洲二战结束的日子，被称为\"解放日\"（Tag der Befreiung）。德国将这一天视为从纳粹独裁解放的日子，而非单纯的战败日。这一历史反思态度在德国总统冯·魏茨泽克（Richard von Weizsäcker）1985年的著名演讲中得到了最清晰的表达。"
+  },
+  {
+    "id": 280,
+    "question": "Was ist die Bedeutung des Grundgesetzes für Deutschland?",
+    "options": [
+      "Es ist das wichtigste Strafgesetzbuch",
+      "Es ist die Verfassung Deutschlands, die die Grundrechte und Staatsorganisation regelt",
+      "Es ist die Geschäftsordnung des Bundestags",
+      "Es ist ein Vertrag zwischen Deutschland und der EU"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "基本法（Grundgesetz）是德国的宪法，于1949年5月23日颁布。它规定了基本权利（第1至19条）和国家组织结构，是德国最高法律，其他所有法律不得与之相悖。基本法的核心价值（如人的尊严、民主原则）属于\"永久条款\"，不可通过修宪加以废除。"
+  },
+  {
+    "id": 281,
+    "question": "Welche Aussage über das politische System in Deutschland ist richtig?",
+    "options": [
+      "Deutschland ist eine präsidiale Demokratie mit einem starken Präsidenten",
+      "Deutschland ist eine parlamentarische Demokratie, in der der Bundeskanzler die Regierung leitet",
+      "Deutschland ist eine direkte Demokratie, in der alle Bürger direkt abstimmen",
+      "Deutschland ist eine konstitutionelle Monarchie"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "德国是议会民主制国家（parlamentarische Demokratie），政府由联邦议院的多数派产生，联邦总理是政府首脑。联邦总统是国家元首，但主要履行礼仪职能。这与美国的总统制有所不同，德国的行政权力中心是总理而非总统。"
+  },
+  {
+    "id": 282,
+    "question": "Was sind in Deutschland die wichtigsten Sozialversicherungen?",
+    "options": [
+      "Nur Kranken- und Rentenversicherung",
+      "Kranken-, Renten-, Unfall-, Pflege- und Arbeitslosenversicherung",
+      "Nur Arbeitslosen- und Pflegeversicherung",
+      "Hausrat-, Haftpflicht- und Lebensversicherung"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "德国社会保险体系由五大支柱组成：法定医疗保险（Krankenversicherung）、法定养老保险（Rentenversicherung）、法定事故保险（Unfallversicherung）、法定护理保险（Pflegeversicherung）和失业保险（Arbeitslosenversicherung）。这一体系为工人提供全面的社会保障网络。"
+  },
+  {
+    "id": 283,
+    "question": "Was ist das Wohngeld in Deutschland?",
+    "options": [
+      "Eine Förderung für den Hausbau",
+      "Ein staatlicher Zuschuss zu den Wohnkosten für Haushalte mit geringem Einkommen",
+      "Eine staatliche Mietzahlung für alle Bürger",
+      "Ein Darlehen für den Kauf einer Eigentumswohnung"
+    ],
+    "correctIndex": 1,
+    "category": "Gesellschaft",
+    "explanation_zh": "住房补贴（Wohngeld）是德国政府为低收入家庭提供的房租或自有住房成本补贴。申请条件包括收入水平、家庭成员数量和住房成本等因素。它不同于社会救助中的住房费用补贴，后者是Bürgergeld的组成部分。"
+  },
+  {
+    "id": 284,
+    "question": "Was versteht man in Deutschland unter dem Prinzip der Subsidiarität?",
+    "options": [
+      "Der Staat übernimmt alle Aufgaben ohne Beteiligung der Bürger",
+      "Aufgaben sollen auf der niedrigsten möglichen Ebene gelöst werden, bevor höhere Ebenen eingreifen",
+      "Der Bund hat Vorrang vor den Ländern bei allen Entscheidungen",
+      "Alle staatlichen Aufgaben werden zentral vom Bund geplant"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "辅助性原则（Subsidiaritätsprinzip）意味着政策决定应尽可能在最接近公民的层面作出，只有当较低层级无法有效处理某一问题时，较高层级才介入。这一原则是德国联邦制和欧盟结构的重要基础，确保权力下放，防止过度集权。"
+  },
+  {
+    "id": 285,
+    "question": "Was ist die Aufgabe der Bundeswehr in Deutschland?",
+    "options": [
+      "Die Durchsetzung der deutschen Außenpolitik mit militärischen Mitteln",
+      "Die Verteidigung Deutschlands und die Teilnahme an internationalen Friedensmissionen",
+      "Die Überwachung der deutschen Grenzen",
+      "Die Unterstützung der Polizei im Inland"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "联邦国防军（Bundeswehr）的主要任务是保卫德国领土，作为北约成员国参与集体防御，并参与联合国授权的国际和平任务。根据德国基本法，联邦国防军不得在德国境内执行警察任务（特殊紧急情况除外）。"
+  },
+  {
+    "id": 286,
+    "question": "Was versteht man unter dem Begriff \"Wehrpflicht\" in Deutschland?",
+    "options": [
+      "Die aktuelle allgemeine Pflicht zum Militärdienst",
+      "Die frühere Pflicht für männliche Staatsbürger zum Militärdienst, die 2011 ausgesetzt wurde",
+      "Die Pflicht zur Teilnahme an Katastrophenschutzübungen",
+      "Die Pflicht zur Zahlung einer Wehrsteuer"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "征兵制（Wehrpflicht）是德国曾经实行的制度，规定男性公民有义务服一定期限的兵役。2011年，联邦政府决定暂停（而非废除）这一制度，联邦国防军转变为职业军队。随着地缘政治形势变化，德国近年来讨论是否恢复某种形式的义务兵役。"
+  },
+  {
+    "id": 287,
+    "question": "Was sind die Aufgaben der Polizei in Deutschland?",
+    "options": [
+      "Nur die Verbrechensbekämpfung",
+      "Gefahrenabwehr, Strafverfolgung und Aufrechterhaltung der öffentlichen Sicherheit",
+      "Nur die Kontrolle des Straßenverkehrs",
+      "Die politische Kontrolle der Bevölkerung"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "德国警察（Polizei）的主要职责包括：预防和防止危险（Gefahrenabwehr）、追查犯罪（Strafverfolgung）和维护公共秩序与安全。在德国，警察主要是各州的职责，各州有自己的警察机构，联邦也有联邦刑事调查局（BKA）等机构。"
+  },
+  {
+    "id": 288,
+    "question": "Was ist der Unterschied zwischen Bund und Ländern in Deutschland?",
+    "options": [
+      "Es gibt keinen wirklichen Unterschied",
+      "Der Bund ist die Zentralregierung, die Länder sind die 16 Gliedstaaten mit eigenen Rechten und Zuständigkeiten",
+      "Der Bund ist mächtiger und kann alle Entscheidungen der Länder überstimmen",
+      "Die Länder haben keine eigenen Parlamente"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "德国是联邦制国家，由联邦（Bund）和16个州（Länder）组成。联邦负责外交、国防、货币政策等事务，而教育、警察、文化等则主要由各州负责。这种权力分配确保了地区多样性，防止权力过度集中于中央。"
+  },
+  {
+    "id": 289,
+    "question": "Was ist eine Volkspartei in Deutschland?",
+    "options": [
+      "Eine Partei, die nur eine bestimmte Berufsgruppe vertritt",
+      "Eine breite Partei, die Wähler aus verschiedenen gesellschaftlichen Gruppen ansprechen will",
+      "Eine Partei, die nur für Volksabstimmungen eintritt",
+      "Eine staatlich gegründete Partei"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "全民党（Volkspartei）是指试图吸引各阶层选民、不局限于特定社会群体的政党。历史上，CDU/CSU（基督教民主/社会联盟）和SPD（社会民主党）是德国典型的全民党。近年来，随着社会多元化，传统全民党的支持率有所下降。"
+  },
+  {
+    "id": 290,
+    "question": "Was bedeutet das Mehrparteiensystem in Deutschland?",
+    "options": [
+      "Nur zwei Parteien dürfen an Wahlen teilnehmen",
+      "Mehrere Parteien können an Wahlen teilnehmen und im Parlament vertreten sein",
+      "Eine Partei muss immer die absolute Mehrheit haben",
+      "Alle Parteien müssen in einer Koalition regieren"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "多党制（Mehrparteiensystem）是德国民主的基本特征，允许多个政党参与选举并在议会中代表不同政治观点。德国的5%选举门槛（Fünfprozenthürde）防止议会过度碎片化。由于单一政党很少获得绝对多数，通常需要组成联合政府（Koalition）。"
+  },
+  {
+    "id": 291,
+    "question": "Was ist eine Koalitionsregierung in Deutschland?",
+    "options": [
+      "Eine Regierung, die ohne das Parlament arbeitet",
+      "Eine Regierung, die von mehreren Parteien gemeinsam gebildet wird",
+      "Eine Regierung nur aus unabhängigen Politikern",
+      "Eine Regierung, die vom Bundespräsidenten ernannt wird"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "联合政府（Koalitionsregierung）是由两个或多个政党共同组成的政府，这在德国非常普遍，因为单一政党很少在联邦议院获得绝对多数。联合伙伴会签署联合协议（Koalitionsvertrag），规定共同的政府议程。组阁谈判有时需要数周甚至数月。"
+  },
+  {
+    "id": 292,
+    "question": "Was ist die Aufgabe der Opposition im deutschen Parlament?",
+    "options": [
+      "Die Regierung bei allen Vorhaben zu unterstützen",
+      "Die Regierung zu kontrollieren und alternative politische Konzepte anzubieten",
+      "Das Parlament zu blockieren",
+      "Gesetze zu verabschieden, ohne die Regierung einzubeziehen"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "反对党（Opposition）在德国议会民主制中扮演着至关重要的角色：监督政府行动、批评政府政策、提出替代方案，并在下次选举中争取成为执政党。\"建设性反对\"（konstruktive Opposition）的理念认为有效的反对党对民主的健康运作必不可少。"
+  },
+  {
+    "id": 293,
+    "question": "Was ist die Fünfprozenthürde bei Bundestagswahlen in Deutschland?",
+    "options": [
+      "Eine Mindestwahlbeteiligung von 5 Prozent",
+      "Die Regel, dass eine Partei mindestens 5% der Stimmen braucht, um in den Bundestag einzuziehen",
+      "Ein Bonus von 5% der Stimmen für die stärkste Partei",
+      "Eine Beschränkung der Wahlkampfausgaben auf 5% des Budgets"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "5%选举门槛（Fünfprozenthürde）是德国联邦议院选举中的规定，政党必须获得至少5%的第二票（Zweitstimme），才能按比例获得议席分配。这一规定旨在防止议会过度碎片化，确保能够组成稳定的政府。获得3个以上直选议席的政党可豁免此规定。"
+  },
+  {
+    "id": 294,
+    "question": "Welche Funktion hat die Erstimme bei der Bundestagswahl in Deutschland?",
+    "options": [
+      "Sie wählt die Partei",
+      "Sie wählt den Direktkandidaten im Wahlkreis",
+      "Sie bestimmt den Bundeskanzler",
+      "Sie wählt den Bundespräsidenten"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "第一票（Erststimme）用于在选区直接选举议员代表。获得该选区相对多数票的候选人直接进入联邦议院，称为直选议员（Direktmandat）。德国目前有299个选区，每个选区产生一名直选议员。第一票体现了多数制选举的原则。"
+  },
+  {
+    "id": 295,
+    "question": "Welche Funktion hat die Zweitstimme bei der Bundestagswahl in Deutschland?",
+    "options": [
+      "Sie wählt den Kandidaten des Wahlkreises",
+      "Sie wählt die Partei und bestimmt die Sitzverteilung im Bundestag",
+      "Sie ist eine Reservestimme, falls die Erststimme ungültig ist",
+      "Sie wählt den Bundesratspräsidenten"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "第二票（Zweitstimme）是投给政党的票，决定联邦议院中各政党的席位比例，因此是决定政治权力分配的关键票。第二票体现了比例代表制原则，是德国混合选举制度中最重要的票。政党通过各州候选人名单（Landesliste）将名单上的候选人送入议会。"
+  },
+  {
+    "id": 296,
+    "question": "Was ist das aktive Wahlrecht in Deutschland?",
+    "options": [
+      "Das Recht, als Kandidat bei Wahlen aufzutreten",
+      "Das Recht, an Wahlen teilzunehmen und eine Stimme abzugeben",
+      "Das Recht, Parteien zu gründen",
+      "Das Recht, Volksbegehren einzuleiten"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "主动选举权（aktives Wahlrecht）是公民参与投票的权利。在德国，年满18岁的德国公民拥有联邦议院选举的投票权。这一权利是民主参与的基础，确保公民能够通过选举影响政治决策。"
+  },
+  {
+    "id": 297,
+    "question": "Was ist das passive Wahlrecht in Deutschland?",
+    "options": [
+      "Das Recht, nicht zur Wahl zu gehen",
+      "Das Recht, als Kandidat bei Wahlen zu kandidieren",
+      "Das Recht, Wahlbeobachter zu sein",
+      "Das Recht, Wahlkampf zu betreiben"
+    ],
+    "correctIndex": 1,
+    "category": "Demokratie",
+    "explanation_zh": "被动选举权（passives Wahlrecht）是参选权，即公民以候选人身份参加选举的权利。在德国联邦议院选举中，年满18岁的德国公民拥有被动选举权。部分职位（如联邦总统）对候选人年龄有更高要求（至少40岁）。"
+  },
+  {
+    "id": 298,
+    "question": "Welche Aussage über die Europäische Union (EU) ist richtig?",
+    "options": [
+      "Die EU ist eine militärische Organisation",
+      "Die EU ist eine supranationale Organisation, der Deutschland als Mitglied angehört und die gemeinsame Regeln für die Mitgliedstaaten aufstellt",
+      "Die EU ist eine Freihandelszone ohne politische Bedeutung",
+      "Die EU hat die nationalen Verfassungen der Mitgliedstaaten abgelöst"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "欧盟（EU）是德国所属的超国家组织，成员国在经济、政治、法律等领域共享规则和机构。欧盟通过欧洲议会、欧盟委员会和欧盟理事会等机构运作，其法规在成员国中具有直接效力。德国是欧盟的创始成员国之一，也是欧盟最大的经济体。"
+  },
+  {
+    "id": 299,
+    "question": "Was sind die Grundwerte der Europäischen Union?",
+    "options": [
+      "Wirtschaftswachstum, militärische Stärke und Technologie",
+      "Menschenwürde, Freiheit, Demokratie, Gleichheit, Rechtsstaatlichkeit und Menschenrechte",
+      "Nationalismus, Souveränität und Eigenständigkeit der Mitglieder",
+      "Freier Handel, gemeinsame Währung und offene Grenzen"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "欧盟的基本价值观（《欧盟条约》第2条）包括：人的尊严、自由、民主、平等、法治和人权，包括少数民族权利。这些价值观是所有欧盟成员国的共同基础，也是加入欧盟的必要条件。违反这些价值观的成员国可能面临制裁。"
+  },
+  {
+    "id": 300,
+    "question": "Was ist das Ziel der deutschen Außenpolitik?",
+    "options": [
+      "Die Wiederherstellung des Deutschen Reiches",
+      "Die Förderung von Frieden, Sicherheit, Menschenrechten und Wohlstand in Deutschland und der Welt",
+      "Die militärische Dominanz in Europa",
+      "Die wirtschaftliche Überlegenheit Deutschlands gegenüber anderen Ländern"
+    ],
+    "correctIndex": 1,
+    "category": "Staat",
+    "explanation_zh": "德国外交政策的核心目标是维护和促进和平、安全与人权，以及在欧盟和国际多边框架内的合作。鉴于二战的历史教训，德国外交政策奉行\"民事强国\"（Zivilmacht）理念，优先通过外交、经济和国际合作手段处理国际问题，而非单边军事行动。"
+  }
+]

@@ -77,3 +77,41 @@ export interface LetterDecodeInput {
   targetLocale: Locale
   country: CountryCode
 }
+
+// ── Citizenship test ──────────────────────────────────────────────────────────
+
+export type QuestionCategory =
+  | 'Demokratie'
+  | 'Grundrechte'
+  | 'Geschichte'
+  | 'Gesellschaft'
+  | 'Staat'
+
+export type FilterCategory = QuestionCategory | 'state' | 'all'
+
+export type GermanState =
+  | 'Baden-Württemberg'
+  | 'Bayern'
+  | 'Berlin'
+  | 'Brandenburg'
+  | 'Bremen'
+  | 'Hamburg'
+  | 'Hessen'
+  | 'Mecklenburg-Vorpommern'
+  | 'Niedersachsen'
+  | 'Nordrhein-Westfalen'
+  | 'Rheinland-Pfalz'
+  | 'Saarland'
+  | 'Sachsen'
+  | 'Sachsen-Anhalt'
+  | 'Schleswig-Holstein'
+  | 'Thüringen'
+
+export interface CitizenshipQuestion {
+  id: number | string
+  question: string         // German — this is the actual test language
+  options: string[]        // 4 options in German
+  correctIndex: number
+  category?: QuestionCategory | 'state'  // omitted in state-specific questions
+  explanation_zh?: string  // Chinese explanation (original source)
+}
