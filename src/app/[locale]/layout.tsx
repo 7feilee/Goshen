@@ -89,6 +89,16 @@ export default async function LocaleLayout({
                   <span aria-hidden="true">📄</span>
                   <span className="hidden sm:inline">Letter decoder</span>
                 </Link>
+                <a
+                  href="https://t.me/+cgks5vGPUSpjMGFi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-blue-500 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                  aria-label="Join Telegram community"
+                >
+                  <span aria-hidden="true">💬</span>
+                  <span className="hidden sm:inline">Community</span>
+                </a>
                 <Link
                   href={`/${locale}/tools`}
                   className="px-3 sm:px-4 py-2 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-gray-700 transition-colors"

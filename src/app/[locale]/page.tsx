@@ -185,14 +185,24 @@ export default async function HomePage({
       {/* ── Footer ────────────────────────────────────────────────────────── */}
       <footer className="px-6 py-14 max-w-5xl mx-auto border-t border-gray-100 mt-6 flex items-center justify-between flex-wrap gap-4">
         <p className="text-sm text-gray-400">{t('common.openSource')}</p>
-        <a
-          href="https://github.com/7feilee/Goshen"
-          className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {t('common.contributeOnGitHub')} →
-        </a>
+        <div className="flex items-center gap-4 flex-wrap">
+          <a
+            href="https://t.me/+cgks5vGPUSpjMGFi"
+            className="text-sm text-blue-500 hover:text-blue-700 transition-colors font-medium"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            💬 Join community
+          </a>
+          <a
+            href="https://github.com/7feilee/Goshen"
+            className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('common.contributeOnGitHub')} →
+          </a>
+        </div>
       </footer>
     </main>
   )

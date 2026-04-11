@@ -15,7 +15,7 @@ No paywalls. No ads. No accounts. Built in public, for everyone.
 [![Countries](https://img.shields.io/badge/countries-5-orange)](#countries)
 [![Good First Issues](https://img.shields.io/github/issues/7feilee/Goshen/good%20first%20issue)](../../issues?q=label%3A%22good+first+issue%22)
 
-**[🌐 our-goshen.vercel.app](https://our-goshen.vercel.app/)** · [**Discussions**](../../discussions) · [**Roadmap**](../../projects)
+**[🌐 our-goshen.vercel.app](https://our-goshen.vercel.app/)** · [**💬 Telegram community**](https://t.me/+cgks5vGPUSpjMGFi) · [**Discussions**](../../discussions) · [**Roadmap**](../../projects)
 
 </div>
 
@@ -181,7 +181,7 @@ Goshen/
 
 ## Community
 
-- 💬 [GitHub Discussions](../../discussions) — questions, ideas, sharing your story
+- 💬 [Telegram group](https://t.me/+cgks5vGPUSpjMGFi) — chat, questions, and sharing your story
 - 🐛 [Issues](../../issues) — bugs and concrete tasks
 - 📣 Announcements — watch this repo for updates
 
