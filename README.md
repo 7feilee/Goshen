@@ -8,14 +8,14 @@ Visa · Language · Family · Assets · Work · Business
 
 No paywalls. No ads. No accounts. Built in public, for everyone.
 
-[![CI](https://github.com/goshen/goshen/actions/workflows/ci.yml/badge.svg)](https://github.com/goshen/goshen/actions)
+[![CI](https://github.com/7feilee/Goshen/actions/workflows/ci.yml/badge.svg)](https://github.com/7feilee/Goshen/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Languages](https://img.shields.io/badge/languages-15-blue)](#translations)
 [![Countries](https://img.shields.io/badge/countries-5-orange)](#countries)
-[![Good First Issues](https://img.shields.io/github/issues/goshen/goshen/good%20first%20issue)](../../issues?q=label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/7feilee/Goshen/good%20first%20issue)](../../issues?q=label%3A%22good+first+issue%22)
 
-[**Live site**](https://goshen.vercel.app) · [**Tools**](https://goshen.vercel.app/en/tools) · [**Discussions**](../../discussions) · [**Roadmap**](../../projects)
+[**Discussions**](../../discussions) · [**Roadmap**](../../projects)
 
 </div>
 
@@ -33,8 +33,8 @@ No good free tool exists for this. We're building it together.
 
 | Tool | Pillar | Countries | Status |
 |------|--------|-----------|--------|
-| [Visa pathway finder](https://goshen.vercel.app/en/tools/visa-finder) | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
-| [Official letter decoder](https://goshen.vercel.app/en/tools/letter-decoder) | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| Visa pathway finder | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| Official letter decoder | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
 | Citizenship test trainer | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
 | PR eligibility checker | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
 | Daily language coach | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
