@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { setRequestLocale } from 'next-intl/server'
 import { TOOLS, TOOLS_BY_PILLAR } from '@/lib/data/tools'
 import { COUNTRY_LIST } from '@/lib/data/countries'
 
@@ -17,6 +18,7 @@ export default async function ToolsPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const liveCount = TOOLS.filter((t) => t.status === 'live').length
   const betaCount = TOOLS.filter((t) => t.status === 'beta').length
 

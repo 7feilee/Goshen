@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
+import { getMessages, setRequestLocale } from 'next-intl/server'
 import { Inter } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
@@ -36,6 +36,10 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params
   if (!locales.includes(locale as ValidLocale)) notFound()
+
+  // Prime the locale cache so next-intl never falls back to headers()
+  // — required for output: 'export' (static rendering)
+  setRequestLocale(locale)
 
   const messages = await getMessages()
 

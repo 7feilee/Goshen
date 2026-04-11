@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { TOOLS_BY_PILLAR } from '@/lib/data/tools'
 import { COUNTRY_LIST } from '@/lib/data/countries'
 import Link from 'next/link'
@@ -9,6 +9,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations()
 
   return (
