@@ -92,8 +92,8 @@ export const TOOLS: Tool[] = [
     titleKey: 'tools.taxExplainer.title',
     descriptionKey: 'tools.taxExplainer.description',
     countries: ['US', 'DE', 'UK', 'CA', 'AU'],
-    aiPowered: true,
-    status: 'planned',
+    aiPowered: false,
+    status: 'live',
   },
   {
     id: 'remittance',
