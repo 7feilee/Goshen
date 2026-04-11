@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "[TRANSLATE] Home",
+    "tools": "[TRANSLATE] Tools",
+    "countries": "[TRANSLATE] Countries",
+    "about": "[TRANSLATE] About",
+    "contribute": "[TRANSLATE] Contribute"
+  },
+  "home": {
+    "hero": {
+      "title": "[TRANSLATE] Your guide to a new country",
+      "subtitle": "[TRANSLATE] Free tools for every immigrant — visa, language, family, work, and money. Every country. Every language.",
+      "cta": "[TRANSLATE] Explore tools",
+      "stats": {
+        "immigrants": "[TRANSLATE] 280M immigrants worldwide",
+        "tools": "[TRANSLATE] 25+ free tools",
+        "countries": "[TRANSLATE] 5 countries at launch",
+        "languages": "[TRANSLATE] 15 languages"
+      }
+    }
+  },
+  "pillars": {
+    "visa": "[TRANSLATE] Visa & immigration",
+    "language": "[TRANSLATE] Language",
+    "family": "[TRANSLATE] Family & kids",
+    "assets": "[TRANSLATE] Assets & finance",
+    "work": "[TRANSLATE] Work & rights",
+    "business": "[TRANSLATE] Business"
+  },
+  "tools": {
+    "visaFinder": {
+      "title": "[TRANSLATE] Visa pathway finder",
+      "description": "[TRANSLATE] Find the best visa route for your situation"
+    },
+    "citizenshipTest": {
+      "title": "[TRANSLATE] Citizenship test trainer",
+      "description": "[TRANSLATE] Practice for your citizenship test in your language"
+    },
+    "prChecker": {
+      "title": "[TRANSLATE] PR eligibility checker",
+      "description": "[TRANSLATE] Check if you qualify for permanent residency"
+    },
+    "documentChecklist": {
+      "title": "[TRANSLATE] Document checklist",
+      "description": "[TRANSLATE] Get a personalised document checklist for your visa"
+    },
+    "letterDecoder": {
+      "title": "[TRANSLATE] Official letter decoder",
+      "description": "[TRANSLATE] Paste any official letter — understand it in your language"
+    },
+    "languageCoach": {
+      "title": "[TRANSLATE] Daily language coach",
+      "description": "[TRANSLATE] 5 survival phrases per day for your new country"
+    },
+    "credentialRecognition": {
+      "title": "[TRANSLATE] Credential recognition",
+      "description": "[TRANSLATE] Get your qualifications recognised"
+    },
+    "workerRights": {
+      "title": "[TRANSLATE] Worker rights",
+      "description": "[TRANSLATE] Know your rights at work"
+    },
+    "taxExplainer": {
+      "title": "[TRANSLATE] Tax explainer",
+      "description": "[TRANSLATE] Understand your tax obligations"
+    },
+    "remittance": {
+      "title": "[TRANSLATE] Remittance finder",
+      "description": "[TRANSLATE] Find the best way to send money home"
+    },
+    "schoolNavigator": {
+      "title": "[TRANSLATE] School navigator",
+      "description": "[TRANSLATE] Navigate the school system for your children"
+    },
+    "childBenefits": {
+      "title": "[TRANSLATE] Child benefits",
+      "description": "[TRANSLATE] Find benefits you may be entitled to"
+    }
+  },
+  "common": {
+    "status": {
+      "live": "[TRANSLATE] Live",
+      "beta": "[TRANSLATE] Beta",
+      "planned": "[TRANSLATE] Coming soon"
+    },
+    "aiPowered": "[TRANSLATE] AI-powered",
+    "selectCountry": "[TRANSLATE] Select country",
+    "selectLanguage": "[TRANSLATE] Select your language",
+    "submit": "[TRANSLATE] Submit",
+    "loading": "[TRANSLATE] Loading...",
+    "disclaimer": "[TRANSLATE] General information only — not legal advice. Consult a licensed immigration lawyer for your specific situation.",
+    "openSource": "[TRANSLATE] Open source · Free forever",
+    "contributeOnGitHub": "[TRANSLATE] Contribute on GitHub"
+  }
+}
