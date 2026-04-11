@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "首页",
+    "tools": "工具",
+    "countries": "国家",
+    "about": "关于",
+    "contribute": "参与贡献"
+  },
+  "home": {
+    "hero": {
+      "title": "您的新国家向导",
+      "subtitle": "为所有移民提供的免费工具 — 签证、语言、家庭、工作和财务。覆盖所有国家，支持所有语言。",
+      "cta": "探索工具",
+      "stats": {
+        "immigrants": "全球2.8亿移民",
+        "tools": "25+免费工具",
+        "countries": "首批5个国家",
+        "languages": "15种语言"
+      }
+    }
+  },
+  "pillars": {
+    "visa": "签证与移民",
+    "language": "语言学习",
+    "family": "家庭与子女",
+    "assets": "资产与财务",
+    "work": "工作与权利",
+    "business": "商业创业"
+  },
+  "tools": {
+    "visaFinder": {
+      "title": "签证路径查询",
+      "description": "找到最适合您情况的签证路线"
+    },
+    "citizenshipTest": {
+      "title": "入籍考试练习",
+      "description": "用您的语言练习入籍考试"
+    },
+    "prChecker": {
+      "title": "永居资格检查",
+      "description": "查看您是否符合永久居留权申请条件"
+    },
+    "documentChecklist": {
+      "title": "材料清单",
+      "description": "获取您签证申请的个性化材料清单"
+    },
+    "letterDecoder": {
+      "title": "官方信件解读",
+      "description": "粘贴任何官方信件，用您的语言理解其内容"
+    },
+    "languageCoach": {
+      "title": "每日语言训练",
+      "description": "每天5个在新国家必备的实用短语"
+    },
+    "credentialRecognition": {
+      "title": "资质认证",
+      "description": "了解如何获得您学历和资质的认可"
+    },
+    "workerRights": {
+      "title": "劳工权利",
+      "description": "了解您在工作中的权利"
+    },
+    "taxExplainer": {
+      "title": "税务说明",
+      "description": "了解您的纳税义务"
+    },
+    "remittance": {
+      "title": "汇款比较",
+      "description": "找到最划算的汇款方式"
+    },
+    "schoolNavigator": {
+      "title": "学校导航",
+      "description": "为孩子了解当地学校体系"
+    },
+    "childBenefits": {
+      "title": "儿童福利",
+      "description": "查询您可能有权享受的福利"
+    }
+  },
+  "common": {
+    "status": {
+      "live": "已上线",
+      "beta": "测试版",
+      "planned": "即将推出"
+    },
+    "aiPowered": "AI驱动",
+    "selectCountry": "选择国家",
+    "selectLanguage": "选择您的语言",
+    "submit": "提交",
+    "loading": "加载中...",
+    "disclaimer": "仅供参考，不构成法律建议。如需针对您具体情况的建议，请咨询持牌移民律师。",
+    "openSource": "开源 · 永久免费",
+    "contributeOnGitHub": "在GitHub上参与贡献"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "tools": "Herramientas",
+    "countries": "Países",
+    "about": "Acerca de",
+    "contribute": "Contribuir"
+  },
+  "home": {
+    "hero": {
+      "title": "Tu guía en el nuevo país",
+      "subtitle": "Herramientas gratuitas para todos los inmigrantes — visa, idioma, familia, trabajo y dinero. Todos los países. Todos los idiomas.",
+      "cta": "Explorar herramientas",
+      "stats": {
+        "immigrants": "280M de inmigrantes en el mundo",
+        "tools": "Más de 25 herramientas gratuitas",
+        "countries": "5 países al lanzamiento",
+        "languages": "15 idiomas"
+      }
+    }
+  },
+  "pillars": {
+    "visa": "Visa e inmigración",
+    "language": "Idioma",
+    "family": "Familia e hijos",
+    "assets": "Activos y finanzas",
+    "work": "Trabajo y derechos",
+    "business": "Negocios"
+  },
+  "tools": {
+    "visaFinder": {
+      "title": "Buscador de vías de visa",
+      "description": "Encuentra la mejor ruta de visa para tu situación"
+    },
+    "citizenshipTest": {
+      "title": "Preparación para el examen de ciudadanía",
+      "description": "Practica el examen de ciudadanía en tu idioma"
+    },
+    "prChecker": {
+      "title": "Verificador de elegibilidad para residencia permanente",
+      "description": "Comprueba si calificas para la residencia permanente"
+    },
+    "documentChecklist": {
+      "title": "Lista de documentos",
+      "description": "Obtén una lista personalizada de documentos para tu visa"
+    },
+    "letterDecoder": {
+      "title": "Decodificador de cartas oficiales",
+      "description": "Pega cualquier carta oficial y entiéndela en tu idioma"
+    },
+    "languageCoach": {
+      "title": "Entrenador de idioma diario",
+      "description": "5 frases de supervivencia por día para tu nuevo país"
+    },
+    "credentialRecognition": {
+      "title": "Reconocimiento de credenciales",
+      "description": "Consigue que reconozcan tus títulos y calificaciones"
+    },
+    "workerRights": {
+      "title": "Derechos laborales",
+      "description": "Conoce tus derechos en el trabajo"
+    },
+    "taxExplainer": {
+      "title": "Explicador de impuestos",
+      "description": "Entiende tus obligaciones fiscales"
+    },
+    "remittance": {
+      "title": "Comparador de remesas",
+      "description": "Encuentra la mejor forma de enviar dinero a casa"
+    },
+    "schoolNavigator": {
+      "title": "Navegador escolar",
+      "description": "Navega el sistema escolar para tus hijos"
+    },
+    "childBenefits": {
+      "title": "Beneficios por hijos",
+      "description": "Descubre los beneficios a los que puedes tener derecho"
+    }
+  },
+  "common": {
+    "status": {
+      "live": "Disponible",
+      "beta": "Beta",
+      "planned": "Próximamente"
+    },
+    "aiPowered": "Potenciado por IA",
+    "selectCountry": "Selecciona país",
+    "selectLanguage": "Selecciona tu idioma",
+    "submit": "Enviar",
+    "loading": "Cargando...",
+    "disclaimer": "Solo información general — no es asesoramiento legal. Consulta a un abogado de inmigración certificado para tu situación específica.",
+    "openSource": "Código abierto · Siempre gratis",
+    "contributeOnGitHub": "Contribuir en GitHub"
+  }
+}

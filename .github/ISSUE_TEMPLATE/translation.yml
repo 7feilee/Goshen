@@ -1,0 +1,52 @@
+name: Add / improve a translation
+description: Contribute a translation into a new or existing language
+title: "[Translation] "
+labels: ["translation", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Translations are the most impactful contribution. Each new language unlocks the platform for millions of people.
+        No coding knowledge needed — just edit a JSON file.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. Farsi, Vietnamese, Swahili, Bengali
+    validations:
+      required: true
+
+  - type: input
+    id: locale-code
+    attributes:
+      label: Locale code (ISO 639-1)
+      placeholder: e.g. fa, vi, sw, bn
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: New language or improving existing?
+      options:
+        - New language (not yet in the project)
+        - Improving / fixing an existing translation
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: is-native
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am a native or fluent speaker of this language
+          required: true
+        - label: I understand that immigration information must be accurate — I will not guess at terminology
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Any notes?
+      placeholder: e.g. "Arabic translation needs RTL review", "Some terms don't have direct equivalents in Swahili"

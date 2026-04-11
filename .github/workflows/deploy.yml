@@ -1,0 +1,62 @@
+name: Deploy to GitHub Pages
+
+# Runs automatically on pushes to main, or can be triggered manually.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Grant permission to write to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one deployment at a time; cancel in-progress runs.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build static export
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      # Set BASE_PATH for GitHub Pages subdirectory hosting.
+      # If you use a custom domain (e.g. immigrant-guide.com) pointing to
+      # GitHub Pages, leave NEXT_PUBLIC_BASE_PATH empty or remove this env var.
+      # For the default https://<user>.github.io/<repo>/ URL, set it to /<repo>.
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '' }}
+
+      # Add a .nojekyll file so GitHub Pages serves _next/ assets correctly
+      - name: Disable Jekyll
+        run: touch out/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out/
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

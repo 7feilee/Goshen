@@ -1,0 +1,102 @@
+{
+  "code": "DE",
+  "name": "Germany",
+  "flag": "🇩🇪",
+  "immigrantPopulation": "16M",
+  "topOrigins": ["Turkey", "Poland", "Syria", "Romania", "Italy"],
+  "officialImmigrationWebsite": "https://www.bamf.de",
+  "lastVerified": "2025-01",
+  "visas": [
+    {
+      "id": "fachkraefte-einwanderungsgesetz",
+      "name": "Skilled Immigration Act Visa (Fachkräfteeinwanderungsgesetz)",
+      "category": "work",
+      "description": "Germany's main work visa for qualified professionals from outside the EU. Covers both academic qualifications and vocational training. No job offer required if you use the Chancenkarte.",
+      "requirements": [
+        "Recognised professional qualification (German or equivalent)",
+        "Job offer in a related field (or Chancenkarte for job search)",
+        "Basic German language skills (usually B1)",
+        "Sufficient income to support yourself"
+      ],
+      "processingTime": "1–3 months",
+      "fee": "€75–€100",
+      "maxDuration": "4 years, renewable",
+      "leadsTo": "Niederlassungserlaubnis (permanent residence) after 4 years",
+      "annualCap": null,
+      "source": "https://www.make-it-in-germany.com/en/visa-residence/types/work"
+    },
+    {
+      "id": "chancenkarte",
+      "name": "Chancenkarte (Opportunity Card)",
+      "category": "work",
+      "description": "Points-based job-seeker visa introduced in 2024. Allows you to live in Germany for up to 1 year while looking for work. You need 6 points across qualification, language, experience, age, and previous Germany ties.",
+      "requirements": [
+        "Recognised university degree OR vocational qualification",
+        "At least 6 points on the points system",
+        "Sufficient funds for the stay",
+        "Health insurance"
+      ],
+      "processingTime": "1–3 months",
+      "fee": "€75",
+      "maxDuration": "1 year (can convert to work visa once job found)",
+      "leadsTo": "Work visa if employment found",
+      "annualCap": null,
+      "source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/Chancenkarte/chancenkarte-node.html"
+    },
+    {
+      "id": "blaue-karte-eu",
+      "name": "EU Blue Card (Blaue Karte EU)",
+      "category": "work",
+      "description": "Fast-track work permit for highly qualified non-EU workers. Requires a university degree and a salary above a set threshold. Leads to permanent residence faster than standard routes.",
+      "requirements": [
+        "University degree (recognised in Germany)",
+        "Job offer with salary ≥ €45,300/year (€41,042 for shortage occupations in 2024)",
+        "Job must match your qualification"
+      ],
+      "processingTime": "1–3 months",
+      "fee": "€100",
+      "maxDuration": "4 years (or length of contract + 3 months)",
+      "leadsTo": "Niederlassungserlaubnis after 27 months (21 months with B1 German)",
+      "annualCap": null,
+      "source": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
+    },
+    {
+      "id": "familiennachzug",
+      "name": "Family Reunification (Familiennachzug)",
+      "category": "family",
+      "description": "Visa for spouses, children, and in some cases parents of German residents or citizens. Spouse usually needs to demonstrate A1 German language skills.",
+      "requirements": [
+        "Sponsor has valid German residence permit or citizenship",
+        "Genuine family relationship (marriage certificate, birth certificate)",
+        "Spouse: A1 German certificate (exceptions exist)",
+        "Sufficient living space and income"
+      ],
+      "processingTime": "3–12 months",
+      "fee": "€75",
+      "maxDuration": "Linked to sponsor's permit",
+      "leadsTo": "Independent residence right after 3–5 years",
+      "annualCap": null,
+      "source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Familie/familie-node.html"
+    }
+  ],
+  "citizenship": {
+    "name": "Einbürgerung (Naturalisation)",
+    "requiresResidency": "5 years legal residence (reduced from 8 under 2024 reform). 3 years for exceptional integration.",
+    "languageRequirement": "German B1 minimum",
+    "testName": "Einbürgerungstest",
+    "testQuestions": 33,
+    "testPassMark": "17 out of 33",
+    "fee": 255,
+    "dualCitizenshipAllowed": true,
+    "note": "Germany now allows dual citizenship as of June 2024",
+    "source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/BuergerDritteStaaten/Einbuergerung/einbuergerung-node.html"
+  },
+  "benefits": {
+    "childBenefit": "Kindergeld — €250/month per child (2024)",
+    "healthInsurance": "Gesetzliche Krankenversicherung (GKV) mandatory for most employees",
+    "unemployment": "Arbeitslosengeld I — up to 60% of net salary for up to 24 months",
+    "source": "https://www.arbeitsagentur.de"
+  },
+  "taxNotes": "Germany taxes worldwide income for tax residents. Double taxation agreements with 90+ countries including China, India, Turkey, USA.",
+  "contributors": ["@yourname — initial data, Jan 2025"]
+}

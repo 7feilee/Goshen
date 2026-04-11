@@ -1,0 +1,137 @@
+{
+  "code": "CA",
+  "name": "Canada",
+  "flag": "🇨🇦",
+  "immigrantPopulation": "8.3M",
+  "topOrigins": ["India", "China", "Philippines", "Pakistan", "USA"],
+  "officialImmigrationWebsite": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+  "lastVerified": "2025-01",
+  "visas": [
+    {
+      "id": "express-entry-fsw",
+      "name": "Express Entry — Federal Skilled Worker",
+      "category": "work",
+      "description": "Canada's main points-based route for skilled workers. Candidates enter a pool and receive an Invitation to Apply (ITA) based on their Comprehensive Ranking System (CRS) score. Leads directly to permanent residence.",
+      "requirements": [
+        "At least 1 year of skilled work experience (NOC TEER 0, 1, 2, or 3)",
+        "Language test: CLB/NCLC 7 (English or French)",
+        "Educational credential assessment if degree was obtained outside Canada",
+        "CRS score competitive enough for a draw (varies; often 470–560+)"
+      ],
+      "processingTime": "6 months after receiving ITA",
+      "fee": "CAD $1,365 (principal applicant) + $1,365 (spouse) + $260/dependent",
+      "maxDuration": "Permanent (PR)",
+      "leadsTo": "Permanent Residency → Canadian citizenship after 3 years",
+      "annualCap": null,
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/works.html"
+    },
+    {
+      "id": "pnp",
+      "name": "Provincial Nominee Program (PNP)",
+      "category": "work",
+      "description": "Each Canadian province nominates skilled workers based on its own economic needs. Many streams — some are faster than Express Entry, some don't require a prior job offer.",
+      "requirements": [
+        "Meet the specific province's stream requirements (varies widely)",
+        "Many streams require a job offer or ties to the province",
+        "Enhanced PNP streams require an active Express Entry profile"
+      ],
+      "processingTime": "6–18 months (varies by province and stream)",
+      "fee": "CAD $1,365 federal + provincial application fee (varies)",
+      "maxDuration": "Permanent (PR)",
+      "leadsTo": "Permanent Residency → Canadian citizenship after 3 years",
+      "annualCap": null,
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html"
+    },
+    {
+      "id": "spousal-sponsorship",
+      "name": "Spousal / Partner Sponsorship",
+      "category": "family",
+      "description": "Canadian citizens or permanent residents can sponsor their spouse, common-law partner, or conjugal partner for permanent residence.",
+      "requirements": [
+        "Sponsor is a Canadian citizen or PR, aged 18+",
+        "Genuine relationship (marriage certificate or proof of cohabitation)",
+        "Sponsor is financially self-sufficient",
+        "Neither party has an undisclosed previous sponsorship that ended in default"
+      ],
+      "processingTime": "12 months (outland or inland)",
+      "fee": "CAD $1,080 (combined sponsorship + PR application fees)",
+      "maxDuration": "Permanent (PR)",
+      "leadsTo": "Permanent Residency → Canadian citizenship after 3 years",
+      "annualCap": null,
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship/spouse-partner-children.html"
+    },
+    {
+      "id": "study-permit",
+      "name": "Study Permit",
+      "category": "study",
+      "description": "Study at a Designated Learning Institution (DLI) in Canada. Most students can work up to 24 hours/week off-campus during the academic year.",
+      "requirements": [
+        "Acceptance letter from a Designated Learning Institution (DLI)",
+        "Proof of financial support: CAD $20,635/year in living expenses + tuition",
+        "No criminal record; medical exam if required",
+        "Ties to your home country demonstrating intent to return (unless applying for PR)"
+      ],
+      "processingTime": "4–12 weeks (online applications are faster)",
+      "fee": "CAD $150",
+      "maxDuration": "Length of programme + 90 days",
+      "leadsTo": "Post-Graduation Work Permit (PGWP) for 1–3 years → Express Entry pathway",
+      "annualCap": null,
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+    },
+    {
+      "id": "start-up-visa",
+      "name": "Start-Up Visa",
+      "category": "business",
+      "description": "Permanent residence for innovative entrepreneurs who secure backing from a Canadian venture capital fund, angel investor group, or business incubator.",
+      "requirements": [
+        "Letter of support from a designated Canadian organisation",
+        "Language requirements: CLB/NCLC 5",
+        "Sufficient settlement funds",
+        "Innovative business concept with the potential to be competitive internationally"
+      ],
+      "processingTime": "12–16 months",
+      "fee": "CAD $1,365",
+      "maxDuration": "Permanent (PR)",
+      "leadsTo": "Permanent Residency → Canadian citizenship after 3 years",
+      "annualCap": null,
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/start-visa.html"
+    },
+    {
+      "id": "iec-working-holiday",
+      "name": "International Experience Canada (Working Holiday)",
+      "category": "working_holiday",
+      "description": "Allows young people (18–35) from eligible countries to work and travel in Canada for up to 2 years. Entry through a random draw from a pool.",
+      "requirements": [
+        "Aged 18–35 (upper age limit varies by country)",
+        "Citizen of a country with an IEC bilateral agreement",
+        "CAD $2,500 in available funds",
+        "Health insurance for the duration of your stay",
+        "Clean criminal record"
+      ],
+      "processingTime": "2–6 weeks after receiving invitation",
+      "fee": "CAD $156",
+      "maxDuration": "1–2 years (varies by country)",
+      "leadsTo": "Canadian work experience can boost your Express Entry CRS score",
+      "annualCap": null,
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/iec.html"
+    }
+  ],
+  "citizenship": {
+    "name": "Canadian Citizenship",
+    "requiresResidency": "3 of the last 5 years as a permanent resident (1,095 days)",
+    "languageRequirement": "English or French at CLB/NCLC 4",
+    "testName": "Citizenship Test",
+    "testQuestions": 20,
+    "testPassMark": "15 out of 20",
+    "fee": 630,
+    "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship.html"
+  },
+  "benefits": {
+    "childBenefit": "Canada Child Benefit (CCB) — up to CAD $7,787/year per child under 6; $6,570/year for 6–17 (2024)",
+    "healthInsurance": "Provincial health plans — free for PRs and citizens; a waiting period (up to 3 months) may apply for new arrivals",
+    "unemployment": "Employment Insurance (EI) — up to 55% of insurable earnings for up to 45 weeks",
+    "source": "https://www.canada.ca/en/services/benefits.html"
+  },
+  "taxNotes": "Canada taxes worldwide income for tax residents. Tax treaties with 90+ countries. TFSA (Tax-Free Savings Account) and RRSP (Registered Retirement Savings Plan) available to residents.",
+  "contributors": ["@yourname — initial data, Jan 2025"]
+}

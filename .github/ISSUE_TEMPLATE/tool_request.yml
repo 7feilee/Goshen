@@ -1,0 +1,56 @@
+name: New tool request
+description: Suggest a new tool for immigrants
+title: "[Tool] "
+labels: ["tool-request"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for suggesting a new tool! The more specific you are, the faster we can build it.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool name
+      placeholder: e.g. "Pension rights calculator"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      placeholder: Describe the situation immigrants face that this tool would help with.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: Which pillar does this belong to?
+      options:
+        - Visa & immigration
+        - Language
+        - Family & kids
+        - Assets & finance
+        - Work & rights
+        - Business
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: countries
+    attributes:
+      label: Which countries is this most relevant for?
+      options:
+        - label: United States
+        - label: Germany
+        - label: United Kingdom
+        - label: Canada
+        - label: Australia
+        - label: All countries
+
+  - type: textarea
+    id: personal-story
+    attributes:
+      label: Personal story (optional)
+      placeholder: Did you or someone you know struggle with this? Sharing personal stories helps us prioritise.

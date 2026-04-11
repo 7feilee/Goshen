@@ -1,0 +1,62 @@
+name: Bug report
+description: Something is broken or giving wrong information
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool has the bug?
+      options:
+        - Visa pathway finder
+        - Official letter decoder
+        - Citizenship test trainer
+        - PR eligibility checker
+        - Daily language coach
+        - Other / general
+    validations:
+      required: true
+
+  - type: dropdown
+    id: country
+    attributes:
+      label: Which country were you using?
+      options:
+        - United States
+        - Germany
+        - United Kingdom
+        - Canada
+        - Australia
+        - Not country-specific
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Which language were you using the tool in?
+      placeholder: e.g. Spanish, Hindi, Arabic...
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Describe what you did, what you expected, and what actually happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: wrong-info
+    attributes:
+      label: If the information was factually wrong — what was wrong and what is correct?
+      placeholder: |
+        Wrong: "You need X years of residency for PR in Canada"
+        Correct: "You need Y years — source: https://..."
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / device
+      placeholder: e.g. Chrome on Android, Safari on iPhone

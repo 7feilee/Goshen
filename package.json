@@ -1,0 +1,52 @@
+{
+  "name": "immigrant-guide",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "validate:translations": "node scripts/validate-translations.mjs",
+    "new:translation": "node scripts/new-translation.mjs",
+    "validate:content": "find content -name \"*.json\" | xargs -I{} node -e \"JSON.parse(require('fs').readFileSync('{}','utf-8')); console.log('OK {}')\"",
+    "check:all": "npm run lint && npx tsc --noEmit && npm run validate:translations && npm run validate:content"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-select": "^2.2.6",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.8.0",
+    "next": "16.2.3",
+    "next-intl": "^4.9.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "Free, open-source tools for every immigrant — visa, language, family, assets, work and business.",
+  "keywords": [
+    "immigration",
+    "visa",
+    "immigrants",
+    "multilingual",
+    "open-source"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/immigrant-guide/immigrant-guide.git"
+  },
+  "license": "MIT",
+  "homepage": "https://immigrant-guide.vercel.app",
+  "bugs": {
+    "url": "https://github.com/immigrant-guide/immigrant-guide/issues"
+  }
+}

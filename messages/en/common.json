@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "countries": "Countries",
+    "about": "About",
+    "contribute": "Contribute"
+  },
+  "home": {
+    "hero": {
+      "title": "Your guide to a new country",
+      "subtitle": "Free tools for every immigrant — visa, language, family, work, and money. Every country. Every language.",
+      "cta": "Explore tools",
+      "stats": {
+        "immigrants": "280M immigrants worldwide",
+        "tools": "25+ free tools",
+        "countries": "5 countries at launch",
+        "languages": "15 languages"
+      }
+    }
+  },
+  "pillars": {
+    "visa": "Visa & immigration",
+    "language": "Language",
+    "family": "Family & kids",
+    "assets": "Assets & finance",
+    "work": "Work & rights",
+    "business": "Business"
+  },
+  "tools": {
+    "visaFinder": {
+      "title": "Visa pathway finder",
+      "description": "Find the best visa route for your situation"
+    },
+    "citizenshipTest": {
+      "title": "Citizenship test trainer",
+      "description": "Practice for your citizenship test in your language"
+    },
+    "prChecker": {
+      "title": "PR eligibility checker",
+      "description": "Check if you qualify for permanent residency"
+    },
+    "documentChecklist": {
+      "title": "Document checklist",
+      "description": "Get a personalised document checklist for your visa"
+    },
+    "letterDecoder": {
+      "title": "Official letter decoder",
+      "description": "Paste any official letter — understand it in your language"
+    },
+    "languageCoach": {
+      "title": "Daily language coach",
+      "description": "5 survival phrases per day for your new country"
+    },
+    "credentialRecognition": {
+      "title": "Credential recognition",
+      "description": "Get your qualifications recognised"
+    },
+    "workerRights": {
+      "title": "Worker rights",
+      "description": "Know your rights at work"
+    },
+    "taxExplainer": {
+      "title": "Tax explainer",
+      "description": "Understand your tax obligations"
+    },
+    "remittance": {
+      "title": "Remittance finder",
+      "description": "Find the best way to send money home"
+    },
+    "schoolNavigator": {
+      "title": "School navigator",
+      "description": "Navigate the school system for your children"
+    },
+    "childBenefits": {
+      "title": "Child benefits",
+      "description": "Find benefits you may be entitled to"
+    }
+  },
+  "common": {
+    "status": {
+      "live": "Live",
+      "beta": "Beta",
+      "planned": "Coming soon"
+    },
+    "aiPowered": "AI-powered",
+    "selectCountry": "Select country",
+    "selectLanguage": "Select your language",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "disclaimer": "General information only — not legal advice. Consult a licensed immigration lawyer for your specific situation.",
+    "openSource": "Open source · Free forever",
+    "contributeOnGitHub": "Contribute on GitHub"
+  }
+}

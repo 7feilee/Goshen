@@ -1,0 +1,133 @@
+{
+  "code": "UK",
+  "name": "United Kingdom",
+  "flag": "🇬🇧",
+  "immigrantPopulation": "10M",
+  "topOrigins": ["India", "Poland", "Pakistan", "Romania", "Ireland"],
+  "officialImmigrationWebsite": "https://www.gov.uk/browse/visas-immigration",
+  "lastVerified": "2025-01",
+  "visas": [
+    {
+      "id": "skilled-worker",
+      "name": "Skilled Worker Visa",
+      "category": "work",
+      "description": "Main work visa for people with a job offer from a UK employer who holds a sponsor licence. Covers most professional and technical roles. Replaced the old Tier 2 visa.",
+      "requirements": [
+        "Job offer from a UK Home Office-approved sponsor",
+        "Role must be on the eligible occupations list",
+        "Salary must meet the minimum threshold (£38,700/year as of 2024, or going rate for the job)",
+        "English language at B1 level (CEFR)"
+      ],
+      "processingTime": "3 weeks (outside UK)",
+      "fee": "£719–£1,420 (3 years); £1,420–£2,828 (5 years) + Immigration Health Surcharge £1,035/year",
+      "maxDuration": "5 years (renewable)",
+      "leadsTo": "Indefinite Leave to Remain (ILR) after 5 years",
+      "annualCap": null,
+      "source": "https://www.gov.uk/skilled-worker-visa"
+    },
+    {
+      "id": "global-talent",
+      "name": "Global Talent Visa",
+      "category": "work",
+      "description": "For internationally recognised leaders and emerging talent in academia, research, digital technology, arts, culture, or film. No job offer required.",
+      "requirements": [
+        "Endorsement from an approved UK endorsing body",
+        "Evidence of exceptional talent or exceptional promise in your field",
+        "No minimum salary requirement"
+      ],
+      "processingTime": "3–8 weeks",
+      "fee": "£623 (3 years); £1,000+ (5 years)",
+      "maxDuration": "5 years (renewable)",
+      "leadsTo": "ILR after 3 years (exceptional talent) or 5 years (exceptional promise)",
+      "annualCap": null,
+      "source": "https://www.gov.uk/global-talent"
+    },
+    {
+      "id": "graduate-visa",
+      "name": "Graduate Visa",
+      "category": "work",
+      "description": "For international students who have completed a UK degree. Work or look for work after graduation — no job offer required.",
+      "requirements": [
+        "Completed a UK bachelor's, master's, or PhD degree on a Student visa",
+        "Apply from within the UK before your Student visa expires"
+      ],
+      "processingTime": "8 weeks",
+      "fee": "£715",
+      "maxDuration": "2 years (3 years for PhD graduates)",
+      "leadsTo": "Can switch to Skilled Worker visa once you have a qualifying job",
+      "annualCap": null,
+      "source": "https://www.gov.uk/graduate-visa"
+    },
+    {
+      "id": "family-visa",
+      "name": "Family Visa (Spouse / Partner / Child)",
+      "category": "family",
+      "description": "Join a British citizen or settled person in the UK. Covers spouses, civil partners, unmarried partners, and children under 18.",
+      "requirements": [
+        "Sponsor is a British citizen or has ILR / Settled Status",
+        "Sponsor meets minimum income requirement (£29,000/year as of 2024)",
+        "Genuine relationship",
+        "English language at A1 level (for spouse/partner)"
+      ],
+      "processingTime": "24 weeks (outside UK)",
+      "fee": "£1,846 + IHS £1,035/year",
+      "maxDuration": "2.5 years initial; extendable",
+      "leadsTo": "ILR after 5 years",
+      "annualCap": null,
+      "source": "https://www.gov.uk/uk-family-visa"
+    },
+    {
+      "id": "student-visa",
+      "name": "Student Visa",
+      "category": "study",
+      "description": "Study at a UK university, college, or school sponsored by a licensed student sponsor. Most students can work up to 20 hours/week during term.",
+      "requirements": [
+        "Unconditional offer from a UK licensed student sponsor",
+        "Sufficient funds (£1,334/month in London or £1,023/month elsewhere for up to 9 months)",
+        "English language ability (typically B2 CEFR for degree-level study)",
+        "Parental consent if under 18"
+      ],
+      "processingTime": "3 weeks",
+      "fee": "£490",
+      "maxDuration": "Up to 5 years (length of course)",
+      "leadsTo": "Graduate visa after completing studies; can switch to Skilled Worker with a job offer",
+      "annualCap": null,
+      "source": "https://www.gov.uk/student-visa"
+    },
+    {
+      "id": "innovator-founder",
+      "name": "Innovator Founder Visa",
+      "category": "business",
+      "description": "For experienced businesspeople who want to set up or run an innovative, viable, and scalable business in the UK. Must be endorsed by an approved body.",
+      "requirements": [
+        "Endorsement from an approved UK endorsing body",
+        "Innovative, viable, and scalable business idea (or existing business)",
+        "At least £50,000 investment funding (may be waived by the endorser)"
+      ],
+      "processingTime": "3 weeks",
+      "fee": "£1,191",
+      "maxDuration": "3 years (renewable)",
+      "leadsTo": "ILR after 3 years",
+      "annualCap": null,
+      "source": "https://www.gov.uk/innovator-founder-visa"
+    }
+  ],
+  "citizenship": {
+    "name": "Naturalisation",
+    "requiresResidency": "5 years (3 years if married to a British citizen)",
+    "languageRequirement": "English B1 level",
+    "testName": "Life in the UK Test",
+    "testQuestions": 24,
+    "testPassMark": "18 out of 24",
+    "fee": 1580,
+    "source": "https://www.gov.uk/becoming-a-british-citizen"
+  },
+  "benefits": {
+    "childBenefit": "Child Benefit — £25.60/week for eldest child, £16.95/week for each additional child (2024/25)",
+    "healthInsurance": "NHS — free at point of use for visa holders who paid the Immigration Health Surcharge",
+    "unemployment": "Universal Credit — replaces most benefits; amount depends on circumstances",
+    "source": "https://www.gov.uk/browse/benefits"
+  },
+  "taxNotes": "UK taxes worldwide income for tax residents. Non-domiciled residents may claim remittance basis in early years. Self-assessment required for self-employed and high earners.",
+  "contributors": ["@yourname — initial data, Jan 2025"]
+}

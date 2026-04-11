@@ -1,0 +1,141 @@
+{
+  "code": "AU",
+  "name": "Australia",
+  "flag": "🇦🇺",
+  "immigrantPopulation": "8M",
+  "topOrigins": ["UK", "India", "China", "New Zealand", "Philippines"],
+  "officialImmigrationWebsite": "https://immi.homeaffairs.gov.au",
+  "lastVerified": "2025-01",
+  "visas": [
+    {
+      "id": "skilled-independent-189",
+      "name": "Skilled Independent Visa (subclass 189)",
+      "category": "work",
+      "description": "Points-tested permanent residence visa for skilled workers who are not sponsored by an employer or a state/territory government. No job offer required.",
+      "requirements": [
+        "Submit an Expression of Interest (EOI) through SkillSelect and receive an invitation",
+        "Occupation on the Medium and Long-term Strategic Skills List (MLTSSL)",
+        "Skills assessment from the relevant Australian assessing authority",
+        "Score at least 65 points on the points test",
+        "English: IELTS 6.0 overall (or equivalent)"
+      ],
+      "processingTime": "12–24 months",
+      "fee": "AUD $4,640 (primary applicant)",
+      "maxDuration": "Permanent",
+      "leadsTo": "Australian citizenship after 4 years residency (including 1 year as PR)",
+      "annualCap": null,
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189"
+    },
+    {
+      "id": "tss-482",
+      "name": "Temporary Skill Shortage Visa (subclass 482)",
+      "category": "work",
+      "description": "Employer-sponsored temporary visa for skilled workers filling positions that can't be filled by Australian workers. Comes in short-term (2 years) and medium-term (4 years) streams.",
+      "requirements": [
+        "Sponsorship from an approved Australian Standard Business Sponsor",
+        "Occupation on the relevant skilled occupation list",
+        "At least 2 years of relevant work experience",
+        "English language proficiency (IELTS 5.0 overall minimum)",
+        "Skills assessment may be required depending on occupation"
+      ],
+      "processingTime": "1–6 months",
+      "fee": "AUD $3,115",
+      "maxDuration": "Up to 4 years (medium-term stream)",
+      "leadsTo": "Employer Nomination Scheme (subclass 186) for permanent residence",
+      "annualCap": null,
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482"
+    },
+    {
+      "id": "partner-309-100",
+      "name": "Partner Visa (subclasses 309 and 100)",
+      "category": "family",
+      "description": "For spouses and de facto partners of Australian citizens, permanent residents, or eligible New Zealand citizens. Granted in two stages: temporary then permanent.",
+      "requirements": [
+        "Genuine ongoing relationship with an Australian citizen, PR, or eligible NZ citizen",
+        "Sponsor must be 18+ and not have recently sponsored another partner",
+        "Health and character requirements for both applicant and sponsor",
+        "Marriage certificate or evidence of de facto relationship (12+ months of cohabitation)"
+      ],
+      "processingTime": "18–26 months for temporary (309); ~2 years later for permanent (100)",
+      "fee": "AUD $8,085 (covers both stages)",
+      "maxDuration": "Temporary then permanent (subclass 100)",
+      "leadsTo": "Permanent residency (subclass 100) → citizenship",
+      "annualCap": null,
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-offshore-309-100"
+    },
+    {
+      "id": "student-500",
+      "name": "Student Visa (subclass 500)",
+      "category": "study",
+      "description": "Study full-time at a CRICOS-registered Australian education provider. Includes schools, vocational education, English language courses, and universities.",
+      "requirements": [
+        "Enrolment in a CRICOS-registered course",
+        "Satisfy the Genuine Student requirement",
+        "English language proficiency (varies by institution)",
+        "Overseas Student Health Cover (OSHC)",
+        "Financial capacity: AUD $24,505/year living costs + tuition fees"
+      ],
+      "processingTime": "1–4 months",
+      "fee": "AUD $710",
+      "maxDuration": "Length of course (typically up to 5 years)",
+      "leadsTo": "Temporary Graduate Visa (subclass 485) for 2–4 years after graduation",
+      "annualCap": null,
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+    },
+    {
+      "id": "working-holiday-417",
+      "name": "Working Holiday Visa (subclass 417 / 462)",
+      "category": "working_holiday",
+      "description": "For young people to holiday and work in Australia. Subclass 417 is for eligible passport holders; subclass 462 is the Work and Holiday variant for other eligible countries.",
+      "requirements": [
+        "Aged 18–30 (up to 35 for citizens of some countries)",
+        "Citizen of an eligible country",
+        "AUD $5,000 in available funds",
+        "No dependent children accompanying you",
+        "Health and character requirements"
+      ],
+      "processingTime": "Under 1 month",
+      "fee": "AUD $635",
+      "maxDuration": "12 months; extendable to a 2nd and 3rd year with specified regional work",
+      "leadsTo": "Regional work experience can contribute points toward a permanent skilled visa",
+      "annualCap": null,
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417"
+    },
+    {
+      "id": "business-innovation-188",
+      "name": "Business Innovation and Investment Visa (subclass 188)",
+      "category": "investor",
+      "description": "For business owners, investors, and entrepreneurs. Multiple streams including Business Innovation, Investor, Significant Investor (AUD $5M), and Entrepreneur.",
+      "requirements": [
+        "Nomination by a state or territory government",
+        "Invitation from the Department of Home Affairs",
+        "Meet the financial and business requirements of your chosen stream",
+        "Significant Investor stream: AUD $5 million in complying investments for 4 years"
+      ],
+      "processingTime": "12–36 months",
+      "fee": "AUD $5,110–$9,330 (varies by stream)",
+      "maxDuration": "4 years (leads to permanent subclass 888)",
+      "leadsTo": "Business Innovation and Investment (Permanent) visa — subclass 888",
+      "annualCap": null,
+      "source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/business-innovation-investment-188"
+    }
+  ],
+  "citizenship": {
+    "name": "Australian Citizenship",
+    "requiresResidency": "4 years total residency including 1 year as a permanent resident",
+    "languageRequirement": "Basic English",
+    "testName": "Australian Citizenship Test",
+    "testQuestions": 20,
+    "testPassMark": "15 out of 20",
+    "fee": 490,
+    "source": "https://immi.homeaffairs.gov.au/citizenship-subsite/Pages/home.aspx"
+  },
+  "benefits": {
+    "childBenefit": "Family Tax Benefit Part A — up to AUD $213.36/fortnight per child (2024)",
+    "healthInsurance": "Medicare — free for permanent residents and citizens, covered under bilateral agreements for some nationalities",
+    "unemployment": "JobSeeker Payment — up to AUD $762.70/fortnight (2024); waiting periods apply for new PRs",
+    "source": "https://www.servicesaustralia.gov.au"
+  },
+  "taxNotes": "Australia taxes worldwide income for tax residents. First year: you may be a temporary resident, limiting tax on foreign income. A Tax File Number (TFN) is required for employment and banking.",
+  "contributors": ["@yourname — initial data, Jan 2025"]
+}

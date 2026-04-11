@@ -1,0 +1,60 @@
+name: Add / fix country or visa information
+description: Update immigration facts, visa routes, or add a new country
+title: "[Content] "
+labels: ["content", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Immigration rules change frequently. Factual contributions are crucial.
+        **Every factual claim must link to an official government source.**
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of contribution
+      options:
+        - Fix incorrect information
+        - Add missing information
+        - Add a new country (not yet supported)
+        - Information is outdated (rules changed)
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      placeholder: e.g. Netherlands, Japan, New Zealand
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current (wrong/missing) content
+      placeholder: What does the tool currently say? Or what is missing?
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: Correct / new content
+      placeholder: What should it say?
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Official source
+      placeholder: Link to the government website, legislation, or official page that backs this up.
+    validations:
+      required: true
+
+  - type: input
+    id: last-checked
+    attributes:
+      label: Date you verified this information
+      placeholder: e.g. January 2025
+    validations:
+      required: true

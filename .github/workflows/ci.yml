@@ -1,0 +1,91 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+jobs:
+
+  # ── 1. Build & type-check ─────────────────────────────────────────────────
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      - name: Build static export
+        run: npm run build
+        # No environment variables required — the app is fully client-side.
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-export
+          path: out/
+          retention-days: 7
+
+  # ── 2. Security audit ─────────────────────────────────────────────────────
+  security:
+    name: Security audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      # Fail the pipeline on moderate or higher severity vulnerabilities
+      - name: npm audit
+        run: npm audit --audit-level=moderate
+
+  # ── 3. Translations ───────────────────────────────────────────────────────
+  translations:
+    name: Translations
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: node scripts/validate-translations.mjs
+
+  # ── 4. Country data JSON ──────────────────────────────────────────────────
+  content:
+    name: Country data JSON
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate all country JSON files
+        run: |
+          FAIL=0
+          for f in $(find content -name "*.json"); do
+            if node -e "JSON.parse(require('fs').readFileSync('$f','utf-8'))" 2>/dev/null; then
+              echo "OK  $f"
+            else
+              echo "ERR $f"
+              FAIL=1
+            fi
+          done
+          exit $FAIL

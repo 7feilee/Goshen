@@ -1,0 +1,116 @@
+{
+  "code": "US",
+  "name": "United States",
+  "flag": "🇺🇸",
+  "immigrantPopulation": "50M",
+  "topOrigins": ["Mexico", "India", "China", "Philippines", "El Salvador"],
+  "officialImmigrationWebsite": "https://www.uscis.gov",
+  "lastVerified": "2025-01",
+  "visas": [
+    {
+      "id": "h1b",
+      "name": "H-1B Specialty Occupation",
+      "category": "work",
+      "description": "For workers in specialty occupations requiring at least a bachelor's degree. Subject to annual cap (65,000 + 20,000 for US master's holders). Selected by lottery.",
+      "requirements": [
+        "Job offer from a US employer",
+        "Bachelor's degree or equivalent in a specialty field",
+        "Employer must file petition (Form I-129)",
+        "Labour Condition Application (LCA) approved by DOL"
+      ],
+      "processingTime": "3–6 months (premium: 15 business days)",
+      "fee": "$730–$1,385 (employer pays)",
+      "maxDuration": "6 years (3+3)",
+      "leadsTo": "EB green card (employer must sponsor separately)",
+      "annualCap": 85000,
+      "source": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations"
+    },
+    {
+      "id": "eb1",
+      "name": "EB-1 Priority Workers Green Card",
+      "category": "work",
+      "description": "Green card for people with extraordinary ability (EB-1A), outstanding professors/researchers (EB-1B), or multinational managers (EB-1C). No employer sponsor needed for EB-1A.",
+      "requirements": [
+        "EB-1A: Evidence of extraordinary ability (awards, publications, high salary, critical role)",
+        "EB-1B: Employer sponsor + 3 years experience + international recognition",
+        "EB-1C: Employer sponsor + 1 year as manager/executive abroad"
+      ],
+      "processingTime": "8–24 months",
+      "fee": "$1,440 (Form I-140) + $1,440 (adjustment of status)",
+      "maxDuration": "Permanent",
+      "leadsTo": "US citizenship after 5 years",
+      "annualCap": null,
+      "source": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-first-preference-eb-1"
+    },
+    {
+      "id": "eb5",
+      "name": "EB-5 Investor Visa",
+      "category": "investor",
+      "description": "Green card through investment. Minimum $800,000 in a Targeted Employment Area (TEA) or $1,050,000 elsewhere. Must create 10 full-time jobs for US workers.",
+      "requirements": [
+        "Minimum investment of $800,000 (TEA) or $1,050,000",
+        "Investment in a new commercial enterprise",
+        "Create or preserve 10 full-time jobs for US workers",
+        "Funds must be lawfully obtained"
+      ],
+      "processingTime": "29–43 months",
+      "fee": "$11,160",
+      "maxDuration": "Permanent",
+      "leadsTo": "US citizenship after 5 years",
+      "annualCap": 10000,
+      "source": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-fifth-preference-eb-5"
+    },
+    {
+      "id": "family-based",
+      "name": "Family-Based Green Card",
+      "category": "family",
+      "description": "Green card sponsored by a US citizen or permanent resident family member. Immediate relatives of US citizens (spouse, parents, unmarried children under 21) have no annual cap.",
+      "requirements": [
+        "Qualifying family relationship to US citizen or LPR",
+        "Sponsor must meet income requirements (125% of poverty level)",
+        "Petitioner files Form I-130"
+      ],
+      "processingTime": "12 months–20+ years (depends on category and country of birth)",
+      "fee": "$675–$1,440",
+      "maxDuration": "Permanent",
+      "leadsTo": "US citizenship after 3–5 years",
+      "annualCap": null,
+      "source": "https://www.uscis.gov/family/family-of-us-citizens"
+    },
+    {
+      "id": "asylum",
+      "name": "Asylum",
+      "category": "asylum",
+      "description": "Protection for people who have suffered persecution or have a well-founded fear of persecution based on race, religion, nationality, political opinion, or membership in a particular social group.",
+      "requirements": [
+        "Must apply within 1 year of arriving in the US",
+        "Must demonstrate persecution or credible fear of persecution",
+        "Cannot be barred (e.g. serious crime, security threat)"
+      ],
+      "processingTime": "6 months–5+ years (affirmative) / case-by-case (defensive)",
+      "fee": "Free",
+      "maxDuration": "Indefinite (leads to green card after 1 year)",
+      "leadsTo": "Green card after 1 year, citizenship after 5 years",
+      "annualCap": null,
+      "source": "https://www.uscis.gov/humanitarian/refugees-and-asylum/asylum"
+    }
+  ],
+  "citizenship": {
+    "name": "Naturalization",
+    "requiresResidency": "5 years as LPR (3 years if married to US citizen)",
+    "languageRequirement": "English (reading, writing, speaking)",
+    "testName": "Civics Test",
+    "testQuestions": 100,
+    "testPassMark": "6 out of 10 questions (randomly selected)",
+    "fee": 725,
+    "source": "https://www.uscis.gov/citizenship"
+  },
+  "benefits": {
+    "childBenefit": "Child Tax Credit — up to $2,000 per child under 17",
+    "healthInsurance": "Medicaid (low income), CHIP (children), ACA marketplace",
+    "unemployment": "Varies by state — typically 26 weeks",
+    "source": "https://www.benefits.gov"
+  },
+  "taxNotes": "US taxes worldwide income for all residents and citizens. Must file FBAR if foreign accounts exceed $10,000. FATCA applies to foreign financial assets over $50,000.",
+  "contributors": ["@yourname — initial data, Jan 2025"]
+}

@@ -1,0 +1,135 @@
+import type { Tool } from '@/types'
+
+export const TOOLS: Tool[] = [
+  // Visa pillar
+  {
+    id: 'visa-finder',
+    slug: 'visa-finder',
+    pillar: 'visa',
+    titleKey: 'tools.visaFinder.title',
+    descriptionKey: 'tools.visaFinder.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'live',
+  },
+  {
+    id: 'citizenship-test',
+    slug: 'citizenship-test',
+    pillar: 'visa',
+    titleKey: 'tools.citizenshipTest.title',
+    descriptionKey: 'tools.citizenshipTest.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'live',
+  },
+  {
+    id: 'pr-checker',
+    slug: 'pr-checker',
+    pillar: 'visa',
+    titleKey: 'tools.prChecker.title',
+    descriptionKey: 'tools.prChecker.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: true,
+    status: 'beta',
+  },
+  {
+    id: 'document-checklist',
+    slug: 'document-checklist',
+    pillar: 'visa',
+    titleKey: 'tools.documentChecklist.title',
+    descriptionKey: 'tools.documentChecklist.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: true,
+    status: 'planned',
+  },
+  // Language pillar
+  {
+    id: 'letter-decoder',
+    slug: 'letter-decoder',
+    pillar: 'language',
+    titleKey: 'tools.letterDecoder.title',
+    descriptionKey: 'tools.letterDecoder.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'live',
+  },
+  {
+    id: 'language-coach',
+    slug: 'language-coach',
+    pillar: 'language',
+    titleKey: 'tools.languageCoach.title',
+    descriptionKey: 'tools.languageCoach.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: true,
+    status: 'beta',
+  },
+  // Work pillar
+  {
+    id: 'credential-recognition',
+    slug: 'credential-recognition',
+    pillar: 'work',
+    titleKey: 'tools.credentialRecognition.title',
+    descriptionKey: 'tools.credentialRecognition.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: true,
+    status: 'planned',
+  },
+  {
+    id: 'worker-rights',
+    slug: 'worker-rights',
+    pillar: 'work',
+    titleKey: 'tools.workerRights.title',
+    descriptionKey: 'tools.workerRights.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: true,
+    status: 'planned',
+  },
+  // Assets pillar
+  {
+    id: 'tax-explainer',
+    slug: 'tax-explainer',
+    pillar: 'assets',
+    titleKey: 'tools.taxExplainer.title',
+    descriptionKey: 'tools.taxExplainer.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: true,
+    status: 'planned',
+  },
+  {
+    id: 'remittance',
+    slug: 'remittance',
+    pillar: 'assets',
+    titleKey: 'tools.remittance.title',
+    descriptionKey: 'tools.remittance.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'planned',
+  },
+  // Family pillar
+  {
+    id: 'school-navigator',
+    slug: 'school-navigator',
+    pillar: 'family',
+    titleKey: 'tools.schoolNavigator.title',
+    descriptionKey: 'tools.schoolNavigator.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: true,
+    status: 'planned',
+  },
+  {
+    id: 'child-benefits',
+    slug: 'child-benefits',
+    pillar: 'family',
+    titleKey: 'tools.childBenefits.title',
+    descriptionKey: 'tools.childBenefits.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'planned',
+  },
+]
+
+export const TOOLS_BY_PILLAR = TOOLS.reduce((acc, tool) => {
+  if (!acc[tool.pillar]) acc[tool.pillar] = []
+  acc[tool.pillar].push(tool)
+  return acc
+}, {} as Record<string, Tool[]>)
