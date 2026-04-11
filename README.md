@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 Immigrant Guide
+# 🌍 Goshen
 
 **Free, open-source tools for every immigrant.**
 
@@ -8,14 +8,14 @@ Visa · Language · Family · Assets · Work · Business
 
 No paywalls. No ads. No accounts. Built in public, for everyone.
 
-[![CI](https://github.com/immigrant-guide/immigrant-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/immigrant-guide/immigrant-guide/actions)
+[![CI](https://github.com/goshen/goshen/actions/workflows/ci.yml/badge.svg)](https://github.com/goshen/goshen/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Languages](https://img.shields.io/badge/languages-15-blue)](#translations)
 [![Countries](https://img.shields.io/badge/countries-5-orange)](#countries)
-[![Good First Issues](https://img.shields.io/github/issues/immigrant-guide/immigrant-guide/good%20first%20issue)](../../issues?q=label%3A%22good+first+issue%22)
+[![Good First Issues](https://img.shields.io/github/issues/goshen/goshen/good%20first%20issue)](../../issues?q=label%3A%22good+first+issue%22)
 
-[**Live site**](https://immigrant-guide.vercel.app) · [**Tools**](https://immigrant-guide.vercel.app/en/tools) · [**Discussions**](../../discussions) · [**Roadmap**](../../projects)
+[**Live site**](https://goshen.vercel.app) · [**Tools**](https://goshen.vercel.app/en/tools) · [**Discussions**](../../discussions) · [**Roadmap**](../../projects)
 
 </div>
 
@@ -33,8 +33,8 @@ No good free tool exists for this. We're building it together.
 
 | Tool | Pillar | Countries | Status |
 |------|--------|-----------|--------|
-| [Visa pathway finder](https://immigrant-guide.vercel.app/en/tools/visa-finder) | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
-| [Official letter decoder](https://immigrant-guide.vercel.app/en/tools/letter-decoder) | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Visa pathway finder](https://goshen.vercel.app/en/tools/visa-finder) | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Official letter decoder](https://goshen.vercel.app/en/tools/letter-decoder) | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
 | Citizenship test trainer | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
 | PR eligibility checker | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
 | Daily language coach | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
@@ -80,9 +80,9 @@ All tools are available in 15 languages. The app auto-detects your language from
 |---------|---------------------|-------------|---------------|
 | 🇺🇸 United States | 50M | ✅ Complete | Jan 2025 |
 | 🇩🇪 Germany | 16M | ✅ Complete | Jan 2025 |
-| 🇬🇧 United Kingdom | 10M | 🔜 Needed | — |
-| 🇨🇦 Canada | 8.3M | 🔜 Needed | — |
-| 🇦🇺 Australia | 8M | 🔜 Needed | — |
+| 🇬🇧 United Kingdom | 10M | ✅ Complete | Jan 2025 |
+| 🇨🇦 Canada | 8.3M | ✅ Complete | Jan 2025 |
+| 🇦🇺 Australia | 8M | ✅ Complete | Jan 2025 |
 
 Priority countries after launch: 🇫🇷 France · 🇳🇱 Netherlands · 🇸🇪 Sweden · 🇯🇵 Japan · 🇸🇬 Singapore
 
@@ -103,12 +103,13 @@ Priority countries after launch: 🇫🇷 France · 🇳🇱 Netherlands · 🇸
 
 ### For developers
 ```bash
-git clone https://github.com/immigrant-guide/immigrant-guide.git
-cd immigrant-guide
+git clone https://github.com/goshen/goshen.git
+cd goshen
 npm install
-cp .env.example .env.local   # add your ANTHROPIC_API_KEY
-npm run dev                  # → http://localhost:3000
+npm run dev        # → http://localhost:3000
 ```
+
+No API keys or environment variables are required. The app runs fully client-side.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for architecture guide, adding tools, and PR checklist.
 
@@ -118,19 +119,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for architecture guide, adding tools, and
 
 | Layer | Technology |
 |-------|-----------|
-| Framework | Next.js 14 App Router · TypeScript |
-| Styling | Tailwind CSS |
+| Framework | Next.js (App Router) · TypeScript |
+| Styling | Tailwind CSS v4 |
 | Internationalisation | next-intl · 15 locales · auto-detect · RTL support |
-| AI | Anthropic Claude (streaming, multilingual) |
-| Hosting | Vercel (free tier) |
-| CI | GitHub Actions (build · translations · security · content) |
+| Tools | Client-side engines (visa matching, letter decoding) — no API keys |
+| Hosting | Static export — Vercel, GitHub Pages, Netlify, or any CDN |
+| CI/CD | GitHub Actions (build · translations · security · content · deploy) |
 
 ---
 
 ## Project structure
 
 ```
-immigrant-guide/
+goshen/
 ├── src/
 │   ├── app/[locale]/          # Pages — auto locale-routed
 │   │   ├── page.tsx           # Homepage
@@ -138,8 +139,9 @@ immigrant-guide/
 │   │       ├── visa-finder/
 │   │       ├── letter-decoder/
 │   │       └── ...
-│   ├── app/api/ai/            # Streaming AI endpoints
-│   ├── lib/ai/                # Prompt builders + Anthropic client
+│   ├── lib/engines/           # Client-side tool logic (no API needed)
+│   │   ├── visa-finder.ts     # Rule-based visa matching
+│   │   └── letter-decoder.ts  # Pattern-based letter analysis
 │   ├── lib/data/              # Countries + tools registry
 │   └── types/                 # Shared TypeScript types
 │
@@ -152,6 +154,9 @@ immigrant-guide/
 │   ├── countries/
 │   │   ├── US/data.json
 │   │   ├── DE/data.json
+│   │   ├── UK/data.json
+│   │   ├── CA/data.json
+│   │   ├── AU/data.json
 │   │   └── {CODE}/data.json  # Add your country here
 │   └── CONTRIBUTING.md        # Schema + rules for content
 │
@@ -161,6 +166,7 @@ immigrant-guide/
 │
 └── .github/
     ├── workflows/ci.yml            # Build · translations · security · content
+    ├── workflows/deploy.yml        # GitHub Pages deployment
     ├── ISSUE_TEMPLATE/             # Bug · translation · content · tool request
     └── labels.json                 # All labels (import via GitHub CLI)
 ```

@@ -25,11 +25,11 @@ CI automatically checks you haven't missed any keys.
 ## Option C — Code (developers)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/immigrant-guide.git
-cd immigrant-guide
+git clone https://github.com/YOUR_USERNAME/goshen.git
+cd goshen
 npm install
-cp .env.example .env.local   # add ANTHROPIC_API_KEY
 npm run dev                  # → localhost:3000
+# No environment variables required
 ```
 
 Find work: issues labelled `good first issue` or `help wanted`.

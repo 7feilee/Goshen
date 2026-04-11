@@ -32,7 +32,7 @@ jobs:
       - run: npm ci
 
       # Set BASE_PATH for GitHub Pages subdirectory hosting.
-      # If you use a custom domain (e.g. immigrant-guide.com) pointing to
+      # If you use a custom domain (e.g. goshen.com) pointing to
       # GitHub Pages, leave NEXT_PUBLIC_BASE_PATH empty or remove this env var.
       # For the default https://<user>.github.io/<repo>/ URL, set it to /<repo>.
       - name: Build

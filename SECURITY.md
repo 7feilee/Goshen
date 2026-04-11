@@ -17,7 +17,7 @@ This project handles sensitive inputs from vulnerable users (immigration status,
 
 **Please do not open a public GitHub issue for security vulnerabilities.**
 
-Email **security@immigrant-guide.dev** with:
+Email **7feilee@gmail.com** with:
 - Description of the vulnerability
 - Steps to reproduce
 - Potential impact
@@ -26,7 +26,7 @@ We will acknowledge within 48 hours and aim to patch within 7 days.
 
 ## Our security practices
 
-- No user inputs are logged or stored — all AI calls are stateless
-- The Anthropic API key is server-side only (Vercel env vars), never exposed to the browser
-- All AI responses include a disclaimer that they are not legal advice
+- No user inputs are logged or stored — all processing is client-side and stateless
+- All tools run entirely in the browser — no data is sent to any server
+- All tool outputs include a disclaimer that they are not legal advice
 - Dependencies are checked via `npm audit` in CI on every PR

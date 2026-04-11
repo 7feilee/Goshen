@@ -1,4 +1,4 @@
-# Contributing to Immigrant Guide
+# Contributing to Goshen
 
 Welcome — and thank you. This project exists for the 280 million people navigating a new country. Every contribution, however small, makes a real difference.
 
@@ -26,8 +26,8 @@ Each language unlocks the platform for millions of people. We need:
 
 ```bash
 # 1. Fork this repo and clone it
-git clone https://github.com/YOUR_USERNAME/immigrant-guide.git
-cd immigrant-guide
+git clone https://github.com/YOUR_USERNAME/goshen.git
+cd goshen
 
 # 2. Generate a translation scaffold
 node scripts/new-translation.mjs fa   # replace 'fa' with your locale
@@ -68,28 +68,28 @@ Every factual change **must** include:
 **For developers.**
 
 Tools are Next.js pages in `src/app/[locale]/tools/`.
-AI prompts live in `src/lib/ai/`.
+Client-side engines live in `src/lib/engines/`.
 
-**Adding a new tool — 4 steps:**
+**Adding a new tool — 3 steps:**
 
 ```
-1. src/app/[locale]/tools/my-tool/page.tsx        — UI
-2. src/app/api/ai/my-tool/route.ts                — API route (if AI-powered)
-3. src/lib/ai/my-tool.ts                          — Prompt builder
-4. src/lib/data/tools.ts                          — Register the tool
+1. src/app/[locale]/tools/my-tool/page.tsx   — UI (React component)
+2. src/lib/engines/my-tool.ts                — Client-side logic (no API needed)
+3. src/lib/data/tools.ts                     — Register the tool
 ```
+
+All processing runs entirely in the browser — no API keys, no server required.
 
 Good first issues are labelled [`good first issue`](../../issues?q=label%3A%22good+first+issue%22).
 
 **Setup:**
 
 ```bash
-git clone https://github.com/immigrant-guide/immigrant-guide.git
-cd immigrant-guide
+git clone https://github.com/goshen/goshen.git
+cd goshen
 npm install
-cp .env.example .env.local
-# Add ANTHROPIC_API_KEY to .env.local (get one free at console.anthropic.com)
 npm run dev
+# No environment variables required
 ```
 
 ---
@@ -111,7 +111,7 @@ Use the [bug report template](../../issues/new?template=bug_report.yml).
 | Every fact needs a source | We can't verify everything ourselves |
 | Plain language always | Many users have limited English proficiency |
 | No legal advice | Always add the disclaimer: *"General information only — not legal advice"* |
-| No storing user data | All AI tools are stateless — never log inputs |
+| No user data stored | All tools are stateless and run client-side — no inputs ever leave the browser |
 | Respectful tone | See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
 
 ---
@@ -131,7 +131,7 @@ Use the [bug report template](../../issues/new?template=bug_report.yml).
 - **Questions about contributing:** [GitHub Discussions](../../discussions)
 - **Found a bug:** [Bug report](../../issues/new?template=bug_report.yml)
 - **Want to add a language:** [Translation issue](../../issues/new?template=translation.yml)
-- **Security issue:** security@immigrant-guide.dev (not a public issue)
+- **Security issue:** 7feilee@gmail.com (not a public issue)
 
 ---
 

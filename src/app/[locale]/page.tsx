@@ -177,7 +177,7 @@ export default function HomePage({
       <footer className="px-6 py-14 max-w-5xl mx-auto border-t border-gray-100 mt-6 flex items-center justify-between flex-wrap gap-4">
         <p className="text-sm text-gray-400">{t('common.openSource')}</p>
         <a
-          href="https://github.com/immigrant-guide/immigrant-guide"
+          href="https://github.com/goshen/goshen"
           className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium"
           target="_blank"
           rel="noopener noreferrer"

@@ -1,5 +1,5 @@
 {
-  "name": "immigrant-guide",
+  "name": "goshen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -42,11 +42,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/immigrant-guide/immigrant-guide.git"
+    "url": "https://github.com/goshen/goshen.git"
   },
   "license": "MIT",
-  "homepage": "https://immigrant-guide.vercel.app",
+  "homepage": "https://goshen.vercel.app",
   "bugs": {
-    "url": "https://github.com/immigrant-guide/immigrant-guide/issues"
+    "url": "https://github.com/goshen/goshen/issues"
   }
 }

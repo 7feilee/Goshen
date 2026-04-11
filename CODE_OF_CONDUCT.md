@@ -22,7 +22,7 @@ We pledge to make participation in this project a harassment-free experience for
 
 ## Enforcement
 
-Violations can be reported to **conduct@immigrant-guide.dev**. All reports are confidential. Maintainers will respond within 48 hours.
+Violations can be reported to **7feilee@gmail.com**. All reports are confidential. Maintainers will respond within 48 hours.
 
 Consequences range from a warning to a permanent ban, depending on severity.
 

@@ -12,14 +12,14 @@ const inter = Inter({ subsets: ['latin', 'latin-ext'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Immigrant Guide — Free tools for every immigrant',
-    template: '%s · Immigrant Guide',
+    default: 'Goshen — Free tools for every immigrant',
+    template: '%s · Goshen',
   },
   description:
-    'Free tools for every immigrant — visa pathways, letter decoder, citizenship tests, and more. 15 languages. 5 countries. No paywalls, no ads.',
+    'Goshen — free tools for every immigrant: visa pathways, letter decoder, citizenship tests, and more. 15 languages. 5 countries. No paywalls, no ads.',
   openGraph: {
     type: 'website',
-    siteName: 'Immigrant Guide',
+    siteName: 'Goshen',
   },
 }
 
@@ -55,11 +55,11 @@ export default async function LocaleLayout({
               <Link
                 href={`/${locale}`}
                 className="flex items-center gap-2 shrink-0"
-                aria-label="Immigrant Guide home"
+                aria-label="Goshen home"
               >
                 <span className="text-2xl" aria-hidden="true">🌍</span>
                 <span className="font-semibold text-gray-900 text-base hidden sm:block leading-none">
-                  Immigrant Guide
+                  Goshen
                 </span>
               </Link>
 

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { COUNTRY_LIST } from '@/lib/data/countries'
 import { decodeLetter } from '@/lib/engines/letter-decoder'
 import type { CountryCode, Locale } from '@/types'
@@ -30,6 +31,9 @@ const inputClass =
 const labelClass = 'block text-sm font-semibold text-gray-700 mb-2'
 
 export default function LetterDecoderPage() {
+  const pathname = usePathname()
+  const locale = pathname.split('/')[1] || 'en'
+
   const [letterText, setLetterText] = useState('')
   const [country, setCountry] = useState<CountryCode>('US')
   const [targetLocale, setTargetLocale] = useState<Locale>('en')
@@ -54,7 +58,7 @@ export default function LetterDecoderPage() {
 
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm text-gray-400" aria-label="Breadcrumb">
-        <Link href=".." className="hover:text-gray-700 transition-colors">← All tools</Link>
+        <Link href={`/${locale}/tools`} className="hover:text-gray-700 transition-colors">← All tools</Link>
       </nav>
 
       {/* Header */}

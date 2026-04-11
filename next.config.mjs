@@ -3,7 +3,7 @@ import createNextIntlPlugin from 'next-intl/plugin'
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 
 // Optional base path — set NEXT_PUBLIC_BASE_PATH env var when deploying to a
-// GitHub Pages subdirectory (e.g. /immigrant-guide).
+// GitHub Pages subdirectory (e.g. /goshen).
 // Leave empty for Vercel, Netlify, or a custom domain.
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
 
