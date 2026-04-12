@@ -79,6 +79,14 @@
     "petImport": {
       "title": "Evcil hayvan ithalat rehberi",
       "description": "Yurt dışına taşınırken kedini veya köpeğini getir"
+    },
+    "pensionGuide": {
+      "title": "Emeklilik rehberi",
+      "description": "Emeklilik ve pension sisteminizi anlayın"
+    },
+    "healthcareGuide": {
+      "title": "Sağlık ve sigorta",
+      "description": "Yeni ülkenizdeki sağlık ve sigorta sistemini anlayın"
     }
   },
   "common": {

@@ -79,6 +79,14 @@
     "petImport": {
       "title": "Pet import guide",
       "description": "Bring your cat or dog when you move abroad"
+    },
+    "pensionGuide": {
+      "title": "Pension guide",
+      "description": "Understand your pension and retirement system"
+    },
+    "healthcareGuide": {
+      "title": "Healthcare & insurance",
+      "description": "Navigate public health and insurance in your new country"
     }
   },
   "common": {

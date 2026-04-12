@@ -79,6 +79,14 @@
     "petImport": {
       "title": "Przewodnik importu zwierząt domowych",
       "description": "Zabierz kota lub psa przeprowadzając się za granicę"
+    },
+    "pensionGuide": {
+      "title": "Przewodnik emerytalny",
+      "description": "Zrozum system emerytalny i rentowy"
+    },
+    "healthcareGuide": {
+      "title": "Opieka zdrowotna i ubezpieczenie",
+      "description": "Zrozum system ochrony zdrowia i ubezpieczenia"
     }
   },
   "common": {

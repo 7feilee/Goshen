@@ -79,6 +79,14 @@
     "petImport": {
       "title": "반려동물 입국 안내",
       "description": "해외 이사 시 고양이나 개를 데려오세요"
+    },
+    "pensionGuide": {
+      "title": "연금 안내",
+      "description": "연금 및 은퇴 제도를 이해하세요"
+    },
+    "healthcareGuide": {
+      "title": "의료 및 보험",
+      "description": "새 나라의 공공 의료 및 보험 제도를 이해하세요"
     }
   },
   "common": {

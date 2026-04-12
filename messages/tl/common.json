@@ -79,6 +79,14 @@
     "petImport": {
       "title": "Gabay sa pag-import ng alagang hayop",
       "description": "Dalhin ang iyong pusa o aso kapag lumipat sa ibang bansa"
+    },
+    "pensionGuide": {
+      "title": "Gabay sa pensiyon",
+      "description": "Alamin ang sistema ng pensiyon at pagreretiro"
+    },
+    "healthcareGuide": {
+      "title": "Kalusugan at seguro",
+      "description": "Unawain ang pampublikong kalusugan at seguro sa bagong bansa"
     }
   },
   "common": {

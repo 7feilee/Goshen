@@ -79,6 +79,14 @@
     "petImport": {
       "title": "Haustier-Einreiseführer",
       "description": "Bringen Sie Ihre Katze oder Ihren Hund mit ins Ausland"
+    },
+    "pensionGuide": {
+      "title": "Rentenführer",
+      "description": "Verstehen Sie das Renten- und Altersvorsorgesystem"
+    },
+    "healthcareGuide": {
+      "title": "Gesundheit & Versicherung",
+      "description": "Gesundheitssystem und Krankenversicherung verstehen"
     }
   },
   "common": {

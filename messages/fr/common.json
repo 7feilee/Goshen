@@ -79,6 +79,14 @@
     "petImport": {
       "title": "Guide d'importation d'animaux",
       "description": "Amenez votre chat ou chien lorsque vous déménagez à l'étranger"
+    },
+    "pensionGuide": {
+      "title": "Guide des retraites",
+      "description": "Comprenez votre système de retraite"
+    },
+    "healthcareGuide": {
+      "title": "Santé et assurance",
+      "description": "Naviguer dans le système de santé et d'assurance"
     }
   },
   "common": {

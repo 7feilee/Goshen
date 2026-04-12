@@ -79,6 +79,14 @@
     "petImport": {
       "title": "Guía de importación de mascotas",
       "description": "Lleva tu gato o perro cuando te mudes al extranjero"
+    },
+    "pensionGuide": {
+      "title": "Guía de pensiones",
+      "description": "Entiende tu sistema de pensiones y jubilación"
+    },
+    "healthcareGuide": {
+      "title": "Salud y seguro médico",
+      "description": "Navega el sistema de salud y seguro en tu nuevo país"
     }
   },
   "common": {

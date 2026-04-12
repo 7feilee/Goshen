@@ -79,6 +79,14 @@
     "petImport": {
       "title": "宠物入境指南",
       "description": "搬到海外时携带您的猫或狗"
+    },
+    "pensionGuide": {
+      "title": "养老金指南",
+      "description": "了解您的养老金和退休制度"
+    },
+    "healthcareGuide": {
+      "title": "医疗保健与保险",
+      "description": "了解新国家的公共医疗和保险制度"
     }
   },
   "common": {

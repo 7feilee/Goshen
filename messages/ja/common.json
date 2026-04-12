@@ -79,6 +79,14 @@
     "petImport": {
       "title": "ペット輸入ガイド",
       "description": "海外移住の際に猫や犬を連れていく方法"
+    },
+    "pensionGuide": {
+      "title": "年金ガイド",
+      "description": "年金と退職制度を理解する"
+    },
+    "healthcareGuide": {
+      "title": "医療・保険ガイド",
+      "description": "新しい国の医療と保険制度を理解する"
     }
   },
   "common": {

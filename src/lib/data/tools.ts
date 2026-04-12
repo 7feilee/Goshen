@@ -86,6 +86,26 @@ export const TOOLS: Tool[] = [
   },
   // Assets pillar
   {
+    id: 'pension-guide',
+    slug: 'pension-guide',
+    pillar: 'assets',
+    titleKey: 'tools.pensionGuide.title',
+    descriptionKey: 'tools.pensionGuide.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'live',
+  },
+  {
+    id: 'healthcare-guide',
+    slug: 'healthcare-guide',
+    pillar: 'assets',
+    titleKey: 'tools.healthcareGuide.title',
+    descriptionKey: 'tools.healthcareGuide.description',
+    countries: ['US', 'DE', 'UK', 'CA', 'AU'],
+    aiPowered: false,
+    status: 'live',
+  },
+  {
     id: 'tax-explainer',
     slug: 'tax-explainer',
     pillar: 'assets',
