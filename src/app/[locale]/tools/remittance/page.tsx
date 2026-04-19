@@ -338,6 +338,10 @@ export default function RemittancePage() {
                className="text-xs px-3 py-1.5 bg-white border border-gray-200 rounded-lg text-blue-600 hover:border-blue-300 transition-colors font-medium">
               Wise Rate Alerts ↗
             </a>
+            <a href="https://wise.com/invite/dic/qifeil2" target="_blank" rel="noopener noreferrer"
+               className="text-xs px-3 py-1.5 bg-green-50 border border-green-200 rounded-lg text-green-700 hover:border-green-400 transition-colors font-medium">
+              🎁 Open Wise (referral) ↗
+            </a>
           </div>
         </div>
       </div>

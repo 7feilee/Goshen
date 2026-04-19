@@ -195,6 +195,14 @@ export default async function HomePage({
             💬 Join community
           </a>
           <a
+            href="https://buymeacoffee.com/7feilee"
+            className="text-sm text-yellow-600 hover:text-yellow-800 transition-colors font-medium"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ☕ Buy me a coffee
+          </a>
+          <a
             href="https://github.com/7feilee/Goshen"
             className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium"
             target="_blank"
