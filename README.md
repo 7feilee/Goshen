@@ -33,18 +33,27 @@ No good free tool exists for this. We're building it together.
 
 | Tool | Pillar | Countries | Status |
 |------|--------|-----------|--------|
-| [Visa pathway finder](https://our-goshen.vercel.app/en/tools/visa-finder) | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Visa pathway finder](https://our-goshen.vercel.app/en/tools/visa-finder) | Visas & Status | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Citizenship test practice](https://our-goshen.vercel.app/en/tools/citizenship-test) | Visas & Status | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [PR eligibility checker](https://our-goshen.vercel.app/en/tools/pr-checker) | Visas & Status | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Worker rights explainer](https://our-goshen.vercel.app/en/tools/worker-rights) | Work & Rights | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
 | [Official letter decoder](https://our-goshen.vercel.app/en/tools/letter-decoder) | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
-| [Einbürgerungstest (DE)](https://our-goshen.vercel.app/en/tools/citizenship-test) | Visa | 🇩🇪 | ✅ Live |
-| PR eligibility checker | Visa | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
-| Daily language coach | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔵 Beta |
-| Credential recognition guide | Work | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
-| Worker rights explainer | Work | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
-| Remittance rate finder | Assets | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
-| Tax residency explainer | Assets | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
-| School system navigator | Family | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
-| Child benefits calculator | Family | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
-| Company formation wizard | Business | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
+| [Daily language coach](https://our-goshen.vercel.app/en/tools/language-coach) | Language | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [School system navigator](https://our-goshen.vercel.app/en/tools/school-navigator) | Family & Kids | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Child benefits guide](https://our-goshen.vercel.app/en/tools/child-benefits) | Family & Kids | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Pet import guide](https://our-goshen.vercel.app/en/tools/pet-import) | Family & Kids | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Remittance rate finder](https://our-goshen.vercel.app/en/tools/remittance) | Money & Benefits | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Tax residency explainer](https://our-goshen.vercel.app/en/tools/tax-explainer) | Money & Benefits | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Healthcare & insurance guide](https://our-goshen.vercel.app/en/tools/healthcare-guide) | Money & Benefits | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| [Pension guide](https://our-goshen.vercel.app/en/tools/pension-guide) | Money & Benefits | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | ✅ Live |
+| Credential recognition guide | Work & Rights | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
+| Document checklist | Visas & Status | 🇺🇸🇩🇪🇬🇧🇨🇦🇦🇺 | 🔜 Planned |
+
+### Community & Places
+
+| Place | Location | What's there |
+|-------|----------|--------------|
+| [Heidelberg Sprachcafé](https://our-goshen.vercel.app/en/places/heidelberg) | 🇩🇪 Heidelberg, Germany | Weekly language exchange events — Mon–Sun, multiple venues |
 
 ---
 
@@ -79,7 +88,7 @@ All tools are available in 15 languages. The app auto-detects your language from
 | Country | Immigrant population | Data status | Last verified |
 |---------|---------------------|-------------|---------------|
 | 🇺🇸 United States | 50M | ✅ Complete | Jan 2025 |
-| 🇩🇪 Germany | 16M | ✅ Complete | Jan 2025 |
+| 🇩🇪 Germany | 16M | ✅ Complete · incl. Sprachkursvisum | Jan 2025 |
 | 🇬🇧 United Kingdom | 10M | ✅ Complete | Jan 2025 |
 | 🇨🇦 Canada | 8.3M | ✅ Complete | Jan 2025 |
 | 🇦🇺 Australia | 8M | ✅ Complete | Jan 2025 |
@@ -184,6 +193,16 @@ Goshen/
 - 💬 [Telegram group](https://t.me/+cgks5vGPUSpjMGFi) — chat, questions, and sharing your story
 - 🐛 [Issues](../../issues) — bugs and concrete tasks
 - 📣 Announcements — watch this repo for updates
+
+---
+
+## Support the project
+
+If Goshen has helped you, consider supporting it:
+
+- ☕ [Buy me a coffee](https://buymeacoffee.com/7feilee)
+- 💸 [Open a Wise account](https://wise.com/invite/dic/qifeil2) — free international transfers (referral link)
+- ⭐ Star this repo to help others find it
 
 ---
 
