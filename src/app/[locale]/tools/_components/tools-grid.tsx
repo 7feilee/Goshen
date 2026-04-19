@@ -7,14 +7,27 @@ import { TOOLS_BY_PILLAR } from '@/lib/data/tools'
 import { COUNTRY_LIST } from '@/lib/data/countries'
 import type { CountryCode } from '@/types'
 
-const PILLAR_META: Record<string, { icon: string; color: string }> = {
-  visa:     { icon: '🛂', color: 'bg-blue-50 border-blue-100' },
-  language: { icon: '💬', color: 'bg-teal-50 border-teal-100' },
-  family:   { icon: '👨‍👩‍👧', color: 'bg-purple-50 border-purple-100' },
-  assets:   { icon: '💰', color: 'bg-amber-50 border-amber-100' },
-  work:     { icon: '⚖️', color: 'bg-rose-50 border-rose-100' },
-  business: { icon: '🏢', color: 'bg-green-50 border-green-100' },
+const PILLAR_ORDER = ['visa', 'work', 'language', 'family', 'assets', 'business']
+
+const PILLAR_META: Record<string, { icon: string; label: string; color: string }> = {
+  visa:     { icon: '🛂', label: 'Visas & Status',     color: 'bg-blue-50 border-blue-100' },
+  work:     { icon: '⚖️', label: 'Work & Rights',      color: 'bg-rose-50 border-rose-100' },
+  language: { icon: '💬', label: 'Language',            color: 'bg-teal-50 border-teal-100' },
+  family:   { icon: '👨‍👩‍👧', label: 'Family & Kids',     color: 'bg-purple-50 border-purple-100' },
+  assets:   { icon: '💰', label: 'Money & Benefits',   color: 'bg-amber-50 border-amber-100' },
+  business: { icon: '🏢', label: 'Business',            color: 'bg-green-50 border-green-100' },
 }
+
+const COMMUNITY_PLACES = [
+  {
+    name: 'Heidelberg Sprachcafé',
+    description: 'Weekly language exchange events — co-cooking, café talks, and language nights across the city.',
+    icon: '☕',
+    badge: '🇩🇪 Heidelberg',
+    path: '/places/heidelberg',
+    color: 'bg-orange-50 border-orange-100 hover:border-orange-300',
+  },
+]
 
 export default function ToolsGrid({ locale }: { locale: string }) {
   const t             = useTranslations()
@@ -23,13 +36,14 @@ export default function ToolsGrid({ locale }: { locale: string }) {
   const validCodes    = COUNTRY_LIST.map((c) => c.code as CountryCode)
   const activeCountry = validCodes.includes(selectedCode as CountryCode) ? selectedCode : null
 
-  // Filter tools per pillar by selected country (or show all)
-  const visiblePillars = Object.entries(TOOLS_BY_PILLAR)
-    .map(([pillar, tools]) => ({
+  // Filter tools per pillar by selected country (or show all), in defined order
+  const visiblePillars = PILLAR_ORDER
+    .filter((p) => TOOLS_BY_PILLAR[p])
+    .map((pillar) => ({
       pillar,
       tools: activeCountry
-        ? tools.filter((t) => t.countries.includes(activeCountry as CountryCode))
-        : tools,
+        ? TOOLS_BY_PILLAR[pillar].filter((t) => t.countries.includes(activeCountry as CountryCode))
+        : TOOLS_BY_PILLAR[pillar],
     }))
     .filter(({ tools }) => tools.length > 0)
 
@@ -103,9 +117,7 @@ export default function ToolsGrid({ locale }: { locale: string }) {
             <section key={pillar}>
               <div className="flex items-center gap-2 mb-4">
                 <span>{meta.icon}</span>
-                <h2 className="text-sm font-medium text-gray-700 capitalize">
-                  {pillar.replace('_', ' ')}
-                </h2>
+                <h2 className="text-sm font-medium text-gray-700">{meta.label}</h2>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {tools.map((tool) => {
@@ -171,6 +183,36 @@ export default function ToolsGrid({ locale }: { locale: string }) {
           )
         })}
       </div>
+
+      {/* Community & Places */}
+      {!activeCountry && (
+        <section className="mt-12 pt-8 border-t border-gray-100">
+          <div className="flex items-center gap-2 mb-4">
+            <span>🏘️</span>
+            <h2 className="text-sm font-medium text-gray-700">Community & Places</h2>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {COMMUNITY_PLACES.map((place) => (
+              <Link
+                key={place.path}
+                href={`/${locale}${place.path}`}
+                className={`block p-4 bg-white border rounded-xl transition-colors ${place.color}`}
+              >
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl shrink-0">{place.icon}</span>
+                  <div>
+                    <p className="text-sm font-medium text-gray-900 mb-0.5">{place.name}</p>
+                    <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
+                    <span className="text-xs px-2 py-0.5 bg-white border border-orange-200 rounded-full text-orange-600 font-medium">
+                      {place.badge}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </>
   )
 }
