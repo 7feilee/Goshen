@@ -61,6 +61,25 @@
       "source": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
     },
     {
+      "id": "sprachkursvisum",
+      "name": "Language Course Visa (Sprachkursvisum)",
+      "category": "study",
+      "description": "National visa (D visa) for non-EU citizens attending a German language course at a recognised language school (Sprachschule). Covers intensive courses and preparatory German courses (Studienkolleg). Does not permit full-time employment but allows up to 15 hours/week of side work.",
+      "requirements": [
+        "Confirmed enrolment at a recognised German language school (Sprachschule)",
+        "Proof of sufficient funds — approx. €700–970/month for the duration",
+        "Travel health insurance covering the full stay",
+        "Valid passport (must be valid 6 months beyond intended stay)",
+        "Language school must confirm course schedule and duration"
+      ],
+      "processingTime": "4–8 weeks",
+      "fee": "€75",
+      "maxDuration": "Up to 1 year (extendable for preparatory programmes)",
+      "leadsTo": "Can transition to Student Visa (§ 16b AufenthG) if admitted to a university or Ausbildung",
+      "annualCap": null,
+      "source": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/-/606848"
+    },
+    {
       "id": "familiennachzug",
       "name": "Family Reunification (Familiennachzug)",
       "category": "family",
