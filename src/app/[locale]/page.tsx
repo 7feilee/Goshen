@@ -2,18 +2,20 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { COUNTRY_LIST } from '@/lib/data/countries'
 import Link from 'next/link'
 
+// ── Static data ───────────────────────────────────────────────────────────────
+
 const SPRACHCAFE_HIGHLIGHTS = [
-  { day: 'Mon', time: '18:30', name: 'Co-cooking & Dinner', place: 'ZEP' },
-  { day: 'Thu', time: '16:00', name: 'Café Talk', place: 'Lutherkirche' },
-  { day: 'Fri', time: '19:30', name: 'Sprachcafé night', place: 'Marstall / ZEP' },
-  { day: 'Sun', time: '18:00', name: 'German lessons B1–C1', place: 'Calvary Chapel' },
+  { day: 'Mon', time: '18:30', name: 'Co-cooking & Dinner' },
+  { day: 'Thu', time: '16:00', name: 'Café Talk' },
+  { day: 'Fri', time: '19:30', name: 'Sprachcafé night' },
+  { day: 'Sun', time: '18:00', name: 'German lessons B1–C1' },
 ]
 
 const DE_TOOLS = [
   {
     icon: '📄',
-    title: 'Got a letter from Ausländerbehörde?',
-    desc: 'Paste any German official letter — get a plain-English breakdown of what it means and what to do.',
+    title: 'Got a letter from the Ausländerbehörde?',
+    desc: 'Paste any German official letter — get a plain-English breakdown of what it means, key deadlines, and exactly what to do.',
     href: '/tools/letter-decoder',
     color: 'bg-teal-50 border-teal-200 hover:border-teal-400',
     cta: 'Decode the letter',
@@ -21,8 +23,8 @@ const DE_TOOLS = [
   },
   {
     icon: '🛂',
-    title: 'Which visa is right for you?',
-    desc: 'Fachkräfte, Chancenkarte, Blue Card, family — find your route with fees, timelines, and PR pathways.',
+    title: 'Which visa route is right for you?',
+    desc: 'Fachkräfte, Chancenkarte, Blue Card, family reunification — find your route with fees, timelines, and the path to permanent residence.',
     href: '/tools/visa-finder',
     color: 'bg-blue-50 border-blue-200 hover:border-blue-400',
     cta: 'Find your visa',
@@ -31,7 +33,7 @@ const DE_TOOLS = [
   {
     icon: '📖',
     title: 'Preparing for Einbürgerung?',
-    desc: 'Practice all 460 questions for the German citizenship test, including your Bundesland-specific ones.',
+    desc: 'Practise all 460 questions for the German citizenship test — with your Bundesland-specific set and instant feedback.',
     href: '/tools/citizenship-test',
     color: 'bg-purple-50 border-purple-200 hover:border-purple-400',
     cta: 'Start practising',
@@ -40,7 +42,7 @@ const DE_TOOLS = [
   {
     icon: '⚖️',
     title: 'Know your rights at work',
-    desc: 'Minimum wage, sick leave, dismissal protection, and immigrant-specific rules — all in plain language.',
+    desc: 'Minimum wage, sick leave, dismissal protection — and the extra rules that apply specifically to immigrants in Germany.',
     href: '/tools/worker-rights',
     color: 'bg-rose-50 border-rose-200 hover:border-rose-400',
     cta: 'Check your rights',
@@ -49,22 +51,24 @@ const DE_TOOLS = [
   {
     icon: '🏥',
     title: 'GKV or PKV — which health insurance?',
-    desc: 'Understand the German health system, what you\'re entitled to, and how to switch.',
+    desc: 'Understand the German health system, what you\'re entitled to, and what changing between schemes actually involves.',
     href: '/tools/healthcare-guide',
     color: 'bg-sky-50 border-sky-200 hover:border-sky-400',
     cta: 'Explore healthcare',
     ctaColor: 'text-sky-700',
   },
   {
-    icon: '💰',
+    icon: '💸',
     title: 'Sending money home?',
-    desc: 'Compare Wise, Remitly, Western Union and more — fees, exchange rates, and transfer times side by side.',
+    desc: 'Compare Wise, Remitly, Western Union and 7 more services — real fees, real exchange rates, transfer times side by side.',
     href: '/tools/remittance',
     color: 'bg-amber-50 border-amber-200 hover:border-amber-400',
     cta: 'Compare rates',
     ctaColor: 'text-amber-700',
   },
 ]
+
+// ── Page ─────────────────────────────────────────────────────────────────────
 
 export default async function HomePage({
   params,
@@ -76,90 +80,139 @@ export default async function HomePage({
   const t = await getTranslations()
 
   return (
-    <main className="min-h-screen">
+    <main>
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <section className="px-6 pt-16 pb-10 max-w-5xl mx-auto">
+      <section
+        aria-labelledby="hero-heading"
+        className="px-6 pt-16 pb-12 max-w-5xl mx-auto"
+      >
         <div className="max-w-2xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-500 mb-6">
-            🇩🇪 Built in Heidelberg · Free & open source
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 mb-5 leading-tight">
-            Navigating life in Germany<br className="hidden sm:block" /> just got easier.
-          </h1>
-          <p className="text-lg text-gray-500 leading-relaxed mb-8">
-            Free tools for visas, paperwork, work rights, and settling in —
-            no account, no paywall, no jargon.
+          {/* Badge */}
+          <p className="inline-flex items-center gap-2 px-3 py-1.5 bg-gray-100 rounded-full text-xs font-medium text-gray-600 mb-6">
+            <span aria-hidden="true">🇩🇪</span>
+            Built in Heidelberg · Free &amp; open source
           </p>
-          <div className="flex flex-wrap gap-3">
+
+          <h1
+            id="hero-heading"
+            className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 mb-5 leading-tight"
+          >
+            Moving to Germany?<br className="hidden sm:block" />
+            You&apos;re not alone.
+          </h1>
+
+          <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
+            Free tools for visas, official letters, work rights, and settling in —
+            built by immigrants, for immigrants.
+          </p>
+
+          {/* CTAs */}
+          <div className="flex flex-wrap gap-3 mb-6">
             <Link
               href={`/${locale}/tools`}
               className="inline-flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-xl text-sm font-semibold hover:bg-gray-700 transition-colors"
             >
-              Explore all tools →
+              Explore all tools
+              <span aria-hidden="true">→</span>
             </Link>
             <a
               href="https://chat.whatsapp.com/IeDTMarAKbhBTZzcmi7PDC?mode=gi_t"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Join the Germany community WhatsApp group for Heidelberg and Mannheim (opens in new tab)"
               className="inline-flex items-center gap-2 bg-green-50 border border-green-200 text-green-800 px-6 py-3 rounded-xl text-sm font-semibold hover:bg-green-100 transition-colors"
             >
-              🇩🇪 Join Germany group
+              <span aria-hidden="true">🇩🇪</span>
+              Join Germany group
             </a>
           </div>
+
+          {/* Trust strip */}
+          <ul
+            aria-label="Key features"
+            className="flex flex-wrap gap-x-5 gap-y-1 text-xs text-gray-500 list-none p-0 m-0"
+          >
+            {['No sign-up required', 'No ads or paywalls', '15 languages', 'Open source'].map((f) => (
+              <li key={f} className="flex items-center gap-1">
+                <span aria-hidden="true" className="text-green-500">✓</span> {f}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
       {/* ── Germany spotlight ─────────────────────────────────────────────── */}
-      <section className="px-6 py-10 max-w-5xl mx-auto">
-        <div className="flex items-center gap-3 mb-6">
-          <span className="text-2xl">🇩🇪</span>
-          <div>
-            <h2 className="text-xl font-bold text-gray-900">New to Germany? Start here.</h2>
-            <p className="text-sm text-gray-500">The most common things immigrants need, ready to use.</p>
-          </div>
-        </div>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {DE_TOOLS.map((tool) => (
-            <Link
-              key={tool.href}
-              href={`/${locale}${tool.href}`}
-              className={`group block p-5 bg-white border-2 rounded-2xl transition-all ${tool.color}`}
+      <section
+        aria-labelledby="de-heading"
+        className="bg-gray-50 border-y border-gray-100"
+      >
+        <div className="px-6 py-12 max-w-5xl mx-auto">
+          <div className="mb-8">
+            <h2
+              id="de-heading"
+              className="text-2xl font-bold text-gray-900 mb-1"
             >
-              <div className="text-2xl mb-3">{tool.icon}</div>
-              <h3 className="text-sm font-bold text-gray-900 mb-1.5 leading-snug">{tool.title}</h3>
-              <p className="text-xs text-gray-500 leading-relaxed mb-4">{tool.desc}</p>
-              <span className={`inline-flex items-center gap-1 text-xs font-semibold ${tool.ctaColor} group-hover:gap-2 transition-all`}>
-                {tool.cta} →
-              </span>
-            </Link>
-          ))}
+              <span aria-hidden="true">🇩🇪 </span>New to Germany? Start here.
+            </h2>
+            <p className="text-sm text-gray-600">
+              The questions every immigrant in Germany asks — answered with free, ready-to-use tools.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {DE_TOOLS.map((tool) => (
+              <Link
+                key={tool.href}
+                href={`/${locale}${tool.href}`}
+                className={`group block p-5 bg-white border-2 rounded-2xl transition-all ${tool.color}`}
+              >
+                <div className="text-2xl mb-3" aria-hidden="true">{tool.icon}</div>
+                <h3 className="text-sm font-bold text-gray-900 mb-2 leading-snug">{tool.title}</h3>
+                <p className="text-xs text-gray-600 leading-relaxed mb-4">{tool.desc}</p>
+                <span
+                  className={`inline-flex items-center gap-1 text-xs font-semibold ${tool.ctaColor} group-hover:gap-2 transition-all`}
+                  aria-hidden="true"
+                >
+                  {tool.cta} →
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
       {/* ── Community ─────────────────────────────────────────────────────── */}
-      <section className="px-6 py-10 max-w-5xl mx-auto">
-        <h2 className="text-xl font-bold text-gray-900 mb-1">Join the community</h2>
-        <p className="text-sm text-gray-500 mb-6">
-          You&apos;re not alone — connect with others in Heidelberg, Mannheim, and beyond.
-        </p>
+      <section
+        aria-labelledby="community-heading"
+        className="px-6 py-12 max-w-5xl mx-auto"
+      >
+        <div className="mb-8">
+          <h2 id="community-heading" className="text-2xl font-bold text-gray-900 mb-1">
+            Join the community
+          </h2>
+          <p className="text-sm text-gray-600">
+            Real people in Heidelberg, Mannheim, and beyond — events, meetups, and honest answers.
+          </p>
+        </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
-          {/* WhatsApp Germany – most prominent */}
+          {/* WhatsApp Germany */}
           <a
             href="https://chat.whatsapp.com/IeDTMarAKbhBTZzcmi7PDC?mode=gi_t"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Join the Germany WhatsApp community group for Heidelberg and Mannheim (opens in new tab)"
             className="group block p-6 bg-green-600 rounded-2xl hover:bg-green-700 transition-colors text-white"
           >
-            <div className="text-3xl mb-3">💬</div>
+            <div className="text-3xl mb-3" aria-hidden="true">📱</div>
             <h3 className="text-base font-bold mb-1">Germany WhatsApp group</h3>
-            <p className="text-sm text-green-100 leading-relaxed mb-4">
-              Heidelberg & Mannheim locals — events, questions, and real help from people who&apos;ve been there.
+            <p className="text-sm text-green-100 leading-relaxed mb-5">
+              Heidelberg &amp; Mannheim locals — events, questions, and real help
+              from people who&apos;ve been there.
             </p>
-            <span className="inline-flex items-center gap-1 text-sm font-semibold text-white group-hover:gap-2 transition-all">
+            <span className="inline-flex items-center gap-1 text-sm font-semibold group-hover:gap-2 transition-all" aria-hidden="true">
               Join on WhatsApp →
             </span>
           </a>
@@ -169,20 +222,20 @@ export default async function HomePage({
             href={`/${locale}/places/heidelberg`}
             className="group block p-6 bg-orange-50 border-2 border-orange-100 rounded-2xl hover:border-orange-300 transition-all"
           >
-            <div className="text-3xl mb-3">☕</div>
+            <div className="text-3xl mb-3" aria-hidden="true">☕</div>
             <h3 className="text-base font-bold text-gray-900 mb-1">Heidelberg Sprachcafé</h3>
-            <p className="text-sm text-gray-500 mb-3">
+            <p className="text-sm text-gray-600 mb-3">
               Weekly language exchange — open to all levels. Meet people, practise German or English.
             </p>
-            <ul className="space-y-1 mb-4">
+            <ul className="space-y-1.5 mb-5" aria-label="Weekly Sprachcafé schedule highlights">
               {SPRACHCAFE_HIGHLIGHTS.map((e) => (
                 <li key={e.day} className="flex items-center gap-2 text-xs text-gray-600">
-                  <span className="w-8 font-bold text-orange-600 shrink-0">{e.day}</span>
+                  <span className="w-8 font-bold text-orange-600 shrink-0" aria-label={e.day}>{e.day}</span>
                   <span>{e.time} · {e.name}</span>
                 </li>
               ))}
             </ul>
-            <span className="inline-flex items-center gap-1 text-xs font-semibold text-orange-700 group-hover:gap-2 transition-all">
+            <span className="inline-flex items-center gap-1 text-xs font-semibold text-orange-700 group-hover:gap-2 transition-all" aria-hidden="true">
               See full schedule →
             </span>
           </Link>
@@ -192,14 +245,15 @@ export default async function HomePage({
             href="https://t.me/+cgks5vGPUSpjMGFi"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Join the global Goshen community on Telegram (opens in new tab)"
             className="group block p-6 bg-blue-50 border-2 border-blue-100 rounded-2xl hover:border-blue-300 transition-all"
           >
-            <div className="text-3xl mb-3">✈️</div>
+            <div className="text-3xl mb-3" aria-hidden="true">💬</div>
             <h3 className="text-base font-bold text-gray-900 mb-1">Global Telegram community</h3>
-            <p className="text-sm text-gray-500 leading-relaxed mb-4">
-              Immigrants from 50+ countries sharing tips, stories, and answers. In English.
+            <p className="text-sm text-gray-600 leading-relaxed mb-5">
+              Immigrants from 50+ countries sharing visa tips, stories, and answers — in English.
             </p>
-            <span className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 group-hover:gap-2 transition-all">
+            <span className="inline-flex items-center gap-1 text-sm font-semibold text-blue-600 group-hover:gap-2 transition-all" aria-hidden="true">
               Join on Telegram →
             </span>
           </a>
@@ -208,16 +262,23 @@ export default async function HomePage({
       </section>
 
       {/* ── Other countries ───────────────────────────────────────────────── */}
-      <section className="px-6 py-10 max-w-5xl mx-auto">
-        <h2 className="text-base font-semibold text-gray-700 mb-4">Tools also available for</h2>
-        <div className="flex flex-wrap gap-3">
+      <section
+        aria-labelledby="countries-heading"
+        className="px-6 py-10 max-w-5xl mx-auto border-t border-gray-100"
+      >
+        <h2 id="countries-heading" className="text-base font-semibold text-gray-700 mb-4">
+          Tools also available for
+        </h2>
+        <div className="flex flex-wrap gap-3" role="list">
           {COUNTRY_LIST.filter((c) => c.code !== 'DE').map((c) => (
             <Link
               key={c.code}
               href={`/${locale}/tools?country=${c.code}`}
+              role="listitem"
+              aria-label={`Tools for ${c.name}`}
               className="flex items-center gap-2 px-4 py-2.5 bg-white border border-gray-200 rounded-xl text-sm font-medium hover:border-gray-400 hover:shadow-sm transition-all"
             >
-              <span className="text-xl">{c.flag}</span>
+              <span className="text-xl" aria-hidden="true">{c.flag}</span>
               <span className="text-gray-900">{c.name}</span>
             </Link>
           ))}
@@ -225,22 +286,24 @@ export default async function HomePage({
       </section>
 
       {/* ── Footer ────────────────────────────────────────────────────────── */}
-      <footer className="px-6 py-12 max-w-5xl mx-auto border-t border-gray-100 mt-4 flex items-center justify-between flex-wrap gap-4">
-        <p className="text-sm text-gray-400">{t('common.openSource')}</p>
+      <footer className="px-6 py-12 max-w-5xl mx-auto border-t border-gray-100 flex items-center justify-between flex-wrap gap-4">
+        <p className="text-sm text-gray-500">{t('common.openSource')}</p>
         <div className="flex items-center gap-4 flex-wrap">
           <a
             href="https://buymeacoffee.com/7feilee"
-            className="text-sm text-yellow-600 hover:text-yellow-800 transition-colors font-medium"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Support Goshen — Buy me a coffee (opens in new tab)"
+            className="text-sm text-yellow-600 hover:text-yellow-800 transition-colors font-medium"
           >
-            ☕ Buy me a coffee
+            <span aria-hidden="true">☕</span> Buy me a coffee
           </a>
           <a
             href="https://github.com/7feilee/Goshen"
-            className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Contribute to Goshen on GitHub (opens in new tab)"
+            className="text-sm text-gray-600 hover:text-gray-900 transition-colors font-medium"
           >
             {t('common.contributeOnGitHub')} →
           </a>

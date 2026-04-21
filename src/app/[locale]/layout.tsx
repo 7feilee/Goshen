@@ -55,6 +55,14 @@ export default async function LocaleLayout({
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
+          {/* Skip to content — visible on focus for keyboard users */}
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-white focus:text-gray-900 focus:rounded-lg focus:shadow-lg focus:border focus:border-gray-200 focus:text-sm focus:font-medium"
+          >
+            Skip to main content
+          </a>
+
           {/* ── Sticky top nav ───────────────────────────────────────────── */}
           <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
@@ -62,7 +70,7 @@ export default async function LocaleLayout({
               <Link
                 href={`/${locale}`}
                 className="flex items-center gap-2 shrink-0"
-                aria-label="Goshen home"
+                aria-label="Goshen — home"
               >
                 <span className="text-2xl" aria-hidden="true">🌍</span>
                 <span className="font-semibold text-gray-900 text-base hidden sm:block leading-none">
@@ -77,40 +85,42 @@ export default async function LocaleLayout({
               >
                 <Link
                   href={`/${locale}/tools/visa-finder`}
+                  aria-label="Visa finder"
                   className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors"
                 >
                   <span aria-hidden="true">🛂</span>
-                  <span className="hidden sm:inline">Visa finder</span>
+                  <span className="hidden sm:inline" aria-hidden="true">Visa finder</span>
                 </Link>
                 <Link
                   href={`/${locale}/tools/letter-decoder`}
+                  aria-label="Letter decoder"
                   className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors"
                 >
                   <span aria-hidden="true">📄</span>
-                  <span className="hidden sm:inline">Letter decoder</span>
+                  <span className="hidden sm:inline" aria-hidden="true">Letter decoder</span>
                 </Link>
                 <a
                   href="https://t.me/+cgks5vGPUSpjMGFi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-blue-500 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-                  aria-label="Join Telegram community"
+                  aria-label="Join Goshen community on Telegram (opens in new tab)"
                 >
                   <span aria-hidden="true">💬</span>
-                  <span className="hidden sm:inline">Community</span>
+                  <span className="hidden sm:inline" aria-hidden="true">Community</span>
                 </a>
                 <Link
                   href={`/${locale}/tools`}
                   className="px-3 sm:px-4 py-2 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-gray-700 transition-colors"
                 >
                   <span className="hidden sm:inline">All tools</span>
-                  <span className="sm:hidden">Tools</span>
+                  <span className="sm:hidden" aria-hidden="true">Tools</span>
                 </Link>
               </nav>
             </div>
           </header>
 
-          {children}
+          <div id="main-content">{children}</div>
         </NextIntlClientProvider>
       </body>
     </html>

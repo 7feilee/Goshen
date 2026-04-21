@@ -54,18 +54,20 @@ export default function ToolsGrid({ locale }: { locale: string }) {
   return (
     <>
       {/* Country filter */}
-      <div className="flex flex-wrap gap-2 mb-10">
-        <span className="text-xs font-medium text-gray-400 self-center mr-1">
+      <div className="flex flex-wrap gap-2 mb-10" role="group" aria-label="Filter tools by country">
+        <span className="text-xs font-medium text-gray-600 self-center mr-1" aria-hidden="true">
           Filter by country
         </span>
 
         {/* "All" clear button */}
         <Link
           href={`/${locale}/tools`}
+          aria-label="Show all tools"
+          aria-current={!activeCountry ? 'true' : undefined}
           className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
             !activeCountry
               ? 'bg-gray-900 text-white border-gray-900'
-              : 'bg-white border-gray-200 text-gray-500 hover:border-gray-400'
+              : 'bg-white border-gray-200 text-gray-600 hover:border-gray-400'
           }`}
         >
           All
@@ -75,13 +77,15 @@ export default function ToolsGrid({ locale }: { locale: string }) {
           <Link
             key={c.code}
             href={`/${locale}/tools?country=${c.code}`}
+            aria-label={`Filter by ${c.name}`}
+            aria-current={activeCountry === c.code ? 'true' : undefined}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors ${
               activeCountry === c.code
                 ? 'bg-gray-900 text-white border-gray-900'
                 : 'bg-white border-gray-200 hover:border-gray-400'
             }`}
           >
-            <span>{c.flag}</span>
+            <span aria-hidden="true">{c.flag}</span>
             <span>{c.name}</span>
           </Link>
         ))}
@@ -116,7 +120,7 @@ export default function ToolsGrid({ locale }: { locale: string }) {
           return (
             <section key={pillar}>
               <div className="flex items-center gap-2 mb-4">
-                <span>{meta.icon}</span>
+                <span aria-hidden="true">{meta.icon}</span>
                 <h2 className="text-sm font-medium text-gray-700">{meta.label}</h2>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -158,7 +162,7 @@ export default function ToolsGrid({ locale }: { locale: string }) {
                           )
                         })}
                         {tool.aiPowered && (
-                          <span className="ml-auto text-xs text-blue-400">✦ AI</span>
+                          <span className="ml-auto text-xs text-blue-400" aria-label="AI powered">✦ AI</span>
                         )}
                       </div>
                     </>
@@ -188,8 +192,8 @@ export default function ToolsGrid({ locale }: { locale: string }) {
       {!activeCountry && (
         <section className="mt-12 pt-8 border-t border-gray-100">
           <div className="flex items-center gap-2 mb-4">
-            <span>🏘️</span>
-            <h2 className="text-sm font-medium text-gray-700">Community & Places</h2>
+            <span aria-hidden="true">🏘️</span>
+            <h2 className="text-sm font-medium text-gray-700">Community &amp; Places</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {COMMUNITY_PLACES.map((place) => (
