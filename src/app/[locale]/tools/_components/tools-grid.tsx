@@ -34,7 +34,7 @@ const COMMUNITY_PLACES = [
     description: '260 root stems with meanings and example words — understand German by its building blocks.',
     icon: '📖',
     badge: '🇩🇪 Language reference',
-    path: '/german-word-roots.html',
+    path: '/german-word-roots',
     noLocale: true,
     color: 'bg-amber-50 border-amber-100 hover:border-amber-300',
     badgeColor: 'border-amber-200 text-amber-700',
