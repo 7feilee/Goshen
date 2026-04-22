@@ -1,6 +1,14 @@
 import { setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { locales } from '@/i18n/request'
+
+export function generateStaticParams() {
+  const codes = ['us', 'uk', 'ca', 'au']
+  return locales.flatMap((locale) =>
+    codes.map((code) => ({ locale, code }))
+  )
+}
 
 // ── Country data ──────────────────────────────────────────────────────────────
 
