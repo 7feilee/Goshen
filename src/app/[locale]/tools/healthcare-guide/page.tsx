@@ -255,6 +255,41 @@ export default function HealthcareGuidePage() {
         </a>
       </div>
 
+      {/* Feather — shown for Germany / EU */}
+      {country === 'DE' && (
+        <div className="bg-indigo-50 border border-indigo-200 rounded-2xl p-5 mt-5 flex items-start gap-4">
+          <span className="text-3xl shrink-0" aria-hidden="true">🛡️</span>
+          <div>
+            <p className="text-sm font-bold text-gray-900 mb-0.5">
+              English-friendly insurance in Germany &amp; EU
+            </p>
+            <p className="text-sm text-gray-600 leading-relaxed mb-3">
+              Feather offers health insurance, professional liability, and more — fully managed in English. Designed for expats and immigrants.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a
+                href="https://feather-insurance.com?utm_source=goshen"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Feather Insurance — health and more in Germany (opens in new tab)"
+                className="text-xs px-3 py-1.5 bg-white border border-indigo-200 rounded-lg text-indigo-700 hover:border-indigo-400 transition-colors font-medium"
+              >
+                Health &amp; all insurance ↗
+              </a>
+              <a
+                href="https://feather-insurance.com/en-eu/professional-liability-insurance?utm_source=goshen"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Feather professional liability insurance for EU (opens in new tab)"
+                className="text-xs px-3 py-1.5 bg-white border border-indigo-200 rounded-lg text-indigo-700 hover:border-indigo-400 transition-colors font-medium"
+              >
+                Professional liability ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+
       <p className="mt-10 text-sm text-gray-400 leading-relaxed border-t border-gray-100 pt-6">
         ⚠️ <strong className="font-medium text-gray-600">General information only — not medical or legal advice.</strong>{' '}
         Healthcare rules and costs change frequently. Always verify eligibility and

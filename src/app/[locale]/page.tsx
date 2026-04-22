@@ -179,6 +179,33 @@ export default async function HomePage({
               </Link>
             ))}
           </div>
+
+          {/* Recommended external resources for Germany */}
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <span className="text-xs text-gray-500 font-medium">Also useful:</span>
+            <a
+              href="https://feather-insurance.com?utm_source=goshen"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Feather Insurance — English-friendly insurance in Germany (opens in new tab)"
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-indigo-300 hover:text-indigo-700 transition-all"
+            >
+              <span aria-hidden="true">🛡️</span>
+              Feather Insurance
+              <span aria-hidden="true" className="text-gray-400">↗</span>
+            </a>
+            <a
+              href="https://feather-insurance.com/en-eu/professional-liability-insurance?utm_source=goshen"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Feather professional liability insurance for EU freelancers (opens in new tab)"
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-indigo-300 hover:text-indigo-700 transition-all"
+            >
+              <span aria-hidden="true">📋</span>
+              Professional liability (EU)
+              <span aria-hidden="true" className="text-gray-400">↗</span>
+            </a>
+          </div>
         </div>
       </section>
 
