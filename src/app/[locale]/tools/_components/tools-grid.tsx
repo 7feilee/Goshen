@@ -26,6 +26,7 @@ const COMMUNITY_PLACES = [
     badge: '🇩🇪 Heidelberg',
     path: '/places/heidelberg',
     noLocale: false,
+    external: false,
     color: 'bg-orange-50 border-orange-100 hover:border-orange-300',
     badgeColor: 'border-orange-200 text-orange-600',
   },
@@ -36,8 +37,31 @@ const COMMUNITY_PLACES = [
     badge: '🇩🇪 Language reference',
     path: '/german-word-roots',
     noLocale: true,
+    external: false,
     color: 'bg-amber-50 border-amber-100 hover:border-amber-300',
     badgeColor: 'border-amber-200 text-amber-700',
+  },
+  {
+    name: 'Sprachkraft Vocabulary',
+    description: 'Build your German vocabulary with curated word lists — practice and reinforce the words that matter.',
+    icon: '🧠',
+    badge: '🇩🇪 German vocab',
+    path: 'https://sprachkraft.mayfly.wiki/vocab.html',
+    noLocale: true,
+    external: true,
+    color: 'bg-teal-50 border-teal-100 hover:border-teal-300',
+    badgeColor: 'border-teal-200 text-teal-700',
+  },
+  {
+    name: 'Sprachkraft',
+    description: 'German language learning tools — vocab, grammar, and practice resources for immigrants.',
+    icon: '🌱',
+    badge: '🇩🇪 Language tools',
+    path: 'https://sprachkraft.mayfly.wiki/',
+    noLocale: true,
+    external: true,
+    color: 'bg-green-50 border-green-100 hover:border-green-300',
+    badgeColor: 'border-green-200 text-green-700',
   },
 ]
 
@@ -208,43 +232,36 @@ export default function ToolsGrid({ locale }: { locale: string }) {
             <h2 className="text-sm font-medium text-gray-700">Community &amp; Places</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {COMMUNITY_PLACES.map((place) =>
-              place.noLocale ? (
-                <a
-                  key={place.path}
-                  href={place.path}
-                  className={`block p-4 bg-white border rounded-xl transition-colors ${place.color}`}
-                >
-                  <div className="flex items-start gap-3">
-                    <span className="text-2xl shrink-0" aria-hidden="true">{place.icon}</span>
-                    <div>
-                      <p className="text-sm font-medium text-gray-900 mb-0.5">{place.name}</p>
-                      <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
-                      <span className={`text-xs px-2 py-0.5 bg-white border rounded-full font-medium ${place.badgeColor}`}>
-                        {place.badge}
-                      </span>
-                    </div>
+            {COMMUNITY_PLACES.map((place) => {
+              const cardClass = `block p-4 bg-white border rounded-xl transition-colors ${place.color}`
+              const inner = (
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl shrink-0" aria-hidden="true">{place.icon}</span>
+                  <div>
+                    <p className="text-sm font-medium text-gray-900 mb-0.5">
+                      {place.name}
+                      {place.external && <span className="ml-1 text-gray-400 text-xs">↗</span>}
+                    </p>
+                    <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
+                    <span className={`text-xs px-2 py-0.5 bg-white border rounded-full font-medium ${place.badgeColor}`}>
+                      {place.badge}
+                    </span>
                   </div>
-                </a>
-              ) : (
-                <Link
-                  key={place.path}
-                  href={`/${locale}${place.path}`}
-                  className={`block p-4 bg-white border rounded-xl transition-colors ${place.color}`}
-                >
-                  <div className="flex items-start gap-3">
-                    <span className="text-2xl shrink-0" aria-hidden="true">{place.icon}</span>
-                    <div>
-                      <p className="text-sm font-medium text-gray-900 mb-0.5">{place.name}</p>
-                      <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
-                      <span className={`text-xs px-2 py-0.5 bg-white border rounded-full font-medium ${place.badgeColor}`}>
-                        {place.badge}
-                      </span>
-                    </div>
-                  </div>
-                </Link>
+                </div>
               )
-            )}
+              if (place.external) return (
+                <a key={place.path} href={place.path} target="_blank" rel="noopener noreferrer"
+                  aria-label={`${place.name} (opens in new tab)`} className={cardClass}>
+                  {inner}
+                </a>
+              )
+              if (place.noLocale) return (
+                <a key={place.path} href={place.path} className={cardClass}>{inner}</a>
+              )
+              return (
+                <Link key={place.path} href={`/${locale}${place.path}`} className={cardClass}>{inner}</Link>
+              )
+            })}
           </div>
         </section>
       )}

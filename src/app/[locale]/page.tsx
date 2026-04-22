@@ -192,6 +192,26 @@ export default async function HomePage({
               German Word Roots
             </a>
             <a
+              href="https://sprachkraft.mayfly.wiki/vocab.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Sprachkraft Vocabulary — German vocab practice (opens in new tab)"
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-teal-300 hover:text-teal-700 transition-all"
+            >
+              <span aria-hidden="true">🧠</span>
+              Sprachkraft Vocab ↗
+            </a>
+            <a
+              href="https://sprachkraft.mayfly.wiki/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Sprachkraft — German language learning tools (opens in new tab)"
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-green-300 hover:text-green-700 transition-all"
+            >
+              <span aria-hidden="true">🌱</span>
+              Sprachkraft ↗
+            </a>
+            <a
               href="https://feather-insurance.com?utm_source=goshen"
               target="_blank"
               rel="noopener noreferrer"
