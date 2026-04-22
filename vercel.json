@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/german-word-roots.html",
+      "destination": "/german-word-roots",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
