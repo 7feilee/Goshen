@@ -290,6 +290,15 @@ export default async function HomePage({
         <p className="text-sm text-gray-500">{t('common.openSource')}</p>
         <div className="flex items-center gap-4 flex-wrap">
           <a
+            href="https://claude.ai/referral/WkNf2Z_mkw"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Try Claude AI (referral link, opens in new tab)"
+            className="text-sm text-violet-600 hover:text-violet-800 transition-colors font-medium"
+          >
+            <span aria-hidden="true">✦</span> Try Claude AI
+          </a>
+          <a
             href="https://buymeacoffee.com/7feilee"
             target="_blank"
             rel="noopener noreferrer"

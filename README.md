@@ -202,6 +202,7 @@ If Goshen has helped you, consider supporting it:
 
 - ☕ [Buy me a coffee](https://buymeacoffee.com/7feilee)
 - 💸 [Open a Wise account](https://wise.com/invite/dic/qifeil2) — free international transfers (referral link)
+- ✦ [Try Claude AI](https://claude.ai/referral/WkNf2Z_mkw) — the AI that powers parts of this project (referral link)
 - ⭐ Star this repo to help others find it
 
 ---
