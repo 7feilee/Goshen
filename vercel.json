@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/german-word-roots",
+      "destination": "/german-word-roots.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/german-word-roots.html",
