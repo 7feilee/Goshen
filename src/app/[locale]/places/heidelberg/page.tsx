@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { setRequestLocale } from 'next-intl/server'
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 
@@ -90,14 +91,21 @@ const EVENTS = [
 
 // ── Page ──────────────────────────────────────────────────────────────────────
 
-export default function HeidelbergPage() {
+export default async function HeidelbergPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  setRequestLocale(locale)
+
   return (
     <main className="min-h-screen px-6 py-12 max-w-2xl mx-auto">
 
       {/* Header */}
       <div className="mb-10">
-        <Link href="/" className="text-sm text-gray-400 hover:text-gray-600 transition-colors mb-4 inline-block">
-          ← Back
+        <Link href={`/${locale}`} className="text-sm text-gray-400 hover:text-gray-600 transition-colors mb-4 inline-block">
+          ← Home
         </Link>
         <div className="flex items-center gap-3 mb-2">
           <span className="text-3xl">🇩🇪</span>

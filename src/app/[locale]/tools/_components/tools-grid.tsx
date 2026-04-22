@@ -208,24 +208,43 @@ export default function ToolsGrid({ locale }: { locale: string }) {
             <h2 className="text-sm font-medium text-gray-700">Community &amp; Places</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {COMMUNITY_PLACES.map((place) => (
-              <Link
-                key={place.path}
-                href={place.noLocale ? place.path : `/${locale}${place.path}`}
-                className={`block p-4 bg-white border rounded-xl transition-colors ${place.color}`}
-              >
-                <div className="flex items-start gap-3">
-                  <span className="text-2xl shrink-0" aria-hidden="true">{place.icon}</span>
-                  <div>
-                    <p className="text-sm font-medium text-gray-900 mb-0.5">{place.name}</p>
-                    <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
-                    <span className={`text-xs px-2 py-0.5 bg-white border rounded-full font-medium ${place.badgeColor}`}>
-                      {place.badge}
-                    </span>
+            {COMMUNITY_PLACES.map((place) =>
+              place.noLocale ? (
+                <a
+                  key={place.path}
+                  href={place.path}
+                  className={`block p-4 bg-white border rounded-xl transition-colors ${place.color}`}
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl shrink-0" aria-hidden="true">{place.icon}</span>
+                    <div>
+                      <p className="text-sm font-medium text-gray-900 mb-0.5">{place.name}</p>
+                      <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
+                      <span className={`text-xs px-2 py-0.5 bg-white border rounded-full font-medium ${place.badgeColor}`}>
+                        {place.badge}
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </a>
+              ) : (
+                <Link
+                  key={place.path}
+                  href={`/${locale}${place.path}`}
+                  className={`block p-4 bg-white border rounded-xl transition-colors ${place.color}`}
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl shrink-0" aria-hidden="true">{place.icon}</span>
+                    <div>
+                      <p className="text-sm font-medium text-gray-900 mb-0.5">{place.name}</p>
+                      <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
+                      <span className={`text-xs px-2 py-0.5 bg-white border rounded-full font-medium ${place.badgeColor}`}>
+                        {place.badge}
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              )
+            )}
           </div>
         </section>
       )}

@@ -301,20 +301,23 @@ export default async function HomePage({
         aria-labelledby="countries-heading"
         className="px-6 py-10 max-w-5xl mx-auto border-t border-gray-100"
       >
-        <h2 id="countries-heading" className="text-base font-semibold text-gray-700 mb-4">
-          Tools also available for
+        <h2 id="countries-heading" className="text-base font-semibold text-gray-700 mb-1">
+          Also moving to…
         </h2>
-        <div className="flex flex-wrap gap-3" role="list">
+        <p className="text-xs text-gray-500 mb-5">Same free tools — tailored for each country.</p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {COUNTRY_LIST.filter((c) => c.code !== 'DE').map((c) => (
             <Link
               key={c.code}
-              href={`/${locale}/tools?country=${c.code}`}
-              role="listitem"
-              aria-label={`Tools for ${c.name}`}
-              className="flex items-center gap-2 px-4 py-2.5 bg-white border border-gray-200 rounded-xl text-sm font-medium hover:border-gray-400 hover:shadow-sm transition-all"
+              href={`/${locale}/country/${c.code.toLowerCase()}`}
+              aria-label={`Tools and guide for ${c.name}`}
+              className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-2xl hover:border-gray-400 hover:shadow-sm transition-all"
             >
-              <span className="text-xl" aria-hidden="true">{c.flag}</span>
-              <span className="text-gray-900">{c.name}</span>
+              <span className="text-3xl shrink-0" aria-hidden="true">{c.flag}</span>
+              <div>
+                <p className="text-sm font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">{c.name}</p>
+                <p className="text-xs text-gray-400">{c.immigrantCount} immigrants</p>
+              </div>
             </Link>
           ))}
         </div>

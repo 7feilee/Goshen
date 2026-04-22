@@ -15,18 +15,31 @@ export default async function ToolsPage({
   const betaCount = TOOLS.filter((t) => t.status === 'beta').length
 
   return (
-    <main className="min-h-screen px-6 py-12 max-w-4xl mx-auto">
-      <div className="mb-10">
-        <h1 className="text-2xl font-medium text-gray-900 mb-2">All tools</h1>
-        <p className="text-sm text-gray-500">
-          {liveCount} live · {betaCount} in beta · {TOOLS.length - liveCount - betaCount} coming soon
-        </p>
+    <main className="min-h-screen">
+
+      {/* Header */}
+      <div className="px-6 pt-12 pb-8 max-w-4xl mx-auto border-b border-gray-100">
+        <div className="flex items-end justify-between gap-4 flex-wrap">
+          <div>
+            <h1 className="text-3xl font-bold text-gray-900 mb-1">All tools</h1>
+            <p className="text-sm text-gray-500">
+              <span className="text-green-600 font-semibold">{liveCount} live</span>
+              {betaCount > 0 && <> · <span className="text-amber-600 font-semibold">{betaCount} in beta</span></>}
+              {' '}· {TOOLS.length - liveCount - betaCount} coming soon
+            </p>
+          </div>
+          <p className="text-sm text-gray-400 max-w-xs leading-relaxed">
+            Free, no account required. Filter by country to see what&apos;s available where you are.
+          </p>
+        </div>
       </div>
 
-      {/* ToolsGrid reads ?country= from the URL — requires Suspense for useSearchParams */}
-      <Suspense>
-        <ToolsGrid locale={locale} />
-      </Suspense>
+      <div className="px-6 py-8 max-w-4xl mx-auto">
+        {/* ToolsGrid reads ?country= from the URL — requires Suspense for useSearchParams */}
+        <Suspense>
+          <ToolsGrid locale={locale} />
+        </Suspense>
+      </div>
     </main>
   )
 }
