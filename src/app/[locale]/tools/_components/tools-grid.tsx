@@ -25,7 +25,19 @@ const COMMUNITY_PLACES = [
     icon: '☕',
     badge: '🇩🇪 Heidelberg',
     path: '/places/heidelberg',
+    noLocale: false,
     color: 'bg-orange-50 border-orange-100 hover:border-orange-300',
+    badgeColor: 'border-orange-200 text-orange-600',
+  },
+  {
+    name: 'German Word Roots',
+    description: '260 root stems with meanings and example words — understand German by its building blocks.',
+    icon: '📖',
+    badge: '🇩🇪 Language reference',
+    path: '/german-word-roots.html',
+    noLocale: true,
+    color: 'bg-amber-50 border-amber-100 hover:border-amber-300',
+    badgeColor: 'border-amber-200 text-amber-700',
   },
 ]
 
@@ -199,15 +211,15 @@ export default function ToolsGrid({ locale }: { locale: string }) {
             {COMMUNITY_PLACES.map((place) => (
               <Link
                 key={place.path}
-                href={`/${locale}${place.path}`}
+                href={place.noLocale ? place.path : `/${locale}${place.path}`}
                 className={`block p-4 bg-white border rounded-xl transition-colors ${place.color}`}
               >
                 <div className="flex items-start gap-3">
-                  <span className="text-2xl shrink-0">{place.icon}</span>
+                  <span className="text-2xl shrink-0" aria-hidden="true">{place.icon}</span>
                   <div>
                     <p className="text-sm font-medium text-gray-900 mb-0.5">{place.name}</p>
                     <p className="text-xs text-gray-500 leading-relaxed mb-2">{place.description}</p>
-                    <span className="text-xs px-2 py-0.5 bg-white border border-orange-200 rounded-full text-orange-600 font-medium">
+                    <span className={`text-xs px-2 py-0.5 bg-white border rounded-full font-medium ${place.badgeColor}`}>
                       {place.badge}
                     </span>
                   </div>

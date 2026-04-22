@@ -180,9 +180,17 @@ export default async function HomePage({
             ))}
           </div>
 
-          {/* Recommended external resources for Germany */}
+          {/* Recommended resources for Germany */}
           <div className="mt-5 flex flex-wrap items-center gap-3">
             <span className="text-xs text-gray-500 font-medium">Also useful:</span>
+            <Link
+              href="/german-word-roots.html"
+              aria-label="German Word Roots — language reference with 260 root stems"
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-amber-300 hover:text-amber-700 transition-all"
+            >
+              <span aria-hidden="true">📖</span>
+              German Word Roots
+            </Link>
             <a
               href="https://feather-insurance.com?utm_source=goshen"
               target="_blank"
