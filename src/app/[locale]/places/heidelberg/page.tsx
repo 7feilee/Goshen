@@ -16,6 +16,7 @@ const EVENTS = [
         address: 'Zeppelinstraße 1, 69121 Heidelberg',
         icon: '🍳',
         note: null,
+        link: null,
       },
     ],
   },
@@ -25,12 +26,29 @@ const EVENTS = [
     dotColor: 'bg-orange-400',
     activities: [
       {
-        name: 'Paprika am Ring — Social Gathering',
+        name: 'Mannheim German Speaking Club',
         time: '18:30 – 21:30',
         location: 'Paprika am Ring',
         address: null,
         icon: '🌶️',
         note: null,
+        link: { label: 'RSVP on Meetup', url: 'https://www.meetup.com/mannheim-german-speaking-club/events/314182854/' },
+      },
+    ],
+  },
+  {
+    day: 'Wednesday',
+    dayColor: 'bg-sky-50 border-sky-200 text-sky-700',
+    dotColor: 'bg-sky-400',
+    activities: [
+      {
+        name: 'Jede Mittwoch — Community Meetup',
+        time: '18:00',
+        location: 'See map for venue',
+        address: null,
+        icon: '📍',
+        note: null,
+        link: { label: 'View on Google Maps', url: 'https://maps.app.goo.gl/iHZVnzsQEF8GmPE88?g_st=iwb' },
       },
     ],
   },
@@ -46,6 +64,7 @@ const EVENTS = [
         address: 'Vangerowstraße 3-5, 69115 Heidelberg',
         icon: '☕',
         note: null,
+        link: null,
       },
       {
         name: 'Café Connect — International Language Café',
@@ -54,6 +73,7 @@ const EVENTS = [
         address: 'Europaplatz 10/11, Heidelberg',
         icon: '🌍',
         note: null,
+        link: null,
       },
     ],
   },
@@ -69,6 +89,7 @@ const EVENTS = [
         address: 'Marstallhof 3 · or · Zeppelinstraße 1, 69121 Heidelberg',
         icon: '🗣️',
         note: 'The long-established Heidelberg Sprachcafé — check current venue before going.',
+        link: null,
       },
     ],
   },
@@ -84,6 +105,7 @@ const EVENTS = [
         address: 'Vangerowstraße 51a, Heidelberg',
         icon: '📖',
         note: null,
+        link: null,
       },
     ],
   },
@@ -145,6 +167,16 @@ export default async function HeidelbergPage({
                       </p>
                       {act.note && (
                         <p className="text-xs text-gray-400 mt-2 leading-relaxed italic">{act.note}</p>
+                      )}
+                      {act.link && (
+                        <a
+                          href={act.link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 mt-2 text-xs font-medium text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+                        >
+                          {act.link.label} ↗
+                        </a>
                       )}
                     </div>
                   </div>
