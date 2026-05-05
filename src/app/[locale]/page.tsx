@@ -233,27 +233,45 @@ export default async function HomePage({
               Professional liability (EU)
               <span aria-hidden="true" className="text-gray-400">↗</span>
             </a>
+          </div>
+
+          {/* Financial services */}
+          <div className="mt-8 grid sm:grid-cols-2 gap-4">
             <a
               href="https://ibkr.com/referral/qifei667"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Open an IBKR account to invest in stocks (referral link, opens in new tab)"
-              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-blue-300 hover:text-blue-700 transition-all"
+              aria-label="Open an IBKR brokerage account to invest in stocks (referral link, opens in new tab)"
+              className="group flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-2xl hover:border-blue-300 hover:shadow-sm transition-all"
             >
-              <span aria-hidden="true">📈</span>
-              Invest with IBKR
-              <span aria-hidden="true" className="text-gray-400">↗</span>
+              <span className="text-2xl shrink-0" aria-hidden="true">📈</span>
+              <div>
+                <p className="text-sm font-semibold text-gray-900 mb-1">
+                  Want to invest? Try IBKR
+                  <span className="ml-1 text-gray-400 text-xs">↗</span>
+                </p>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                  Interactive Brokers — low-cost stocks, ETFs, and global markets. A favourite for immigrants building wealth abroad.
+                </p>
+              </div>
             </a>
             <a
               href="https://bleap.finance/referral?code=8GM2Z473"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Open a Bleap digital bank account with cash banking (referral link, opens in new tab)"
-              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-violet-300 hover:text-violet-700 transition-all"
+              className="group flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-2xl hover:border-violet-300 hover:shadow-sm transition-all"
             >
-              <span aria-hidden="true">🏦</span>
-              Bleap digital bank
-              <span aria-hidden="true" className="text-gray-400">↗</span>
+              <span className="text-2xl shrink-0" aria-hidden="true">🏦</span>
+              <div>
+                <p className="text-sm font-semibold text-gray-900 mb-1">
+                  Need a bank? Try Bleap
+                  <span className="ml-1 text-gray-400 text-xs">↗</span>
+                </p>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                  Digital banking with cash deposit support — open an account as an immigrant without the usual paperwork headaches.
+                </p>
+              </div>
             </a>
           </div>
         </div>
