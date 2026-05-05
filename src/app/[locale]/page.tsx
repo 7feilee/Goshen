@@ -233,6 +233,28 @@ export default async function HomePage({
               Professional liability (EU)
               <span aria-hidden="true" className="text-gray-400">↗</span>
             </a>
+            <a
+              href="https://ibkr.com/referral/qifei667"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open an IBKR account to invest in stocks (referral link, opens in new tab)"
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-blue-300 hover:text-blue-700 transition-all"
+            >
+              <span aria-hidden="true">📈</span>
+              Invest with IBKR
+              <span aria-hidden="true" className="text-gray-400">↗</span>
+            </a>
+            <a
+              href="https://bleap.finance/referral?code=8GM2Z473"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open a Bleap digital bank account with cash banking (referral link, opens in new tab)"
+              className="inline-flex items-center gap-1.5 px-3 py-2 bg-white border border-gray-200 rounded-xl text-xs font-medium text-gray-700 hover:border-violet-300 hover:text-violet-700 transition-all"
+            >
+              <span aria-hidden="true">🏦</span>
+              Bleap digital bank
+              <span aria-hidden="true" className="text-gray-400">↗</span>
+            </a>
           </div>
         </div>
       </section>

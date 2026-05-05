@@ -204,6 +204,8 @@ If Goshen has helped you, consider supporting it:
 - 💸 [Open a Wise account](https://wise.com/invite/dic/qifeil2) — free international transfers (referral link)
 - 🛡️ [Get insurance in Germany with Feather](https://feather-insurance.com?utm_source=goshen) — English-friendly health & liability insurance (referral link)
 - ✦ [Try Claude AI](https://claude.ai/referral/WkNf2Z_mkw) — the AI that powers parts of this project (referral link)
+- 📈 [Invest with IBKR](https://ibkr.com/referral/qifei667) — Interactive Brokers for stock investing (referral link)
+- 🏦 [Open a Bleap account](https://bleap.finance/referral?code=8GM2Z473) — digital bank with cash banking (referral link)
 - ⭐ Star this repo to help others find it
 
 ---
